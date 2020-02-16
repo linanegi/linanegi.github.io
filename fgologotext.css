@@ -38,6 +38,7 @@
 	width:60%;
 }
 .name{
+	font-family:'Iropke Batang';
 	width:150px;
 	font-size:1.8em;
 	font-weight:900;
@@ -55,6 +56,7 @@
 	left:-15px;
 }
 .maintx{
+	font-family:'Iropke Batang';
 	margin-left:70px;
 	width:90%;
 	height:100px;
@@ -67,6 +69,7 @@
 	text-shadow: 2px 2px 0px #000;
 }
 .ending{
+	font-family:'Iropke Batang';
 	width: 20px;
 	font-size: 1.8em;
 	font-weight: 900;
