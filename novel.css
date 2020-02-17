@@ -14,22 +14,23 @@
 
 .body{
 	font-family:'Iropke Batang';
+	font-size:1.2em;
 }
 .title{
-	font-size:2em;
+	font-size:2.2em;
 	text-align:center;
 	font-weight:900;
 	font-style:italic;
 }
 
 .chapter{
-	font-size:1.4em;
+	font-size:1.6em;
 	text-align:center;
 	font-weight:900;
 	font-style:italic;
 }
 
 .skill{
-	font-size:1.2em;
+	font-size:1.4em;
 	font-weight:900;
 }
