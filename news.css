@@ -1,0 +1,92 @@
+.es_main {
+	background: url("https://www.fate-go.jp/assets/img/pc/common/bg_ptn.gif");
+}
+.es_main_contents .es_main_title:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: url("https://www.fate-go.jp/assets/img/pc/common/line.png") repeat-x center;
+  position: absolute;
+  bottom: -1px;
+}
+
+.es_main_contents {
+  background: url("https://www.fate-go.jp/assets/img/pc/common/bg_logo.png") fixed no-repeat -180px center, url("https://www.fate-go.jp/assets/img/pc/common/bg_logo.png") fixed no-repeat right -180px center;
+}
+.es_news_detail {
+  position: relative;
+  width: 690px;
+  margin: 40px auto 50px;
+  background: url("https://www.fate-go.jp/assets/img/pc/in_news/frame_repeat.png") repeat-y center;
+}
+.es_news_detail:before {
+  content: url("https://www.fate-go.jp/assets/img/pc/in_news/frame_head.png");
+  position: absolute;
+  left: 0;
+  top: -3px;
+}
+.es_news_detail:after {
+  content: url("https://www.fate-go.jp/assets/img/pc/in_news/frame_bottom.png");
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+.es_news_detail h2 {
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+.es_news_detail img {
+  margin: 0;
+  max-width: 100%;
+  height: auto;
+  vertical-align: baseline;
+}
+.es_news_detail .es_date {
+  font-weight: 700;
+}
+.es_news_detail .es_title {
+  font-weight: 700;
+}
+.es_news_detail .es_title-box {
+  margin-bottom: 30px;
+}
+
+.es_news_detail .es_date {
+  font-size: 16px;
+}
+.es_news_detail .es_title {
+  font-size: 24px;
+}
+
+#es_news_color .es_article p{
+ text-align: left;
+}
+.headline::before {
+    content: "■";
+    color: #cb0101;
+    font-size: 1.2em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.es_headline {
+    font-weight: bold;
+    font-size: 103%;
+}
+.es_strong {
+	font-weight: bold;
+}
+.es_dashed {
+  border-top: 1px dashed #bbb;
+  border-bottom: 1px dashed #eee;	
+}
+.es_font_red {
+	color: #FF0000;
+}
+.es_indent {
+text-indent: -1em;
+padding-left: 1em;
+display: block;
+}
