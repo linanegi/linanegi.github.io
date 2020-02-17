@@ -63,7 +63,7 @@
 #es_news_color .es_article p{
  text-align: left;
 }
-.headline::before {
+.es_headline::before {
     content: "■";
     color: #cb0101;
     font-size: 1.2em;
@@ -85,6 +85,16 @@
 .es_font_red {
 	color: #FF0000;
 }
+
+.es_font_red{
+	color: #FF0000;
+}
+
+.es_addition{
+	font-weight: bold;
+    font-size: 103%;	
+}
+
 .es_indent {
 text-indent: -1em;
 padding-left: 1em;
