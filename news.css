@@ -1,6 +1,10 @@
 .main {
 	background: url("https://www.fate-go.jp/assets/img/pc/common/bg_ptn.gif");
 }
+.main .es_article .es_title-box .es_date {
+  color: #225799;
+}
+
 .es_main_contents .es_main_title:after {
   content: '';
   display: block;
