@@ -67,11 +67,13 @@
 .signature .mlength{
 	max-width:900px;
 	width:80%;
+	min-width:600px;
 	margin:auto;
 }
 
 .mw_basic_view_signature .mlength{
 	max-width:200px;
 	width:80%;
+	min-width:150px;
 	margin:auto;
 }
