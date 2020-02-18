@@ -31,10 +31,6 @@
 	font-weight:900;
 }
 
-.mw_basic_view_content .mlength{
-	max-width:350px;
-}
-
 .write_content .mbody{
 	font-family:'Iropke Batang';
 	font-size:10pt;
@@ -68,6 +64,10 @@
 	font-weight:900;
 }
 
-.write_content .mlength{
+.signature .mlength{
+	max-width:350px;
+}
+
+.mw_basic_view_signature .mlength{
 	max-width:200px;
 }
