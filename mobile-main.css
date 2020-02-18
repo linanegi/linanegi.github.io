@@ -70,6 +70,10 @@
 	min-width:600px;
 	margin:auto;
 }
+.mlength mg{
+	max-width: 100%;
+	height:auto;
+}
 
 .mw_basic_view_signature .mlength{
 	max-width:200px;
