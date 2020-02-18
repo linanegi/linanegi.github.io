@@ -31,7 +31,7 @@
 	font-weight:900;
 }
 
-.mw_basic_view_content .length{
+.mw_basic_view_content .mlength{
 	max-width:350px;
 }
 
@@ -68,6 +68,6 @@
 	font-weight:900;
 }
 
-.write_content .length{
+.write_content .mlength{
 	max-width:200px;
 }
