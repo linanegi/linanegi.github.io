@@ -32,7 +32,7 @@
 }
 
 .mw_basic_view_content .length{
-	width:350px;
+	max-width:350px;
 }
 
 .write_content .mbody{
@@ -69,5 +69,5 @@
 }
 
 .write_content .length{
-	width:200px;
+	max-width:200px;
 }
