@@ -70,8 +70,10 @@
 	min-width:600px;
 	margin:auto;
 }
-.mlength .mg{
-	max-width: 100%;
+
+.signature .mlength td img{
+	max-width: 450px;
+	width: 90%;
 	height:auto;
 }
 
@@ -80,4 +82,10 @@
 	width:80%;
 	min-width:150px;
 	margin:auto;
+}
+
+.mw_basic_view_signature .mlength td img{
+	max-width: 100px;
+	width: 90%;
+	height:auto;
 }
