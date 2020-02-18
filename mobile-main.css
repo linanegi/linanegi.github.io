@@ -1,0 +1,65 @@
+.mw_basic_view_content .view_content .mbody .mr{
+	font-size:8pt;
+}
+.mw_basic_view_content .view_content .mbody .strong{
+	font-weight:900;
+}
+
+.write_content .mbody .mr{
+	font-size:8pt;
+}
+.write_content .mbody .strong{
+	font-weight:900;
+}
+
+.mw_basic_view_content .view_content .mbody{
+	font-family:'Iropke Batang';
+	font-size:12pt;
+	width:90%;
+	margin:auto;
+}
+
+.write_content .mbody{
+	font-family:'Iropke Batang';
+	font-size:10pt;
+	width:400px;
+	margin:auto;
+}
+
+.mw_basic_view_content .view_content .mbody .title{
+	font-size:2.2em;
+	text-align:center;
+	font-weight:900;
+	font-style:italic;
+}
+
+.mw_basic_view_content .view_content .mbody .chapter{
+	font-size:1.6em;
+	text-align:center;
+	font-weight:900;
+	font-style:italic;
+}
+
+.mw_basic_view_content .view_content .mbody .skill{
+	font-size:1.4em;
+	font-weight:900;
+}
+
+.write_content .mbody .title{
+	font-size:2em;
+	text-align:center;
+	font-weight:900;
+	font-style:italic;
+}
+
+.write_content .mbody .chapter{
+	font-size:1.3em;
+	text-align:center;
+	font-weight:900;
+	font-style:italic;
+}
+
+.write_content .mbody .skill{
+	font-size:1.2em;
+	font-weight:900;
+}
