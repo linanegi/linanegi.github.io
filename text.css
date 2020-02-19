@@ -1,8 +1,8 @@
 .titlelogo:before {
-	content:url('http://www.yatate.net/.assets/覇界王-三部-扉絵.jpg');
-	position:absolute;
+	content:url('http://www.yatate.net/.assets/覇界王-三部-扉絵.jpg'), '&lt;hr&gt;';
+	position:relative;
 	margin:auto;
 }
 .titlelogo{
-	position:absolute;
+	position:relative;
 }
