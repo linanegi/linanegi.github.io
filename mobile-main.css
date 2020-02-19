@@ -91,3 +91,9 @@
 	width: 90%;
 	height:auto;
 }
+
+.novel_setting {
+	text-align:right;
+	font-style:italic;
+	font-weight:900;
+}
