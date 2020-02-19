@@ -1,12 +1,12 @@
-.titlelogo:before:before {
-	content:url('http://www.yatate.net/.assets/覇界王-三部-扉絵.jpg');
+.titlelogo{
 	position:relative;
-	margin:auto;
 }
 .titlelogo:before{
     margin: 3px 0px; 
     border-bottom: 1px solid black;
 }
-.titlelogo{
+.titlelogo:before:before {
+	content:url('http://www.yatate.net/.assets/%E8%A6%87%E7%95%8C%E7%8E%8B-%E4%B8%89%E9%83%A8-%E6%89%89%E7%B5%B5.jpg');
 	position:relative;
+	margin:auto;
 }
