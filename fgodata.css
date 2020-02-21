@@ -1,0 +1,2198 @@
+@font-face {
+  font-family: 'Iropke Batang';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/IropkeBatangM.eot');
+  src: url('/IropkeBatangM.eot?#iefix') format('embedded-opentype'),
+       url('/IropkeBatangM.woff') format('woff'),
+       url('/IropkeBatangM.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Droid Serif';
+	src: local('Droid Serif'),
+		 local('DroidSerif');
+    src: url('https://fate-go.cirnopedia.org/font/droid_serif-webfont.eot');
+    src: url('https://fate-go.cirnopedia.org/font/droid_serif-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://fate-go.cirnopedia.org/font/droid_serif-webfont.woff2') format('woff2'),
+         url('https://fate-go.cirnopedia.org/font/droid_serif-webfont.woff') format('woff'),
+         url('https://fate-go.cirnopedia.org/font/droid_serif-webfont.ttf') format('truetype'),
+         url('https://fate-go.cirnopedia.org/font/droid_serif-webfont.svg#webfontregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Droid Serif';
+	src: local('Droid Serif'),
+		 local('DroidSerif');
+    src: url('https://fate-go.cirnopedia.org/font/droid_serif_bold-webfont.eot');
+    src: url('https://fate-go.cirnopedia.org/font/droid_serif_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://fate-go.cirnopedia.org/font/droid_serif_bold-webfont.woff2') format('woff2'),
+         url('https://fate-go.cirnopedia.org/font/droid_serif_bold-webfont.woff') format('woff'),
+         url('https://fate-go.cirnopedia.org/font/droid_serif_bold-webfont.ttf') format('truetype'),
+         url('https://fate-go.cirnopedia.org/font/droid_serif_bold-webfont.svg#webfontregular') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+html, body, body, object, iframe, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video 
+	{
+		margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+		font-size: 14px;
+		text-decoration: none; 
+		color: #624848;
+		font-weight: 400;
+		font-family: 'Iropke Batang', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;
+	}
+	
+ol, ul, li
+	{
+		margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+	}
+	
+div 
+	{
+		box-sizing: border-box;
+	}
+	
+span.clover
+	{
+		display: none;
+	}
+
+body
+	{
+		background: url("https://fate-go.cirnopedia.org/scripts/img/contentwrap.png") no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	
+a, a:link, a:visited, a:active, a:hover
+	{
+		text-decoration: none; 
+		color: inherit;
+		cursor: pointer;
+	}
+	
+a:hover
+	{
+		text-decoration: none; 
+		color: blue;
+	}
+
+div.preload
+	{
+		background: 
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_nav3.png') no-repeat -9999px -9999px,
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_nav4.png') no-repeat -9999px -9999px;
+	}
+
+h1
+	{  
+		font-size: 40px;
+		margin: 10px 0px 0px 0px;
+		padding: 10px 0px 0px 10px;
+		font-family: 'Droid Serif', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;
+		font-weight: 700;
+		color: #000000;
+		/* border-bottom: 3px solid #000; */
+		height: 66px;
+		text-shadow:
+			-1px -1px 0 #fff,
+			1px -1px 0 #fff,
+			-1px 1px 0 #fff,
+			1px 1px 0 #fff;  
+	}
+	
+div h2
+	{
+		font-size: 22px;
+		margin: 0px;
+		padding: 0px 0px 0px 10px;
+		font-family: 'Droid Serif', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;
+		font-weight: 700;
+		text-shadow: 2px 2px 0 #fff; 
+		color: #624848;
+	}
+
+div h2.note
+	{
+		font-size: 16px;
+		margin: 0px;
+		padding: 5px;
+		padding-left: 20px;
+		font-family: 'Droid Serif', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;
+		font-weight: 700;
+	}
+	
+div h2.note2
+	{
+		color: black;
+		text-shadow: 0px 0px 0 #fff; 
+		font-size: 10px;
+		text-align: left;
+		margin: -23px 0px 0px -40px; 
+		transform: rotate(-90deg);
+	}
+	
+div h2.note3
+	{
+		font-size: 16px;
+		margin: 0px;
+		font-family: 'Droid Serif', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;
+		font-weight: 700;
+		text-shadow: 1px 1px 0 #fff; 
+		color: #624848;
+	}
+	
+#rounded-corner
+	{
+		margin: 0px;
+		text-align: center;
+		border-spacing: 0px;
+		border-collapse: collapse;
+		box-sizing: border-box;
+		-moz-box-sizing:border-box;
+		font-family: 'Droid Serif','メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
+	}
+	
+#rounded-corner .botleft
+	{
+	}
+
+#rounded-corner .botright
+	{
+	}
+	
+#rounded-corner.left  tbody td
+	{
+		text-align: left;
+		padding: 15px;
+	}
+
+#rounded-corner img
+	{
+		vertical-align: middle;
+	}
+
+#rounded-corner thead th, #rounded-corner th
+	{
+		font-family: 'Droid Serif', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;
+	}
+
+#rounded-corner thead th:first-child
+	{
+		border-left: 0px solid transparent;
+	}
+
+#rounded-corner thead th:last-child
+	{
+		border-right: 0px solid transparent;
+	}
+
+#rounded-corner th
+	{
+		color: #fff;
+		padding-left: 8px;
+		padding-right: 8px;
+		height: 35px;
+		background: no-repeat 2% center, rgb(2,41,88); /* Old browsers */
+		background: no-repeat 2% center, -moz-linear-gradient(top,  rgba(2,41,88,1) 0%, rgba(9,77,157,1) 87%, rgba(9,77,157,1) 100%); /* FF3.6+ */
+		background: no-repeat 2% center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(2,41,88,1)), color-stop(87%,rgba(9,77,157,1)), color-stop(100%,rgba(9,77,157,1))); /* 	Chrome,Safari4+ */
+		background: no-repeat 2% center, -webkit-linear-gradient(top,  rgba(2,41,88,1) 0%,rgba(9,77,157,1) 87%,rgba(9,77,157,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: no-repeat 2% center, -o-linear-gradient(top,  rgba(2,41,88,1) 0%,rgba(9,77,157,1) 87%,rgba(9,77,157,1) 100%); /* Opera 11.10+ */
+		background: no-repeat 2% center, -ms-linear-gradient(top,  rgba(2,41,88,1) 0%,rgba(9,77,157,1) 87%,rgba(9,77,157,1) 100%); /* IE10+ */
+		background: no-repeat 2% center, linear-gradient(to bottom,  rgba(2,41,88,1) 0%,rgba(9,77,157,1) 87%,rgba(9,77,157,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#022958', endColorstr='#094d9d',GradientType=0 ); /* IE6-9 */
+		font-weight: bold;
+		border-left:1px solid #666666;
+		border-top:0px solid #666666;
+		border-bottom:1px solid #666666;
+		border-right: 0px solid #666666;
+		line-height: 120%;
+		text-align: center;
+		text-shadow:1px 1px 4px #000000;
+	}
+	
+	
+#rounded-corner tr td:last-child {
+		border-right: 0px solid #666666;
+	}
+
+#rounded-corner tr {
+		background: #fff;
+	}
+
+#rounded-corner tr:nth-child(2n+1) {
+		background-color: #ECF2F3;
+	}
+	
+#rounded-corner.nohover tbody tr td
+	{
+		background: #fff;
+	}
+
+div.border
+	{
+		margin: 10px 0px 0px 5px;
+		padding: 0px;		
+		border-color: #bcb2a3;
+		border-width: 1px;
+		border-style: solid;
+		background-color: #fff;
+		box-sizing: border-box;
+		box-shadow: 1px 1px 2px rgba(4,4,4,0.1);
+	}
+
+#rounded-corner tbody tr td.head
+	{
+		color: #fff;
+		padding-left: 8px;
+		padding-right: 8px;
+		height: 35px;
+		background: no-repeat 2% center, rgb(2,41,88); /* Old browsers */
+		background: no-repeat 2% center, -moz-linear-gradient(top,  rgba(2,41,88,1) 0%, rgba(9,77,157,1) 87%, rgba(9,77,157,1) 100%); /* FF3.6+ */
+		background: no-repeat 2% center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(2,41,88,1)), color-stop(87%,rgba(9,77,157,1)), color-stop(100%,rgba(9,77,157,1))); /* 	Chrome,Safari4+ */
+		background: no-repeat 2% center, -webkit-linear-gradient(top,  rgba(2,41,88,1) 0%,rgba(9,77,157,1) 87%,rgba(9,77,157,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: no-repeat 2% center, -o-linear-gradient(top,  rgba(2,41,88,1) 0%,rgba(9,77,157,1) 87%,rgba(9,77,157,1) 100%); /* Opera 11.10+ */
+		background: no-repeat 2% center, -ms-linear-gradient(top,  rgba(2,41,88,1) 0%,rgba(9,77,157,1) 87%,rgba(9,77,157,1) 100%); /* IE10+ */
+		background: no-repeat 2% center, linear-gradient(to bottom,  rgba(2,41,88,1) 0%,rgba(9,77,157,1) 87%,rgba(9,77,157,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#022958', endColorstr='#094d9d',GradientType=0 ); /* IE6-9 */
+		font-weight: bold;
+		border-left:1px solid #666666;
+		border-top:0px solid #666666;
+		border-bottom:1px solid #666666;
+		border-right: 0px solid #666666;
+		line-height: 120%;
+		text-align: center;
+		text-shadow:1px 1px 4px #000000;
+		font-family: 'Droid Serif', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif; 
+		font-size: 14px;
+	}
+
+#rounded-corner td
+	{
+		border-style: solid;
+		padding: 5px;
+		height: 40px;
+		border-left: 1px solid #bcb2a3;
+		border-top: 1px solid #bcb2a3;
+		border-style: solid;
+		border-color: #bcb2a3;
+		color: #624848;
+		font-size: 12px;
+		font-weight: 400;
+		font-family: 'Iropke Batang','メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
+	}
+	
+#rounded-corner td.rare0
+	{
+		color: #000000;
+	}
+#rounded-corner td.rare1,
+#rounded-corner td.rare2
+	{
+		color: #9d6e47;
+	}
+#rounded-corner td.rare3
+	{
+		color: #9a9a9a;
+	}
+#rounded-corner td.rare4,
+#rounded-corner td.rare5
+	{
+		color: #d49e2f;
+	}
+	
+span.rare0
+	{
+		color: #ce2900;
+	}
+	
+span.rare1,
+span.rare2
+	{
+		color: #9d6e47;
+	}
+	
+span.rare3
+	{
+		color: #9a9a9a;
+	}
+	
+span.rare4,
+span.rare5
+	{
+		color: #d49e2f;
+	}
+	
+#rounded-corner tr.divider1 td
+	{
+		border-top: 1px solid #bcb2a3;
+	}
+
+#rounded-corner tr.divider td
+	{
+		border-top: 5px solid #bcb2a3;
+	}
+	
+#rounded-corner td div
+	{
+		width: 32px;
+		height: 32px;
+		float: left;
+		margin-right: 20px;
+	}
+	
+#rounded-corner td.new
+	{
+		background-image: url("https://fate-go.cirnopedia.org/scripts/img/new.png");
+		background-repeat: no-repeat;
+		background-position: 5px 5px;
+	}
+	
+#rounded-corner td.revival
+	{
+		background-image: url("https://fate-go.cirnopedia.org/scripts/img/revival.png");
+		background-repeat: no-repeat;
+		background-position: 5px 5px;
+	}
+	
+#rounded-corner td.multi
+	{
+		background-image: url("https://fate-go.cirnopedia.org/scripts/img/multiclass.png");
+		background-repeat: no-repeat;
+		background-position: 5px 5px;
+	}
+	
+#rounded-corner td.trade
+	{
+		background-image: url("https://fate-go.cirnopedia.org/scripts/img/trade.png");
+		background-repeat: no-repeat;
+		background-position: 5px 5px;
+	}
+	
+#rounded-corner td.unavailable
+	{
+		background-image: url("https://fate-go.cirnopedia.org/scripts/img/unavailable.png");
+		background-repeat: no-repeat;
+		background-position: 5px 5px;
+	}
+	
+#rounded-corner td.upgrade_np
+	{
+		background-image: url("https://fate-go.cirnopedia.org/icons/item/item_upgrade_np.png");
+		background-repeat: no-repeat;
+		background-position: 5px 5px;
+	}
+	
+#rounded-corder tbody tr td a, 
+#rounded-corder tbody tr td a:link, 
+#rounded-corder tbody tr td a:visited, 
+#rounded-corder tbody tr td a:active
+	{
+		text-decoration: none;
+		color: #624848;
+	}
+	
+#rounded-corner tr td a:hover
+	{
+		color: blue;
+	}
+	
+#rounded-corner td span.droplv
+	{
+		color: #DD4444;
+		font-size: 11px;
+	}
+	
+#rounded-corner td img.sample
+	{
+		border-radius: 5px;
+		width: 62px;
+		height: 62px;
+		background-color: #152934;
+	}
+	
+#rounded-corner td img.large
+	{
+		margin: 0px;
+		padding: 0px;
+		border-radius: 0px;
+		width: 83px;
+		height: 90px;
+		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+		background-position: top left, center center, 1px 1px, center center;
+		background-size: 25px 25px, 83px 90px, 80px 80px, 83px 90px; color: white; font-size: 16px;
+	}
+#rounded-corner td div.large
+	{
+		margin: 0px;
+		padding: 0px;
+		border-radius: 0px;
+		width: 83px;
+		height: 90px;
+		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+		background-position: top left, center center, 1px 1px, center center;
+		background-size: 25px 25px, 83px 90px, 80px 80px, 83px 90px; color: white; font-size: 16px;
+		text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black;
+		text-align: right;
+		padding: 60px 7px 10px 0px;
+		box-sizing: border-box;
+	}
+		
+#rounded-corner td div.large2
+	{
+		margin: 0px;
+		padding: 0px;
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px;
+		border-bottom-left-radius: 0px; 
+		width: 83px;
+		height: 90px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 83px 90px; 
+	}
+	
+#rounded-corner td div.large3
+	{
+		margin: 0px;
+		padding: 0px;
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px;
+		border-bottom-left-radius: 0px; 
+		width: 83px;
+		height: 90px;
+		background-repeat: no-repeat, no-repeat, no-repeat;
+		background-position: top center, top center, top center;
+		background-size: 83px 90px, 83px 90px, 83px 90px; 
+	}
+	
+#rounded-corner td img.large0
+	{
+		margin: 0px;
+		padding: 0px;
+		border-radius: 0px;
+		width: 64px;
+		height: 64px;
+		background-repeat: no-repeat, no-repeat, no-repeat;
+		background-position: top center, top center, top center;
+		background-size: 83px 90px, 83px 90px, 83px 90px; 
+	}
+	
+#rounded-corner td img.pattern
+	{
+		width: 62px;
+		height: 62px;
+		margin: 0px;
+	}
+	
+#rounded-corner td img.pattern-mini
+	{
+		width: 42px;
+		height: 42px;
+		margin: 0px -3px 0px 0px;
+	}
+	
+#rounded-corner td img.skill-mini
+	{
+		width: 35px;
+		height: 37px;
+		margin: 0px 2px 4px 2px;
+	}
+	
+#rounded-corner td img.npc
+	{
+		border-radius: 4px;
+		width: 62px;
+		height: 62px;
+	}
+
+#rounded-corner td div.sound
+	{
+		height: 40px;
+		width: 40px;
+		margin: 10px;
+		padding: 0px;
+		background: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/play.png") no-repeat top left;
+	}
+
+#rounded-corner td div.sound:hover
+	{
+		height: 40px;
+		width: 40px;
+		margin: 10px;
+		padding: 0px;
+		background: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/play.png") no-repeat bottom left;
+	}
+
+#rounded-corner td img.enemy
+	{
+		border-radius: 12px;
+		height: 128px; 
+		width: 128px; 
+		margin: 10px;
+		padding: 0px;
+	}
+
+.small, #rounded-corner td img.small
+	{
+		border-radius: 0px;
+		height: 15px; 
+		width: 15px; 
+		margin: 0.75px 0px 0px 0px;
+		padding: 0px;
+		vertical-align: bottom;
+	}
+
+.small2, #rounded-corner td img.small2
+	{
+		border-radius: 0px;
+		height: 14px; 
+		width: 14px; 
+		margin: 0px;
+		padding: 0px;
+		vertical-align: -1px;
+	}
+
+.small3, #rounded-corner td img.small3
+	{
+		border-radius: 0px;
+		height: 24px; 
+		width: 24px; 
+		margin: 0px;
+		padding: 0px;
+		vertical-align: -7px;
+	}
+
+.medium, #rounded-corner td img.medium
+	{
+		border-radius: 0px;
+		height: 32px; 
+		width: 32px; 
+		margin: 0px;
+		padding: 0px;
+		vertical-align: -7px;
+	}
+
+#rounded-corner tbody tr td.bookmark
+	{
+		height: 0px; 
+		padding: 0px; 
+		border: none;
+	}
+
+#rounded-corner td img.allclass
+	{
+		border-radius: 0px;
+		height: 67px; 
+		width: 33px; 
+		margin: 0px;
+		padding: 0px;
+		vertical-align: bottom;
+	}
+
+#rounded-corner td img.cost
+	{
+		border-radius: 0px;
+		height: 13px; 
+		width: 13px; 
+		margin: 0px;
+		padding: 0px;
+		vertical-align: top;
+	}
+	
+#rounded-corner.sortable:hover th, a.pointer
+	{
+		cursor: pointer;
+	}
+	
+#rounded-corner.sortable:hover th.sorttable_nosort
+	{
+		cursor: default;
+	}
+	
+#rounded-corner td:first-child 
+	{
+		border-left: none;
+	}
+
+#rounded-corner td.desc2
+	{
+		text-align: justify;
+		padding: 10px;
+	}
+
+#rounded-corner td.desc
+	{
+		text-align: left;
+		padding: 10px;
+	}
+
+#rounded-corner td.set
+	{
+		text-align: left;
+		padding: 15px 15px 15px 70px;
+		background-position: 10px center;
+		background-repeat: no-repeat;
+		background-size: 50px 50px;
+	}
+
+#rounded-corner td.multicol
+	{
+		line-height: 25px;
+		height: 150px;
+	}
+
+#rounded-corner.height2 tbody td
+	{
+		height: 60px;
+	}
+
+#rounded-corner.height3 tbody td
+	{
+		height: 75px;
+	}
+
+#rounded-corner.height3b tbody td
+	{
+		height: 95px;
+	}
+
+#rounded-corner.height4 tbody td
+	{
+		height: 175px;
+	}
+
+#rounded-corner tbody tr td.height0
+	{
+		height: 0px;
+		padding: 0;
+		margin: 0;
+		border: 0px;
+	}
+
+#rounded-corner tr.hidden
+	{
+		display: none;
+	}
+
+#rounded-corner tfoot td
+	{
+		display: none;
+	}
+	
+#rounded-corner tbody tr td.cell
+	{
+		text-align: right; 
+		padding: 10px;
+	}
+
+nav ul 
+	{
+		margin: 0px;
+	}
+
+nav#top
+	{
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;	 /* Firefox, other Gecko */
+		box-sizing: border-box;	
+		margin-top: 10px;
+		padding: 0px;
+	}
+
+nav#top li
+	{
+		margin: 10px 0px 0px 0px;
+	}
+
+nav#top li a
+	{
+		min-height: 20px;
+		min-width: 90px;
+		color: white;
+		font-weight: normal;
+		font-family: 'Droid Serif', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;
+		font-size: 16px;
+		box-shadow: 1px 1px 3px black;
+		text-shadow: 2px 2px 2px #014eb1, -2px -2px 2px #014eb1, 2px -2px 2px #014eb1, -2px 2px 2px #014eb1;
+		border: 1px solid white;
+		display: inline-block;
+		line-height: 20px;
+		text-align: center;
+	}
+
+nav li 
+	{
+		display: inline-block;
+	}
+
+nav li a 
+	{
+		padding: 10px 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		background: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/nav1.png") no-repeat center;
+		background-size: 100% 100%;
+		margin-right: 5px;
+	}
+
+nav#mini li a 
+	{
+		display: inline-block;
+		width: 110px;
+		height: 22px;
+		color: #624848;
+		background: none;
+		padding: none;
+		font-size: 11px;
+	}
+
+nav#mini2
+	{
+		margin: 0px 5px 0px 0px;
+	}
+
+nav#mini2 li a 
+	{
+		min-height: 20px;
+		min-width: 70px;
+		font-size: 12px;
+		color: white;
+		background: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/nav1.png") no-repeat center;
+		background-size: 100% 100%;
+		font-family: 'Droid Serif', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;
+		padding: 3px 10px;
+		font-size: 14px;
+		box-shadow: 1px 1px 3px black;
+		text-shadow: 2px 2px 2px #014eb1, -2px -2px 2px #014eb1, 2px -2px 2px #014eb1, -2px 2px 2px #014eb1;
+		border: 1px solid white;
+		display: inline-block;
+		line-height: 20px;
+		text-align: center;
+		margin: 8px 5px 0px 0px;
+		cursor: pointer;
+	}
+	
+nav.mini
+	{
+		color: #624848;
+		background: #e8edff;
+		padding: 3px;
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: 11px;
+	}
+
+nav#top li a:hover, nav#mini2 li a:hover 
+	{
+		background: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/nav2.png") no-repeat center;
+		background-size: 100% 100%;
+		color: white;
+		text-decoration: none;
+		text-shadow: 2px 2px 2px #9a1e0f, -2px -2px 2px #9a1e0f, 2px -2px 2px #9a1e0f, -2px 2px 2px #9a1e0f;
+	}
+
+nav#mini li a:hover 
+	{
+		color: #000;
+		text-decoration: none;
+		text-shadow: 2px 2px 2px #9a1e0f, -2px -2px 2px #9a1e0f, 2px -2px 2px #9a1e0f, -2px 2px 2px #9a1e0f;
+	}
+	
+div#leaderboard
+	{
+		margin: -2px 0px 0px -21px;
+		padding: 6px 0px 0px 20px; 
+		border: none;
+		max-width: 755px;
+		max-height: 112px;
+		width: 755px;
+		height: 112px;
+		vertical-align: middle;
+		background: 
+			url("https://fate-go.cirnopedia.org/scripts/img/grandorder/leader.jpg") no-repeat 20px 6px,
+			url("https://fate-go.cirnopedia.org/scripts/img/grandorder/leader_bg.png") no-repeat top left; 
+	}
+	
+
+div.header
+	{
+		margin: 25px 0px 0px 0px;
+		padding: 0px;		
+		border: 1px solid #bcb2a3;
+		border-radius: 8px;
+		background-color: #fff;
+	}
+	
+div.section
+	{
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;	 /* Firefox, other Gecko */
+		box-sizing: border-box;	
+		height: 40px;
+		padding: 7px 0px 4px 18px;
+		margin: 0px 0px 2px 0px;
+		background-image:
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section05.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section03.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section01.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section02.png');
+		background-position: 
+			5px center,
+			right center,
+			left center,
+			center center;
+		background-size: 
+			48px 65px,
+			11px 40px,
+			11px 40px,
+			11px 40px;
+		background-repeat: 
+			no-repeat,
+			no-repeat,
+			no-repeat,
+			repeat;
+		display: block;
+		border-radius: 6px;
+	}
+		
+div.section h2
+	{
+		color: white;
+		font-weight: 200; 
+		text-shadow: none;
+		margin: auto;
+		line-height: normal;
+		font-family: 'Droid Serif', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;
+		font-weight: 700;
+		font-size: 22px;
+	}
+	
+div.section2
+	{
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;	 /* Firefox, other Gecko */
+		box-sizing: border-box;	
+		height: 40px;
+		padding: 7px 0px 4px 18px;
+		margin: 0px 0px 2px 0px;
+		background-image:
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/icon_next.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section05.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section03.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section01.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section02.png');
+		background-position: 
+			right 10px center,
+			5px center,
+			right center,
+			left center,
+			center center;
+		background-size: 
+			34px 30px,
+			48px 65px,
+			11px 40px,
+			11px 40px,
+			11px 40px;
+		background-repeat: 
+			no-repeat,
+			no-repeat,
+			no-repeat,
+			no-repeat,
+			repeat;
+		display: block;
+		border-radius: 6px;
+	}
+	
+div.section2 font.date, div.section2 font.title, div.section font.date, div.section font.title
+	{
+		color: #ffffff; 
+		margin: 3px 10px 3px 10px;
+		font-weight: 100; 
+		text-shadow: none;
+		line-height: normal;
+		font-family: 'Iropke Batang','メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
+		font-size: 16px;
+		display: inline-block;
+	}
+	
+div.section2 font.date, div.section font.date
+	{
+		color: #ffd98a;
+		font-size: 14px;
+	}
+	
+img.icon
+	{
+		height: 16px; 
+		width: 16px; 
+		margin: 0px;
+		margin-right: 5px;
+	}
+	
+img.bullet
+	{
+		max-height: 16px; 
+		max-width: 16px; 
+		margin: 0;
+		padding: 0;
+		vertical-align: bottom;
+	}
+	
+.update
+	{
+		margin: 0px;
+		font-size: 16px;
+		font-family: 'Iropke Batang', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;
+	 }
+
+.update h3,
+.feedback h3
+	{
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;	 /* Firefox, other Gecko */
+		box-sizing: border-box;	
+		height: 40px;
+		padding: 7px 0px 4px 18px;
+		margin: 25px 0px 0px 0px;
+		background-image:
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section05.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section03.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section01.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section02.png');
+		background-position: 
+			5px center,
+			right center,
+			left center,
+			center center;
+		background-size: 
+			48px 65px,
+			11px 40px,
+			11px 40px,
+			11px 40px;
+		background-repeat: 
+			no-repeat,
+			no-repeat,
+			no-repeat,
+			repeat;
+		display: block;
+		color: white;
+		font-weight: 200; 
+		text-shadow: none;
+		margin-top: 15px;
+		line-height: normal;
+		font-family: 'Droid Serif', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;
+		font-weight: 700;
+		font-size: 22px;
+		border-radius: 6px;
+	}
+	
+spanh
+	{
+		font-family: 'Droid Serif', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;
+		font-weight: 700;
+		font-size: 18px;
+	}
+
+.update span.date
+	{
+		display: inline-block;
+		font-weight: 700;
+		color: white;
+		font-family: 'Iropke Batang', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;
+		font-size: 13px;
+		background-color: #333;
+		padding: 5px 25px;
+		margin-bottom: 10px;
+		margin-left: -23px;
+		text-shadow: 1px 1px 5px black;
+	}
+	
+.update-body
+	{
+		text-align: left;
+		padding: 10px 23px 10px 23px;
+		margin: 10px 0px 10px 0px;
+		font-size: 14px;
+		border-color: #bcb2a3;
+		border-width: 1px;
+		border-style: solid;
+		background-color: rgba(255,255,255,0.7);
+		box-sizing: border-box;
+		box-shadow: 1px 1px 2px rgba(4,4,4,0.1);
+	}
+	
+.faq-body
+	{
+		padding: 20px;
+		text-align: left;
+		margin: 10px 0px 10px 0px;
+		font-size: 14px;
+		border-color: #bcb2a3;
+		border-width: 1px;
+		border-style: solid;
+		background-color: rgba(255,255,255,0.7);
+		box-sizing: border-box;
+		box-shadow: 1px 1px 2px rgba(4,4,4,0.1);
+	}
+	
+.feedback 
+	{
+		margin: 0px;
+		font-size: 16px;
+		text-shadow: none;
+	 }
+
+.feedback-body
+	{
+		color: #624848;
+		background: none repeat scroll 0 0 #fafafa;
+		border: 4px double #bcb2a3;
+		padding: 8px;
+		padding-left: 15px;
+		margin: 0px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		font-size: 14px;
+	}
+	
+.feedback-body  h3, p.hcb-comment-tb
+	{
+		display: none;
+	}
+
+.feedback-body  span.author
+	{
+		margin-top: 10px;
+	}
+
+.feedback-body  b.author-name
+	{
+		font-family: 'Droid Serif', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif; 
+		font-size: 18px;
+		font-weight: 700;
+		padding-top: 10px;
+		padding-left: 10px;
+		text-shadow: -1px 0 black, 0 1px #444, 1px 0 #444, 0 -1px #444, 1px 1px 2px black;
+		color: white;
+	}
+
+.feedback-body  blockquote
+	{
+		padding: 15px;
+		margin: 0px;
+		border-radius: -45%;
+		border: 1px solid #c5c4cd;
+		color: white;
+		background: url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_bg2.png') top left no-repeat;
+		background-size: 100% 100%;
+	}
+	
+.feedback-body  div.comment
+	{
+		background-image: 
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_bg3.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_visitor.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_corner_01.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_corner_02.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_corner_03.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_corner_04.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_01.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_02.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_03.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_04.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_bg4.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_bg.png');
+		background-position:
+			140px 40px,
+			top left,
+			top right,
+			bottom right,
+			bottom left,
+			top left,
+			top center,
+			right center,
+			bottom center,
+			left center,
+			top left,
+			center center;
+		background-size:
+			699px 1px ,
+			124px 135px,
+			7px 7px,
+			7px 7px,
+			7px 7px,
+			7px 7px,
+			100% 3px,
+			3px 100%,
+			100% 3px,
+			3px 100%,
+			124px 100%,
+			100% 100%;
+		background-repeat:
+			no-repeat,
+			no-repeat,
+			no-repeat,
+			no-repeat,
+			no-repeat,
+			no-repeat,
+			no-repeat,
+			no-repeat,
+			no-repeat,
+			no-repeat,
+			no-repeat,
+			no-repeat;
+		padding: 15px 20px 15px 130px;
+		margin: 0px;
+		margin-bottom: 5px;
+		min-height: 135px;
+		box-sizing: border-box;
+	}
+	
+.feedback-body  textarea
+	{
+		outline: none;
+		resize: none;
+		border: 1px solid #bcb2a3;
+		border-radius: 8px;
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;	 /* Firefox, other Gecko */
+		box-sizing: border-box;	
+		padding: 5px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	
+.feedback-body input
+	{
+		outline: none;
+		border: 1px solid #bcb2a3;
+		border-radius: 8px;
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;	 /* Firefox, other Gecko */
+		box-sizing: border-box;	
+		padding: 5px;
+	}
+	
+.feedback-body label
+	{
+		font-weight: 700;
+		font-size: 14px;
+	}
+	
+.feedback-body div.hcb-wrapper-half
+	{
+		margin-top: 10px;
+		font-family: 'Droid Serif', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif; 
+	}
+	
+.feedback-body input#hcb_submit
+	{
+		padding-left: 	10px;
+		padding-right: 	10px;
+	}
+	
+.feedback-body  p#hcb_msg
+	{
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+.sidebar
+	{
+		margin: 10px 0px 10px 0px;
+		font-size: 16px;
+		text-shadow: none;
+		padding: none;
+		background-color: transparent;
+	 }
+
+.sidebar img
+	{
+		vertical-align: top;
+	}
+
+.sidebar h3
+	{
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;	 /* Firefox, other Gecko */
+		box-sizing: border-box;	
+		background-image: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/symbol_00.png"), url("https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_top.png");
+		background-size: 49px 49px, 190px 98px;
+		background-repeat: no-repeat, no-repeat;
+		background-position: top left;
+		color: #3c362e;
+		font-family: 'Droid Serif', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif; 
+		font-size: 16px;
+		font-weight: 700;
+		margin: 0px 0px 5px 5px;
+		padding: 15px 0px 5px 30px;
+		text-align: center;
+		box-sizing: border-box;
+		height: 49px;
+		width: 190px;
+	}
+
+.sidebar h3.symbol01
+	{
+		background-image: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/symbol_01.png"), url("https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_top.png");
+	}
+
+.sidebar h3.symbol02
+	{
+		background-image: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/symbol_02.png"), url("https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_top.png");
+	}
+
+.sidebar h3.symbol03
+	{
+		background-image: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/symbol_03.png"), url("https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_top.png");
+	}
+
+.sidebar h3.symbol04
+	{
+		background-image: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/symbol_04.png"), url("https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_top.png");
+	}
+
+.sidebar h3.symbol05
+	{
+		background-image: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/symbol_05.png"), url("https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_top.png");
+	}
+
+.sidebar h3.symbol06
+	{
+		background-image: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/symbol_06.png"), url("https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_top.png");
+	}
+
+.sidebar h3.symbol07
+	{
+		background-image: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/symbol_07.png"), url("https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_top.png");
+	}
+
+.sidebar-list
+	{
+		text-align: center; 
+		border: none;
+		margin: none;
+		padding: none;
+		font-size: 14px;
+		width: 200px;
+		background-color: transparent;
+	}
+	
+.sidebar-list div.expand
+	{
+		font-size: 14px;
+		margin: none;
+		padding: none;
+		margin-bottom: 5px;
+	}
+	
+.sidebar-list div.expand a
+	{
+		color: #3c362e;
+		display: block;
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;	 /* Firefox, other Gecko */
+		box-sizing: border-box;		
+		width: 165px;
+		height: 35px;
+		font-size: 14px;
+		padding: 2px 0px 0px 10px;
+		margin: none;
+		margin-bottom: 1px;
+		border-bottom: none;
+		background-image: url('https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_nav4.png'), url('https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_nav3.png');
+		background-repeat: no-repeat, no-repeat;
+		background-position: -165px 0px, 0px 0px;
+
+	}
+	
+.sidebar-list div.expand a:hover
+	{
+		padding-left: 15px;
+		background-image: url('https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_nav4.png'), url('https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_nav3.png');
+		background-position: 0px 0px, 0px 0px;
+
+	}
+	
+.sidebar-list div.expand div.hidden
+	{
+		margin: 0px;
+		margin-bottom: 5px;
+	}
+	
+.sidebar-list div.expand div.hidden a
+	{
+		padding-left: 25px;
+	}
+	
+.sidebar-list div.none1,
+.sidebar-list div.none2
+	{
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;	 /* Firefox, other Gecko */
+		box-sizing: border-box;		
+		width: 165px;
+		height: 35px;
+		font-size: 14px;
+		font-weight: 700;
+		padding: 8px 3px 0px 0px;
+		margin: 0px 0px 0px 28px;
+		border-bottom: none;
+		background-image: url('https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_nav1.png');
+		background-repeat: no-repeat;
+		background-position: top left;
+		background-size: 165px 70px;
+		
+	}
+	
+.sidebar-list div.none3,
+.sidebar-list div.none4
+	{
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;	 /* Firefox, other Gecko */
+		box-sizing: border-box;		
+		width: 165px;
+		height: 70px;
+		font-size: 14px;
+		font-weight: 700;
+		padding: 8px 3px 0px 0px;
+		margin: 0px 0px 0px 28px;
+		border-bottom: none;
+		background-image: url('https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_nav2.png');
+		background-repeat: no-repeat;
+		background-position: 0px -3px;
+		background-size: 165px 156px;
+	}
+	
+.sidebar-list div.none3:hover,
+.sidebar-list div.none4:hover
+	{
+		width: 165px;
+		height: 70px;
+		font-size: 14px;
+		font-weight: 700;
+		padding: 8px 3px 0px 0px;
+		margin: 0px 0px 0px 30px;
+		border-bottom: none;
+		background-image: url('https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_nav2.png');
+		background-repeat: no-repeat;
+		background-position: 0px -81px;
+		background-size: 165px 156px;
+	}
+	
+.sidebar-list div.none1 a, 
+.sidebar-list div.none2 a
+	{
+		color: #3c362e;
+		text-shadow: none;
+	}
+	
+.sidebar-list div.none1:hover,
+.sidebar-list div.none2:hover
+	{
+		width: 165px;
+		height: 35px;
+		font-size: 14px;
+		font-weight: 700;
+		padding: 8px 3px 0px 0px;
+		margin: 0px 0px 0px 30px;
+		border-bottom: none;
+		background-image: url('https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_nav1.png');
+		background-repeat: no-repeat;
+		background-position: bottom left;
+		background-size: 165px 70px;
+	}
+	
+.sidebar-list div.none1:hover a, 
+.sidebar-list div.none2:hover a
+	{
+		color: #3c362e;
+		text-shadow: none;
+		text-shadow: 1px 1px 2px #FFFFFF, -1px -1px 2px #FFFFFF, 1px -1px 2px #FFFFFF, -1px 1px 2px #FFFFFF;
+		display: block;
+	}
+	
+.sidebar-list div.none2:hover
+	{
+	}
+	
+.sidebar-list div.divider
+	{	
+		display: none;
+	}
+	
+div#skyscraper.sidebar-list
+	{
+		margin: -10px 0px 0px 20px;
+		padding: none; 
+		height: 610px;
+		width: 170px;
+		vertical-align: middle;
+		background: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/skyscraper.jpg") no-repeat center;
+		overflow: hidden;
+	}
+	
+div#skyscraper.sidebar-list div.ads
+	{
+		width: 160px;
+		padding: 0px;
+		margin: -12px 0px 0px 5px;
+		overflow: hidden;
+	}
+
+div.bodywrap
+	{
+		width: auto; 
+		text-align: left; 
+		margin: 0px; 
+		padding: 0px;
+		background: 
+			url(img/grandorder/master.png) no-repeat right -250px,
+			url(img/grandorder/wrap4.png) no-repeat 220px 132px,
+			url(img/grandorder/wrap3.png) no-repeat left top,
+			url(img/grandorder/wrap2.png) repeat-y left top,
+			url(img/grandorder/wrap1.png) repeat-x left top,
+			url(img/grandorder/bg.png) repeat left top,
+			#fff;
+	}
+
+.contentwrap, .bodywrap, .footerwrap, .snowbox, table
+	{
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;	 /* Firefox, other Gecko */
+		box-sizing: border-box;		
+	}
+	
+div.contentwrap
+	{
+		float: left;
+		position: relative;
+		height: auto;
+		padding: 0px;
+		padding-left: 10px;
+		padding-bottom: 10px;
+		margin: 0px;
+	}
+
+div.sidewrap
+	{
+		float: left;
+		width: 230px; 
+		min-height: 100%;
+		padding: 0;
+		margin: 0px;
+		text-align: left; 
+		vertical-align: middle;
+		position: relative;
+	}
+	
+div.footerwrap
+	{
+		text-align: left;		
+		text-decoration: none;
+		margin: 0px; 
+		font-size: 11px; 
+		height: 60px; 
+		width: 100%; 
+		color: #eee;
+		background-color: #000; 
+		padding: 0px;
+		padding-left: 20px;
+	}
+	
+div.footerwrap a:link, 
+div.footerwrap a:visited, 
+div.footerwrap a:active
+	{
+		color: #eee;
+		text-decoration: none;
+	}
+
+div.footerwrap a:hover
+	{
+		color: #ff4444;
+		text-decoration: none;
+	}
+
+.cirnofont
+	{
+		font-weight: bold; 
+		font-family: 'Droid Serif', sans-serif; 
+		color: #4089c4;
+		text-shadow: 2px 2px white;
+		line-height: 90%;
+	}
+
+.copyright
+	{
+		border: 1px solid gray; 
+		width: 175px; 
+		margin: 0px; 
+		font-size: 11px;  
+		font-family: 'Droid Serif', sans-serif; 
+		background-color: #858585;
+		margin-top: 5px;
+		color: white;
+	}
+
+.hidden
+	{
+		display: none;
+		margin-left: 15px;
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+
+td span.red
+	{
+		font-size: 12px;
+		color: red;
+	}
+
+td span.blue
+	{
+		font-size: 12px;
+		color: blue;
+	}
+
+td span.green
+	{
+		font-size: 12px;
+		color: green;
+	}
+
+span.red
+	{
+		font-size: 14px;
+		color: red;
+	}
+
+span.blue
+	{
+		font-size: 14px;
+		color: blue;
+	}
+
+span.green
+	{
+		font-size: 14px;
+		color: green;
+	}
+
+#snowbox
+	{
+		width: 100%; 
+		position: relative;
+		height: 250px; 
+		background-color: #fff; 
+		background-image: 
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/logo.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/ruler.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/master.png'),
+			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/background.jpg');
+		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+		background-position: 50% 50%, -200px -20px, top right, center center;
+		background-size: 467px 200px, 730px 420px, 320px 420px, cover;
+	}
+
+div#specialbox
+	{
+		display: none;
+		z-index: 0;
+		position: absolute; 
+		right: 0px; 
+		top: 0px;
+		width: 500px;
+		height: 250px;
+	}
+	
+div.bullet0
+	{
+		width: 24px;
+		height: 16px;
+		border: 0px;
+		margin: 0px;
+		padding: 0px;
+		background: transparent;
+		display: block;
+		float: left;
+	}
+	
+div.bullet1
+	{
+		width: 24px;
+		height: 16px;
+		border: 0px;
+		margin: 0px;
+		padding: 0px;
+		background: transparent url('https://fate-go.cirnopedia.org/scripts/img/grandorder/bullet1.png') no-repeat 5px 2px;
+		background-size: 16px 16px;
+		display: block;
+		float: left;
+	}
+	
+div.bullet2
+	{
+		width: 24px;
+		height: 16px;
+		border: 0px;
+		margin: 0px;
+		padding: 0px;
+		background: transparent url('https://fate-go.cirnopedia.org/scripts/img/grandorder/bullet2.png') no-repeat left top;
+		display: block;
+		float: left;
+	}
+	
+div.bullet3
+	{
+		width: 24px;
+		height: 16px;
+		border: 0px;
+		margin: 0px;
+		padding: 0px;
+		background: transparent url('https://fate-go.cirnopedia.org/scripts/img/grandorder/bullet3.png') no-repeat left top;
+		display: block;
+		float: left;
+	}
+	
+div.bullet4
+	{
+		width: 24px;
+		height: 16px;
+		border: 0px;
+		margin: 0px;
+		padding: 0px;
+		background: transparent url('https://fate-go.cirnopedia.org/scripts/img/grandorder/bullet4.png') no-repeat left top;
+		display: block;
+		float: left;
+	}
+	
+span.bullet_top
+	{
+		width: 76px;
+		height: 35px;
+		border: 0px;
+		margin: -6px -5px -5px -5px;
+		padding: 0px;
+		background-image: url('https://fate-go.cirnopedia.org/scripts/img/grandorder/top.png');
+		background-repeat: no-repeat;
+		background-color: none;
+		background-position: top left;
+		background-size: 76px 70px;
+		display: inline-block;
+	}
+	
+span.bullet_top:hover
+	{
+		background-position: bottom left;
+	}
+	
+div.title-episode
+	{
+		-webkit-box-sizing: border-box; 
+		-moz-box-sizing: border-box; 
+		box-sizing: border-box;
+		width: 800px; 
+		margin: 10px 0px -10px;
+		text-align: left; 
+		font-size: 16px; 
+		font-family: 'Droid Serif', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;
+	}
+
+.quote 
+	{
+		margin: 15px;
+		padding: 15px;
+		background: #edf2f4;
+		border-radius: 5px;
+	}
+	
+div.wrapper	
+	{
+		-webkit-box-sizing: border-box; 
+		-moz-box-sizing: border-box; 
+		box-sizing: border-box;
+		width: 900px; 
+		margin-top: 10px; 
+		padding: 0px; 
+		border: 4px double #bcb2a3;
+		background: #fafafa;
+		text-align: left;
+	}
+	
+div.matter_branch
+	{
+		width: 285px; 
+		height: 290px; 
+		margin: 10px 0px;
+		border: 0px;
+		padding: 0px;
+		background: url('https://fate-go.cirnopedia.org/scripts/img/grandorder/matter_branch.png') no-repeat top left;
+	}
+	
+div.matter_direct
+	{
+		width: 285px; 
+		height: 290px; 
+		margin: 10px 0px;
+		border: 0px;
+		padding: 0px;
+		background: url('https://fate-go.cirnopedia.org/scripts/img/grandorder/matter_direct.png') no-repeat top left;
+	}
+	
+/* Spoiler Tag */	
+	
+spoiler
+	{
+		background-color: black; 
+		color: black; 
+		font-weight: normal;
+	}
+	
+spoiler:hover
+	{
+		background-color: black; 
+		color: white; 
+		font-weight: normal;
+	}
+		
+/* Scroll */	
+
+div.scroll-to-top 
+	{
+		position: fixed; bottom: 15px; right: 5px;
+	}
+	
+div.scroll-to-top  a
+	{
+		/* transition */
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		transition: 1s;
+	}
+
+div.scroll-to-top  a img
+	{
+		width: 85px; height: 39px;
+		background-image: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/top.png");
+		background-size: 85px 78px;
+		background-position: top left;
+		background-repeat: no-repeat;
+	}
+	
+div.scroll-to-top  a:hover img
+	{
+		width: 85px; height: 39px;
+		background-image: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/top.png");
+		background-size: 85px 78px;
+		background-position: bottom left;
+		background-repeat: no-repeat;
+	}
+	
+/* Tool Tip */
+
+a.tooltip
+	{
+		outline:none;
+	}
+	
+a.tooltip:hover 
+	{
+		text-decoration:none;
+	} 
+	
+a.tooltip span 
+	{
+		z-index: 10;
+		display: none;
+		line-height: 12px;
+		font-size: 12px;
+		box-sizing: border-box;
+		text-shadow: 2px 2px 2px black; 
+	} 
+	
+a.tooltip:hover span ch1
+	{ 
+		font-weight: 700;
+		color: #cbc4a8;
+		padding: 0px;
+		margin: 0px;
+		font-size: 13px;
+		font-family: 'Droid Serif', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;
+	}
+	
+a.tooltip:hover span ch2
+	{ 
+		font-weight: 400;
+		color: #cbc4a8;
+		margin: 10px 0px;
+		font-size: 10px;
+	}	
+	
+a.tooltip:hover span ch3
+	{ 
+		font-size: 10px;
+		color: #9898ca;
+	}
+	
+a.tooltip:hover span ch4
+	{ 
+		font-size: 9px;
+	}
+	
+a.tooltip:hover span.servant
+	{ 
+		padding: 10px 10px 15px 103px;
+		margin-top: -120px;
+		margin-left: -20px;
+		display: inline;
+		position: absolute;
+		color: #cbc4a8;
+		background-color: rgba(30,30,30,1);
+		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+		background-position: 10px 10px, 10px 10px, 10px 10px, 12px 12px, center center;
+		background-size: 25px 25px, 83px 90px, 83px 83px, 80px 85px, 400px 267px; 
+		width: 250px;
+		min-height: 110px;
+		text-align: left;
+	}
+	
+a.tooltip:hover span.item
+	{ 
+		padding: 10px 10px 15px 103px;
+		margin-top: -120px;
+		margin-left: -20px;
+		display: inline;
+		position: absolute;
+		color: #cbc4a8;
+		background-color: rgba(30,30,30,1);
+		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+		background-position: 10px 10px, 10px 10px, 12px 12px, 12px 12px, center center;
+		background-size: 25px 25px, 83px 90px, 81px 81px, 80px 85px, 400px 267px; 
+		width: 325px;
+		min-height: 110px;
+		text-align: left;
+	}
+
+a.tooltip:hover span.ccode_item
+	{ 
+		padding: 10px 10px 15px 103px;
+		margin-top: -120px;
+		margin-left: -20px;
+		display: inline;
+		position: absolute;
+		color: #cbc4a8;
+		background-color: rgba(30,30,30,1);
+		background-repeat: no-repeat, no-repeat, no-repeat;
+		background-position: 15px 15px, 10px 10px, center center;
+		background-size: 70px 70px, 80px 85px, 400px 267px; 
+		width: 325px;
+		min-height: 110px;
+		text-align: left;
+	}
+	
+img.ccode_large, div.ccode_large, div table#rounded-corner a img.ccode_large
+	{
+		width: 83px;
+		height: 90px;
+		background-repeat: no-repeat, no-repeat;
+		background-position: 50% 50%, 0px 0px;
+		background-size: 95% 87%, 100% 100%;
+		margin: 1px 0px;
+	}
+	
+img.ccode, div table#rounded-corner a img.ccode, div table#rounded-corner a div.ccode
+	{
+		width: 64px;
+		height: 70px;
+		background-repeat: no-repeat, no-repeat;
+		background-position: 50% 50%, 0px 0px;
+		background-size: 95% 87%, 100% 100%;
+		margin: 1px 0px;
+	}
+	
+img.ccode2, div table#rounded-corner a img.ccode2
+	{
+		width: 128px;
+		height: 140px;
+		background-repeat: no-repeat, no-repeat;
+		background-position: 50% 50%, 0px 0px;
+		background-size: 95% 87%, 100% 100%;
+		margin: 1px 0px;
+	}
+
+img.dropitem, div table#rounded-corner a img.dropitem
+	{
+		border-radius: 0px 0px 0px 0px;
+		width: 64px;
+		height: 70px;
+		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+		background-position: 0px 0px, 0px 0px, 50% 20%, 0% 0%;
+		background-size: 33% 30%, 100% 100%, 98% 90%, 98% 98%;
+		margin: 1px 0px;
+	}
+
+div.dropitem, div table#rounded-corner a div.dropitem
+	{
+		box-sizing: border-box;
+		border-radius: 0px 0px 0px 0px;
+		padding: 0px;
+		width: 64px;
+		height: 70px;
+		font-family: 'Iropke Batang';
+		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+		background-position: 0px 0px, 0px 0px, 50% 20%, 0% 0%;
+		background-size: 33% 30%, 100% 100%, 98% 90%, 98% 98%;
+		color: white; 
+		font-size: 12px;
+		text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black;
+		text-align: right;
+		padding: 47px 5px 10px 0px;
+		box-sizing: border-box;
+		margin: 1px 3px 1px 0px;
+		display: inline-block;
+	}
+
+img.dropitem2, div table#rounded-corner a img.dropitem2
+	{
+		border-radius: 0px 0px 0px 0px;
+		width: 128px;
+		height: 140px;
+		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+		background-position: 0px 0px, 0px 0px, 50% 20%, 0% 0%;
+		background-size: 33% 30%, 100% 100%, 98% 90%, 98% 98%;
+		margin: 1px 0px;
+	}
+
+div.dropitem2, table#rounded-corner a div.dropitem2
+	{
+		box-sizing: border-box;
+		border-radius: 0px 0px 0px 0px;
+		width: 128px;
+		height: 140px;
+		font-family: 'Iropke Batang';
+		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+		background-position: 0px 0px, 0px 0px, 50% 20%, 0% 0%;
+		background-size: 33% 30%, 100% 100%, 98% 90%, 98% 98%;
+		color: white; 
+		font-size: 12px;
+		text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black;
+		text-align: right;
+		padding: 47px 5px 10px 0px;
+		margin: 1px 3px 1px 0px;
+		display: inline-block;
+	}
+	
+div.dropitem3, div.main_map div.border div a div.dropitem3
+	{
+		box-sizing: border-box;
+		border-radius: 0px 0px 0px 0px;
+		width: 50px;
+		height: 50px;
+		font-family: 'Iropke Batang';
+		background-repeat: no-repeat, no-repeat;
+		background-position: 50% 50%, 50% 50%;
+		background-size: 90% 90%, 100% 100%;
+		color: white; 
+		font-size: 16px;
+		font-weight: 700;
+		text-shadow: rgb(8, 8, 8) 1px 0px 0px, rgb(8, 8, 8) 0.533333px 0.833333px 0px, rgb(8, 8, 8) -0.416667px 0.916667px 0px, rgb(8, 8, 8) -0.983333px 0.133333px 0px, rgb(8, 8, 8) -0.65px -0.75px 0px, rgb(8, 8, 8) 0.283333px -0.966667px 0px, rgb(8, 8, 8) 0.966667px -0.283333px 0px, rgb(8, 8, 8) 1px 1px 1px, rgb(8, 8, 8) -1px -1px 1px, rgb(8, 8, 8) -1px 1px 1px, rgb(8, 8, 8) 1px -1px 1px;
+		text-align: right;
+		padding: 25px 5px 0px 0px;
+		margin: 0px; 
+		display: block;
+		box-shadow: 0px 0px 0px 2px #ffffff;
+	}
+div.dropitem3:hover, div.main_map div.border div a div.dropitem3:hover
+	{
+		width: 55px;
+		height: 55px;
+		color: white; 
+		padding: 28px 6px 0px 0px;
+		margin: -2.5px;
+	}
+	
+a.tooltip:hover span.skill
+	{ 
+		padding: 10px 10px 15px 80px;
+		margin-top: -100px;
+		margin-left: -10px;
+		display: inline;
+		position: absolute;
+		color: #cbc4a8;
+		background-color: #5a4848;
+		background-color: rgba(30,30,30,1);
+		background-repeat: no-repeat, no-repeat;
+		background-position: 10px 10px, center center;
+		background-size: 64px 64px, 400px 267px; 
+		width: 325px;
+		min-height: 84px;
+	}
+
+a.tooltip span
+	{ 
+		-webkit-box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.5);
+		-moz-box-shadow:    3px 3px 3px rgba(50, 50, 50, 0.5);
+		box-shadow:         3px 3px 3px rgba(50, 50, 50, 0.5);
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+	}
+	
+div.title
+	{
+		width: 300px; 
+		font-weight: 700;
+		margin: 15px 0px 0px 7px; 
+		padding: 0px;
+		box-sizing: border-box; 
+		text-align: left; 
+		font-size: 15px; 
+		font-family: 'Droid Serif', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;
+	}
+	
+	
+notice, font.notice 
+	{
+		color: #ff0057;
+	}
+	
+#rounded-corner tbody tr td.notice-aphalf
+	{
+		background-image: url("https://fate-go.cirnopedia.org/scripts/img/aphalf.png");
+		background-repeat: no-repeat;
+		background-position: top 5px right 5px;
+		background-size: 40px 15px;
+	}
+	
+.noticeicon 
+	{
+		/*font-family: Arial, Helvetica, sans-serif;*/
+		font-size: 12px;
+		color: #ffffff;
+		padding: 0px 2px;
+		background: -moz-linear-gradient(
+			top,
+			#fd6a88 0%,
+			#fd093a);
+		background: -webkit-gradient(
+			linear, left top, left bottom,
+			from(#fd6a88),
+			to(#fd093a));
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		border-radius: 4px;
+		border: 1px solid #fd093a;
+		-moz-box-shadow: 0px 1px 3px rgba(000,000,000,0.5),
+			inset 0px 0px 1px rgba(255,255,255,0.5);
+		-webkit-box-shadow: 0px 1px 3px rgba(000,000,000,0.5),
+			inset 0px 0px 1px rgba(255,255,255,0.5);
+		box-shadow: 0px 1px 3px rgba(000,000,000,0.5),
+			inset 0px 0px 1px rgba(255,255,255,0.5);
+		text-shadow: 0px -1px 0px rgba(000,000,000,0.7),
+			0px 1px 0px rgba(255,255,255,0.3);
+		width: 40px;
+		float: right;
+		text-align: center;
+	}
+	
+event {opacity:0.5; filter:alpha(opacity=50); /* For IE8 and earlier */}
+
+img.lifebar {max-width: 14px; vertical-align: 50%;}
+div.divider {background-size: 100% 100%; width: 800px; padding: 10px 10px 10px 55px; box-sizing: border-box;}
+
+a.youtube {display: block; width: 800px;}
+a.youtube div, div.youtube {width: 800px; height: 450px; background-position: top left, center center; background-size: 100% 200%, 102% 102%; background-repeat: no-repeat, no-repeat; color: white; padding: 10px 15px; box-sizing: border-box; font-size: 16px; cursor: pointer; border: 1px solid #ffffff; margin: 5px 0px;}
+a.youtube div:hover, div.youtube:hover {background-position: bottom left, center center;}
+
+sup {font-size:xx-small; vertical-align:super; font-weight: 700; color: darkred;}
+	
+table#rounded-corner tbody tr td.profile	{font-family: 'Droid Serif'; font-weight: 700; font-size: 13px; text-align: left; padding: 10px; background-color: #ECF2F3;}
+table#rounded-corner:hover tbody tr td.profile	{background-color: #ECF2F3;}
+
+font.tab-blue {background-color: darkblue; color: white; border-radius: 5px; padding: 0px 5px; min-width: 85px; display: inline-block; text-align: center; margin: 0px 10px 3px 0px; vertical-align: top;}
+font.tab-notice {background-color: #ff0057; color: white; border-radius: 5px; padding: 0px 5px;}
+
+div.servant_summary {
+	position: relative;
+	box-sizing: border-box;
+	font-family: 'Droid Serif', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;
+	font-weight: 700;
+	color: #2c1000;
+	font-size: 20px;
+	padding: 0px;
+	width: 800px; 
+	height: 341px; 
+	text-align: left;}
+	
+div.servant_summary_v2 {
+	position: relative;
+	box-sizing: border-box;
+	font-family: 'Droid Serif', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;
+	font-weight: 700;
+	color: #2c1000;
+	font-size: 20px;
+	padding: 0px;
+	width: 800px; 
+	height: 400px; 
+	text-align: right;
+	background-size: 50px 50px, 234px 400px, 234px 330px, 65px 65px, 48px 48px, 554px 400px;
+	background-position: 92px 345px, 0px 0px, 0px 15px, 280px 190px, 723px 13px, 245px 0px;
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;}	
+	
+div.servant_title {padding: 10px 0px 0px 35px; height: 56px; color: #fde288; text-shadow: 0px -1px 0 #2e2b29, -1px 0px 0 #2e2b29, 0px 1px 0 #2e2b29, 1px 0px 0 #2e2b29, -1px -1px 0 #2e2b29, 1px -1px 0 #2e2b29, -1px  1px 0 #2e2b29, 1px 1px 0 #2e2b29, 2px 2px 1px #2e2b29, 0px 0px 2px #2e2b29; background-size: 100% 100%; width: 800px; box-sizing: border-box;}
+font.star {font-size: 14px; color: #ffd500; text-shadow: 1px 1px 1px #000000;}
+
+div.servant_summary_v2 font.class	{font-size: 26px; position: absolute; right: 90px; top: 22px;}
+div.servant_summary_v2 font.atk 	{font-size: 26px; position: absolute; right: 30px; top: 62px;}
+div.servant_summary_v2 font.hp 		{font-size: 26px; position: absolute; right: 30px; top: 100px;}
+div.servant_summary_v2 div.np_name	{text-align: left; font-size: 24px; position: absolute; left: 355px; bottom: 150px; text-shadow: rgb(255, 255, 255) 2px 0px 0px, rgb(255, 255, 255) 1.75px 0.966667px 0px, rgb(255, 255, 255) 1.08333px 1.68333px 0px, rgb(255, 255, 255) 0.133333px 2px 0px, rgb(255, 255, 255) -0.833333px 1.81667px 0px, rgb(255, 255, 255) -1.6px 1.2px 0px, rgb(255, 255, 255) -1.98333px 0.283333px 0px, rgb(255, 255, 255) -1.86667px -0.7px 0px, rgb(255, 255, 255) -1.3px -1.51667px 0px, rgb(255, 255, 255) -0.416667px -1.95px 0px, rgb(255, 255, 255) 0.566667px -1.91667px 0px, rgb(255, 255, 255) 1.41667px -1.41667px 0px, rgb(255, 255, 255) 1.91667px -0.566667px 0px;}
+div.servant_summary_v2 div.np_name font.ruby	{font-size: 15px;}
+div.servant_summary_v2 div.np_desc	{text-align: left; font-size: 14px; position: absolute; left: 285px; top: 270px;}
+
+ul.asterisk {position: relative; list-style: none; margin-left: 0; padding-left: 1.2em; max-width: 800px;}
+ul.asterisk li:before {content: "※"; position: absolute; left: 0;}
+
+strong {font-weight: 700; font-size: 11px; color: orange; margin-top: 3px;}
+	
+img.class00 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_00.png"), url("https://fate-go.cirnopedia.org/icons/class/class_0003.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class01 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_01.png"), url("https://fate-go.cirnopedia.org/icons/class/class_0103.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class02 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_02.png"), url("https://fate-go.cirnopedia.org/icons/class/class_0203.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class03 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_03.png"), url("https://fate-go.cirnopedia.org/icons/class/class_0303.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class04 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_04.png"), url("https://fate-go.cirnopedia.org/icons/class/class_0403.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class05 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_05.png"), url("https://fate-go.cirnopedia.org/icons/class/class_0503.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class06 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_06.png"), url("https://fate-go.cirnopedia.org/icons/class/class_0603.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class07 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_07.png"), url("https://fate-go.cirnopedia.org/icons/class/class_0703.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class08 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_08.png"), url("https://fate-go.cirnopedia.org/icons/class/class_0803.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class09 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_09.png"), url("https://fate-go.cirnopedia.org/icons/class/class_0903.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class10 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_10.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1003.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.classunk {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_unknown.png"), url("https://fate-go.cirnopedia.org/icons/class/class_unknown03.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class11 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_11.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1105.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class12 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_12.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1205.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class13 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_13.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1303.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class14 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_14.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1403.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class15 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_15.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1505.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class15L {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_15L.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1505.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class15R {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_15R.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1505.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class16 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_16.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1603.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class17 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_17.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1703.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class18 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_18.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1803.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class19 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_19.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1903.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class20 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_20.png"), url("https://fate-go.cirnopedia.org/icons/class/class_2003.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
