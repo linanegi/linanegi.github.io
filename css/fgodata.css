@@ -2,10 +2,10 @@
   font-family: 'Iropke Batang';
   font-style: normal;
   font-weight: 400;
-  src: url('/IropkeBatangM.eot');
-  src: url('/IropkeBatangM.eot?#iefix') format('embedded-opentype'),
-       url('/IropkeBatangM.woff') format('woff'),
-       url('/IropkeBatangM.ttf') format('truetype');
+  src: url('../fonts/IropkeBatangM.eot');
+  src: url('../fonts/IropkeBatangM.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/IropkeBatangM.woff') format('woff'),
+       url('../fonts/IropkeBatangM.ttf') format('truetype');
 }
 
 @font-face {
