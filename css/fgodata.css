@@ -56,7 +56,7 @@ span.clover
 
 body
 	{
-		background: url("https://fate-go.cirnopedia.org/scripts/img/contentwrap.png") no-repeat center center fixed; 
+		background: url("img/contentwrap.png") no-repeat center center fixed; 
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -79,8 +79,8 @@ a:hover
 div.preload
 	{
 		background: 
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_nav3.png') no-repeat -9999px -9999px,
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_nav4.png') no-repeat -9999px -9999px;
+			url('img/grandorder/menu_nav3.png') no-repeat -9999px -9999px,
+			url('img/grandorder/menu_nav4.png') no-repeat -9999px -9999px;
 	}
 
 h1
@@ -342,42 +342,42 @@ span.rare5
 	
 #rounded-corner td.new
 	{
-		background-image: url("https://fate-go.cirnopedia.org/scripts/img/new.png");
+		background-image: url("img/new.png");
 		background-repeat: no-repeat;
 		background-position: 5px 5px;
 	}
 	
 #rounded-corner td.revival
 	{
-		background-image: url("https://fate-go.cirnopedia.org/scripts/img/revival.png");
+		background-image: url("img/revival.png");
 		background-repeat: no-repeat;
 		background-position: 5px 5px;
 	}
 	
 #rounded-corner td.multi
 	{
-		background-image: url("https://fate-go.cirnopedia.org/scripts/img/multiclass.png");
+		background-image: url("img/multiclass.png");
 		background-repeat: no-repeat;
 		background-position: 5px 5px;
 	}
 	
 #rounded-corner td.trade
 	{
-		background-image: url("https://fate-go.cirnopedia.org/scripts/img/trade.png");
+		background-image: url("img/trade.png");
 		background-repeat: no-repeat;
 		background-position: 5px 5px;
 	}
 	
 #rounded-corner td.unavailable
 	{
-		background-image: url("https://fate-go.cirnopedia.org/scripts/img/unavailable.png");
+		background-image: url("img/unavailable.png");
 		background-repeat: no-repeat;
 		background-position: 5px 5px;
 	}
 	
 #rounded-corner td.upgrade_np
 	{
-		background-image: url("https://fate-go.cirnopedia.org/icons/item/item_upgrade_np.png");
+		background-image: url("../icons/item/item_upgrade_np.png");
 		background-repeat: no-repeat;
 		background-position: 5px 5px;
 	}
@@ -513,7 +513,7 @@ span.rare5
 		width: 40px;
 		margin: 10px;
 		padding: 0px;
-		background: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/play.png") no-repeat top left;
+		background: url("img/grandorder/play.png") no-repeat top left;
 	}
 
 #rounded-corner td div.sound:hover
@@ -522,7 +522,7 @@ span.rare5
 		width: 40px;
 		margin: 10px;
 		padding: 0px;
-		background: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/play.png") no-repeat bottom left;
+		background: url("img/grandorder/play.png") no-repeat bottom left;
 	}
 
 #rounded-corner td img.enemy
@@ -732,7 +732,7 @@ nav li a
 		padding: 10px 5px;
 		padding-left: 10px;
 		padding-right: 10px;
-		background: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/nav1.png") no-repeat center;
+		background: url("img/grandorder/nav1.png") no-repeat center;
 		background-size: 100% 100%;
 		margin-right: 5px;
 	}
@@ -759,7 +759,7 @@ nav#mini2 li a
 		min-width: 70px;
 		font-size: 12px;
 		color: white;
-		background: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/nav1.png") no-repeat center;
+		background: url("img/grandorder/nav1.png") no-repeat center;
 		background-size: 100% 100%;
 		font-family: 'Droid Serif', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;
 		padding: 3px 10px;
@@ -786,7 +786,7 @@ nav.mini
 
 nav#top li a:hover, nav#mini2 li a:hover 
 	{
-		background: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/nav2.png") no-repeat center;
+		background: url("img/grandorder/nav2.png") no-repeat center;
 		background-size: 100% 100%;
 		color: white;
 		text-decoration: none;
@@ -811,8 +811,8 @@ div#leaderboard
 		height: 112px;
 		vertical-align: middle;
 		background: 
-			url("https://fate-go.cirnopedia.org/scripts/img/grandorder/leader.jpg") no-repeat 20px 6px,
-			url("https://fate-go.cirnopedia.org/scripts/img/grandorder/leader_bg.png") no-repeat top left; 
+			url("img/grandorder/leader.jpg") no-repeat 20px 6px,
+			url("img/grandorder/leader_bg.png") no-repeat top left; 
 	}
 	
 
@@ -834,10 +834,10 @@ div.section
 		padding: 7px 0px 4px 18px;
 		margin: 0px 0px 2px 0px;
 		background-image:
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section05.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section03.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section01.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section02.png');
+			url('img/grandorder/section05.png'),
+			url('img/grandorder/section03.png'),
+			url('img/grandorder/section01.png'),
+			url('img/grandorder/section02.png');
 		background-position: 
 			5px center,
 			right center,
@@ -878,11 +878,11 @@ div.section2
 		padding: 7px 0px 4px 18px;
 		margin: 0px 0px 2px 0px;
 		background-image:
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/icon_next.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section05.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section03.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section01.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section02.png');
+			url('img/grandorder/icon_next.png'),
+			url('img/grandorder/section05.png'),
+			url('img/grandorder/section03.png'),
+			url('img/grandorder/section01.png'),
+			url('img/grandorder/section02.png');
 		background-position: 
 			right 10px center,
 			5px center,
@@ -957,10 +957,10 @@ img.bullet
 		padding: 7px 0px 4px 18px;
 		margin: 25px 0px 0px 0px;
 		background-image:
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section05.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section03.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section01.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/section02.png');
+			url('img/grandorder/section05.png'),
+			url('img/grandorder/section03.png'),
+			url('img/grandorder/section01.png'),
+			url('img/grandorder/section02.png');
 		background-position: 
 			5px center,
 			right center,
@@ -1085,25 +1085,25 @@ spanh
 		border-radius: -45%;
 		border: 1px solid #c5c4cd;
 		color: white;
-		background: url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_bg2.png') top left no-repeat;
+		background: url('img/grandorder/comment_box_bg2.png') top left no-repeat;
 		background-size: 100% 100%;
 	}
 	
 .feedback-body  div.comment
 	{
 		background-image: 
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_bg3.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_visitor.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_corner_01.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_corner_02.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_corner_03.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_corner_04.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_01.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_02.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_03.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_04.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_bg4.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/comment_box_bg.png');
+			url('img/grandorder/comment_box_bg3.png'),
+			url('img/grandorder/comment_box_visitor.png'),
+			url('img/grandorder/comment_box_corner_01.png'),
+			url('img/grandorder/comment_box_corner_02.png'),
+			url('img/grandorder/comment_box_corner_03.png'),
+			url('img/grandorder/comment_box_corner_04.png'),
+			url('img/grandorder/comment_box_01.png'),
+			url('img/grandorder/comment_box_02.png'),
+			url('img/grandorder/comment_box_03.png'),
+			url('img/grandorder/comment_box_04.png'),
+			url('img/grandorder/comment_box_bg4.png'),
+			url('img/grandorder/comment_box_bg.png');
 		background-position:
 			140px 40px,
 			top left,
@@ -1218,7 +1218,7 @@ spanh
 		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 		-moz-box-sizing: border-box;	 /* Firefox, other Gecko */
 		box-sizing: border-box;	
-		background-image: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/symbol_00.png"), url("https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_top.png");
+		background-image: url("img/grandorder/symbol_00.png"), url("img/grandorder/menu_top.png");
 		background-size: 49px 49px, 190px 98px;
 		background-repeat: no-repeat, no-repeat;
 		background-position: top left;
@@ -1236,37 +1236,37 @@ spanh
 
 .sidebar h3.symbol01
 	{
-		background-image: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/symbol_01.png"), url("https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_top.png");
+		background-image: url("img/grandorder/symbol_01.png"), url("img/grandorder/menu_top.png");
 	}
 
 .sidebar h3.symbol02
 	{
-		background-image: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/symbol_02.png"), url("https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_top.png");
+		background-image: url("img/grandorder/symbol_02.png"), url("img/grandorder/menu_top.png");
 	}
 
 .sidebar h3.symbol03
 	{
-		background-image: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/symbol_03.png"), url("https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_top.png");
+		background-image: url("img/grandorder/symbol_03.png"), url("img/grandorder/menu_top.png");
 	}
 
 .sidebar h3.symbol04
 	{
-		background-image: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/symbol_04.png"), url("https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_top.png");
+		background-image: url("img/grandorder/symbol_04.png"), url("img/grandorder/menu_top.png");
 	}
 
 .sidebar h3.symbol05
 	{
-		background-image: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/symbol_05.png"), url("https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_top.png");
+		background-image: url("img/grandorder/symbol_05.png"), url("img/grandorder/menu_top.png");
 	}
 
 .sidebar h3.symbol06
 	{
-		background-image: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/symbol_06.png"), url("https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_top.png");
+		background-image: url("img/grandorder/symbol_06.png"), url("img/grandorder/menu_top.png");
 	}
 
 .sidebar h3.symbol07
 	{
-		background-image: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/symbol_07.png"), url("https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_top.png");
+		background-image: url("img/grandorder/symbol_07.png"), url("img/grandorder/menu_top.png");
 	}
 
 .sidebar-list
@@ -1302,7 +1302,7 @@ spanh
 		margin: none;
 		margin-bottom: 1px;
 		border-bottom: none;
-		background-image: url('https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_nav4.png'), url('https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_nav3.png');
+		background-image: url('img/grandorder/menu_nav4.png'), url('img/grandorder/menu_nav3.png');
 		background-repeat: no-repeat, no-repeat;
 		background-position: -165px 0px, 0px 0px;
 
@@ -1311,7 +1311,7 @@ spanh
 .sidebar-list div.expand a:hover
 	{
 		padding-left: 15px;
-		background-image: url('https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_nav4.png'), url('https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_nav3.png');
+		background-image: url('img/grandorder/menu_nav4.png'), url('img/grandorder/menu_nav3.png');
 		background-position: 0px 0px, 0px 0px;
 
 	}
@@ -1340,7 +1340,7 @@ spanh
 		padding: 8px 3px 0px 0px;
 		margin: 0px 0px 0px 28px;
 		border-bottom: none;
-		background-image: url('https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_nav1.png');
+		background-image: url('img/grandorder/menu_nav1.png');
 		background-repeat: no-repeat;
 		background-position: top left;
 		background-size: 165px 70px;
@@ -1360,7 +1360,7 @@ spanh
 		padding: 8px 3px 0px 0px;
 		margin: 0px 0px 0px 28px;
 		border-bottom: none;
-		background-image: url('https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_nav2.png');
+		background-image: url('img/grandorder/menu_nav2.png');
 		background-repeat: no-repeat;
 		background-position: 0px -3px;
 		background-size: 165px 156px;
@@ -1376,7 +1376,7 @@ spanh
 		padding: 8px 3px 0px 0px;
 		margin: 0px 0px 0px 30px;
 		border-bottom: none;
-		background-image: url('https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_nav2.png');
+		background-image: url('img/grandorder/menu_nav2.png');
 		background-repeat: no-repeat;
 		background-position: 0px -81px;
 		background-size: 165px 156px;
@@ -1399,7 +1399,7 @@ spanh
 		padding: 8px 3px 0px 0px;
 		margin: 0px 0px 0px 30px;
 		border-bottom: none;
-		background-image: url('https://fate-go.cirnopedia.org/scripts/img/grandorder/menu_nav1.png');
+		background-image: url('img/grandorder/menu_nav1.png');
 		background-repeat: no-repeat;
 		background-position: bottom left;
 		background-size: 165px 70px;
@@ -1430,7 +1430,7 @@ div#skyscraper.sidebar-list
 		height: 610px;
 		width: 170px;
 		vertical-align: middle;
-		background: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/skyscraper.jpg") no-repeat center;
+		background: url("img/grandorder/skyscraper.jpg") no-repeat center;
 		overflow: hidden;
 	}
 	
@@ -1588,10 +1588,10 @@ span.green
 		height: 250px; 
 		background-color: #fff; 
 		background-image: 
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/logo.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/ruler.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/master.png'),
-			url('https://fate-go.cirnopedia.org/scripts/img/grandorder/background.jpg');
+			url('img/grandorder/logo.png'),
+			url('img/grandorder/ruler.png'),
+			url('img/grandorder/master.png'),
+			url('img/grandorder/background.jpg');
 		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
 		background-position: 50% 50%, -200px -20px, top right, center center;
 		background-size: 467px 200px, 730px 420px, 320px 420px, cover;
@@ -1627,7 +1627,7 @@ div.bullet1
 		border: 0px;
 		margin: 0px;
 		padding: 0px;
-		background: transparent url('https://fate-go.cirnopedia.org/scripts/img/grandorder/bullet1.png') no-repeat 5px 2px;
+		background: transparent url('img/grandorder/bullet1.png') no-repeat 5px 2px;
 		background-size: 16px 16px;
 		display: block;
 		float: left;
@@ -1640,7 +1640,7 @@ div.bullet2
 		border: 0px;
 		margin: 0px;
 		padding: 0px;
-		background: transparent url('https://fate-go.cirnopedia.org/scripts/img/grandorder/bullet2.png') no-repeat left top;
+		background: transparent url('img/grandorder/bullet2.png') no-repeat left top;
 		display: block;
 		float: left;
 	}
@@ -1652,7 +1652,7 @@ div.bullet3
 		border: 0px;
 		margin: 0px;
 		padding: 0px;
-		background: transparent url('https://fate-go.cirnopedia.org/scripts/img/grandorder/bullet3.png') no-repeat left top;
+		background: transparent url('img/grandorder/bullet3.png') no-repeat left top;
 		display: block;
 		float: left;
 	}
@@ -1664,7 +1664,7 @@ div.bullet4
 		border: 0px;
 		margin: 0px;
 		padding: 0px;
-		background: transparent url('https://fate-go.cirnopedia.org/scripts/img/grandorder/bullet4.png') no-repeat left top;
+		background: transparent url('img/grandorder/bullet4.png') no-repeat left top;
 		display: block;
 		float: left;
 	}
@@ -1676,7 +1676,7 @@ span.bullet_top
 		border: 0px;
 		margin: -6px -5px -5px -5px;
 		padding: 0px;
-		background-image: url('https://fate-go.cirnopedia.org/scripts/img/grandorder/top.png');
+		background-image: url('img/grandorder/top.png');
 		background-repeat: no-repeat;
 		background-color: none;
 		background-position: top left;
@@ -1729,7 +1729,7 @@ div.matter_branch
 		margin: 10px 0px;
 		border: 0px;
 		padding: 0px;
-		background: url('https://fate-go.cirnopedia.org/scripts/img/grandorder/matter_branch.png') no-repeat top left;
+		background: url('img/grandorder/matter_branch.png') no-repeat top left;
 	}
 	
 div.matter_direct
@@ -1739,7 +1739,7 @@ div.matter_direct
 		margin: 10px 0px;
 		border: 0px;
 		padding: 0px;
-		background: url('https://fate-go.cirnopedia.org/scripts/img/grandorder/matter_direct.png') no-repeat top left;
+		background: url('img/grandorder/matter_direct.png') no-repeat top left;
 	}
 	
 /* Spoiler Tag */	
@@ -1776,7 +1776,7 @@ div.scroll-to-top  a
 div.scroll-to-top  a img
 	{
 		width: 85px; height: 39px;
-		background-image: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/top.png");
+		background-image: url("img/grandorder/top.png");
 		background-size: 85px 78px;
 		background-position: top left;
 		background-repeat: no-repeat;
@@ -1785,7 +1785,7 @@ div.scroll-to-top  a img
 div.scroll-to-top  a:hover img
 	{
 		width: 85px; height: 39px;
-		background-image: url("https://fate-go.cirnopedia.org/scripts/img/grandorder/top.png");
+		background-image: url("img/grandorder/top.png");
 		background-size: 85px 78px;
 		background-position: bottom left;
 		background-repeat: no-repeat;
@@ -2061,7 +2061,7 @@ notice, font.notice
 	
 #rounded-corner tbody tr td.notice-aphalf
 	{
-		background-image: url("https://fate-go.cirnopedia.org/scripts/img/aphalf.png");
+		background-image: url("img/aphalf.png");
 		background-repeat: no-repeat;
 		background-position: top 5px right 5px;
 		background-size: 40px 15px;
@@ -2157,27 +2157,27 @@ ul.asterisk li:before {content: "※"; position: absolute; left: 0;}
 
 strong {font-weight: 700; font-size: 11px; color: orange; margin-top: 3px;}
 	
-img.class00 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_00.png"), url("https://fate-go.cirnopedia.org/icons/class/class_0003.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.class01 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_01.png"), url("https://fate-go.cirnopedia.org/icons/class/class_0103.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.class02 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_02.png"), url("https://fate-go.cirnopedia.org/icons/class/class_0203.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.class03 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_03.png"), url("https://fate-go.cirnopedia.org/icons/class/class_0303.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.class04 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_04.png"), url("https://fate-go.cirnopedia.org/icons/class/class_0403.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.class05 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_05.png"), url("https://fate-go.cirnopedia.org/icons/class/class_0503.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.class06 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_06.png"), url("https://fate-go.cirnopedia.org/icons/class/class_0603.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.class07 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_07.png"), url("https://fate-go.cirnopedia.org/icons/class/class_0703.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.class08 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_08.png"), url("https://fate-go.cirnopedia.org/icons/class/class_0803.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.class09 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_09.png"), url("https://fate-go.cirnopedia.org/icons/class/class_0903.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.class10 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_10.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1003.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.classunk {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_unknown.png"), url("https://fate-go.cirnopedia.org/icons/class/class_unknown03.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.class11 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_11.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1105.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.class12 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_12.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1205.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.class13 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_13.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1303.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.class14 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_14.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1403.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.class15 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_15.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1505.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.class15L {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_15L.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1505.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.class15R {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_15R.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1505.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.class16 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_16.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1603.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.class17 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_17.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1703.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.class18 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_18.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1803.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.class19 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_19.png"), url("https://fate-go.cirnopedia.org/icons/class/class_1903.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
-img.class20 {background-image: url("https://fate-go.cirnopedia.org/icons/class/class_name_20.png"), url("https://fate-go.cirnopedia.org/icons/class/class_2003.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class00 {background-image: url("../icons/class/class_name_00.png"), url("../icons/class/class_0003.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class01 {background-image: url("../icons/class/class_name_01.png"), url("../icons/class/class_0103.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class02 {background-image: url("../icons/class/class_name_02.png"), url("../icons/class/class_0203.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class03 {background-image: url("../icons/class/class_name_03.png"), url("../icons/class/class_0303.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class04 {background-image: url("../icons/class/class_name_04.png"), url("../icons/class/class_0403.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class05 {background-image: url("../icons/class/class_name_05.png"), url("../icons/class/class_0503.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class06 {background-image: url("../icons/class/class_name_06.png"), url("../icons/class/class_0603.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class07 {background-image: url("../icons/class/class_name_07.png"), url("../icons/class/class_0703.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class08 {background-image: url("../icons/class/class_name_08.png"), url("../icons/class/class_0803.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class09 {background-image: url("../icons/class/class_name_09.png"), url("../icons/class/class_0903.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class10 {background-image: url("../icons/class/class_name_10.png"), url("../icons/class/class_1003.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.classunk {background-image: url("../icons/class/class_name_unknown.png"), url("../icons/class/class_unknown03.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class11 {background-image: url("../icons/class/class_name_11.png"), url("../icons/class/class_1105.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class12 {background-image: url("../icons/class/class_name_12.png"), url("../icons/class/class_1205.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class13 {background-image: url("../icons/class/class_name_13.png"), url("../icons/class/class_1303.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class14 {background-image: url("../icons/class/class_name_14.png"), url("../icons/class/class_1403.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class15 {background-image: url("../icons/class/class_name_15.png"), url("../icons/class/class_1505.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class15L {background-image: url("../icons/class/class_name_15L.png"), url("../icons/class/class_1505.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class15R {background-image: url("../icons/class/class_name_15R.png"), url("../icons/class/class_1505.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class16 {background-image: url("../icons/class/class_name_16.png"), url("../icons/class/class_1603.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class17 {background-image: url("../icons/class/class_name_17.png"), url("../icons/class/class_1703.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class18 {background-image: url("../icons/class/class_name_18.png"), url("../icons/class/class_1803.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class19 {background-image: url("../icons/class/class_name_19.png"), url("../icons/class/class_1903.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
+img.class20 {background-image: url("../icons/class/class_name_20.png"), url("../icons/class/class_2003.png"); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: 100% 100%, 100% 100%; max-width: 42px;}
