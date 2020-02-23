@@ -3,6 +3,7 @@
 <link href="../scripts/fgodata.css" rel="stylesheet" type="text/css" />
 <link href="../scripts/box.css" rel="stylesheet" type="text/css" />
 <link href="../css/toggle.css" rel="stylesheet" type="text/css" />
+<link href="../css/modal.css" rel="stylesheet" type="text/css" />
 <script src="../scripts/divopen.js"></script>
 <script src="../scripts/jquery-3.3.1.min.js"></script>
 <title>Fate/Grand Order 막간&강화퀘 조건</title>
@@ -60,7 +61,12 @@ td.no			{width: 4%;}
 <br>
 	<label for="toggle" onclick>퀘스트 정보 열어보기</label>
 	<input type="checkbox" id="toggle"/>
-<ul id="nav"><br>1라운드<br>
+<ul id="nav"><input type="checkbox" id="modal" class="hidden">
+<div class="box_modal">
+  <label for="modal" class="mcloser">x</label>
+  <div class="mtext">
+    <h3>모달 윈도우</h3>
+    <p>1라운드<br>
 1/3 : 
 <a class="tooltip">
 	<span class="item" style="background-image: url('icons/class/class_0101.png'),url('icons/frame/servant_01.png'),url('icons/enemy/enemy_009-01.png'),url('icons/frame/bg_01.png'),url('scripts/img/grandorder/tooltip.png');">
@@ -119,8 +125,8 @@ td.no			{width: 4%;}
 		<ch3>인간, 사자, 마성</ch3>
 		<hr>
 		<ch2><strong>Lv.14 HP 3,461</strong>
-			</span><img src='icons/class/class_0201.png' width=20px></a></li><hr>
-<li>2라운드<br>1/3 : 
+			</span><img src='icons/class/class_0201.png' width=20px></a><hr>
+2라운드<br>1/3 : 
 <a class="tooltip">
 	<span class="item" style="background-image: url('icons/class/class_0301.png'),url('icons/frame/enemy_01.png'),url('icons/enemy/enemy_009-03.png'),url('icons/frame/bg_01.png'),url('scripts/img/grandorder/tooltip.png');">
 		<ch1>스켈레톤 A</ch1>
@@ -178,8 +184,9 @@ td.no			{width: 4%;}
 		<ch3>인간, 사자, 마성</ch3>
 		<hr>
 		<ch2><strong>HP 109,014</strong></ch2>
-	</span><img src='icons/class/class_0705.png' width=20px></a> Lv.30</li>
-<br>
+	</span><img src='icons/class/class_0705.png' width=20px></a> Lv.30</p>
+  </div>
+</div>
 <td sorttable_customkey="Chapter 1"><span style='font-size: 18px;'><font color='#FFA500'>✦</font><font color='#D3D3D3'>✦✦✦</font></span><br>1차재림<td sorttable_customkey="002"><span style='font-size: 14px;'><font color='#0000FF'>♦</font><font color='#008000'>♦</font><font color='#00FF00'>♦</font><font color='#D3D3D3'>♦♦</font></span><br>인연 3렙<td>특이점F<br>염상오염도시 후유키<td class="desc"><a href="https://fate-go.cirnopedia.org/item.php#003" title="성정석"><img src="icons/item/item_000.png" class="dropitem" style="background-image: url('icons/item/box_000.png'), url('icons/frame/item_05.png'), url('icons/item/item_003.png'), url('icons/frame/bg_05.png');"></a></tr>
 <tr><td style="padding-left:9px;"><a href="https://fate-go.cirnopedia.org/servant_profile.php?servant=002" title="알트리아 펜드래건"><img src="icons/item/item_000.png" class="dropitem" style="background-image: url('icons/class/class_0105.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0021.png'), url('icons/frame/bg_05.png')"></a><td class="desc"><a href="https://fate-go.cirnopedia.org/servant_profile.php?servant=002">알트리아 펜드래건<br>アルトリア･ペンドラゴン</a><td class="desc">聖剣覚醒<br><font color="blue">Chapter 2</font><td sorttable_customkey="Chapter 2"><span style='font-size: 18px;'><font color='#FFA500'>✦✦</font><font color='#D3D3D3'>✦✦</font></span><br>2차재림<td sorttable_customkey="002"><span style='font-size: 14px;'><font color='#0000FF'>♦</font><font color='#008000'>♦</font><font color='#00FF00'>♦</font><font color='#FFA500'>♦</font><font color='#FF0000'>♦</font></span><br>인연 5렙<td>제2특이점<br>광기영속제국 세프템<td class="desc"><a href="https://fate-go.cirnopedia.org/item.php#upgrade_np" title="보구강화"><img src="icons/item/item_000.png" class="dropitem" style="background-image: url('icons/item/box_000.png'), url('icons/frame/item_05.png'), url('icons/item/item_upgrade_np.png'), url('icons/frame/bg_05.png');"></a></tr>
 <tr><td style="padding-left:9px;"><a href="https://fate-go.cirnopedia.org/servant_profile.php?servant=003" title="알트리아 펜드래건[얼터]"><img src="icons/item/item_000.png" class="dropitem" style="background-image: url('icons/class/class_0104.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0031.png'), url('icons/frame/bg_04.png')"></a><td class="desc"><a href="https://fate-go.cirnopedia.org/servant_profile.php?servant=003">알트리아 펜드래건[얼터]<br>アルトリア･ペンドラゴン〔オルタ〕</a><td class="desc">オルタの系譜<br><font color="blue">Chapter 1</font><td sorttable_customkey="Chapter 1"><span style='font-size: 18px;'><font color='#FFA500'>✦</font><font color='#D3D3D3'>✦✦✦</font></span><br>1차재림<td sorttable_customkey="003"><span style='font-size: 14px;'><font color='#0000FF'>♦</font><font color='#008000'>♦</font><font color='#D3D3D3'>♦♦♦</font></span><br>인연 2렙<td>특이점F<br>염상오염도시 후유키<td class="desc"><a href="https://fate-go.cirnopedia.org/item.php#003" title="성정석"><img src="icons/item/item_000.png" class="dropitem" style="background-image: url('icons/item/box_000.png'), url('icons/frame/item_05.png'), url('icons/item/item_003.png'), url('icons/frame/bg_05.png');"></a></tr>
