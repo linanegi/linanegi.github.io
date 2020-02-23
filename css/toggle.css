@@ -13,6 +13,7 @@
     background-image:url(../scripts/img/grandorder/tooltip.png);
 }
 #toggle_button:checked + #toggle_contents {
+    color:#fff;
     height:auto;
     position:relative;
     border:1px solid #ccc;
