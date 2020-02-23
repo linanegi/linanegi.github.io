@@ -10,6 +10,7 @@
     height:0;
     overflow:hidden;
     position:absolute;
+    background-image:url(../scripts/img/grandorder/tooltip.png);
 }
 #toggle_button:checked + #toggle_contents {
     height:auto;
