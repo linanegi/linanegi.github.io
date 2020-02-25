@@ -90,7 +90,7 @@ a.tooltip span
 a.tooltip:hover span ch1
 	{ 
 		font-weight: 700;
-		color: #cbc4a8;
+		color: #cc9372;
 		padding: 0px;
 		margin: 0px;
 		font-size: 20px;
@@ -100,7 +100,7 @@ a.tooltip:hover span ch1
 a.tooltip:hover span ch2
 	{ 
 		font-weight: 400;
-		color: #cbc4a8;
+		color: #cc9372;
 		margin: 10px 0px;
 		font-size: 14px;
 	}	
@@ -108,7 +108,7 @@ a.tooltip:hover span ch2
 a.tooltip:hover span ch3
 	{ 
 		font-size: 13px;
-		color: #9898ca;
+		color: #8f1e7e;
 	}
 	
 a.tooltip:hover span ch4
