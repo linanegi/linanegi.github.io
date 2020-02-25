@@ -67,17 +67,17 @@ a:hover
 		color: blue;
 	}
 
-div.view_content a.tooltip
+div.mmain a.tooltip
 	{
 		outline:none;
 	}
 	
-div.view_content a.tooltip:hover 
+div.mmain a.tooltip:hover 
 	{
 		text-decoration:none;
 	} 
 	
-div.view_content a.tooltip span 
+div.mmain a.tooltip span 
 	{
 		z-index: 10;
 		display: none;
@@ -87,7 +87,7 @@ div.view_content a.tooltip span
 		text-shadow: 1px 1px 1px black; 
 	} 
 
-div.view_content a.tooltip:hover span ch1
+div.mmain a.tooltip:hover span ch1
 	{ 
 		font-weight: 700;
 		color: #cc9372;
@@ -97,7 +97,7 @@ div.view_content a.tooltip:hover span ch1
 		font-family: 'Droid Serif', 'Iropke Batang', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;
 	}
 	
-div.view_content a.tooltip:hover span ch2
+div.mmain a.tooltip:hover span ch2
 	{ 
 		font-weight: 400;
 		color: #cc9372;
@@ -105,20 +105,20 @@ div.view_content a.tooltip:hover span ch2
 		font-size: 14px;
 	}	
 	
-div.view_content a.tooltip:hover span ch3
+div.mmain a.tooltip:hover span ch3
 	{ 
 		font-size: 13px;
 		color: #8f1e7e;
 	}
 	
-div.view_content a.tooltip:hover span ch4
+div.mmain a.tooltip:hover span ch4
 	{ 
 		font-size: 12px;
 	}
 
 strong {font-weight: 700; font-size: 15px; color: orange; margin-top: 3px;}
 
-div.view_content a.tooltip:hover span.monster
+div.mmain a.tooltip:hover span.monster
 	{ 
 		padding: 20px 20px 20px 225px;
 		margin-top: 0px;
@@ -135,7 +135,7 @@ div.view_content a.tooltip:hover span.monster
 		text-align: left;
 	}
 
-div.view_content a.tooltip:hover span.spelltrap
+div.mmain a.tooltip:hover span.spelltrap
 	{ 
 		padding: 20px 20px 20px 225px;
 		margin-top: -120px;
