@@ -81,7 +81,7 @@ a.tooltip span
 	{
 		z-index: 10;
 		display: none;
-		line-height: 15px;
+		line-height: 16px;
 		font-size: 15px;
 		box-sizing: border-box;
 		text-shadow: 2px 2px 2px black; 
@@ -121,8 +121,8 @@ strong {font-weight: 700; font-size: 15px; color: orange; margin-top: 3px;}
 a.tooltip:hover span.monster
 	{ 
 		padding: 20px 400px 440px 225px;
-		margin-top: -120px;
-		margin-left: -20px;
+		margin-top: 0px;
+		margin-left: 0px;
 		display: inline;
 		position: absolute;
 		color: #cbc4a8;
