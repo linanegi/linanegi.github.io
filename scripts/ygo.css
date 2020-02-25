@@ -128,8 +128,8 @@ a.tooltip:hover span.monster
 		color: #cbc4a8;
 		background-color: rgba(30,30,30,1);
 		background-repeat: no-repeat, no-repeat, no-repeat, repeat;
-		background-position: 24px 23px, 500px 20px, 540px 20px, center center;
-		background-size: 177px 254px, 34px 34px, 34px 34px, 650px 350px; 
+		background-position: 24px 23px, 700px 20px, 740px 20px, center center;
+		background-size: 177px 254px, 34px 34px, 34px 34px, 850px 350px; 
 		width: 600px;
 		min-height: 300px;
 		text-align: left;
@@ -145,8 +145,8 @@ a.tooltip:hover span.spelltrap
 		color: #cbc4a8;
 		background-color: rgba(30,30,30,1);
 		background-repeat: no-repeat, no-repeat, no-repeat, repeat;
-		background-position: 24px 23px, 500px 20px, 540px 20px, center center;
-		background-size: 177px 254px, 34px 34px, 34px 34px, 650px 350px; 
+		background-position: 24px 23px, 700px 20px, 740px 20px, center center;
+		background-size: 177px 254px, 34px 34px, 34px 34px, 850px 350px; 
 		width: 600px;
 		min-height: 300px;
 		text-align: left;
