@@ -44,35 +44,40 @@ ol, ul, li
 		outline: 0;
 	}
 	
-view_content span.clover
+div 
+	{
+		box-sizing: border-box;
+	}
+	
+span.clover
 	{
 		display: none;
 	}
 	
-view_content a, a:link, a:visited, a:active, a:hover
+a, a:link, a:visited, a:active, a:hover
 	{
 		text-decoration: none !important; 
 		color: inherit;
 		cursor: pointer;
 	}
 	
-view_content a:hover
+a:hover
 	{
 		text-decoration: none; 
 		color: blue;
 	}
 
-view_content a.tooltip
+a.tooltip
 	{
 		outline:none;
 	}
 	
-view_content a.tooltip:hover 
+a.tooltip:hover 
 	{
 		text-decoration:none;
 	} 
 	
-view_content a.tooltip span 
+a.tooltip span 
 	{
 		z-index: 10;
 		display: none;
@@ -82,7 +87,7 @@ view_content a.tooltip span
 		text-shadow: 1px 1px 1px black; 
 	} 
 
-view_content a.tooltip:hover span ch1
+a.tooltip:hover span ch1
 	{ 
 		font-weight: 700;
 		color: #cc9372;
@@ -92,7 +97,7 @@ view_content a.tooltip:hover span ch1
 		font-family: 'Droid Serif', 'Iropke Batang', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;
 	}
 	
-view_content a.tooltip:hover span ch2
+a.tooltip:hover span ch2
 	{ 
 		font-weight: 400;
 		color: #cc9372;
@@ -100,20 +105,20 @@ view_content a.tooltip:hover span ch2
 		font-size: 14px;
 	}	
 	
-view_content a.tooltip:hover span ch3
+a.tooltip:hover span ch3
 	{ 
 		font-size: 13px;
 		color: #8f1e7e;
 	}
 	
-view_content a.tooltip:hover span ch4
+a.tooltip:hover span ch4
 	{ 
 		font-size: 12px;
 	}
 
 strong {font-weight: 700; font-size: 15px; color: orange; margin-top: 3px;}
 
-view_content a.tooltip:hover span.monster
+a.tooltip:hover span.monster
 	{ 
 		padding: 20px 20px 20px 225px;
 		margin-top: 0px;
@@ -130,109 +135,7 @@ view_content a.tooltip:hover span.monster
 		text-align: left;
 	}
 
-view_content a.tooltip:hover span.spelltrap
-	{ 
-		padding: 20px 20px 20px 225px;
-		margin-top: -120px;
-		margin-left: -20px;
-		display: inline;
-		position: absolute;
-		color: #cbc4a8;
-		background-color: rgba(30,30,30,1);
-		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-		background-position: 24px 23px, 700px 12px, 740px 12px, 0px 0px;
-		background-size: 177px 254px, 34px 34px, 34px 34px, 800px 600px; 
-		width: 800px;
-		min-height: 300px;
-		text-align: left;
-	}
-write_content span.clover
-	{
-		display: none;
-	}
-	
-write_content a, a:link, a:visited, a:active, a:hover
-	{
-		text-decoration: none !important; 
-		color: inherit;
-		cursor: pointer;
-	}
-	
-write_content a:hover
-	{
-		text-decoration: none; 
-		color: blue;
-	}
-
-write_content a.tooltip
-	{
-		outline:none;
-	}
-	
-write_content a.tooltip:hover 
-	{
-		text-decoration:none;
-	} 
-	
-write_content a.tooltip span 
-	{
-		z-index: 10;
-		display: none;
-		line-height: 20px;
-		font-size: 15px;
-		box-sizing: border-box;
-		text-shadow: 1px 1px 1px black; 
-	} 
-
-write_content a.tooltip:hover span ch1
-	{ 
-		font-weight: 700;
-		color: #cc9372;
-		padding: 0px;
-		margin: 0px;
-		font-size: 20px;
-		font-family: 'Droid Serif', 'Iropke Batang', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;
-	}
-	
-write_content a.tooltip:hover span ch2
-	{ 
-		font-weight: 400;
-		color: #cc9372;
-		margin: 10px 0px;
-		font-size: 14px;
-	}	
-	
-write_content a.tooltip:hover span ch3
-	{ 
-		font-size: 13px;
-		color: #8f1e7e;
-	}
-	
-write_content a.tooltip:hover span ch4
-	{ 
-		font-size: 12px;
-	}
-
-strong {font-weight: 700; font-size: 15px; color: orange; margin-top: 3px;}
-
-write_content a.tooltip:hover span.monster
-	{ 
-		padding: 20px 20px 20px 225px;
-		margin-top: 0px;
-		margin-left: 0px;
-		display: inline;
-		position: absolute;
-		color: #cbc4a8;
-		background-color: rgba(30,30,30,1);
-		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-		background-position: 24px 23px, 700px 12px, 740px 12px, 0px 0px;
-		background-size: 177px 254px, 34px 34px, 34px 34px, 800px 600px; 
-		width: 800px;
-		min-height: 300px;
-		text-align: left;
-	}
-
-write_content a.tooltip:hover span.spelltrap
+a.tooltip:hover span.spelltrap
 	{ 
 		padding: 20px 20px 20px 225px;
 		margin-top: -120px;
