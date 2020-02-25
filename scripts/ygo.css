@@ -81,7 +81,7 @@ a.tooltip span
 	{
 		z-index: 10;
 		display: none;
-		line-height: 16px;
+		line-height: 20px;
 		font-size: 15px;
 		box-sizing: border-box;
 		text-shadow: 2px 2px 2px black; 
@@ -128,9 +128,9 @@ a.tooltip:hover span.monster
 		color: #cbc4a8;
 		background-color: rgba(30,30,30,1);
 		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-		background-position: 24px 23px, 400px 20px, 440px 20px, center center;
-		background-size: 177px 254px, 34px 34px, 34px 34px, 550px 350px; 
-		width: 500px;
+		background-position: 24px 23px, 500px 20px, 540px 20px, center center;
+		background-size: 177px 254px, 34px 34px, 34px 34px, 650px 350px; 
+		width: 600px;
 		min-height: 300px;
 		text-align: left;
 	}
@@ -145,9 +145,9 @@ a.tooltip:hover span.spelltrap
 		color: #cbc4a8;
 		background-color: rgba(30,30,30,1);
 		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-		background-position: 24px 23px, 400px 20px, 440px 20px, center center;
-		background-size: 177px 254px, 34px 34px, 34px 34px, 550px 350px; 
-		width: 500px;
+		background-position: 24px 23px, 500px 20px, 540px 20px, center center;
+		background-size: 177px 254px, 34px 34px, 34px 34px, 650px 350px; 
+		width: 600px;
 		min-height: 300px;
 		text-align: left;
 	}
