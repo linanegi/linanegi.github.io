@@ -93,7 +93,16 @@ div.mmain a.tooltips:hover span ch2
 		margin: 10px 0px;
 		font-size: 14px;
 	}	
+
+div.mmain a.tooltips:hover span pch2
+	{ 
+		font-weight: 400;
+		color: #cc9372;
+		margin: 10px 0px;
+		font-size: 14px;
+	}	
 	
+
 div.mmain a.tooltips:hover span ch3
 	{ 
 		font-size: 13px;
@@ -104,7 +113,8 @@ div.mmain a.tooltips:hover span ch4
 	{ 
 		font-size: 12px;
 	}
-
+div.mmain a.tooltips:hover span pch2:before {content: "◀"; position: absolute; color:#00d; left: 0;}
+div.mmain a.tooltips:hover span pch2:before {content: "▶"; position: absolute; color:#d00; left: 0;}
 strong {font-weight: 700; font-size: 15px; color: orange; margin-top: 3px;}
 
 div.mmain a.tooltips:hover span.monster
