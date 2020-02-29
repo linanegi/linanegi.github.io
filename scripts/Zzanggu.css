@@ -3,9 +3,8 @@
 
 @font-face {
     font-family: 'Zzanggu';
-    src: url('../fonts/UhBee Rami.eot');
-    src: url('../fonts/UhBee Rami.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/UhBee Rami.woff') format('woff');
+    src: url('../fonts/UhBee Rami.woff') format('woff'),
+         url('../fonts/UhBee Rami.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -13,9 +12,8 @@
 
 @font-face {
     font-family: 'Zzanggub';
-    src: url('../fonts/UhBee Rami BOLD.eot');
-    src: url('../fonts/UhBee Rami BOLD.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/UhBee Rami BOLD.woff') format('woff');
+    src: url('../fonts/UhBee Rami BOLD.woff') format('woff'),
+         url('../fonts/UhBee Rami BOLD.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
