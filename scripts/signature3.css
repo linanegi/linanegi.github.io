@@ -1,3 +1,6 @@
+div.mw_basic_view_signature mmain box_modal{display:none;}
+div.signature mmain mbox_modal{display:none;}
+
 * {
   box-sizing:border-box;
 }
