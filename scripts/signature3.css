@@ -37,6 +37,9 @@ details > p {
   font-size:8px !important;
 }
 
+p > details {
+  font-size:8px !important;
+}
 /* 본문 디자인 */
 .wrap {
   display:block;
