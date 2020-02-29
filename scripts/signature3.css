@@ -38,11 +38,12 @@ body {
   min-height:300px;
   top:50%;
   left:50%;
-  margin-top:-75px;
+  margin-top:-500px;
   margin-left:-150px;
   background:#d9e5e9;
   border:1px solid #386980;
-  overflow-x: auto;
+  overflow-y:scroll;
+  overflow-x:hidden;
   /* 아래 부분은 애니메이션 효과를 위한 부분 */
   visibility: collapse;
   opacity: 0.6;
@@ -69,7 +70,8 @@ body {
   margin-left:-150px;
   background:#d9e5e9;
   border:1px solid #386980;
-  overflow-x: auto;
+  overflow-y:scroll;
+  overflow-x:hidden;
   /* 아래 부분은 애니메이션 효과를 위한 부분 */
   visibility: collapse;
   opacity: 0.6;
