@@ -52,3 +52,37 @@ span.흘림 {
     font-family: 'Times New Roman', 'Iropke Batang';
     font-style: italic;
 }
+
+chapter {
+    font-family: 'Iropke Batang';
+    font-size:1.4em;
+    font-weight:900;
+}
+chapter::before {
+  content: "";
+  display: block;
+  width: 80%;
+  border-bottom: 1px solid #bcbcbc;
+  margin:20px 0px;
+}
+
+mchapter {
+    font-family: 'Iropke Batang';
+    font-size:2em;
+    font-weight:900;
+}
+
+mchapter::before {
+  content: "";
+  display: block;
+  width: 80%;
+  border-bottom: 1px solid #bcbcbc;
+  margin:20px 0px;
+}
+mchapter::after {
+  content: "";
+  display: block;
+  width: 80%;
+  border-bottom: 1px solid #bcbcbc;
+  margin:20px 0px;
+}
