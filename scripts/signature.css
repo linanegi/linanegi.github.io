@@ -25,20 +25,20 @@
 
 div.mw_basic_view_signature div.pcsignature{display:none;}
 div.signature div.msignature{display:none;}
-a:hover
+div.pcsignature a:hover
 	{
 		text-decoration: none; 
 		color: blue;
 	}
-a.popup
+div.pcsignature a.popup
 	{
 		outline:none;
 	}
-a.popup::hover
+div.pcsignature a.popup::hover
 	{
 		text-decoration:none;
 	} 
-a.popup span 
+div.pcsignature a.popup span 
 	{
 		z-index: 10;
 		display: none;
@@ -46,7 +46,30 @@ a.popup span
 		font-size: 15px;
 		box-sizing: border-box;
 		text-shadow: 1px 1px 1px black; 
+	}
+div.pcsignature a:hover
+	{
+		text-decoration: none; 
+		color: blue;
+	}
+div.msignature a.popup
+	{
+		outline:none;
+	}
+div.msignature a.popup::hover
+	{
+		text-decoration:none;
 	} 
+div.msignature a.popup span 
+	{
+		z-index: 10;
+		display: none;
+		line-height: 20px;
+		font-size: 15px;
+		box-sizing: border-box;
+		text-shadow: 1px 1px 1px black; 
+	}
+
 div.mw_basic_view_signature div.msignature a.popup:hover span.mpopuplink
 	{ 
 		padding: 10px;
