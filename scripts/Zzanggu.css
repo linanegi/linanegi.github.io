@@ -53,13 +53,13 @@ span.흘림 {
     font-style: italic;
 }
 
-chapter {
+div.chapter {
     font-family: 'Zzanggu', '맑은 고딕';
     font-size:1em;
     font-weight:900;
     text-align:center;
 }
-chapter::before {
+div.chapter::before {
   content: "";
   display: block;
   width: 80%;
@@ -67,21 +67,21 @@ chapter::before {
   margin:20px 0px;
 }
 
-mchapter {
+div.mchapter {
     font-family: 'Zzanggu', '맑은 고딕';
     font-size:1.5em;
     font-weight:900;
     text-align:center;
 }
 
-mchapter::before {
+div.mchapter::before {
   content: "";
   display: block;
   width: 80%;
   border-bottom: 1px solid #bcbcbc;
   margin:20px 0px;
 }
-mchapter::after {
+div.mchapter::after {
   content: "";
   display: block;
   width: 80%;
@@ -89,7 +89,7 @@ mchapter::after {
   margin:20px 0px;
 }
 
-mbody {
+div.mbody {
     font-family:'Iropke Batang';
     font-size:14px;
 }
