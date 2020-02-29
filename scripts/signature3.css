@@ -1,6 +1,6 @@
-#mw_basic_view_signature div.mmain div.box_modal{display:none;}
+mw_basic_view_signature div.mmain div.box_modal{display:none;}
 #signature div.mmain div.mbox_modal{display:none;}
-#mw_basic_view_signature div.mmain div.spclink{display:none;}
+mw_basic_view_signature div.mmain div.spclink{display:none;}
 #signature div.mmain div.smlink{display:none;}
 * {
   box-sizing:border-box;
