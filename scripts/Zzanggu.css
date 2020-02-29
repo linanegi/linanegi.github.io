@@ -57,6 +57,7 @@ chapter {
     font-family: 'Iropke Batang';
     font-size:1.4em;
     font-weight:900;
+    text-align:center;
 }
 chapter::before {
   content: "";
@@ -70,6 +71,7 @@ mchapter {
     font-family: 'Iropke Batang';
     font-size:2em;
     font-weight:900;
+    text-align:center;
 }
 
 mchapter::before {
