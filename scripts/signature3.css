@@ -15,7 +15,8 @@ body {
 
 
 details {
-  font: 14px "맑은 고딕";
+  font-family: "맑은 고딕";
+  font-size:12px;
 }
 
 details > summary {
