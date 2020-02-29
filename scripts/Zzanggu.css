@@ -102,7 +102,7 @@ span.흘림 {
 }
 
 div.chapter {
-    font-family: 'Zzanggu', 'k-font', 'taroko', 'brushtappitsuB', 'shokaki utage', '맑은 고딕';
+    font-family: 'Zzanggu', 'k-font', '맑은 고딕';
     font-size:1.5em;
     font-weight:900;
     text-align:center;
@@ -116,7 +116,7 @@ div.chapter::before {
 }
 
 div.mchapter {
-    font-family: 'Zzanggu', 'k-font', 'taroko', 'brushtappitsuB', 'shokaki utage', '맑은 고딕';
+    font-family: 'Zzanggu', 'k-font', '맑은 고딕';
     font-size:1.8em;
     font-weight:900;
     text-align:center;
