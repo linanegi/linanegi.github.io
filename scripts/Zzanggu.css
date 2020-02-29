@@ -62,7 +62,7 @@ div.chapter {
 div.chapter::before {
   content: "";
   display: block;
-  width: 80%;
+  width: 100%;
   border-bottom: 1px solid #bcbcbc;
   margin:20px 0px;
 }
@@ -77,14 +77,14 @@ div.mchapter {
 div.mchapter::before {
   content: "";
   display: block;
-  width: 80%;
+  width: 100%;
   border-bottom: 1px solid #bcbcbc;
   margin:20px 0px;
 }
 div.mchapter::after {
   content: "";
   display: block;
-  width: 80%;
+  width: 100%;
   border-bottom: 1px solid #bcbcbc;
   margin:20px 0px;
 }
