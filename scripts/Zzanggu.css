@@ -3,12 +3,9 @@
 
 @font-face {
     font-family: 'Zzanggu';
-    src: url('../fonts/uhbee_rami-webfont.eot');
-    src: url('../fonts/uhbee_rami-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/uhbee_rami-webfont.woff2') format('woff2'),
-         url('../fonts/uhbee_rami-webfont.woff') format('woff'),
-         url('../fonts/uhbee_rami-webfont.ttf') format('truetype'),
-         url('../fonts/uhbee_rami-webfont.svg#uhbee_ramiregular') format('svg');
+    src: url('../fonts/UhBee Rami.eot');
+    src: url('../fonts/UhBee Rami.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/UhBee Rami.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -16,12 +13,9 @@
 
 @font-face {
     font-family: 'Zzanggub';
-    src: url('../fonts/uhbee_rami_bold-webfont.eot');
-    src: url('../fonts/uhbee_rami_bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/uhbee_rami_bold-webfont.woff2') format('woff2'),
-         url('../fonts/uhbee_rami_bold-webfont.woff') format('woff'),
-         url('../fonts/uhbee_rami_bold-webfont.ttf') format('truetype'),
-         url('../fonts/uhbee_rami_bold-webfont.svg#uhbee_ramibold') format('svg');
+    src: url('../fonts/UhBee Rami BOLD.eot');
+    src: url('../fonts/UhBee Rami BOLD.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/UhBee Rami BOLD.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
