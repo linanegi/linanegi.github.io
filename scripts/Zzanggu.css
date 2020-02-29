@@ -86,3 +86,8 @@ mchapter::after {
   border-bottom: 1px solid #bcbcbc;
   margin:20px 0px;
 }
+
+mbody {
+    font-family:'Iropke Batang';
+    font-size:1em;
+}
