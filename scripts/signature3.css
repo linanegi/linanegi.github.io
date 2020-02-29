@@ -34,7 +34,7 @@ body {
 .box_modal {
   position:fixed;
   display:block;
-  width:300px;
+  width:90%;
   min-height:300px;
   margin-top:20px;
   margin-left:20px;
@@ -60,7 +60,7 @@ body {
 .mbox_modal {
   position:fixed;
   display:block;
-  width:300px;
+  width:90%;
   min-height:300px;
   margin-top:20px;
   margin-left:20px;
@@ -104,6 +104,18 @@ body {
 }
 .text h3 {
   font-size:19px;
+  margin:0;
+}
+.text h4 {
+  font-size:16px;
+  margin:0;
+}
+.text h5 {
+  font-size:13px;
+  margin:0;
+}
+.text h6 {
+  font-size:10px;
   margin:0;
 }
 .text p {
