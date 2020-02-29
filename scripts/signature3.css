@@ -34,15 +34,15 @@ body {
 .box_modal {
   position:fixed;
   display:block;
-  width:300px;
-  height:150px;
+  min-width:300px;
+  min-height:3000px;
   top:50%;
   left:50%;
   margin-top:-75px;
   margin-left:-150px;
   background:#d9e5e9;
   border:1px solid #386980;
-  overflow:hidden;
+  overflow-x: auto;
   /* 아래 부분은 애니메이션 효과를 위한 부분 */
   visibility: collapse;
   opacity: 0.6;
