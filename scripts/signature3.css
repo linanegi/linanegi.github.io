@@ -36,10 +36,8 @@ body {
   display:block;
   width:300px;
   min-height:300px;
-  top:50%;
-  left:50%;
-  margin-top:-500px;
-  margin-left:-150px;
+  margin-top:20px;
+  margin-left:20px;
   background:#d9e5e9;
   border:1px solid #386980;
   overflow-y:scroll;
@@ -64,10 +62,8 @@ body {
   display:block;
   width:300px;
   min-height:300px;
-  top:50%;
-  left:50%;
-  margin-top:-75px;
-  margin-left:-150px;
+  margin-top:20px;
+  margin-left:20px;
   background:#d9e5e9;
   border:1px solid #386980;
   overflow-y:scroll;
