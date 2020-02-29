@@ -1,6 +1,7 @@
 div.mw_basic_view_signature mmain box_modal{display:none;}
 div.signature mmain mbox_modal{display:none;}
-
+div.mw_basic_view_signature mmain pclink{display:none;}
+div.signature mmain mlink{display:none;}
 * {
   box-sizing:border-box;
 }
