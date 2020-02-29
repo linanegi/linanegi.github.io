@@ -132,3 +132,11 @@ input#modal[type=checkbox]:checked ~ .box_modal {
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
 }
+
+/* 모달 윈도우가 팝업되는 코어 소스 */
+input#mmodal[type=checkbox]:checked ~ .mbox_modal {
+  visibility: visible;
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
