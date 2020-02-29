@@ -54,7 +54,7 @@ span.흘림 {
 }
 
 chapter {
-    font-family: 'Iropke Batang';
+    font-family: 'Zzanggu', '맑은 고딕';
     font-size:1em;
     font-weight:900;
     text-align:center;
@@ -68,7 +68,7 @@ chapter::before {
 }
 
 mchapter {
-    font-family: 'Iropke Batang';
+    font-family: 'Zzanggu', '맑은 고딕';
     font-size:1.5em;
     font-weight:900;
     text-align:center;
