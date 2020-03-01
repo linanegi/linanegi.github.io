@@ -203,7 +203,7 @@ ptype.페어리::after{content:attr(class) "타입";color: #ee99ac;}
 	height:200px;
 }
 .imageframe div.origin{
-	position:relative;
+	position:absolute;
 	box-sizing:inherit;
 	width:48%;
 	heigth:200px;
