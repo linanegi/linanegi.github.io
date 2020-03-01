@@ -145,6 +145,7 @@ div.dexno dexclass.GalarEx{
 	font-weight:900;
 	text-shadow:-1px 0 white,0 1px white,1px 0 white,0 -1px white, 1px 1px white, -1px 1px white, 1px -1px white, -1px -1px white;
 	color:#222;
+	text-align:center;
 }
 div.typetx ptype{
 	font-weight:900;
