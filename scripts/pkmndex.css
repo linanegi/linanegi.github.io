@@ -9,7 +9,8 @@ div.frame {
 	font-family:'Iropke Batang';
 	background-image:url(../mobiledexcase1.png), url(../mobiledexcase2.png), url(../mobiledexcase3.png), url(../pokemon/dexbg.gif);
 	background-size:331px 649px, 331px 649px, 331px 649px, 315px 610px;
-	background-position:center center center center;
+	background-repeat:no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position:center, center, center, center;
 }
 
 .dexno {
