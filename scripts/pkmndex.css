@@ -9,7 +9,7 @@ div.frame {
 }
 
 .dexno {
-	width:105px;
+	width:210px;
 	height:50px;
 	padding-top:5px;
 	padding-bottom:5px;
@@ -22,73 +22,121 @@ div.frame {
 div.dexno dexclass{
 	font-weight:900;
 	text-shadow:-1px 0 white,0 1px white,1px 0 white,0 -1px white, 1px 1px white, -1px 1px white, 1px -1px white, -1px -1px white;
-	color:#222;
+}
+div.dexno dexclass.NDex::before{
+	content:"NDex ";
+	color:#000;
+}
+div.dexno dexclass.KnDR::before{
+	content:"R";
+	color:#BA1922;
+}
+div.dexno dexclass.KnDG::before{
+	content:"G";
+	color:#485943;
+}
+div.dexno dexclass.KnDB::before{
+	content:"B";
+	color:#218CA5;
+}
+div.dexno dexclass.KnDY::before{
+	content:"Y ";
+	color:#EEDB42;
 }
 
-div.dexno dexclass.KantoDex::before{
-	content:"R" "G" "B" "Y";
-	color:#BA1922 #485943 #218CA5 #EEDB42;
+div.dexno dexclass.JDG::before{
+	content:"G";
+	color:#CBB661;
+}
+div.dexno dexclass.JDS::before{
+	content:"S";
+	color:#C6D0CF;
+}
+div.dexno dexclass.JDC::before{
+	content:"C ";
+	color:#00dddd;
+}
+div.dexno dexclass.JDHG::before{
+	content:"HG";
+	color:#E0BA26;
+}
+div.dexno dexclass.JDSS::before{
+	content:"SS ";
+	color:#C7D9E4;
 }
 
-div.dexno dexclass.JohtoDexGSC::before{
-	content:"G" "S" "C";
-	color:#CBB661 #C6D0CF #00dddd;
+div.dexno dexclass.HDR::before{content:"R"; color:#AE3F30;}
+div.dexno dexclass.HDS::before{content:"S"; color:#5571A2;}
+div.dexno dexclass.HDE::before{content:"E "; color:#3C8360;}
+div.dexno dexclass.HDOR::before{
+	content:"ΩR";
+	color:#C12D2A;
+}
+div.dexno dexclass.HDAS::before{
+	content:"αS ";
+	color:#3A5382;
 }
 
-div.dexno dexclass.JohtoDexHGSS::before{
-	content:"HG" "SS";
-	color:#E0BA26 #C7D9E4;
+div.dexno dexclass.SDD::before{
+	content:"D";
+	color:#9398CF;
+}
+div.dexno dexclass.SDP::before{
+	content:"P ";
+	color:#D7BCD0;
+}
+div.dexno dexclass.SDPt::before{
+	content:"Pt ";
+	color:#DBD0B4;
+}
+div.dexno dexclass.UDB::before{
+	content:"B";
+	color:#23201D;
+}
+div.dexno dexclass.UDW::before{
+	content:"W ";
+	color:#D5DDD9;
 }
 
-div.dexno dexclass.HoennRS::before{
-	content:"R" "S" "E";
-	color:#AE3F30 #5571A2 #3C8360;
+div.dexno dexclass.UDB2::before{
+	content:"B2";
+	color:#1788BF;
+}
+div.dexno dexclass.UDW2::before{
+	content:"W2 ";
+	color:#E05239;
 }
 
-div.dexno dexclass.HoennORAS::before{
-	content:"ΩR" "αS";
-	color:#C12D2A #3A5382;
+div.dexno dexclass.KDX::before{
+	content:"X";
+	color:#0D53A3;
 }
-
-div.dexno dexclass.Sinnoh::before{
-	content:"D" "P" "Pt";
-	color:#9398CF #D7BCD0 #DBD0B4;
+div.dexno dexclass.KDY::before{
+	content:"Y ";
+	color:#CD203C;
 }
-
-div.dexno dexclass.UnovaBW::before{
-	content:"B" "W";
-	color:#23201D #D5DDD9;
+div.dexno dexclass.GDSw::before{
+	content:"Sw";
+	color:#00A0E9;
 }
-
-div.dexno dexclass.UnovaBW2::before{
-	content:"B2" "W2";
-	color:#1788BF #E05239;
+div.dexno dexclass.GDSh::before{
+ content:"Sh ";
+ color: #E5005A;
 }
-
-div.dexno dexclass.Kalos::before{
-	content:"X" "Y";
-	color:#0D53A3 #CD203C;
-}
-
-div.dexno dexclass.Galar::before{
-	content:"Sw" "Sh";
-	color:#00A0E9 #E5005A;
-}
-
 div.dexno dexclass.GalarEx{
-	content:"IA" "CT";
-	color:#00c0f0 #f2007b;
+	content:"IA/CT ";
+	color:#00c0f0;
 }
 
 .typetx {
 	width:331px;
 	height:60px;
-	padding: 5px auto;
+	padding-top: 5px;
+	padding-left: auto;
 	font-weight:900;
 	text-shadow:-1px 0 white,0 1px white,1px 0 white,0 -1px white, 1px 1px white, -1px 1px white, 1px -1px white, -1px -1px white;
 	color:#222;
 }
-
 div.typetx ptype{
 	font-weight:900;
 }
