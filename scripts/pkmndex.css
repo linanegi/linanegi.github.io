@@ -195,6 +195,25 @@ ptype.페어리::after{content:attr(class) "타입";color: #ee99ac;}
 	padding:auto;
 	text-align:center;
 }
+.imageframe{
+	position:relative;
+	width:321px;
+	margin-left:5px;
+	margin-right:5px;
+	max-height:200px;
+}
+.imageframe div.origin{
+	position:relative;
+	padding-right:161px;
+	width:160px;
+	max-height:200px;
+}
+.imageframe div.alternativeform{
+	position:relative;
+	padding-left:161px;
+	width:160px;
+	max-height:200px;
+}
 .text{
 	position:relative;
 	width:331px;
