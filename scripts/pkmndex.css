@@ -227,7 +227,7 @@ ptype.페어리::after{content:attr(class) "타입";color: #ee99ac;}
 }
 .text{
 	position:relative;
-	width:309px;
+	width:300px;
 	max-height:110px;
 	padding: 5px 5px 5px 7px;
 	margin:5px 10px 5px 10px;
