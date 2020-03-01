@@ -10,6 +10,7 @@
 
 div.frame {
 	position:relative;
+	float:right;
 	width:331px;
 	height:649px;
 	font-family:'Iropke Batang';
