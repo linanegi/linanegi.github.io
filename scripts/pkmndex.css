@@ -1,4 +1,5 @@
 div.frame {
+	position:relative;
 	width:331px;
 	height:649px;
 	padding-top:82px 140px 200px 400px;
@@ -10,8 +11,10 @@ div.frame {
 }
 
 .dexno {
+	position:relative;
 	width:210px;
 	height:50px;
+	margin-top:80px;
 	margin-left:60px;
 	margin-right:60px;
 	padding-top:5px;
@@ -131,6 +134,7 @@ div.dexno dexclass.GalarEx{
 }
 
 .typetx {
+	position:relative;
 	width:331px;
 	height:60px;
 	padding-top: 5px;
@@ -163,12 +167,14 @@ ptype.강철::before{content:url(../pokemon/type/16px-Steel_icon_SwSh.png);"강�
 ptype.페어리::before{content:url(../pokemon/type/16px-Fairy_icon_SwSh.png);"페어리";color: #ee99ac;}
 
 .image{
+	position:relative;
 	width:331px;
 	height:200px;
 	padding:auto;
 	text-align:center;
 }
 .text{
+	position:relative;
 	width:331px;
 	height:110px;
 	padding: 10px auto;
