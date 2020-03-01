@@ -193,6 +193,7 @@ ptype.페어리::after{content:attr(class) "타입";color: #ee99ac;}
 	height:200px;
 	padding:auto;
 	text-align:center;
+	vertical-align:bottom;
 }
 .imageframe{
 	position:relative;
@@ -201,6 +202,7 @@ ptype.페어리::after{content:attr(class) "타입";color: #ee99ac;}
 	margin-right:5px;
 	height:200px;
 	text-align:center;
+	vertical-align:bottom;
 }
 .imageframe div.origin{
 	position:absolute;
@@ -210,6 +212,7 @@ ptype.페어리::after{content:attr(class) "타입";color: #ee99ac;}
 	background-repeat:no-repeat;
 	background-position:center;
 	text-align:center;
+	vertical-align:bottom;
 }
 .imageframe div.alternativeform{
 	position: absolute;
@@ -220,6 +223,7 @@ ptype.페어리::after{content:attr(class) "타입";color: #ee99ac;}
 	background-repeat:no-repeat;
 	background-position:center;
 	text-align:center;
+	vertical-align:bottom;
 }
 .text{
 	position:relative;
