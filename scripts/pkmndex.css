@@ -234,7 +234,9 @@ ptype.페어리::after{content:attr(class) "타입";color: #ee99ac;}
 	text-align:left;
 	text-shadow:-1px 0 white,0 1px white,1px 0 white,0 -1px white, 1px 1px white, -1px 1px white, 1px -1px white, -1px -1px white;
 	font-weight:400;
-	background-color:(127,127,127,50);
 	color:#222;
 	font-size:12px;
+}
+.text span{
+	background-color:(127,127,127,50);
 }
