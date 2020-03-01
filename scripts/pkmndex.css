@@ -135,10 +135,11 @@ div.dexno dexclass.GalarEx{
 
 .typetx {
 	position:relative;
-	width:331px;
+	width:137px;
 	height:60px;
 	margin-top:30px;
-	margin-left: auto;
+	margin-left: 97px;
+	margin-right: 97px;
 	padding-top: 5px;
 	padding-left: auto;
 	font-weight:900;
@@ -149,25 +150,42 @@ div.typetx ptype{
 	font-weight:900;
 }
 
-ptype.노말::before{content:url(../pokemon/type/16px-Normal_icon_SwSh.png) attr(ptype);color: #a8a878;}
-ptype.불꽃::before{content:url(../pokemon/type/16px-Fire_icon_SwSh.png) attr(ptype);color: #f08030;}
-ptype.물::before{content:url(../pokemon/type/16px-Water_icon_SwSh.png) attr(ptype);color: #6890f0;}
-ptype.풀::before{content:url(../pokemon/type/16px-Grass_icon_SwSh.png) attr(ptype);color: #78c850;}
-ptype.전기::before{content:url(../pokemon/type/16px-Electric_icon_SwSh.png);"전기";color: #f8d030;}
-ptype.얼음::before{content:url(../pokemon/type/16px-Ice_icon_SwSh.png);"얼음";color: #98d8d8;}
+ptype.노말::before{content:url(../pokemon/type/16px-Normal_icon_SwSh.png);}
+ptype.노말::after{content:attr(ptype) "타입";color: #a8a878;}
+ptype.불꽃::before{content:url(../pokemon/type/16px-Fire_icon_SwSh.png);}
+ptype.불꽃::after{content:attr(ptype) "타입";color: #f08030;}
+ptype.물::before{content:url(../pokemon/type/16px-Water_icon_SwSh.png);}
+ptype.불꽃::after{content:attr(ptype) "타입";color: #6890f0;}
+ptype.풀::before{content:url(../pokemon/type/16px-Grass_icon_SwSh.png);}
+ptype.풀::after{content:attr(ptype) "타입";color: #78c850;}
+ptype.전기::before{content:url(../pokemon/type/16px-Electric_icon_SwSh.png);}
+ptype.전기::after{content:attr(ptype) "타입";color: #f8d030;}
+ptype.얼음::before{content:url(../pokemon/type/16px-Ice_icon_SwSh.png);}
+ptype.얼음::after{content:attr(ptype) "타입";color: #98d8d8;}
 ptype.격투::before{content:url(../pokemon/type/16px-Fighting_icon_SwSh.png);"격투";color: #c03028;}
-ptype.독::before{content:url(../pokemon/type/16px-Poison_icon_SwSh.png);"독";color: #a040a0;}
-ptype.땅::before{content:url(../pokemon/type/16px-Ground_icon_SwSh.png);"땅";color: #e0c068;}
-ptype.비행::before{content:url(../pokemon/type/16px-Flying_icon_SwSh.png);"비행";color: #a890f0;}
-ptype.에스퍼::before{content:url(../pokemon/type/16px-Psychic_icon_SwSh.png);"에스퍼";color: #f85888;}
-ptype.벌레::before{content:url(../pokemon/type/16px-Bug_icon_SwSh.png);"벌레";color: #a8b820;}
-ptype.바위::before{content:url(../pokemon/type/16px-Rock_icon_SwSh.png);"바위";color: #b8a038;}
-ptype.고스트::before{content:url(../pokemon/type/16px-Ghost_icon_SwSh.png);"고스트";color: #705898;}
-ptype.드래곤::before{content:url(../pokemon/type/16px-Dragon_icon_SwSh.png);"드래곤";color: #7038f8;}
-ptype.악::before{content:url(../pokemon/type/16px-Dark_icon_SwSh.png);"악";color: #705848;}
-ptype.강철::before{content:url(../pokemon/type/16px-Steel_icon_SwSh.png);"강철";color: #b8b8d0;}
-ptype.페어리::before{content:url(../pokemon/type/16px-Fairy_icon_SwSh.png);"페어리";color: #ee99ac;}
-
+ptype.격투::after{content:attr(ptype) "타입";color: #c03028;}
+ptype.독::before{content:url(../pokemon/type/16px-Poison_icon_SwSh.png);}
+ptype.독::after{content:attr(ptype) "타입";color: #a040a0;}
+ptype.땅::before{content:url(../pokemon/type/16px-Ground_icon_SwSh.png);}
+ptype.땅::after{content:attr(ptype) "타입";color: #e0c068;}
+ptype.비행::before{content:url(../pokemon/type/16px-Flying_icon_SwSh.png);}
+ptype.비행::after{content:attr(ptype) "타입";color: #a890f0;}
+ptype.에스퍼::before{content:url(../pokemon/type/16px-Psychic_icon_SwSh.png);}
+ptype.에스퍼::after{content:attr(ptype) "타입";color: #f85888;}
+ptype.벌레::before{content:url(../pokemon/type/16px-Bug_icon_SwSh.png);}
+ptype.벌레::after{content:attr(ptype) "타입";color: #a8b820;}
+ptype.바위::before{content:url(../pokemon/type/16px-Rock_icon_SwSh.png);}
+ptype.바위::after{content:attr(ptype) "타입";color: #b8a038;}
+ptype.고스트::before{content:url(../pokemon/type/16px-Ghost_icon_SwSh.png);}
+ptype.고스트::after{content:attr(ptype) "타입";color: #705898;}
+ptype.드래곤::before{content:url(../pokemon/type/16px-Dragon_icon_SwSh.png);}
+ptype.드래곤::after{content:attr(ptype) "타입";color: #7038f8;}
+ptype.악::before{content:url(../pokemon/type/16px-Dark_icon_SwSh.png);}
+ptype.악::after{content:attr(ptype) "타입";color: #705848;}
+ptype.강철::before{content:url(../pokemon/type/16px-Steel_icon_SwSh.png);}
+ptype.강철::after{content:attr(ptype) "타입";color: #b8d8d0;}
+ptype.페어리::before{content:url(../pokemon/type/16px-Fairy_icon_SwSh.png);}
+ptype.페어리::after{content:attr(ptype) "타입";color: #ee99ac;}
 .image{
 	position:relative;
 	width:331px;
