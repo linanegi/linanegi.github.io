@@ -1,0 +1,148 @@
+div.frame {
+	width:331px;
+	height:649px;
+	padding-top:82px 140px 200px 400px;
+	padding-left:auto;
+	padding-right:auto;
+	font-family:'Iropke Batang';
+	background-image:url(../mobiledexcase1.png);
+}
+
+.dexno {
+	width:105px;
+	height:50px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-left:auto;
+	text-align:center;
+	font-size:10px;
+	line-height:15px;
+}
+
+div.dexno dexclass{
+	font-weight:900;
+	text-shadow:-1px 0 white,0 1px white,1px 0 white,0 -1px white, 1px 1px white, -1px 1px white, 1px -1px white, -1px -1px white;
+	color:#222;
+}
+
+div.dexno dexclass.KantoDex::before{
+	content:"R" "G" "B" "Y";
+	color:#BA1922 #485943 #218CA5 #EEDB42;
+}
+
+div.dexno dexclass.JohtoDexGSC::before{
+	content:"G" "S" "C";
+	color:#CBB661 #C6D0CF #00dddd;
+}
+
+div.dexno dexclass.JohtoDexHGSS::before{
+	content:"HG" "SS";
+	color:#E0BA26 #C7D9E4;
+}
+
+div.dexno dexclass.HoennRS::before{
+	content:"R" "S" "E";
+	color:#AE3F30 #5571A2 #3C8360;
+}
+
+div.dexno dexclass.HoennORAS::before{
+	content:"ΩR" "αS";
+	color:#C12D2A #3A5382;
+}
+
+div.dexno dexclass.Sinnoh::before{
+	content:"D" "P" "Pt";
+	color:#9398CF #D7BCD0 #DBD0B4;
+}
+
+div.dexno dexclass.UnovaBW::before{
+	content:"B" "W";
+	color:#23201D #D5DDD9;
+}
+
+div.dexno dexclass.UnovaBW2::before{
+	content:"B2" "W2";
+	color:#1788BF #E05239;
+}
+
+div.dexno dexclass.Kalos::before{
+	content:"X" "Y";
+	color:#0D53A3 #CD203C;
+}
+
+div.dexno dexclass.Galar::before{
+	content:"Sw" "Sh";
+	color:#00A0E9 #E5005A;
+}
+
+div.dexno dexclass.GalarEx{
+	content:"IA" "CT";
+	color:#00c0f0 #f2007b;
+}
+
+.typetx {
+	width:331px;
+	height:60px;
+	padding: 5px auto;
+	font-weight:900;
+	text-shadow:-1px 0 white,0 1px white,1px 0 white,0 -1px white, 1px 1px white, -1px 1px white, 1px -1px white, -1px -1px white;
+	color:#222;
+}
+
+div.typetx ptype{
+	font-weight:900;
+}
+
+ptype.노말 {color: #a8a878; content:"노말";}
+ptype.불꽃 {color: #f08030; content:"불꽃";}
+ptype.물 {color: #6890f0; content:"물";}
+ptype.풀 {color: #78c850; content:"풀";}
+ptype.전기 {color: #f8d030; content:"전기";}
+ptype.얼음 {color: #98d8d8; content:"얼음";}
+ptype.격투 {color: #c03028; content:"격투";}
+ptype.독 {color: #a040a0; content:"독";}
+ptype.땅 {color: #e0c068; content:"땅";}
+ptype.비행 {color: #a890f0; content:"비행";}
+ptype.에스퍼 {color: #f85888; content:"에스퍼";}
+ptype.벌레 {color: #a8b820; content:"벌레";}
+ptype.바위 {color: #b8a038; content:"바위";}
+ptype.고스트 {color: #705898; content:"고스트";}
+ptype.드래곤 {color: #7038f8; content:"드래곤";}
+ptype.악 {color: #705848; content:"악";}
+ptype.강철 {color: #b8b8d0; content:"강철";}
+ptype.페어리 {color: #ee99ac; content:"페어리";}
+ptype.노말::before{content:url(../pokemon/type/16px-Normal_icon_SwSh.png);}
+ptype.불꽃::before{content:url(../pokemon/type/16px-Fire_icon_SwSh.png);}
+ptype.물::before{content:url(../pokemon/type/16px-Water_icon_SwSh.png);}
+ptype.풀::before{content:url(../pokemon/type/16px-Grass_icon_SwSh.png);}
+ptype.전기::before{content:url(../pokemon/type/16px-Electric_icon_SwSh.png);}
+ptype.얼음::before{content:url(../pokemon/type/16px-Ice_icon_SwSh.png);}
+ptype.격투::before{content:url(../pokemon/type/16px-Fighting_icon_SwSh.png);}
+ptype.독::before{content:url(../pokemon/type/16px-Poison_icon_SwSh.png);}
+ptype.땅::before{content:url(../pokemon/type/16px-Ground_icon_SwSh.png);}
+ptype.비행::before{content:url(../pokemon/type/16px-Flying_icon_SwSh.png);}
+ptype.에스퍼::before{content:url(../pokemon/type/16px-Psychic_icon_SwSh.png);}
+ptype.벌레::before{content:url(../pokemon/type/16px-Bug_icon_SwSh.png);}
+ptype.바위::before{content:url(../pokemon/type/16px-Rock_icon_SwSh.png);}
+ptype.고스트::before{content:url(../pokemon/type/16px-Ghost_icon_SwSh.png);}
+ptype.드래곤::before{content:url(../pokemon/type/16px-Dragon_icon_SwSh.png);}
+ptype.악::before{content:url(../pokemon/type/16px-Dark_icon_SwSh.png);}
+ptype.강철::before{content:url(../pokemon/type/16px-Steel_icon_SwSh.png);}
+ptype.페어리::before{content:url(../pokemon/type/16px-Fairy_icon_SwSh.png);}
+
+.image{
+	width:331px;
+	height:200px;
+	padding:auto;
+	text-align:center;
+}
+.text{
+	width:331px;
+	height:110px;
+	padding: 10px auto;
+	text-align:left;
+	text-shadow:-1px 0 white,0 1px white,1px 0 white,0 -1px white, 1px 1px white, -1px 1px white, 1px -1px white, -1px -1px white;
+	font-weight:400;
+	color:#222;
+	font-size:20px;
+}
