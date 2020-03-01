@@ -4,6 +4,7 @@ div.frame {
 	padding-top:82px 140px 200px 400px;
 	padding-left:auto;
 	padding-right:auto;
+	margin-left:10px;
 	font-family:'Iropke Batang';
 	background-image:url(../mobiledexcase1.png);
 }
@@ -11,9 +12,10 @@ div.frame {
 .dexno {
 	width:210px;
 	height:50px;
+	margin-left:60px;
+	margin-right:60px;
 	padding-top:5px;
 	padding-bottom:5px;
-	margin-left:auto;
 	text-align:center;
 	font-size:10px;
 	line-height:15px;
