@@ -135,18 +135,18 @@ div.dexno dexclass.GalarEx{
 
 .typetx {
 	position:relative;
-	width:137px;
+	width:141px;
 	height:60px;
 	margin-top:0px;
-	margin-left: 97px;
-	margin-right: 97px;
-	padding-top: 5px;
+	margin-left: 95px;
+	margin-right: 95px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 	padding-left: auto;
 	font-weight:900;
 	text-shadow:-1px 0 white,0 1px white,1px 0 white,0 -1px white, 1px 1px white, -1px 1px white, 1px -1px white, -1px -1px white;
 	color:#222;
 	text-align:center;
-	background-color:#f00;
 }
 div.typetx ptype{
 	font-weight:900;
