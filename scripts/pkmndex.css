@@ -149,9 +149,9 @@ div.typetx ptype{
 	font-weight:900;
 }
 
-ptype.노말::before{content:url(../pokemon/type/16px-Normal_icon_SwSh.png);"노말";color: #a8a878;}
-ptype.불꽃::before{content:url(../pokemon/type/16px-Fire_icon_SwSh.png);"불꽃";color: #f08030;}
-ptype.물::before{content:url(../pokemon/type/16px-Water_icon_SwSh.png);"물";color: #6890f0;}
+ptype.노말::before{content:url(../pokemon/type/16px-Normal_icon_SwSh.png);attr(ptype);color: #a8a878;}
+ptype.불꽃::before{content:url(../pokemon/type/16px-Fire_icon_SwSh.png);attr(ptype);color: #f08030;}
+ptype.물::before{content:url(../pokemon/type/16px-Water_icon_SwSh.png);attr(ptype);color: #6890f0;}
 ptype.풀::before{content:url(../pokemon/type/16px-Grass_icon_SwSh.png);"풀";color: #78c850;}
 ptype.전기::before{content:url(../pokemon/type/16px-Electric_icon_SwSh.png);"전기";color: #f8d030;}
 ptype.얼음::before{content:url(../pokemon/type/16px-Ice_icon_SwSh.png);"얼음";color: #98d8d8;}
