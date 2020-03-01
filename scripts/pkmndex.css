@@ -209,8 +209,6 @@ ptype.페어리::after{content:attr(class) "타입";color: #ee99ac;}
 	heigth:200px;
 	background-repeat:no-repeat;
 	background-position:center;
-	padding:auto;
-	margin:auto;
 }
 .imageframe div.alternativeform{
 	position:relative;
@@ -219,8 +217,6 @@ ptype.페어리::after{content:attr(class) "타입";color: #ee99ac;}
 	heigth:200px;
 	background-repeat:no-repeat;
 	background-position:center;
-	padding:auto;
-	margin:auto;
 }
 .text{
 	position:relative;
