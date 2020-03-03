@@ -8,6 +8,28 @@
        url('../fonts/IropkeBatangM.ttf') format('truetype');
 }
 
+#table {display: table; width: 100%;}
+.row {display: table-row;}
+.row {display: table-row;}
+.cell {display: table-cell; padding: 3px; border-bottom: 1px solid #DDD;}
+.col0 {width: 10%;}
+.col1 {width: 10%;}
+.col2 {width: 10%;}
+.col3 {width: 10%;}
+.col4 {width: 10%;}
+.col5 {width: 10%;}
+.col6 {width: 10%;}
+.col7 {width: 10%;}
+.col8 {width: 10%;}
+.col9 {width: 10%;}
+.effective {color:#f00;font-weight:900;}
+.noteffective {color:#0f0;font-weight:900;}
+.noeffect {color:#00f;font-weight:900;}
+.mean {font-weight:400;}
+.supereffective {color:#f00;font-weight:900;font-size:1em;}
+.notsupereffective {color:#00f;font-weight:900;font-size:1em;}
+
+
 div.frame {
 	position:relative;
 	width:331px;
