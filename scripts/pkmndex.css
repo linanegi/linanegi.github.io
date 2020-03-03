@@ -182,6 +182,7 @@ div.typetx ptype{
 	font-weight:900;
 }
 
+ptype.■::after{content:attr(class) "타입";color: #000;}
 ptype.노말::before{content:url(../pokemon/type/16px-Normal_icon_SwSh.png);}
 ptype.노말::after{content:attr(class) "타입";color: #a8a878;}
 ptype.불꽃::before{content:url(../pokemon/type/16px-Fire_icon_SwSh.png);}
