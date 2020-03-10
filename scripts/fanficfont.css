@@ -27,6 +27,17 @@ span.artifact{font-size:1.3em;}
 div ruby{font-size:1.3em;}
 div ruby rt{font-size:1em;}
 
+img.infinite_rotating_logo{
+    animation: rotate_image 10s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes rotate_image{
+	100% {
+    	transform: rotate(360deg);
+    }
+}
+
 a.tooltip
 	{
 		outline:none;
