@@ -47,7 +47,7 @@ threadcounter > p > ch1 {
 }
 threadcounter > p > ch1::before {
 	content: '\A' counter(cnt) '. ';
-	font-size:1.5em;
+	font-size:1.3em;
 	font-weight:900;
 	color:#666666;
 	white-space: pre;
@@ -71,7 +71,7 @@ threadcounter > p.named > ch2 {
 }
 threadcounter > p.named > ch2::before{
 	content: '\A' counter(cnt) '. ';
-	font-size:1.5em;
+	font-size:1.3em;
 	font-weight:900;
 	text-shadow: rgb(0, 255, 0) 0px 0px 3px;
 	color: #006600;
