@@ -52,6 +52,11 @@ threadcounter > p > ch1::before {
 	color:#666666;
 	white-space: pre;
 }
+threadcounter > p > ch1::after {
+	line-height:0.2em;
+	content: '\A'
+	white-space: pre;
+}
 threadcounter > p.named{
 	counter-increment: cnt;
 	font-size:1.3em;
@@ -70,6 +75,11 @@ threadcounter > p.named > ch2::before{
 	font-weight:900 !important;
 	text-shadow: rgb(0, 255, 0) 0px 0px 3px !important;
 	color: #006600 !important;
+	white-space: pre;
+}
+threadcounter > p.named > ch2::after {
+	line-height:0.2em;
+	content: '\A'
 	white-space: pre;
 }
 threadcounter > p > rdt {
