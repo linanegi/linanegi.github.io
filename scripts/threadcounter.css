@@ -1,9 +1,9 @@
 div.attention{
 	text-align: center;
 	font-weight:900;
-	font-size:2em;
+	font-size:1.8em;
 	font-family:'맑은 고딕';
-	line-height:2.2em;
+	line-height:2em;
 }
 div.title{
 	font-size:2em;
@@ -34,20 +34,20 @@ threadcounter{
 }
 threadcounter > p {
 	counter-increment: cnt;
-	font-size:1.3em;
+	font-size:1.2em;
 	font-weight:400;
 	font-family:'맑은 고딕';
 	text-indent: -1em;
 	margin-left: 1em;
 }
 threadcounter > p > ch1 {
-	font-size:1.5em;
+	font-size:1.4em;
 	font-weight:900;
 	color:#666666;
 }
 threadcounter > p > ch1::before {
 	content: '\A' counter(cnt) '. ';
-	font-size:1.3em;
+	font-size:1.2em;
 	font-weight:900;
 	color:#666666;
 	white-space: pre;
@@ -59,25 +59,30 @@ threadcounter > p > ch1::after {
 }
 threadcounter > p.named{
 	counter-increment: cnt;
-	font-size:1.3em;
+	font-size:1.2em;
 	font-weight:400;
 	font-family:'맑은 고딕';
 }
 threadcounter > p.named > ch2 {
-	font-size:1.5em;
+	font-size:1.4em;
 	font-weight:900;
 	text-shadow: rgb(0, 255, 0) 0px 0px 3px;
 	color: #006600;
 }
 threadcounter > p.named > ch2::before{
 	content: '\A' counter(cnt) '. ';
-	font-size:1.3em;
+	font-size:1.2em;
 	font-weight:900;
 	text-shadow: rgb(0, 255, 0) 0px 0px 3px;
 	color: #006600;
 	white-space: pre;
 }
 threadcounter > p.named > ch2::after {
+	line-height:0.2em;
+	content: '\A';
+	white-space: pre;
+}
+threadcounter > p::after {
 	line-height:0.2em;
 	content: '\A';
 	white-space: pre;
