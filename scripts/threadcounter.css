@@ -25,7 +25,7 @@ div.title::after{
 	margin:20px 0px;
 }
 threadcounter{
-  padding: 1em;
+  padding-left: 1em;
   width: 100%;
   max-width: 700px;
   margin: 0 auto;
