@@ -71,3 +71,6 @@ p rdt::before {
 	color: #ffffff;
 	content:">>";
 }
+p rdt::after {
+	content:" ";
+}
