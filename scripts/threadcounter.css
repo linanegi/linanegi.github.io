@@ -3,6 +3,7 @@ div.attention{
 	font-weight:900;
 	font-size:2em;
 	font-family:'맑은 고딕';
+	line-heigth:2.1em;
 }
 div.title{
 	font-size:2em;
@@ -45,7 +46,7 @@ p::first-line {
 	color:#666666;
 }
 p::before {
-	content: counter(cnt) '. ';
+	content: '\A' counter(cnt) '. ';
 	font-size:1.2em;
 	font-weight:900;
 	color:#666666;
@@ -64,7 +65,7 @@ p.named::first-line {
 	color: #006600;
 }
 p.named::before{
-	content: counter(cnt) '. ';
+	content: '\A' counter(cnt) '. ';
 	font-size:1.2em;
 	font-weight:900;
 	text-shadow: rgb(0, 255, 0) 0px 0px 3px;
