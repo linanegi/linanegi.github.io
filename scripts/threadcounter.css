@@ -1,0 +1,64 @@
+div.title{
+	font-size:2em;
+	font-weight:900;
+	text-align:center;
+	font-family:'맑은 고딕';
+}
+div.title::before{
+	content: "";
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #bcbcbc;
+	margin:20px 0px;
+}
+div.title::after{
+	content: "";
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #bcbcbc;
+	margin:20px 0px;
+}
+threadcounter{
+  padding: 1em;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+p{
+	counter-increment: cnt;
+	font-size:1em;
+	font-weight:400;
+	font-family:'맑은 고딕';
+}
+p::first-line {
+	font-size:1.2em;
+	font-weight:900;
+	color:#666666;
+}
+p::before {
+	content: counter(cnt) '. ';
+	font-size:1.2em;
+	font-weight:900;
+	color:#666666;
+	white-space: pre;
+}
+p.named{
+	counter-increment: cnt;
+	font-size:1em;
+	font-weight:400;
+	font-family:'맑은 고딕';
+}
+p.named::first-line {
+	font-size:1.2em;
+	font-weight:900;
+	text-shadow: rgb(0, 255, 0) 0px 0px 3px;
+	color: #006600;
+}
+p.named::before{
+	content: counter(cnt) '. ';
+	font-size:1.2em;
+	font-weight:900;
+	text-shadow: rgb(0, 255, 0) 0px 0px 3px;
+	color: #006600;
+	white-space: pre;
+}
