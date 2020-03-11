@@ -40,6 +40,16 @@ div.Title::before {
   margin:20px 0px;
 }
 
+div.mmain div.chiubbs {
+	text-align:right;
+	font-style:italic;
+	font-family:'맑은 고딕';
+}
+div.mmain div.chiubbs::first-line {
+	color:#949494;
+	font-weight:900;
+	font-family:'BadaB', '맑은 고딕';
+}
 span.artifact{
 	font-size:1.3em;
 }
