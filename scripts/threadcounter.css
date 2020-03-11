@@ -34,39 +34,39 @@ threadcounter{
 }
 p{
 	counter-increment: cnt;
-	font-size:1em;
+	font-size:1.3em;
 	font-weight:400;
 	font-family:'맑은 고딕';
 	text-indent: -15px;
 	margin-left: 15px;
 }
 p::first-line {
-	font-size:1.2em;
+	font-size:1.5em;
 	font-weight:900;
 	color:#666666;
 }
 p::before {
 	content: '\A' counter(cnt) '. ';
-	font-size:1.2em;
+	font-size:1.5em;
 	font-weight:900;
 	color:#666666;
 	white-space: pre;
 }
 p.named{
 	counter-increment: cnt;
-	font-size:1em;
+	font-size:1.3em;
 	font-weight:400;
 	font-family:'맑은 고딕';
 }
 p.named::first-line {
-	font-size:1.2em;
+	font-size:1.5em;
 	font-weight:900;
 	text-shadow: rgb(0, 255, 0) 0px 0px 3px;
 	color: #006600;
 }
 p.named::before{
 	content: '\A' counter(cnt) '. ';
-	font-size:1.2em;
+	font-size:1.5em;
 	font-weight:900;
 	text-shadow: rgb(0, 255, 0) 0px 0px 3px;
 	color: #006600;
