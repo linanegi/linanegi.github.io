@@ -11,6 +11,15 @@
 }
 
 @font-face {
+    font-family: 'Zzanggu';
+    src: url('../fonts/UhBee Rami.woff') format('woff'),
+         url('../fonts/UhBee Rami.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
     font-family: 'WLoZ';
     src: url('../fonts/WLoZ.eot');
     src: url('../fonts/WLoZ.eot?#iefix') format('embedded-opentype'),
@@ -51,6 +60,11 @@ div.mmain div.chiubbs::first-line {
 	font-weight:900;
 	font-size:1.2em;
 }
+
+div.mmain div.kamo {
+	font-family:'Zzanggu';
+}
+
 span.artifact{
 	font-size:1.3em;
 }
