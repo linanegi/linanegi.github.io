@@ -3,7 +3,7 @@ div.attention{
 	font-weight:900;
 	font-size:2em;
 	font-family:'맑은 고딕';
-	line-heigth:2.1em;
+	line-heigth:2.3em;
 }
 div.title{
 	font-size:2em;
@@ -37,8 +37,8 @@ p{
 	font-size:1.3em;
 	font-weight:400;
 	font-family:'맑은 고딕';
-	text-indent: -15px;
-	margin-left: 15px;
+	text-indent: -1em;
+	margin-left: 1em;
 }
 p::first-line {
 	font-size:1.5em;
