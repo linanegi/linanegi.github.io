@@ -11,7 +11,7 @@
 }
 
 @font-face {
-    font-family: 'Rami';
+    font-family: 'Zzanggu';
     src: url('../fonts/UhBee Rami.eot');
     src: url('../fonts/UhBee Rami.eot?#iefix') format('embedded-opentype'),
          url('../fonts/UhBee Rami.woff') format('woff'),
@@ -21,9 +21,9 @@
 }
 
 @font-face {
-    font-family: 'Zzanggu';
-    src: url('../fonts/UhBee Rami.woff') format('woff'),
-         url('../fonts/UhBee Rami.ttf') format('truetype');
+    font-family: '우야깨붕';
+    src: url('../fonts/UhBee Wooyakeboong.woff') format('woff'),
+         url('../fonts/UhBee Wooyakeboong.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -88,7 +88,7 @@ div.mmain div.chiubbs::first-line {
 }
 
 div.mmain div.kamo {
-	font-family:'Rami';
+	font-family:'우야깨붕';
 	font-size:1.2em;
 }
 
