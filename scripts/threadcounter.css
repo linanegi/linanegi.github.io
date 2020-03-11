@@ -25,10 +25,11 @@ div.title::after{
 	margin:20px 0px;
 }
 threadcounter{
-  padding-left: 1em;
-  width: 100%;
-  max-width: 700px;
-  margin: 0 auto;
+	  padding-left:20px;
+	  padding:1em;
+	  width: 100%;
+	  max-width: 700px;
+	  margin: 0 auto;
 }
 p{
 	counter-increment: cnt;
