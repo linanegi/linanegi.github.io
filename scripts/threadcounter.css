@@ -66,3 +66,8 @@ p rdt {
 	text-shadow: rgb(255, 0, 0) 0px 0px 3px;
 	color: #ffffff;
 }
+p rdt::before {
+	text-shadow: rgb(255, 0, 0) 0px 0px 3px;
+	color: #ffffff;
+	content:">>";
+}
