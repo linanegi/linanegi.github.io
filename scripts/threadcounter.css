@@ -1,38 +1,142 @@
-div.attention{
+write_content div.attention{
 	text-align: center;
 	font-weight:900;
-	font-size:1.8em;
+	font-size:1.5em;
 	font-family:'맑은 고딕';
-	line-height:2em;
+	line-height:1.8em;
 }
-div.title{
-	font-size:2em;
+write_content div.title{
+	font-size:1.5em;
 	font-weight:900;
 	text-align:center;
 	font-family:'맑은 고딕';
 }
-div.title::before{
+write_content div.title::before{
 	content: "";
 	display: block;
 	width: 100%;
 	border-bottom: 1px solid #bcbcbc;
 	margin:20px 0px;
 }
-div.title::after{
+write_content div.title::after{
 	content: "";
 	display: block;
 	width: 100%;
 	border-bottom: 1px solid #bcbcbc;
 	margin:20px 0px;
 }
-threadcounter{
+write_content threadcounter{
 	  padding-left:20px;
 	  padding:1em;
 	  width: 100%;
 	  max-width: 700px;
 	  margin: 0 auto;
 }
-threadcounter > p {
+write_content threadcounter > p {
+	counter-increment: cnt;
+	font-size:0.8em;
+	font-weight:400;
+	font-family:'맑은 고딕';
+	text-indent: -1em;
+	margin-left: 1em;
+}
+write_content threadcounter > p > ch1 {
+	font-size:1em;
+	font-weight:900;
+	color:#666666;
+}
+write_content threadcounter > p > ch1::before {
+	content: '\A' counter(cnt) '. ';
+	font-size:0.8em;
+	font-weight:900;
+	color:#666666;
+	white-space: pre;
+}
+write_content threadcounter > p > ch1::after {
+	line-height:0.1em;
+	content: '\A';
+	white-space: pre;
+}
+write_content threadcounter > p.named{
+	counter-increment: cnt;
+	font-size:0.8em;
+	font-weight:400;
+	font-family:'맑은 고딕';
+}
+write_content threadcounter > p.named > ch2 {
+	font-size:1em;
+	font-weight:900;
+	text-shadow: rgb(0, 255, 0) 0px 0px 3px;
+	color: #006600;
+}
+write_content threadcounter > p.named > ch2::before{
+	content: '\A' counter(cnt) '. ';
+	font-size:0.8em;
+	font-weight:900;
+	text-shadow: rgb(0, 255, 0) 0px 0px 3px;
+	color: #006600;
+	white-space: pre;
+}
+write_content threadcounter > p.named > ch2::after {
+	line-height:0.1em;
+	content: '\A';
+	white-space: pre;
+}
+write_content threadcounter > p::after {
+	line-height:0.1em;
+	content: '\A';
+	white-space: pre;
+}
+write_content threadcounter > p > rdt {
+	text-shadow: rgb(255, 0, 0) 0px 0px 3px;
+	color: #ffffff;
+	font-weight:900;
+}
+write_content threadcounter > p > rdt::before {
+	text-shadow: rgb(255, 0, 0) 0px 0px 3px;
+	color: #ffffff;
+	content:">>";
+	font-weight:900;
+}
+write_content threadcounter > p > rdt::after {
+	content:" ";
+}
+
+view_content div.attention{
+	text-align: center;
+	font-weight:900;
+	font-size:1.8em;
+	font-family:'맑은 고딕';
+	line-height:2em;
+}
+view_content div.title{
+	font-size:2em;
+	font-weight:900;
+	text-align:center;
+	font-family:'맑은 고딕';
+}
+view_content div.title::before{
+	content: "";
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #bcbcbc;
+	margin:20px 0px;
+}
+view_content div.title::after{
+	content: "";
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #bcbcbc;
+	margin:20px 0px;
+}
+view_content threadcounter{
+	  padding-left:20px;
+	  padding:1em;
+	  width: 100%;
+	  max-width: 700px;
+	  margin: 0 auto;
+}
+view_content threadcounter > p {
 	counter-increment: cnt;
 	font-size:1.2em;
 	font-weight:400;
@@ -40,36 +144,36 @@ threadcounter > p {
 	text-indent: -1em;
 	margin-left: 1em;
 }
-threadcounter > p > ch1 {
+view_content threadcounter > p > ch1 {
 	font-size:1.4em;
 	font-weight:900;
 	color:#666666;
 }
-threadcounter > p > ch1::before {
+view_content threadcounter > p > ch1::before {
 	content: '\A' counter(cnt) '. ';
 	font-size:1.2em;
 	font-weight:900;
 	color:#666666;
 	white-space: pre;
 }
-threadcounter > p > ch1::after {
+view_content threadcounter > p > ch1::after {
 	line-height:0.2em;
 	content: '\A';
 	white-space: pre;
 }
-threadcounter > p.named{
+view_content threadcounter > p.named{
 	counter-increment: cnt;
 	font-size:1.2em;
 	font-weight:400;
 	font-family:'맑은 고딕';
 }
-threadcounter > p.named > ch2 {
+view_content threadcounter > p.named > ch2 {
 	font-size:1.4em;
 	font-weight:900;
 	text-shadow: rgb(0, 255, 0) 0px 0px 3px;
 	color: #006600;
 }
-threadcounter > p.named > ch2::before{
+view_content threadcounter > p.named > ch2::before{
 	content: '\A' counter(cnt) '. ';
 	font-size:1.2em;
 	font-weight:900;
@@ -77,27 +181,27 @@ threadcounter > p.named > ch2::before{
 	color: #006600;
 	white-space: pre;
 }
-threadcounter > p.named > ch2::after {
+view_content threadcounter > p.named > ch2::after {
 	line-height:0.2em;
 	content: '\A';
 	white-space: pre;
 }
-threadcounter > p::after {
+view_content threadcounter > p::after {
 	line-height:0.2em;
 	content: '\A';
 	white-space: pre;
 }
-threadcounter > p > rdt {
+view_content threadcounter > p > rdt {
 	text-shadow: rgb(255, 0, 0) 0px 0px 3px;
 	color: #ffffff;
 	font-weight:900;
 }
-threadcounter > p > rdt::before {
+view_content threadcounter > p > rdt::before {
 	text-shadow: rgb(255, 0, 0) 0px 0px 3px;
 	color: #ffffff;
 	content:">>";
 	font-weight:900;
 }
-threadcounter > p > rdt::after {
+view_content threadcounter > p > rdt::after {
 	content:" ";
 }
