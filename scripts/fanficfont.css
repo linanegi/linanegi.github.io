@@ -26,6 +26,11 @@ div.mmain {
 	font-family: 'Comic Sans MS', '맑은 고딕';
 	font-variant: small-caps;
 }
+.mmain div.Title {
+	font-size: 2em;
+	font-weight:900;
+	text-align:center;
+}
 span.artifact{
 	font-size:1.3em;
 }
