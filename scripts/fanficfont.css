@@ -31,6 +31,15 @@ div.mmain {
 	font-weight:900;
 	text-align:center;
 }
+
+div.Title::before {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #bcbcbc;
+  margin:20px 0px;
+}
+
 span.artifact{
 	font-size:1.3em;
 }
