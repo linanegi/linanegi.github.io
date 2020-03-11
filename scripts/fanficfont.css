@@ -22,10 +22,19 @@
 
 }
 
-div.mmain{font-family: 'Comic Sans MS', '맑은 고딕';}
-span.artifact{font-size:1.3em;}
-div ruby{font-size:1.3em;}
-div ruby rt{font-size:1em;}
+div.mmain {
+	font-family: 'Comic Sans MS', '맑은 고딕';
+	font-variant: small-caps;
+}
+span.artifact{
+	font-size:1.3em;
+}
+div ruby{
+	font-size:1.3em;
+}
+div ruby rt{
+	font-size:1em;
+}
 
 img.infinite_rotating_logo{
     animation: rotate_image 10s linear infinite;
