@@ -54,7 +54,7 @@ threadcounter > p > ch1::before {
 }
 threadcounter > p > ch1::after {
 	line-height:0.2em;
-	content: '\A'
+	content: '\A';
 	white-space: pre;
 }
 threadcounter > p.named{
@@ -79,7 +79,7 @@ threadcounter > p.named > ch2::before{
 }
 threadcounter > p.named > ch2::after {
 	line-height:0.2em;
-	content: '\A'
+	content: '\A';
 	white-space: pre;
 }
 threadcounter > p > rdt {
