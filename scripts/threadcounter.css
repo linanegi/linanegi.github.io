@@ -1,38 +1,38 @@
-write_content div.attention{
+div.write_content > div.attention{
 	text-align: center;
 	font-weight:900;
 	font-size:1.5em;
 	font-family:'맑은 고딕';
 	line-height:1.8em;
 }
-write_content div.title{
+div.write_content > div.title{
 	font-size:1.5em;
 	font-weight:900;
 	text-align:center;
 	font-family:'맑은 고딕';
 }
-write_content div.title::before{
+div.write_content > div.title::before{
 	content: "";
 	display: block;
 	width: 100%;
 	border-bottom: 1px solid #bcbcbc;
 	margin:20px 0px;
 }
-write_content div.title::after{
+div.write_content > div.title::after{
 	content: "";
 	display: block;
 	width: 100%;
 	border-bottom: 1px solid #bcbcbc;
 	margin:20px 0px;
 }
-write_content threadcounter{
+div.write_content > threadcounter{
 	  padding-left:20px;
 	  padding:1em;
 	  width: 100%;
 	  max-width: 700px;
 	  margin: 0 auto;
 }
-write_content threadcounter > p {
+div.write_content > threadcounter > p {
 	counter-increment: cnt;
 	font-size:0.8em;
 	font-weight:400;
@@ -40,36 +40,36 @@ write_content threadcounter > p {
 	text-indent: -1em;
 	margin-left: 1em;
 }
-write_content threadcounter > p > ch1 {
+div.write_content > threadcounter > p > ch1 {
 	font-size:1em;
 	font-weight:900;
 	color:#666666;
 }
-write_content threadcounter > p > ch1::before {
+div.write_content > threadcounter > p > ch1::before {
 	content: '\A' counter(cnt) '. ';
 	font-size:0.8em;
 	font-weight:900;
 	color:#666666;
 	white-space: pre;
 }
-write_content threadcounter > p > ch1::after {
+div.write_content > threadcounter > p > ch1::after {
 	line-height:0.1em;
 	content: '\A';
 	white-space: pre;
 }
-write_content threadcounter > p.named{
+div.write_content > threadcounter > p.named{
 	counter-increment: cnt;
 	font-size:0.8em;
 	font-weight:400;
 	font-family:'맑은 고딕';
 }
-write_content threadcounter > p.named > ch2 {
+div.write_content > threadcounter > p.named > ch2 {
 	font-size:1em;
 	font-weight:900;
 	text-shadow: rgb(0, 255, 0) 0px 0px 3px;
 	color: #006600;
 }
-write_content threadcounter > p.named > ch2::before{
+div.write_content > threadcounter > p.named > ch2::before{
 	content: '\A' counter(cnt) '. ';
 	font-size:0.8em;
 	font-weight:900;
@@ -77,66 +77,66 @@ write_content threadcounter > p.named > ch2::before{
 	color: #006600;
 	white-space: pre;
 }
-write_content threadcounter > p.named > ch2::after {
+div.write_content > threadcounter > p.named > ch2::after {
 	line-height:0.1em;
 	content: '\A';
 	white-space: pre;
 }
-write_content threadcounter > p::after {
+div.write_content > threadcounter > p::after {
 	line-height:0.1em;
 	content: '\A';
 	white-space: pre;
 }
-write_content threadcounter > p > rdt {
+div.write_content > threadcounter > p > rdt {
 	text-shadow: rgb(255, 0, 0) 0px 0px 3px;
 	color: #ffffff;
 	font-weight:900;
 }
-write_content threadcounter > p > rdt::before {
+div.write_content > threadcounter > p > rdt::before {
 	text-shadow: rgb(255, 0, 0) 0px 0px 3px;
 	color: #ffffff;
 	content:">>";
 	font-weight:900;
 }
-write_content threadcounter > p > rdt::after {
+div.write_content > threadcounter > p > rdt::after {
 	content:" ";
 }
 
-view_content div.attention{
+td.mw_basic_view_content > div#view_content div.attention{
 	text-align: center;
 	font-weight:900;
 	font-size:1.8em;
 	font-family:'맑은 고딕';
 	line-height:2em;
 }
-view_content div.title{
+td.mw_basic_view_content > div#view_content div.title{
 	font-size:2em;
 	font-weight:900;
 	text-align:center;
 	font-family:'맑은 고딕';
 }
-view_content div.title::before{
+td.mw_basic_view_content > div#view_content div.title::before{
 	content: "";
 	display: block;
 	width: 100%;
 	border-bottom: 1px solid #bcbcbc;
 	margin:20px 0px;
 }
-view_content div.title::after{
+td.mw_basic_view_content > div#view_content div.title::after{
 	content: "";
 	display: block;
 	width: 100%;
 	border-bottom: 1px solid #bcbcbc;
 	margin:20px 0px;
 }
-view_content threadcounter{
+td.mw_basic_view_content > div#view_content > threadcounter{
 	  padding-left:20px;
 	  padding:1em;
 	  width: 100%;
 	  max-width: 700px;
 	  margin: 0 auto;
 }
-view_content threadcounter > p {
+td.mw_basic_view_content > div#view_content > threadcounter > p {
 	counter-increment: cnt;
 	font-size:1.2em;
 	font-weight:400;
@@ -144,36 +144,36 @@ view_content threadcounter > p {
 	text-indent: -1em;
 	margin-left: 1em;
 }
-view_content threadcounter > p > ch1 {
+td.mw_basic_view_content > div#view_content > threadcounter > p > ch1 {
 	font-size:1.4em;
 	font-weight:900;
 	color:#666666;
 }
-view_content threadcounter > p > ch1::before {
+td.mw_basic_view_content > div#view_content > threadcounter > p > ch1::before {
 	content: '\A' counter(cnt) '. ';
 	font-size:1.2em;
 	font-weight:900;
 	color:#666666;
 	white-space: pre;
 }
-view_content threadcounter > p > ch1::after {
+td.mw_basic_view_content > div#view_content > threadcounter > p > ch1::after {
 	line-height:0.2em;
 	content: '\A';
 	white-space: pre;
 }
-view_content threadcounter > p.named{
+td.mw_basic_view_content > div#view_content > threadcounter > p.named{
 	counter-increment: cnt;
 	font-size:1.2em;
 	font-weight:400;
 	font-family:'맑은 고딕';
 }
-view_content threadcounter > p.named > ch2 {
+td.mw_basic_view_content > div#view_content > threadcounter > p.named > ch2 {
 	font-size:1.4em;
 	font-weight:900;
 	text-shadow: rgb(0, 255, 0) 0px 0px 3px;
 	color: #006600;
 }
-view_content threadcounter > p.named > ch2::before{
+td.mw_basic_view_content > div#view_content > threadcounter > p.named > ch2::before{
 	content: '\A' counter(cnt) '. ';
 	font-size:1.2em;
 	font-weight:900;
@@ -181,27 +181,27 @@ view_content threadcounter > p.named > ch2::before{
 	color: #006600;
 	white-space: pre;
 }
-view_content threadcounter > p.named > ch2::after {
+td.mw_basic_view_content > div#view_content > threadcounter > p.named > ch2::after {
 	line-height:0.2em;
 	content: '\A';
 	white-space: pre;
 }
-view_content threadcounter > p::after {
+td.mw_basic_view_content > div#view_content > threadcounter > p::after {
 	line-height:0.2em;
 	content: '\A';
 	white-space: pre;
 }
-view_content threadcounter > p > rdt {
+td.mw_basic_view_content > div#view_content > threadcounter > p > rdt {
 	text-shadow: rgb(255, 0, 0) 0px 0px 3px;
 	color: #ffffff;
 	font-weight:900;
 }
-view_content threadcounter > p > rdt::before {
+td.mw_basic_view_content > div#view_content > threadcounter > p > rdt::before {
 	text-shadow: rgb(255, 0, 0) 0px 0px 3px;
 	color: #ffffff;
 	content:">>";
 	font-weight:900;
 }
-view_content threadcounter > p > rdt::after {
+td.mw_basic_view_content > div#view_content > threadcounter > p > rdt::after {
 	content:" ";
 }
