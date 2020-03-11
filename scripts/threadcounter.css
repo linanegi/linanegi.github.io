@@ -32,7 +32,7 @@ threadcounter{
 	  max-width: 700px;
 	  margin: 0 auto;
 }
-threadcounter > p{
+threadcounter > p {
 	counter-increment: cnt;
 	font-size:1.3em;
 	font-weight:400;
@@ -40,12 +40,12 @@ threadcounter > p{
 	text-indent: -1em !important;
 	margin-left: 1em !important;
 }
-threadcounter > p::first-line {
-	font-size:1.5em !important;
-	font-weight:900 !important;
+threadcounter > p > ch1 {
+	font-size:1.5em;
+	font-weight:900;
 	color:#666666;
 }
-threadcounter > p::before {
+threadcounter > p > ch1::before {
 	content: '\A' counter(cnt) '. ';
 	font-size:1.5em !important;
 	font-weight:900 !important;
@@ -58,13 +58,13 @@ threadcounter > p.named{
 	font-weight:400;
 	font-family:'맑은 고딕';
 }
-threadcounter > p.named::first-line {
-	font-size:1.5em !important;
-	font-weight:900 !important;
-	text-shadow: rgb(0, 255, 0) 0px 0px 3px !important;
-	color: #006600 !important;
+threadcounter > p.named > ch2 {
+	font-size:1.5em;
+	font-weight:900;
+	text-shadow: rgb(0, 255, 0) 0px 0px 3px;
+	color: #006600;
 }
-threadcounter > p.named::before{
+threadcounter > p.named > ch2::before{
 	content: '\A' counter(cnt) '. ';
 	font-size:1.5em !important;
 	font-weight:900 !important;
