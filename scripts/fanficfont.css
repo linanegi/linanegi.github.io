@@ -86,6 +86,12 @@ div.mmain div.chiubbs::first-line {
 	font-weight:900;
 	font-size:1.2em;
 }
+div.mmain div.chiubbs::after {
+	content:"】";
+	color:#949494;
+	font-weight:900;
+	font-size:1.2em;
+}
 
 div.mmain div.kamo {
 	font-family:'우야깨붕';
