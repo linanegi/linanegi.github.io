@@ -42,6 +42,22 @@ div.mmain {
 	text-align:center;
 }
 
+.mmain div.narration {
+	font-size:2.5em;
+	line-height:2.5em;
+	font-style:italic;
+	font-weight:900;
+	text-align:center;
+}
+
+.mmain div.narration::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #bcbcbc;
+  margin:20px 0px;
+}
+
 div.Title::before {
   content: "";
   display: block;
