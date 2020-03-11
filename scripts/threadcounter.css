@@ -43,13 +43,13 @@ threadcounter > p{
 threadcounter > p::first-line {
 	font-size:1.5em !important;
 	font-weight:900 !important;
-	color:#666666 !important;
+	color:#666666;
 }
 threadcounter > p::before {
 	content: '\A' counter(cnt) '. ';
 	font-size:1.5em !important;
 	font-weight:900 !important;
-	color:#666666 !important;
+	color:#666666;
 	white-space: pre;
 }
 threadcounter > p.named{
