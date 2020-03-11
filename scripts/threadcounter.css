@@ -71,11 +71,13 @@ p.named::before{
 p rdt {
 	text-shadow: rgb(255, 0, 0) 0px 0px 3px;
 	color: #ffffff;
+	font-weight:900;
 }
 p rdt::before {
 	text-shadow: rgb(255, 0, 0) 0px 0px 3px;
 	color: #ffffff;
 	content:">>";
+	font-weight:900;
 }
 p rdt::after {
 	content:" ";
