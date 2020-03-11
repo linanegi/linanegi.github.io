@@ -102,41 +102,41 @@ div.write_content div.mmain > threadcounter > p > rdt::after {
 	content:" ";
 }
 
-td.mw_basic_view_content div.mmain > div#view_content div.attention{
+td.mw_basic_view_content div#view_content > div.mmain div.attention{
 	text-align: center;
 	font-weight:900;
 	font-size:1.8em;
 	font-family:'맑은 고딕';
 	line-height:2em;
 }
-td.mw_basic_view_content div.mmain > div#view_content div.title{
+td.mw_basic_view_content div#view_content > div.mmain div.title{
 	font-size:2em;
 	font-weight:900;
 	text-align:center;
 	font-family:'맑은 고딕';
 }
-td.mw_basic_view_content div.mmain > div#view_content div.title::before{
+td.mw_basic_view_content div#view_content > div.mmain div.title::before{
 	content: "";
 	display: block;
 	width: 100%;
 	border-bottom: 1px solid #bcbcbc;
 	margin:20px 0px;
 }
-td.mw_basic_view_content div.mmain > div#view_content div.title::after{
+td.mw_basic_view_content div#view_content > div.mmain div.title::after{
 	content: "";
 	display: block;
 	width: 100%;
 	border-bottom: 1px solid #bcbcbc;
 	margin:20px 0px;
 }
-td.mw_basic_view_content div.mmain > div#view_content > threadcounter{
+td.mw_basic_view_content div#view_content > div.mmain > threadcounter{
 	  padding-left:20px;
 	  padding:1em;
 	  width: 100%;
 	  max-width: 700px;
 	  margin: 0 auto;
 }
-td.mw_basic_view_content div.mmain > div#view_content > threadcounter > p {
+td.mw_basic_view_content div#view_content > div.mmain > threadcounter > p {
 	counter-increment: cnt;
 	font-size:1.2em;
 	font-weight:400;
@@ -144,36 +144,36 @@ td.mw_basic_view_content div.mmain > div#view_content > threadcounter > p {
 	text-indent: -1em;
 	margin-left: 1em;
 }
-td.mw_basic_view_content div.mmain > div#view_content > threadcounter > p > ch1 {
+td.mw_basic_view_content div#view_content > div.mmain > threadcounter > p > ch1 {
 	font-size:1.4em;
 	font-weight:900;
 	color:#666666;
 }
-td.mw_basic_view_content div.mmain > div#view_content > threadcounter > p > ch1::before {
+td.mw_basic_view_content div#view_content > div.mmain > threadcounter > p > ch1::before {
 	content: '\A' counter(cnt) '. ';
 	font-size:1.2em;
 	font-weight:900;
 	color:#666666;
 	white-space: pre;
 }
-td.mw_basic_view_content div.mmain > div#view_content > threadcounter > p > ch1::after {
+td.mw_basic_view_content div#view_content > div.mmain > threadcounter > p > ch1::after {
 	line-height:0.2em;
 	content: '\A';
 	white-space: pre;
 }
-td.mw_basic_view_content div.mmain > div#view_content > threadcounter > p.named{
+td.mw_basic_view_content div#view_content > div.mmain > threadcounter > p.named{
 	counter-increment: cnt;
 	font-size:1.2em;
 	font-weight:400;
 	font-family:'맑은 고딕';
 }
-td.mw_basic_view_content div.mmain > div#view_content > threadcounter > p.named > ch2 {
+td.mw_basic_view_content div#view_content > div.mmain > threadcounter > p.named > ch2 {
 	font-size:1.4em;
 	font-weight:900;
 	text-shadow: rgb(0, 255, 0) 0px 0px 3px;
 	color: #006600;
 }
-td.mw_basic_view_content div.mmain > div#view_content > threadcounter > p.named > ch2::before{
+td.mw_basic_view_content div#view_content > div.mmain > threadcounter > p.named > ch2::before{
 	content: '\A' counter(cnt) '. ';
 	font-size:1.2em;
 	font-weight:900;
@@ -181,27 +181,27 @@ td.mw_basic_view_content div.mmain > div#view_content > threadcounter > p.named 
 	color: #006600;
 	white-space: pre;
 }
-td.mw_basic_view_content div.mmain > div#view_content > threadcounter > p.named > ch2::after {
+td.mw_basic_view_content div#view_content > div.mmain > threadcounter > p.named > ch2::after {
 	line-height:0.2em;
 	content: '\A';
 	white-space: pre;
 }
-td.mw_basic_view_content div.mmain > div#view_content > threadcounter > p::after {
+td.mw_basic_view_content div#view_content > div.mmain > threadcounter > p::after {
 	line-height:0.2em;
 	content: '\A';
 	white-space: pre;
 }
-td.mw_basic_view_content div.mmain > div#view_content > threadcounter > p > rdt {
+td.mw_basic_view_content div#view_content > div.mmain > threadcounter > p > rdt {
 	text-shadow: rgb(255, 0, 0) 0px 0px 3px;
 	color: #ffffff;
 	font-weight:900;
 }
-td.mw_basic_view_content div.mmain > div#view_content > threadcounter > p > rdt::before {
+td.mw_basic_view_content div#view_content > div.mmain > threadcounter > p > rdt::before {
 	text-shadow: rgb(255, 0, 0) 0px 0px 3px;
 	color: #ffffff;
 	content:">>";
 	font-weight:900;
 }
-td.mw_basic_view_content div.mmain > div#view_content > threadcounter > p > rdt::after {
+td.mw_basic_view_content div#view_content > div.mmain > threadcounter > p > rdt::after {
 	content:" ";
 }
