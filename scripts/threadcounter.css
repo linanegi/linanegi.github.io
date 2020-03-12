@@ -205,3 +205,22 @@ td.mw_basic_view_content div#view_content > div.mmain > threadcounter > p > rdt:
 td.mw_basic_view_content div#view_content > div.mmain > threadcounter > p > rdt::after {
 	content:" ";
 }
+
+ptype.노말{color: #a8a878;font-weight:900;}
+ptype.불꽃{color: #f08030;font-weight:900;}
+ptype.물{color: #6890f0;font-weight:900;}
+ptype.풀{color: #78c850;font-weight:900;}
+ptype.전기{color: #f8d030;font-weight:900;}
+ptype.얼음{color: #98d8d8;font-weight:900;}
+ptype.격투{color: #c03028;font-weight:900;}
+ptype.독{color: #a040a0;font-weight:900;}
+ptype.땅{color: #e0c068;font-weight:900;}
+ptype.비행{color: #a890f0;font-weight:900;}
+ptype.에스퍼{color: #f85888;font-weight:900;}
+ptype.벌레{color: #a8b820;font-weight:900;}
+ptype.바위{color: #b8a038;font-weight:900;}
+ptype.고스트{color: #705898;font-weight:900;}
+ptype.드래곤{color: #7038f8;font-weight:900;}
+ptype.악{color: #705848;font-weight:900;}
+ptype.강철{color: #b8d8d0;font-weight:900;}
+ptype.페어리{color: #ee99ac;font-weight:900;}
