@@ -7,7 +7,15 @@
          url('../fonts/BADABOOMBB.svg#BADABOOM') format('svg'),
     font-weight: normal;
     font-style: normal;
-
+}
+@font-face {
+    font-family: '연성';
+    src: url('../fonts/BMYEONSUNG_eot.eot');
+    src: url('../fonts/BMYEONSUNG_eot.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BMYEONSUNG_ttf.woff') format('woff'),
+         url('../fonts/BMYEONSUNG_ttf.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
