@@ -1,0 +1,10 @@
+div.mmain{
+  padding-top:20px;
+}
+.절규 {
+  font-weight:900;
+  font-size:2em;
+}
+.절규::before {
+  content:"늦었다!! "
+}
