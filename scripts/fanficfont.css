@@ -131,6 +131,11 @@ div ruby rt{
 	font-size:1em;
 }
 
+span.heroname {
+	font-family:'연성';
+	font-weight:900;
+}
+
 img.infinite_rotating_logo{
     animation: rotate_image 10s linear infinite;
     transform-origin: 50% 50%;
