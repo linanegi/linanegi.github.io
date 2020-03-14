@@ -1,4 +1,77 @@
 @font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 700;
+    src: local('Spoqa Han Sans Bold'),
+    url('../fonts/SpoqaHanSans_subset/Spoqa Han Sans Bold.woff2') format('woff2'),
+    url('../fonts/SpoqaHanSans_subset/Spoqa Han Sans Bold.woff') format('woff'),
+    url('../fonts/SpoqaHanSans_subset/Spoqa Han Sans Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 400;
+    src: local('Spoqa Han Sans Regular'),
+    url('../fonts/SpoqaHanSans_subset/Spoqa Han Sans Regular.woff2') format('woff2'),
+    url('../fonts/SpoqaHanSans_subset/Spoqa Han Sans Regular.woff') format('woff'),
+    url('../fonts/SpoqaHanSans_subset/Spoqa Han Sans Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 300;
+    src: local('Spoqa Han Sans Light'),
+    url('../fonts/SpoqaHanSans_subset/Spoqa Han Sans Light.woff2') format('woff2'),
+    url('../fonts/SpoqaHanSans_subset/Spoqa Han Sans Light.woff') format('woff'),
+    url('../fonts/SpoqaHanSans_subset/Spoqa Han Sans Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 100;
+    src: local('Spoqa Han Sans Thin'),
+    url('../fonts/SpoqaHanSans_subset/Spoqa Han Sans Thin.woff2') format('woff2'),
+    url('../fonts/SpoqaHanSans_subset/Spoqa Han Sans Thin.woff') format('woff'),
+    url('../fonts/SpoqaHanSans_subset/Spoqa Han Sans Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans JP';
+    font-weight: 700;
+
+    src: local('Spoqa Han Sans JP Bold'),
+    url('../fonts/SpoqaHanSans_jp_subset/Spoqa Han Sans JP Bold.woff2') format('woff2'),
+    url('../fonts/SpoqaHanSans_jp_subset/Spoqa Han Sans JP Bold.woff') format('woff'),
+    url('../fonts/SpoqaHanSans_jp_subset/Spoqa Han Sans JP Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans JP';
+    font-weight: 400;
+    src: local('Spoqa Han Sans JP Regular'),
+    url('../fonts/SpoqaHanSans_jp_subset/Spoqa Han Sans JP Regular.woff2') format('woff2'),
+    url('../fonts/SpoqaHanSans_jp_subset/Spoqa Han Sans JP Regular.woff') format('woff'),
+    url('../fonts/SpoqaHanSans_jp_subset/Spoqa Han Sans JP Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans JP';
+    font-weight: 300;
+    src: local('Spoqa Han Sans JP Light'),
+    url('../fonts/SpoqaHanSans_jp_subset/Spoqa Han Sans JP Light.woff2') format('woff2'),
+    url('../fonts/SpoqaHanSans_jp_subset/Spoqa Han Sans JP Light.woff') format('woff'),
+    url('../fonts/SpoqaHanSans_jp_subset/Spoqa Han Sans JP Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans JP';
+    font-weight: 100;
+    src: local('Spoqa Han Sans JP Thin'),
+    url('../fonts/SpoqaHanSans_jp_subset/Spoqa Han Sans JP Thin.woff2') format('woff2'),
+    url('../fonts/SpoqaHanSans_jp_subset/Spoqa Han Sans JP Thin.woff') format('woff'),
+    url('../fonts/SpoqaHanSans_jp_subset/Spoqa Han Sans JP Thin.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'BadaB';
     src: url('../fonts/BADABOOMBB.eot');
     src: url('../fonts/BADABOOMBB.eot?#iefix') format('embedded-opentype'),
@@ -135,7 +208,7 @@ div ruby rt{
 }
 
 div.mmain span.heroname {
-	font-family:'gugi';
+	font-family:'gugi', 'Spoqa Han Sans JP';
 	font-weight:900;
 	font-size:1.3em;
 }
