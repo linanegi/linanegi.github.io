@@ -44,6 +44,8 @@ div.mmain > threadcounter > p {
 	font-family:'맑은 고딕';
 	text-indent: -1em;
 	margin-left: 1em;
+	white-space:pre-wrap;
+	width:80%;
 }
 div.mmain > threadcounter > p > ch1 {
 	font-size:1.4em;
