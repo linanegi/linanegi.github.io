@@ -225,6 +225,11 @@ div.mmain span.heroname {
 	font-weight:900;
 	font-size:1.3em;
 }
+span.effect {
+	font-family:'호국체';
+	font-weight:700;
+	font-size:2em;
+}
 
 img.infinite_rotating_logo{
     animation: rotate_image 10s linear infinite;
