@@ -53,6 +53,9 @@ div.mmain {
 	font-family: 'Comic Sans MS', '맑은 고딕';
 	font-variant: small-caps;
 	font-size:1em;
+	width:inherit;
+	padding:5px 5px;
+	white-space:pre-wrap;
 }
 .mmain div.Title {
 	font-size: 2em;
