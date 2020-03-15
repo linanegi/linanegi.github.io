@@ -37,6 +37,8 @@ div.mmain > threadcounter{
 	  max-width: 700px;
 	  margin: 0 auto;
 }
+
+
 div.mmain > threadcounter > p {
 	counter-increment: cnt;
 	font-size:1.2em;
@@ -106,6 +108,79 @@ div.mmain > threadcounter > p > rdt::before {
 	font-weight:900;
 }
 div.mmain > threadcounter > p > rdt::after {
+	content:" ";
+}
+
+div.write_content > div.mmain > threadcounter > p {
+	counter-increment: cnt;
+	font-size:0.8em;
+	font-weight:400;
+	font-family:'맑은 고딕';
+	text-indent: -1em;
+	margin-left: 1em;
+	white-space:pre-wrap;
+	width:80%;
+}
+div.write_content > div.mmain > threadcounter > p > ch1 {
+	font-size:0.9em;
+	font-weight:900;
+	color:#666666;
+}
+div.write_content > div.mmain > threadcounter > p > ch1::before {
+	content: '\A' counter(cnt) '. ';
+	font-size:0.8em;
+	font-weight:900;
+	color:#666666;
+	white-space: pre;
+}
+div.write_content > div.mmain > threadcounter > p > ch1::after {
+	line-height:0.1em;
+	content: '\A';
+	white-space: pre;
+}
+div.write_content > div.mmain > threadcounter > p.named{
+	counter-increment: cnt;
+	font-size:0.8em;
+	font-weight:400;
+	font-family:'맑은 고딕';
+}
+div.write_content > div.mmain > threadcounter > p.named > ch2 {
+	font-size:0.9em;
+	font-weight:900;
+	text-shadow: rgb(0, 255, 0) 0px 0px 3px;
+	color: #006600;
+}
+div.write_content > div.mmain > threadcounter > p.named > ch2::before{
+	content: '\A' counter(cnt) '. ';
+	font-size:0.8em;
+	font-weight:900;
+	text-shadow: rgb(0, 255, 0) 0px 0px 3px;
+	color: #006600;
+	white-space: pre;
+}
+div.write_content > div.mmain > threadcounter > p.named > ch2::after {
+	line-height:0.1em;
+	content: '\A';
+	white-space: pre;
+}
+
+div.write_content > div.mmain > threadcounter > p::after {
+	line-height:0.1em;
+	content: '\A';
+	white-space: pre;
+}
+div.write_content > div.mmain > threadcounter > p > rdt {
+	text-shadow: rgb(255, 0, 0) 0px 0px 3px;
+	color: #ffffff;
+	font-weight:900;
+}
+div.write_content > div.mmain > threadcounter > p > rdt::before {
+	text-shadow: rgb(255, 0, 0) 0px 0px 3px;
+	color: #ffffff;
+	content:">>";
+	font-weight:900;
+}
+div.write_content > div.mmain > threadcounter > p > rdt::after {
 	content:" ";
 }
 
