@@ -1,3 +1,7 @@
+main {
+	background: url("https://www.fate-go.jp/assets/img/pc/common/bg_ptn.gif");
+}
+
 .news_detail {
   position: relative;
   width: 690px;
@@ -454,7 +458,6 @@ h2 {
 	 width:70%;
 	 vertical-align:top;
 }
-
 
 /*ひしがた*/
 main div.article *.dia {
