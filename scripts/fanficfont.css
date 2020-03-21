@@ -12,6 +12,13 @@
 }
 
 @font-face {
+	font-family:'neo둥근모';
+	src:url('../fonts/NeoDunggeunmo.woff')format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
     font-family: 'Spoqa Han Sans';
     font-weight: 700;
     src: local('Spoqa Han Sans Bold'),
@@ -202,6 +209,13 @@ div.mmain span.heroname {
 	font-weight:900;
 	font-size:1.3em;
 }
+
+div.mmain span.villainname {
+	font-family:'neo둥근모', '돋움';
+	font-weight:900;
+	font-size:1.3em;
+}
+
 span.effect {
 	font-family:'호국체';
 	font-weight:700;
