@@ -1,4 +1,4 @@
-table::after{content: ''; dispaly: table; clear: both}
+div.reset::before{content: ''; dispaly: table; clear: both}
 .sc{font-variant:small-caps }
 .l{text-align:left}
 .c{text-align:center}
