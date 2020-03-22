@@ -126,12 +126,12 @@ div.editsection,div.editsectionnew{float:right}
 index {
   border:medium ridge;
 }
-index .ol {
+index ol {
   counter-reset: section;
   list-style-type: none;
 }
 
-index .li::before {
+index li::before {
   counter-increment: section;
   content: counters(section, ".") " ";
 }
