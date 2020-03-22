@@ -1,0 +1,205 @@
+div.mmain{
+	  border-style: outset;
+	  border-width: 1px;
+	  border-color: #000;
+}
+div.mmain div.attention{
+	text-align: center;
+	font-weight:900;
+	font-size:1.8em;
+	font-family:'맑은 고딕';
+	line-height:2em;
+}
+div.mmain div.title{
+	font-size:2em;
+	font-weight:900;
+	text-align:center;
+	font-family:'맑은 고딕';
+}
+div.mmain div.title::before{
+	content: "";
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #bcbcbc;
+	margin:20px 0px;
+}
+div.mmain div.title::after{
+	content: "";
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #bcbcbc;
+	margin:20px 0px;
+}
+div.mmain > threadcounter{
+	  padding-left:20px;
+	  padding:1em;
+	  width: 100%;
+	  max-width: 700px;
+	  margin: 0 auto;
+}
+
+
+div.mmain > threadcounter > p {
+	counter-increment: cnt;
+	font-size:1.2em;
+	font-weight:400;
+	font-family:'맑은 고딕';
+	text-indent: -1em;
+	margin-left: 1em;
+	white-space:pre-wrap;
+	width:80%;
+}
+div.mmain > threadcounter > p > ch1 {
+	font-size:1.4em;
+	font-weight:900;
+	color:#666666;
+}
+div.mmain > threadcounter > p > ch1::before {
+	content: '\A' counter(cnt) '. ';
+	font-size:1.2em;
+	font-weight:900;
+	color:#666666;
+	white-space: pre;
+}
+div.mmain > threadcounter > p > ch1::after {
+	line-height:0.2em;
+	content: '\A';
+	white-space: pre;
+}
+div.mmain > threadcounter > p.named{
+	counter-increment: cnt;
+	font-size:1.2em;
+	font-weight:400;
+	font-family:'맑은 고딕';
+}
+div.mmain > threadcounter > p.named > ch2 {
+	font-size:1.4em;
+	font-weight:900;
+	text-shadow: rgb(0, 255, 0) 0px 0px 3px;
+	color: #006600;
+}
+div.mmain > threadcounter > p.named > ch2::before{
+	content: '\A' counter(cnt) '. ';
+	font-size:1.2em;
+	font-weight:900;
+	text-shadow: rgb(0, 255, 0) 0px 0px 3px;
+	color: #006600;
+	white-space: pre;
+}
+div.mmain > threadcounter > p.named > ch2::after {
+	line-height:0.2em;
+	content: '\A';
+	white-space: pre;
+}
+div.mmain > threadcounter > p::after {
+	line-height:0.2em;
+	content: '\A';
+	white-space: pre;
+}
+div.mmain > threadcounter > p > rdt {
+	text-shadow: rgb(255, 0, 0) 0px 0px 3px;
+	color: #ffffff;
+	font-weight:900;
+}
+div.mmain > threadcounter > p > rdt::before {
+	text-shadow: rgb(255, 0, 0) 0px 0px 3px;
+	color: #ffffff;
+	content:">>";
+	font-weight:900;
+}
+div.mmain > threadcounter > p > rdt::after {
+	content:" ";
+}
+
+div.write_content > div.mmain > threadcounter > p {
+	counter-increment: cnt;
+	font-size:14px;
+	font-weight:400;
+	font-family:'맑은 고딕';
+	text-indent: -14px;
+	margin-left: 14px;
+	white-space:pre-wrap;
+	width:80%;
+}
+div.write_content > div.mmain > threadcounter > p > ch1 {
+	font-size:15px;
+	font-weight:900;
+	color:#666666;
+}
+div.write_content > div.mmain > threadcounter > p > ch1::before {
+	content: '\A' counter(cnt) '. ';
+	font-size:14px;
+	font-weight:900;
+	color:#666666;
+	white-space: pre;
+}
+div.write_content > div.mmain > threadcounter > p > ch1::after {
+	line-height:2px;
+	content: '\A';
+	white-space: pre;
+}
+div.write_content > div.mmain > threadcounter > p.named{
+	counter-increment: cnt;
+	font-size:14px;
+	font-weight:400;
+	font-family:'맑은 고딕';
+}
+div.write_content > div.mmain > threadcounter > p.named > ch2 {
+	font-size:15px;
+	font-weight:900;
+	text-shadow: rgb(0, 255, 0) 0px 0px 3px;
+	color: #006600;
+}
+div.write_content > div.mmain > threadcounter > p.named > ch2::before{
+	content: '\A' counter(cnt) '. ';
+	font-size:14px;
+	font-weight:900;
+	text-shadow: rgb(0, 255, 0) 0px 0px 3px;
+	color: #006600;
+	white-space: pre;
+}
+div.write_content > div.mmain > threadcounter > p.named > ch2::after {
+	line-height:2px;
+	content: '\A';
+	white-space: pre;
+}
+
+div.write_content > div.mmain > threadcounter > p::after {
+	line-height:2px;
+	content: '\A';
+	white-space: pre;
+}
+div.write_content > div.mmain > threadcounter > p > rdt {
+	text-shadow: rgb(255, 0, 0) 0px 0px 3px;
+	color: #ffffff;
+	font-weight:900;
+}
+div.write_content > div.mmain > threadcounter > p > rdt::before {
+	text-shadow: rgb(255, 0, 0) 0px 0px 3px;
+	color: #ffffff;
+	content:">>";
+	font-weight:900;
+}
+div.write_content > div.mmain > threadcounter > p > rdt::after {
+	content:" ";
+}
+
+ptype{font-weight:900;font-family:'맑은 고딕'}
+ptype.노말{color: #a8a878;}
+ptype.불꽃{color: #f08030;}
+ptype.물{color: #6890f0;}
+ptype.풀{color: #78c850;}
+ptype.전기{color: #f8d030;}
+ptype.얼음{color: #98d8d8;}
+ptype.격투{color: #c03028;}
+ptype.독{color: #a040a0;}
+ptype.땅{color: #e0c068;}
+ptype.비행{color: #a890f0;}
+ptype.에스퍼{color: #f85888;}
+ptype.벌레{color: #a8b820;}
+ptype.바위{color: #b8a038;}
+ptype.고스트{color: #705898;}
+ptype.드래곤{color: #7038f8;}
+ptype.악{color: #705848;}
+ptype.강철{color: #b8d8d0;}
+ptype.페어리{color: #ee99ac;}

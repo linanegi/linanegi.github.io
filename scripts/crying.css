@@ -1,0 +1,10 @@
+div.mmain{
+  padding-top:20px;
+}
+div.mmain span.crying {
+  font-weight:900;
+  font-size:2em;
+}
+div.mmain span.crying::before {
+  content:"늦었다!! "
+}
