@@ -123,3 +123,12 @@ h1,h2,h3,h4,h5,h6{text-align:left}
 #p-cactions li{border-color:#3E7614}
 div.editsection,div.editsectionnew{float:right}
 @media screen and (max-width:1440px){div#rightcolbox{display:none}}
+index .ol {
+  counter-reset: section;
+  list-style-type: none;
+}
+
+index .li::before {
+  counter-increment: section;
+  content: counters(section, ".") " ";
+}
