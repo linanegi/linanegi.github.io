@@ -2,14 +2,7 @@
 	font-family: '산돌떡볶이lt';
 	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/SDKukdetopokki-aLt00.woff') format('woff');
 	font-weight: normal;
-	unicode-range: U+0020-U+007E,U+1100-U+11F9,U+3000-U+303F;
-	font-style: normal;
-}
-@font-face {
-	font-family: '산돌떡볶이lt';
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/SDKukdetopokki-aLt00.woff') format('woff');
-	font-weight: normal;
-	unicode-range: U+3131-U+318E, U+327F-U+327F, U+AC00-U+D7A3, U+FF01-U+FF60;
+	unicode-range: U+AC00-U+D7A3
 	font-style: normal;
 }
 @font-face {
