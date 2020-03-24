@@ -254,6 +254,10 @@ span.effect {
 	font-weight:700;
 	font-size:2em;
 }
+span.hanja{
+	font-family:'한자주문';
+	font-weight:700;
+}
 div.mmain span.magicspell {
 	line-height:2.3em;
 }
@@ -263,9 +267,7 @@ div.mmain span.magicspell ruby > span.normal{
 	font-weight:700;
 }
 div.mmain span.magicspell ruby > span.hanja{
-	font-family:'한자주문';
 	font-size:1.8em;
-	font-weight:700;
 }
 div.mmain span.magicspell ruby > rt{
 	font-family:'닉스곤';
@@ -277,10 +279,8 @@ div.mmain span.magicname ruby > span.normal{
 	font-size:2.3em;
 	font-weight:700;
 }
-span.hanja{
-	font-family:'한자주문';
+div.mmain span.magicname ruby > span.hanja{
 	font-size:2.3em;
-	font-weight:700;
 }
 div.mmain span.magicname ruby > rt{
 	font-family:'닉스곤';
