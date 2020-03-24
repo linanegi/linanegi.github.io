@@ -262,9 +262,9 @@ div span.magicspell ruby > span.normal{
 	font-size:1.8em;
 	font-weight:700;
 }
-div span.magicspell ruby > span.normal span.hanja{
-	font-size:0.9em;
+div span.magicspell ruby > span.hanja{
 	font-family:'한자주문';
+	font-size:0.9em !important;
 	font-weight:700;
 }
 div span.magicspell ruby > rt{
@@ -277,8 +277,8 @@ div.mmain span.magicname ruby > span.normal{
 	font-size:2.3em;
 	font-weight:700;
 }
-div.mmain span.magicname ruby > span.normal span.hanja{
-	font-size:1.2em;
+div.mmain span.magicname ruby > span.hanja{
+	font-size:1.2em !important;
 	font-family:'한자주문';
 	font-weight:700;
 }
