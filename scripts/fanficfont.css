@@ -259,11 +259,11 @@ div span.magicspell {
 }
 div span.magicspell ruby > span.normal{
 	font-family:'산돌떡볶이lt';
-	font-size:0.9em;
+	font-size:1.8em;
 	font-weight:700;
 }
 div span.magicspell ruby > span.normal span.hanja{
-	font-size:1.8em;
+	font-size:0.9em;
 	font-family:'한자주문';
 	font-weight:700;
 }
@@ -278,7 +278,7 @@ div.mmain span.magicname ruby > span.normal{
 	font-weight:700;
 }
 div.mmain span.magicname ruby > span.normal span.hanja{
-	font-size:2.3em;
+	font-size:1.2em;
 	font-family:'한자주문';
 	font-weight:700;
 }
