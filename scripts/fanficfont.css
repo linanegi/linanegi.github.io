@@ -277,7 +277,7 @@ div.mmain span.magicname ruby > span.normal{
 	font-size:2.3em;
 	font-weight:700;
 }
-div.mmain span.magicname ruby > span.hanja{
+span.hanja{
 	font-family:'한자주문';
 	font-size:2.3em;
 	font-weight:700;
