@@ -288,6 +288,14 @@ div.mmain span.magicname ruby > rt{
 	font-weight:700;
 }
 
+div span.quirkname {
+	line-height:2.3em;
+	font-family:'산돌떡볶이lt';
+	font-size:1.8em;
+	font-weight:700;
+}
+
+
 img.infinite_rotating_logo{
     animation: rotate_image 10s linear infinite;
     transform-origin: 50% 50%;
