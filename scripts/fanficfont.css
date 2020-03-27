@@ -164,7 +164,7 @@ div.mmain {
 	font-size: 2em;
 	font-weight:900;
 	text-align:center;
-	line-weight:2.1em;
+	line-weight:2.3em !important;
 }
 .mmain div.Chapter {
 	font-size: 2.3em;
