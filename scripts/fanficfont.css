@@ -1,4 +1,37 @@
 @font-face {
+	font-family: '산돌떡볶이lt';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/SDKukdetopokki-aLt00.woff') format('woff');
+	font-weight: normal;
+	unicode-range: U+AC00-U+D7A3
+	font-style: normal;
+}
+@font-face {
+	font-family: '닉스곤';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONM-Vb.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: '닉스곤';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONL-Vb.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: '국립박물관문화재단클래식B';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식B.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: '한자주문';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumMyungjo.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	unicode-range:
+}
+
+@font-face {
 	font-family: '호국체';
 	font-weight:700;
 	src:local('호국체 Bold'),
@@ -131,6 +164,7 @@ div.mmain {
 	font-size: 2em;
 	font-weight:900;
 	text-align:center;
+	line-weight:2.3em !important;
 }
 .mmain div.Chapter {
 	font-size: 2.3em;
@@ -221,6 +255,47 @@ span.effect {
 	font-weight:700;
 	font-size:2em;
 }
+div span.magicspell {
+	line-height:2.3em;
+}
+div span.magicspell ruby > span.normal{
+	font-family:'산돌떡볶이lt';
+	font-size:1.8em;
+	font-weight:700;
+}
+div span.magicspell ruby > span.normal span.hanja{
+	font-family:'한자주문';
+	font-size:0.9em !important;
+	font-weight:700;
+}
+div span.magicspell ruby > rt{
+	font-family:'닉스곤';
+	font-size:1.1em;
+	font-weight:400;
+}
+div.mmain span.magicname ruby > span.normal{
+	font-family:'국립박물관문화재단클래식B';
+	font-size:2.3em;
+	font-weight:700;
+}
+div.mmain span.magicname ruby > span.normal span.hanja{
+	font-size:1.2em !important;
+	font-family:'한자주문';
+	font-weight:700;
+}
+div.mmain span.magicname ruby > rt{
+	font-family:'닉스곤';
+	font-size:1.4em;
+	font-weight:700;
+}
+
+div span.quirkname {
+	line-height:2.3em;
+	font-family:'산돌떡볶이lt';
+	font-size:1.8em;
+	font-weight:700;
+}
+
 
 img.infinite_rotating_logo{
     animation: rotate_image 10s linear infinite;
