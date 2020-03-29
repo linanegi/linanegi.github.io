@@ -231,15 +231,17 @@ td.no			{width: 4%;}
 </div>
 </div>
 </div>
-<script>
-function showID(id)
-{
-	obj=document.getElementById(id);
-	if(obj.style.display == "none")
-		obj.style.display = "inline";
-	else
-		obj.style.display = "none";
-}
+<script type="text/javascript">
+		function toggle1(thisname) {
+		   tr=document.getElementsByTagName('div')
+		   for (i=0;i<tr.length;i++){
+			  if (tr[i].className == thisname){
+					tr[i].style.display = 'inline';}}}
+		function toggle2(thisname) {
+			tr=document.getElementsByTagName('div')
+			for (i=0;i<tr.length;i++){
+				if (tr[i].className == thisname){
+					tr[i].style.display = 'none';}}}
 </script>
 <br>
 <div id="raid1" class="section" style="width: 1110px;">
@@ -247,44 +249,44 @@ function showID(id)
 </div>
 <nav id="top" style="width: 1100px;text-align:center;">
 	<li>
-		<a onclick="showID('raid_01a');">흑의 어새신</a>
+		<a onclick="toggle1('raid_01'); toggle2('raid_02'); toggle2('raid_03'); toggle2('raid_04'); toggle2('raid_05'); toggle2('raid_06'); toggle2('raid_07'); toggle2('raid_08'); toggle2('raid_09'); toggle2('raid_10'); toggle2('raid_11'); toggle2('raid_12');">흑의 어새신</a>
 	</li>
 	<li>
-		<a onclick="showID('raid_02a');">적의 캐스터</a>
+		<a onclick="toggle2('raid_01'); toggle1('raid_02'); toggle2('raid_03'); toggle2('raid_04'); toggle2('raid_05'); toggle2('raid_06'); toggle2('raid_07'); toggle2('raid_08'); toggle2('raid_09'); toggle2('raid_10'); toggle2('raid_11'); toggle2('raid_12');">적의 캐스터</a>
 	</li>
 	<li>
-		<a onclick="showID('raid_03a');">흑의 캐스터</a>
+		<a onclick="toggle2('raid_01'); toggle2('raid_02'); toggle1('raid_03'); toggle2('raid_04'); toggle2('raid_05'); toggle2('raid_06'); toggle2('raid_07'); toggle2('raid_08'); toggle2('raid_09'); toggle2('raid_10'); toggle2('raid_11'); toggle2('raid_12');">흑의 캐스터</a>
 	</li>
 	<li>
-		<a onclick="showID('raid_04a');">흑의 버서커</a>
+		<a onclick="toggle2('raid_01'); toggle2('raid_02'); toggle2('raid_03'); toggle1('raid_04'); toggle2('raid_05'); toggle2('raid_06'); toggle2('raid_07'); toggle2('raid_08'); toggle2('raid_09'); toggle2('raid_10'); toggle2('raid_11'); toggle2('raid_12');">흑의 버서커</a>
 	</li>
 	<li>
-		<a onclick="showID('raid_05a');">적의 아처</a>
+		<a onclick="toggle2('raid_01'); toggle2('raid_02'); toggle2('raid_03'); toggle2('raid_04'); toggle1('raid_05'); toggle2('raid_06'); toggle2('raid_07'); toggle2('raid_08'); toggle2('raid_09'); toggle2('raid_10'); toggle2('raid_11'); toggle2('raid_12');">적의 아처</a>
 	</li>
 	<li>
-		<a onclick="showID('raid_06a');">적의 버서커</a>
+		<a onclick="toggle2('raid_01'); toggle2('raid_02'); toggle2('raid_03'); toggle2('raid_04'); toggle2('raid_05'); toggle1('raid_06'); toggle2('raid_07'); toggle2('raid_08'); toggle2('raid_09'); toggle2('raid_10'); toggle2('raid_11'); toggle2('raid_12');">적의 버서커</a>
 	</li><br>
 	<li>
-		<a onclick="showID('raid_07a');">적의 세이버</a>
+		<a onclick="toggle2('raid_01'); toggle2('raid_02'); toggle2('raid_03'); toggle2('raid_04'); toggle2('raid_05'); toggle2('raid_06'); toggle1('raid_07'); toggle2('raid_08'); toggle2('raid_09'); toggle2('raid_10'); toggle2('raid_11'); toggle2('raid_12');">적의 세이버</a>
 	</li>
 	<li>
-		<a onclick="showID('raid_08a');">흑의 라이더</a>
+		<a onclick="toggle2('raid_01'); toggle2('raid_02'); toggle2('raid_03'); toggle2('raid_04'); toggle2('raid_05'); toggle2('raid_06'); toggle2('raid_07'); toggle1('raid_08'); toggle2('raid_09'); toggle2('raid_10'); toggle2('raid_11'); toggle2('raid_12');">흑의 라이더</a>
 	</li>
 	<li>
-		<a onclick="showID('raid_09a');">흑의 세이버</a>
+		<a onclick="toggle2('raid_01'); toggle2('raid_02'); toggle2('raid_03'); toggle2('raid_04'); toggle2('raid_05'); toggle2('raid_06'); toggle2('raid_07'); toggle2('raid_08'); toggle1('raid_09'); toggle2('raid_10'); toggle2('raid_11'); toggle2('raid_12');">흑의 세이버</a>
 	</li>
 	<li>
-		<a onclick="showID('raid_10a');">흑의 랜서</a>
+		<a onclick="toggle2('raid_01'); toggle2('raid_02'); toggle2('raid_03'); toggle2('raid_04'); toggle2('raid_05'); toggle2('raid_06'); toggle2('raid_07'); toggle2('raid_08'); toggle2('raid_09'); toggle1('raid_10'); toggle2('raid_11'); toggle2('raid_12');">흑의 랜서</a>
 	</li>
 	<li>
-		<a onclick="showID('raid_11a');">적의 랜서</a>
+		<a onclick="toggle2('raid_01'); toggle2('raid_02'); toggle2('raid_03'); toggle2('raid_04'); toggle2('raid_05'); toggle2('raid_06'); toggle2('raid_07'); toggle2('raid_08'); toggle2('raid_09'); toggle2('raid_10'); toggle1('raid_11'); toggle2('raid_12');">적의 랜서</a>
 	</li>
 	<li>
-		<a onclick="showID('raid_12a');">적의 어새신</a>
+		<a onclick="toggle2('raid_01'); toggle2('raid_02'); toggle2('raid_03'); toggle2('raid_04'); toggle2('raid_05'); toggle2('raid_06'); toggle2('raid_07'); toggle2('raid_08'); toggle2('raid_09'); toggle2('raid_10'); toggle2('raid_11'); toggle1('raid_12');">적의 어새신</a>
 	</li>
 </nav>
 <!-- Jack Raid -->
-	<div class="raid_01" id="raid_01a" style="display:none;">
+	<div class="raid_01">
 		<div class="border" style="width: 1100px;" id="apocrypha_r001">
 			<table id="rounded-corner" class="height2 nohover" style="width: 100%;">
 				<thead>
@@ -689,7 +691,7 @@ function showID(id)
 </div>
 </div>
 <!-- Shakespeare Raid -->
-<div class="raid_02" id="raid_02a" style="display:none;">
+<div class="raid_02">
 <div class="border" style="width: 1100px;" id="apocrypha_r004">
 <table id="rounded-corner" class="height2 nohover" style="width: 100%;">
 				<thead>
@@ -1100,7 +1102,7 @@ function showID(id)
 </div>
 </div>
 <!-- 아비케브론 Raid -->
-<div class="raid_03" id="raid_03a" style="display:none;">
+<div class="raid_03">
 <div class="border" style="width: 1100px;" id="apocrypha_r007">
 <table id="rounded-corner" class="height2 nohover" style="width: 100%;">
 				<thead>
@@ -1508,7 +1510,7 @@ function showID(id)
 </div>
 </div>
 <!-- Fran Raid -->
-<div class="raid_04" id="raid_04a" style="display:none;">
+<div class="raid_04">
 <div class="border" style="width: 1100px;" id="apocrypha_r010">
 <table id="rounded-corner" class="height2 nohover" style="width: 100%;">
 				<thead>
@@ -1907,7 +1909,7 @@ function showID(id)
 </div>
 </div>
 <!-- 아탈란테 Raid -->
-<div class="raid_05" id="raid_05a" style="display:none;">
+<div class="raid_05">
 <div class="border" style="width: 1100px;" id="apocrypha_r013">
 <table id="rounded-corner" class="height2 nohover" style="width: 100%;">
 				<thead>
@@ -2318,7 +2320,7 @@ function showID(id)
 </div>
 </div>
 <!-- 스파르타쿠스 Raid -->
-<div class="raid_06" id="raid_06a" style="display:none;">
+<div class="raid_06">
 <div class="border" style="width: 1100px;" id="apocrypha_r016">
 <table id="rounded-corner" class="height2 nohover" style="width: 100%;">
 				<thead>
@@ -2726,7 +2728,7 @@ function showID(id)
 </div>
 </div>
 <!-- 모드레드 Raid -->
-<div class="raid_07" id="raid_07a" style="display:none;">
+<div class="raid_07">
 <div class="border" style="width: 1100px;" id="apocrypha_r019">
 <table id="rounded-corner" class="height2 nohover" style="width: 100%;">
 				<thead>
@@ -3128,7 +3130,7 @@ function showID(id)
 </div>
 </div>
 <!-- 아스톨포 Raid -->
-<div class="raid_08" id="raid_08a" style="display:none;">
+<div class="raid_08">
 <div class="border" style="width: 1100px;" id="apocrypha_r022">
 <table id="rounded-corner" class="height2 nohover" style="width: 100%;">
 				<thead>
@@ -3536,7 +3538,7 @@ function showID(id)
 </div>
 </div>
 <!-- 지크프리트 Raid -->
-<div class="raid_09" id="raid_09a" style="display:none;">
+<div class="raid_09">
 <div class="border" style="width: 1100px;" id="apocrypha_r025">
 <table id="rounded-corner" class="height2 nohover" style="width: 100%;">
 				<thead>
@@ -3956,7 +3958,7 @@ function showID(id)
 </div>
 </div>
 <!-- 블라드 3세 Raid -->
-<div class="raid_10" id="raid_10a" style="display:none;">
+<div class="raid_10">
 <div class="border" style="width: 1100px;" id="apocrypha_r028">
 <table id="rounded-corner" class="height2 nohover" style="width: 100%;">
 				<thead>
@@ -4370,7 +4372,7 @@ function showID(id)
 </div>
 </div>
 <!-- 카르나 Raid -->
-<div class="raid_11" id="raid_11a" style="display:none;">
+<div class="raid_11">
 <div class="border" style="width: 1100px;" id="apocrypha_r031">
 <table id="rounded-corner" class="height2 nohover" style="width: 100%;">
 				<thead>
@@ -4787,7 +4789,7 @@ function showID(id)
 </div>
 </div>
 <!-- 세미라미스 Raid -->
-<div class="raid_12" id="raid_12a" style="display:none;">
+<div class="raid_12">
 <div class="border" style="width: 1100px;" id="apocrypha_r034">
 <table id="rounded-corner" class="height2 nohover" style="width: 100%;">
 				<thead>
@@ -5205,25 +5207,25 @@ function showID(id)
 	</div>
 <nav id="top" style="width: 1100px;text-align:center;">
 	<li>
-		<a onclick="showID('raid2_01a');"><img src="icons/class/class_0105.png" class="medium"></a>
+		<a onclick="toggle1('raid2_01'); toggle2('raid2_02'); toggle2('raid2_03'); toggle2('raid2_04'); toggle2('raid2_05'); toggle2('raid2_06'); toggle2('raid2_07'); toggle2('raid2_08'); toggle2('raid2_09'); toggle2('raid2_10'); toggle2('raid2_11'); toggle2('raid2_12');"><img src="icons/class/class_0105.png" class="medium"></a>
 	</li>
 	<li>
-		<a onclick="showID('raid2_02a');"><img src="icons/class/class_0205.png" class="medium"></a>
+		<a onclick="toggle2('raid2_01'); toggle1('raid2_02'); toggle2('raid2_03'); toggle2('raid2_04'); toggle2('raid2_05'); toggle2('raid2_06'); toggle2('raid2_07'); toggle2('raid2_08'); toggle2('raid2_09'); toggle2('raid2_10'); toggle2('raid2_11'); toggle2('raid2_12');"><img src="icons/class/class_0205.png" class="medium"></a>
 	</li>
 	<li>
-		<a onclick="showID('raid2_03a');"><img src="icons/class/class_0305.png" class="medium"></a>
+		<a onclick="toggle2('raid2_01'); toggle2('raid2_02'); toggle1('raid2_03'); toggle2('raid2_04'); toggle2('raid2_05'); toggle2('raid2_06'); toggle2('raid2_07'); toggle2('raid2_08'); toggle2('raid2_09'); toggle2('raid2_10'); toggle2('raid2_11'); toggle2('raid2_12');"><img src="icons/class/class_0305.png" class="medium"></a>
 	</li>
 	<li>
-		<a onclick="showID('raid2_04a');"><img src="icons/class/class_0405.png" class="medium"></a>
+		<a onclick="toggle2('raid2_01'); toggle2('raid2_02'); toggle2('raid2_03'); toggle1('raid2_04'); toggle2('raid2_05'); toggle2('raid2_06'); toggle2('raid2_07'); toggle2('raid2_08'); toggle2('raid2_09'); toggle2('raid2_10'); toggle2('raid2_11'); toggle2('raid2_12');"><img src="icons/class/class_0405.png" class="medium"></a>
 	</li>
 	<li>
-		<a onclick="showID('raid2_05a');"><img src="icons/class/class_0505.png" class="medium"></a>
+		<a onclick="toggle2('raid2_01'); toggle2('raid2_02'); toggle2('raid2_03'); toggle2('raid2_04'); toggle1('raid2_05'); toggle2('raid2_06'); toggle2('raid2_07'); toggle2('raid2_08'); toggle2('raid2_09'); toggle2('raid2_10'); toggle2('raid2_11'); toggle2('raid2_12');"><img src="icons/class/class_0505.png" class="medium"></a>
 	</li>
 	<li>
-		<a onclick="showID('raid2_06a');"><img src="icons/class/class_0605.png" class="medium"></a>
+		<a onclick="toggle2('raid2_01'); toggle2('raid2_02'); toggle2('raid2_03'); toggle2('raid2_04'); toggle2('raid2_05'); toggle1('raid2_06'); toggle2('raid2_07'); toggle2('raid2_08'); toggle2('raid2_09'); toggle2('raid2_10'); toggle2('raid2_11'); toggle2('raid2_12');"><img src="icons/class/class_0605.png" class="medium"></a>
 	</li>
 	<li>
-		<a onclick="showID('raid2_07a');"><img src="icons/class/class_0705.png" class="medium"></a>
+		<a onclick="toggle2('raid2_01'); toggle2('raid2_02'); toggle2('raid2_03'); toggle2('raid2_04'); toggle2('raid2_05'); toggle2('raid2_06'); toggle1('raid2_07'); toggle2('raid2_08'); toggle2('raid2_09'); toggle2('raid2_10'); toggle2('raid2_11'); toggle2('raid2_12');"><img src="icons/class/class_0705.png" class="medium"></a>
 	</li>
 </nav>
 	<!-- Holy Grail (세이버) Raid -->
@@ -6373,7 +6375,7 @@ function showID(id)
 	</div>
 	</div>
 <!-- Holy Grail (아처) Raid -->
-	<div class="raid2_03" id="raid2_03a" style="display:none;">
+	<div class="raid2_03">
 	<div class="border" style="width: 1100px;" id="apocrypha_r043">
 	<table id="rounded-corner" class="nohover" style="width: 100%;">
 	<thead>
@@ -6958,7 +6960,7 @@ function showID(id)
 	</div>
 	</div>
 <!-- Holy Grail (라이더) Raid -->
-	<div class="raid2_04" id="raid2_04a" style="display:none;">
+	<div class="raid2_04">
 	<div class="border" style="width: 1100px;" id="apocrypha_r046">
 	<table id="rounded-corner" class="nohover" style="width: 100%;">
 	<thead>
@@ -7534,7 +7536,7 @@ function showID(id)
 	</div>
 	</div>
 <!-- Holy Grail (캐스터) Raid -->
-	<div class="raid2_05" id="raid2_05a" style="display:none;">
+	<div class="raid2_05">
 	<div class="border" style="width: 1100px;" id="apocrypha_r046">
 	<table id="rounded-corner" class="nohover" style="width: 100%;">
 	<thead>
@@ -8107,7 +8109,7 @@ function showID(id)
 	</div>
 	</div>
 <!-- Holy Grail (어새신) Raid -->
-	<div class="raid2_06" id="raid2_06a" style="display:none;">
+	<div class="raid2_06">
 	<div class="border" style="width: 1100px;" id="apocrypha_r052">
 	<table id="rounded-corner" class="nohover" style="width: 100%;">
 	<thead>
@@ -8692,7 +8694,7 @@ function showID(id)
 	</div>
 	</div>
 <!-- Holy Grail (버서커) Raid -->
-	<div class="raid2_07" id="raid2_07a" style="display:none;">
+	<div class="raid2_07">
 	<div class="border" style="width: 1100px;" id="apocrypha_r055">
 	<table id="rounded-corner" class="nohover" style="width: 100%;">
 	<thead>
