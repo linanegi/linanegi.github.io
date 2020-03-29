@@ -3,137 +3,10 @@
 <link href="../scripts/fgodata.css" rel="stylesheet" type="text/css" />
 <link href="../scripts/box.css" rel="stylesheet" type="text/css" />
 <link href="../css/details.css" rel="stylesheet" type="text/css" />
+<link href="../css/apocrypha.css" rel="stylesheet" type="text/css" />
 <link rel="icon" type="image/png" href="https://fate-go.cirnopedia.org/scripts/img/grandorder/favicon.ico" />
 <script src="../scripts/jquery-3.3.1.min.js">
 </script>
-
-		<style>
-#snowbox	{min-width: 1375px;}
-.footerwrap	{min-width: 1375px;}
-.bodywrap	{min-width: 1375px;}
-.no			{width: 3%;}
-div.update div.update-body li {margin-left: 15px; font-family: 'robotoregular', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif;}
-div.update	{margin-left: 5px;}
-div.divider {background-size: 100% 100%; width: 800px; padding: 10px 10px 10px 55px; box-sizing: border-box;}
-#rounded-corner.nohover tbody tr td.raid {background-color: #ffe5f0; color: red;}
-#rounded-corner.nohover tbody:hover tr td.raid {background-color: #ffe5f0;}
-#rounded-corner.nohover tbody tr td.free {background-color: #eaffea; color: green;}
-#rounded-corner.nohover tbody:hover tr td.free {background-color: #eaffea;}
-#rounded-corner.nohover tbody tr td.main {background-color: #eaffff; color: blue;}
-#rounded-corner.nohover tbody:hover tr td.main {background-color: #eaffff;}
-#rounded-corner.nohover tbody tr td.limited {background-color: #f5f6ce; color: orange;}
-#rounded-corner.nohover tbody:hover tr td.limited {background-color: #f5f6ce;}
-#rounded-corner.nohover tbody tr td.other {background-color: #fdccff; color: purple;}
-#rounded-corner.nohover tbody:hover tr td.other {background-color: #fdccff;}
-#rounded-corner.missionlist tbody tr {height:60px;}
-font.star {font-size: 14px; color: #ffd500; text-shadow: 1px 1px 1px #000000;}
-div table.heightplus tbody tr {height: 82px;}
-
-div.border div.apocrypha
-	{
-		background-image:
-			url('https://fate-go.cirnopedia.org/icons/map/map_apocrypha.png'),
-			url('https://fate-go.cirnopedia.org/icons/map/map_apocrypha.jpg');
-		background-repeat:
-			no-repeat,
-			no-repeat;
-		background-position: 
-			80% 80%, 
-			80% 80%;
-		background-size: 
-			110% 110%, 
-			110% 110%;
-		width: 100%;
-		height: 766px;
-		padding: 0px;
-		box-sizing: border-box;
-	}
-div.border div.coordinate a
-	{
-		display: block;
-		width: 130px;
-		height: 130px;
-		color: #ffffff;
-		font-size: 16px;
-		font-weight: 400;
-		text-align: center;
-		box-sizing: border-box;
-		position: absolute;
-		background-image: none;
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-	}
-div.border div.coordinate a img.mapicon
-	{
-		max-width: 90px;
-		max-height: 90px;
-		margin: 10px 10px 7px 10px;
-	}
-div.border div.coordinate a img.mapicon2
-	{
-		max-width: 0px;
-		max-height: 0px;
-		margin: 0px;
-	}
-div.border div.coordinate a:hover img.mapicon
-	{
-		max-width: 100px;
-		max-height: 100px;
-		margin: 4px 0px 3px 0px;
-	}
-div.border div.coordinate a.gate:hover img.mapicon
-	{
-		max-width: 0px;
-		max-height: 0px;
-		margin: 0px;
-	}
-div.border div.coordinate a.gate:hover img.mapicon2
-	{
-		max-width: 110px;
-		max-height: 110px;
-		margin: 4px 0px 3px 0px;
-	}
-div.border div.coordinate a img.gate
-	{
-		max-width: 100px;
-		max-height: 100px;
-		margin: 10px 10px 7px 10px;
-	}
-div.border div.coordinate a img.gate:hover
-	{
-		max-width: 110px;
-		max-height: 110px;
-		margin: 4px 0px 3px 0px;
-	}
-div.border div.coordinate a div
-	{
-		font-size: 11px; white-space: nowrap;
-		padding: 5px 10px;
-		margin-top: -10px;
-		background-image: url('https://fate-go.cirnopedia.org/icons/map/coordinate.png');
-		background-position: center center; 
-		background-repeat: no-repeat;
-		background-size: 85% 100%;
-		font-family: 'robotoregular','맑은 고딕',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
-	}
-	
-div.raid_01 {display: relative;}
-div.raid_02, div.raid_03, div.raid_04, div.raid_05, div.raid_06, div.raid_07, div.raid_08, div.raid_09, div.raid_10, div.raid_11, div.raid_12 {display: none;}
-
-div.raid2_01 {display: relative;}
-div.raid2_02, div.raid2_03, div.raid2_04, div.raid2_05, div.raid2_06, div.raid2_07, div.raid2_08, div.raid2_09, div.raid2_10, div.raid2_11, div.raid2_12 {display: none;}
-
-div.free_01 {display: relative;}
-div.free_02, div.free_03, div.free_04, div.free_05, div.free_06, div.free_07, div.free_08, div.free_09, div.free_10, div.free_11, div.free_12 {display: none;}
-
-div.story_01 {display: relative;}
-div.story_02, div.story_03, div.story_04, div.story_05, div.story_06, div.story_07, div.story_08, div.story_09, div.story_10, div.story_11, div.story_12 {display: none;}
-
-td.desc-right	{text-align: right; padding-right: 15px;}
-#rounded-corner tbody tr.nobu td {background-color: #ffe5f0; color: red;}
-#rounded-corner tbody:hover tr.nobu td {background-color: #ffe5f0;}
-</style>
 <title>Fate/Grand Order Apocrypha 콜라보 : Fate/Apocrypha/Inheritance of Glory 레이드 정보</title>
 </head>
 <style>
@@ -162,7 +35,9 @@ td.no			{width: 4%;}
 <li>
 <a href="#ChallengeQuest">고난이도</a>
 </li>
-</nav><br><br>
+</nav>
+<br>
+
 <div id="map" class="section" style="width: 1110px;"><h2> 반복영령영역 팔스 트리파스(False Trifas) (A.D. 2004)<br></h2></div>
 	<div class="border" style="width: 1100px;">
 		<div class="apocrypha" style="position: relative;">
@@ -223,13 +98,10 @@ td.no			{width: 4%;}
 </div>
 </div>
 
-<br>
-
 <div id="raid1" class="section" style="width: 1110px;">
 	<a name="Raid"></a><h2>격퇴전</h2>
 </div>
-	<details>
-	<summary>잭 더 리퍼 격퇴전</summary>
+	<details><summary>잭 더 리퍼 격퇴전</summary>
 <!-- Jack Raid -->
 	<div class="raid_01">
 		<div class="border" style="width: 1100px;" id="apocrypha_r001">
@@ -635,10 +507,8 @@ td.no			{width: 4%;}
 </table>
 </div>
 </div>
-	</details>
-<br>
-	<details>
-	<summary>셰익스피어 격퇴전</summary>
+</details><br>
+<details><summary>셰익스피어 격퇴전</summary>
 <!-- Shakespeare Raid -->
 <div class="raid_02">
 <div class="border" style="width: 1100px;" id="apocrypha_r004">
@@ -1050,10 +920,8 @@ td.no			{width: 4%;}
 </table>
 </div>
 </div>
-</details>
-<br>
-<details>
-	<summary>아비케브론 격퇴전</summary>
+	</details><br>
+	<details><summary>아비케브론 격퇴전</summary>
 <!-- 아비케브론 Raid -->
 <div class="raid_03">
 <div class="border" style="width: 1100px;" id="apocrypha_r007">
@@ -1462,10 +1330,8 @@ td.no			{width: 4%;}
 </table>
 </div>
 </div>
-</details>
-<br>
-<details>
-	<summary>프랑켄슈타인 격퇴전</summary>
+	</details><br>
+	<details><summary>프랑켄슈타인 격퇴전</summary>
 <!-- Fran Raid -->
 <div class="raid_04">
 <div class="border" style="width: 1100px;" id="apocrypha_r010">
@@ -5232,7 +5098,7 @@ td.no			{width: 4%;}
 	<td class="hidden">
 	<td class="no">1<td class="desc">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0104.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0061.png'), url('icons/frame/bg_04.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0104.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0061.png'), url('icons/frame/bg_04.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>지크프리트</ch1>
 	<br>
 	<ch3>4★ 세이버</ch3>
@@ -5244,7 +5110,7 @@ td.no			{width: 4%;}
 	</ch2>
 	</span> 흑의 세이버</a> Lv.69<br>
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0105.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0761.png'), url('icons/frame/bg_05.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0105.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0761.png'), url('icons/frame/bg_05.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>모드레드</ch1>
 	<br>
 	<ch3>5★ 세이버</ch3>
@@ -5413,7 +5279,7 @@ td.no			{width: 4%;}
 	<td class="hidden">
 	<td class="no">1<td class="desc">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0104.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0061.png'), url('icons/frame/bg_04.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0104.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0061.png'), url('icons/frame/bg_04.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>지크프리트</ch1>
 	<br>
 	<ch3>4★ 세이버</ch3>
@@ -5425,7 +5291,7 @@ td.no			{width: 4%;}
 	</ch2>
 	</span> 흑의 세이버</a> Lv.71<br>
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0105.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0761.png'), url('icons/frame/bg_05.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0105.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0761.png'), url('icons/frame/bg_05.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>모드레드</ch1>
 	<br>
 	<ch3>5★ 세이버</ch3>
@@ -5603,7 +5469,7 @@ td.no			{width: 4%;}
 	<td class="hidden">
 	<td class="no">1<td class="desc">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0104.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0061.png'), url('icons/frame/bg_04.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0104.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0061.png'), url('icons/frame/bg_04.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>지크프리트</ch1>
 	<br>
 	<ch3>4★ 세이버</ch3>
@@ -5615,7 +5481,7 @@ td.no			{width: 4%;}
 	</ch2>
 	</span> 흑의 세이버</a> Lv.69<br>
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0105.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0761.png'), url('icons/frame/bg_05.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0105.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0761.png'), url('icons/frame/bg_05.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>모드레드</ch1>
 	<br>
 	<ch3>5★ 세이버</ch3>
@@ -5806,7 +5672,7 @@ td.no			{width: 4%;}
 	<td class="hidden">
 	<td class="no">1<td class="desc">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0705.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0521.png'), url('icons/frame/bg_05.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0705.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0521.png'), url('icons/frame/bg_05.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>블라드 3세</ch1>
 	<br>
 	<ch3>5★ 버서커</ch3>
@@ -5818,7 +5684,7 @@ td.no			{width: 4%;}
 	</ch2>
 	</span> 흑의 랜서</a> Lv.41<br>
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0205.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0851.png'), url('icons/frame/bg_05.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0205.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0851.png'), url('icons/frame/bg_05.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>카르나</ch1>
 	<br>
 	<ch3>5★ 랜서</ch3>
@@ -5987,7 +5853,7 @@ td.no			{width: 4%;}
 	<td class="hidden">
 	<td class="no">1<td class="desc">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0705.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0521.png'), url('icons/frame/bg_05.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0705.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0521.png'), url('icons/frame/bg_05.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>블라드 3세</ch1>
 	<br>
 	<ch3>5★ 버서커</ch3>
@@ -5999,7 +5865,7 @@ td.no			{width: 4%;}
 	</ch2>
 	</span> 흑의 랜서</a> Lv.53<br>
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0205.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0851.png'), url('icons/frame/bg_05.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0205.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0851.png'), url('icons/frame/bg_05.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>카르나</ch1>
 	<br>
 	<ch3>5★ 랜서</ch3>
@@ -6177,7 +6043,7 @@ td.no			{width: 4%;}
 	<td class="hidden">
 	<td class="no">1<td class="desc">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0705.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0521.png'), url('icons/frame/bg_05.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0705.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0521.png'), url('icons/frame/bg_05.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>블라드 3세</ch1>
 	<br>
 	<ch3>5★ 버서커</ch3>
@@ -6189,7 +6055,7 @@ td.no			{width: 4%;}
 	</ch2>
 	</span> 흑의 랜서</a> Lv.59<br>
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0205.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0851.png'), url('icons/frame/bg_05.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0205.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0851.png'), url('icons/frame/bg_05.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>카르나</ch1>
 	<br>
 	<ch3>5★ 랜서</ch3>
@@ -6379,7 +6245,7 @@ td.no			{width: 4%;}
 	<td class="hidden">
 	<td class="no">1<td class="desc">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0304.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_2071.png'), url('icons/frame/bg_04.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0304.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_2071.png'), url('icons/frame/bg_04.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>케이론</ch1>
 	<br>
 	<ch3>4★ 아처</ch3>
@@ -6391,7 +6257,7 @@ td.no			{width: 4%;}
 	</ch2>
 	</span> 흑의 아처</a> Lv.10<br>
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0304.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0141.png'), url('icons/frame/bg_04.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0304.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0141.png'), url('icons/frame/bg_04.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>아탈란테</ch1>
 	<br>
 	<ch3>4★ 아처</ch3>
@@ -6566,7 +6432,7 @@ td.no			{width: 4%;}
 	<td class="hidden">
 	<td class="no">1<td class="desc">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0304.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_2071.png'), url('icons/frame/bg_04.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0304.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_2071.png'), url('icons/frame/bg_04.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>케이론</ch1>
 	<br>
 	<ch3>4★ 아처</ch3>
@@ -6578,7 +6444,7 @@ td.no			{width: 4%;}
 	</ch2>
 	</span> 흑의 아처</a> Lv.25<br>
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0304.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0141.png'), url('icons/frame/bg_04.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0304.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0141.png'), url('icons/frame/bg_04.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>아탈란테</ch1>
 	<br>
 	<ch3>4★ 아처</ch3>
@@ -6759,7 +6625,7 @@ td.no			{width: 4%;}
 	<td class="hidden">
 	<td class="no">1<td class="desc">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0304.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_2071.png'), url('icons/frame/bg_04.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0304.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_2071.png'), url('icons/frame/bg_04.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>케이론</ch1>
 	<br>
 	<ch3>4★ 아처</ch3>
@@ -6771,7 +6637,7 @@ td.no			{width: 4%;}
 	</ch2>
 	</span> 흑의 아처</a> Lv.60<br>
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0304.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0141.png'), url('icons/frame/bg_04.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0304.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0141.png'), url('icons/frame/bg_04.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>아탈란테</ch1>
 	<br>
 	<ch3>4★ 아처</ch3>
@@ -6964,7 +6830,7 @@ td.no			{width: 4%;}
 	<td class="hidden">
 	<td class="no">1<td class="desc">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0404.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0941.png'), url('icons/frame/bg_04.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0404.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0941.png'), url('icons/frame/bg_04.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>아스톨포</ch1>
 	<br>
 	<ch3>4★ 라이더</ch3>
@@ -6976,7 +6842,7 @@ td.no			{width: 4%;}
 	</ch2>
 	</span> 흑의 라이더</a> Lv.53<br>
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0405.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_2061.png'), url('icons/frame/bg_05.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0405.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_2061.png'), url('icons/frame/bg_05.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>아킬레우스</ch1>
 	<br>
 	<ch3>5★ 라이더</ch3>
@@ -7145,7 +7011,7 @@ td.no			{width: 4%;}
 	<td class="hidden">
 	<td class="no">1<td class="desc">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0404.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0941.png'), url('icons/frame/bg_04.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0404.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0941.png'), url('icons/frame/bg_04.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>아스톨포</ch1>
 	<br>
 	<ch3>4★ 라이더</ch3>
@@ -7157,7 +7023,7 @@ td.no			{width: 4%;}
 	</ch2>
 	</span> 흑의 라이더</a> Lv.81<br>
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0405.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_2061.png'), url('icons/frame/bg_05.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0405.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_2061.png'), url('icons/frame/bg_05.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>아킬레우스</ch1>
 	<br>
 	<ch3>5★ 라이더</ch3>
@@ -7335,7 +7201,7 @@ td.no			{width: 4%;}
 	<td class="hidden">
 	<td class="no">1<td class="desc">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0404.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0941.png'), url('icons/frame/bg_04.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0404.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0941.png'), url('icons/frame/bg_04.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>아스톨포</ch1>
 	<br>
 	<ch3>4★ 라이더</ch3>
@@ -7347,7 +7213,7 @@ td.no			{width: 4%;}
 	</ch2>
 	</span> 흑의 라이더</a> Lv.81<br>
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0405.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_2061.png'), url('icons/frame/bg_05.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0405.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_2061.png'), url('icons/frame/bg_05.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>아킬레우스</ch1>
 	<br>
 	<ch3>5★ 라이더</ch3>
@@ -7540,7 +7406,7 @@ td.no			{width: 4%;}
 	<td class="hidden">
 	<td class="no">1<td class="desc">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0503.png'), url('icons/frame/servant_03.png'), url('icons/servant/servant_2031.png'), url('icons/frame/bg_03.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0503.png'), url('icons/frame/servant_03.png'), url('icons/servant/servant_2031.png'), url('icons/frame/bg_03.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>아비케브론</ch1>
 	<br>
 	<ch3>3★ 캐스터</ch3>
@@ -7552,7 +7418,7 @@ td.no			{width: 4%;}
 	</ch2>
 	</span> 흑의 캐스터</a> Lv.58<br>
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0502.png'), url('icons/frame/servant_02.png'), url('icons/servant/servant_0341.png'), url('icons/frame/bg_02.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0502.png'), url('icons/frame/servant_02.png'), url('icons/servant/servant_0341.png'), url('icons/frame/bg_02.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>윌리엄 셰익스피어</ch1>
 	<br>
 	<ch3>2★ 캐스터</ch3>
@@ -7721,7 +7587,7 @@ td.no			{width: 4%;}
 	<td class="hidden">
 	<td class="no">1<td class="desc">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0503.png'), url('icons/frame/servant_03.png'), url('icons/servant/servant_2031.png'), url('icons/frame/bg_03.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0503.png'), url('icons/frame/servant_03.png'), url('icons/servant/servant_2031.png'), url('icons/frame/bg_03.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>아비케브론</ch1>
 	<br>
 	<ch3>3★ 캐스터</ch3>
@@ -7733,7 +7599,7 @@ td.no			{width: 4%;}
 	</ch2>
 	</span> 흑의 캐스터</a> Lv.75<br>
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0502.png'), url('icons/frame/servant_02.png'), url('icons/servant/servant_0341.png'), url('icons/frame/bg_02.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0502.png'), url('icons/frame/servant_02.png'), url('icons/servant/servant_0341.png'), url('icons/frame/bg_02.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>윌리엄 셰익스피어</ch1>
 	<br>
 	<ch3>2★ 캐스터</ch3>
@@ -7911,7 +7777,7 @@ td.no			{width: 4%;}
 	<td class="hidden">
 	<td class="no">1<td class="desc">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0503.png'), url('icons/frame/servant_03.png'), url('icons/servant/servant_2031.png'), url('icons/frame/bg_03.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0503.png'), url('icons/frame/servant_03.png'), url('icons/servant/servant_2031.png'), url('icons/frame/bg_03.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>아비케브론</ch1>
 	<br>
 	<ch3>3★ 캐스터</ch3>
@@ -7923,7 +7789,7 @@ td.no			{width: 4%;}
 	</ch2>
 	</span> 흑의 캐스터</a> Lv.90<br>
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0502.png'), url('icons/frame/servant_02.png'), url('icons/servant/servant_0341.png'), url('icons/frame/bg_02.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0502.png'), url('icons/frame/servant_02.png'), url('icons/servant/servant_0341.png'), url('icons/frame/bg_02.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>윌리엄 셰익스피어</ch1>
 	<br>
 	<ch3>2★ 캐스터</ch3>
@@ -8113,7 +7979,7 @@ td.no			{width: 4%;}
 	<td class="hidden">
 	<td class="no">1<td class="desc">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0605.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0751.png'), url('icons/frame/bg_05.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0605.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0751.png'), url('icons/frame/bg_05.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>잭 더 리퍼</ch1>
 	<br>
 	<ch3>5★ 어새신</ch3>
@@ -8125,7 +7991,7 @@ td.no			{width: 4%;}
 	</ch2>
 	</span> 흑의 어새신</a> Lv.36<br>
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0605.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_1991.png'), url('icons/frame/bg_05.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0605.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_1991.png'), url('icons/frame/bg_05.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>세미라미스</ch1>
 	<br>
 	<ch3>5★ 어새신</ch3>
@@ -8300,7 +8166,7 @@ td.no			{width: 4%;}
 	<td class="hidden">
 	<td class="no">1<td class="desc">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0605.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0751.png'), url('icons/frame/bg_05.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0605.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0751.png'), url('icons/frame/bg_05.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>잭 더 리퍼</ch1>
 	<br>
 	<ch3>5★ 어새신</ch3>
@@ -8312,7 +8178,7 @@ td.no			{width: 4%;}
 	</ch2>
 	</span> 흑의 어새신</a> Lv.63<br>
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0605.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_1991.png'), url('icons/frame/bg_05.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0605.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_1991.png'), url('icons/frame/bg_05.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>세미라미스</ch1>
 	<br>
 	<ch3>5★ 어새신</ch3>
@@ -8493,7 +8359,7 @@ td.no			{width: 4%;}
 	<td class="hidden">
 	<td class="no">1<td class="desc">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0605.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0751.png'), url('icons/frame/bg_05.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0605.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0751.png'), url('icons/frame/bg_05.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>잭 더 리퍼</ch1>
 	<br>
 	<ch3>5★ 어새신</ch3>
@@ -8505,7 +8371,7 @@ td.no			{width: 4%;}
 	</ch2>
 	</span> 흑의 어새신</a> Lv.72<br>
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0605.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_1991.png'), url('icons/frame/bg_05.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0605.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_1991.png'), url('icons/frame/bg_05.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>세미라미스</ch1>
 	<br>
 	<ch3>5★ 어새신</ch3>
@@ -8698,7 +8564,7 @@ td.no			{width: 4%;}
 	<td class="hidden">
 	<td class="no">1<td class="desc">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0704.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0821.png'), url('icons/frame/bg_04.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0704.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0821.png'), url('icons/frame/bg_04.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>프랑켄슈타인</ch1>
 	<br>
 	<ch3>4★ 버서커</ch3>
@@ -8710,7 +8576,7 @@ td.no			{width: 4%;}
 	</ch2>
 	</span> 흑의 버서커</a> Lv.30<br>
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0701.png'), url('icons/frame/servant_01.png'), url('icons/servant/servant_0501.png'), url('icons/frame/bg_01.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0701.png'), url('icons/frame/servant_01.png'), url('icons/servant/servant_0501.png'), url('icons/frame/bg_01.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>스파르타쿠스</ch1>
 	<br>
 	<ch3>1★ 버서커</ch3>
@@ -8867,7 +8733,7 @@ td.no			{width: 4%;}
 	<td class="hidden">
 	<td class="no">1<td class="desc">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0704.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0821.png'), url('icons/frame/bg_04.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0704.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0821.png'), url('icons/frame/bg_04.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>프랑켄슈타인</ch1>
 	<br>
 	<ch3>4★ 버서커</ch3>
@@ -8879,7 +8745,7 @@ td.no			{width: 4%;}
 	</ch2>
 	</span> 흑의 버서커</a> Lv.54<br>
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0701.png'), url('icons/frame/servant_01.png'), url('icons/servant/servant_0501.png'), url('icons/frame/bg_01.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0701.png'), url('icons/frame/servant_01.png'), url('icons/servant/servant_0501.png'), url('icons/frame/bg_01.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>스파르타쿠스</ch1>
 	<br>
 	<ch3>1★ 버서커</ch3>
@@ -9033,7 +8899,7 @@ td.no			{width: 4%;}
 	<td class="hidden">
 	<td class="no">1<td class="desc">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0704.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0821.png'), url('icons/frame/bg_04.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0704.png'), url('icons/frame/servant_04.png'), url('icons/servant/servant_0821.png'), url('icons/frame/bg_04.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>프랑켄슈타인</ch1>
 	<br>
 	<ch3>4★ 버서커</ch3>
@@ -9045,7 +8911,7 @@ td.no			{width: 4%;}
 	</ch2>
 	</span> 흑의 버서커</a> Lv.62<br>
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0701.png'), url('icons/frame/servant_01.png'), url('icons/servant/servant_0501.png'), url('icons/frame/bg_01.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0701.png'), url('icons/frame/servant_01.png'), url('icons/servant/servant_0501.png'), url('icons/frame/bg_01.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>스파르타쿠스</ch1>
 	<br>
 	<ch3>1★ 버서커</ch3>
@@ -9200,7 +9066,7 @@ td.no			{width: 4%;}
 	<td rowspan="2">1/1<td rowspan="2" class="no">5<td class="desc">
 	<font class="notice">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0805.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0931.png'), url('icons/frame/bg_05.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0805.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0931.png'), url('icons/frame/bg_05.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>아마쿠사 시로</ch1>
 	<br>
 	<ch3>5★ 룰러</ch3>
@@ -9228,7 +9094,7 @@ td.no			{width: 4%;}
 	<td class="desc">
 	<font class="notice">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0202.png'), url('icons/frame/servant_02.png'), url('icons/servant/servant_0191.png'), url('icons/frame/bg_02.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0202.png'), url('icons/frame/servant_02.png'), url('icons/servant/servant_0191.png'), url('icons/frame/bg_02.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>무사시보 벤케이</ch1>
 	<br>
 	<ch3>2★ 랜서</ch3>
@@ -9242,7 +9108,7 @@ td.no			{width: 4%;}
 	</font> Lv.80<br>
 	<font class="notice">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0303.png'), url('icons/frame/servant_03.png'), url('icons/servant/servant_0631.png'), url('icons/frame/bg_03.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0303.png'), url('icons/frame/servant_03.png'), url('icons/servant/servant_0631.png'), url('icons/frame/bg_03.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>다윗</ch1>
 	<br>
 	<ch3>3★ 아처</ch3>
@@ -9256,7 +9122,7 @@ td.no			{width: 4%;}
 	</font> Lv.80<br>
 	<font class="notice">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0705.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0511.png'), url('icons/frame/bg_05.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0705.png'), url('icons/frame/servant_05.png'), url('icons/servant/servant_0511.png'), url('icons/frame/bg_05.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>사카타 킨토키</ch1>
 	<br>
 	<ch3>5★ 버서커</ch3>
@@ -9270,7 +9136,7 @@ td.no			{width: 4%;}
 	</font> Lv.80<br>
 	<font class="notice">
 	<a class="tooltip">
-	<span class="item" style="background-image: url('icons/class/class_0402.png'), url('icons/frame/servant_02.png'), url('icons/servant/servant_0241.png'), url('icons/frame/bg_02.png'), url('../scripts/img/grandorder/tooltip.png');">
+	<span class="item" style="background-image: url('icons/class/class_0402.png'), url('icons/frame/servant_02.png'), url('icons/servant/servant_0241.png'), url('icons/frame/bg_02.png'), url('scripts/img/grandorder/tooltip.png');">
 	<ch1>게오르기우스</ch1>
 	<br>
 	<ch3>2★ 라이더</ch3>
