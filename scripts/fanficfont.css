@@ -152,6 +152,15 @@
 
 }
 
+div.explain {
+	width:400px;
+	background-color:#ffd65c;
+	color:#000;
+	margin:auto;
+	border: 1px solid #f00;
+	white-space:pre-wrap;
+}
+
 div.mmain {
 	font-family: 'Comic Sans MS', '맑은 고딕';
 	font-variant: small-caps;
