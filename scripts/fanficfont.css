@@ -237,7 +237,13 @@ div ruby{
 div ruby rt{
 	font-size:1em;
 }
-
+.first{
+	font-size:12px !important;
+}
+.first::first-letter{
+	color:#ff0000;
+	font-weight:900;
+}
 div.mmain span.heroname {
 	font-family:'gugi', 'Spoqa Han Sans JP';
 	font-weight:900;
