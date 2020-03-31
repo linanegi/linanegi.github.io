@@ -1,3 +1,4 @@
+
 <html>
 <head>
 <title>Lostbelt No.1 - 영구동토제국 아나스타샤</title>
@@ -173,13 +174,14 @@ div.story01_p7, div.story02_p7, div.story03_p7, div.story04_p7, div.story05_p7, 
 <nav id="top" style="width: 1100px;">
 </nav>
 <nav id="mini2" style="width: 800px;">
-	<li><a onclick="toggle_visibility('anastasia_full');">상세정보</a></li>
-	<li><a onclick="toggle_visibility('mainscenario');">메인 시나리오</a></li>
-	<li><a onclick="toggle_visibility('freequest');">프리퀘스트</a></li>
-	<li><a onclick="toggle_visibility('gacha');">픽업 정보</a></li>
+	<li><a href="#summary">상세정보</a></li>
+	<li><a href="#mainscenario" onclick="toggle2('mainmap');toggle1('mapclose');toggle2('mapopen')">메인 시나리오</a></li>
+	<li><a href="#freequest">프리퀘스트</a></li>
+	<li><a href="#gacha">픽업 정보</a></li>
 </nav>
 <!-- Lostbelt No.1 -->
-	<div id="anastasia_full" class="update" style="display:'none';">
+<div class="summary">
+<div id="anastasia_full" class="update">
 	<a href="#anastasia_full"><h3>2장 1부 ｢Lostbelt No.1: 영구동토제국 아나스타샤｣ 개막!</h3></a>
 	<div class="update-body" style="background: url('img/20200401/bg.png') top left repeat;">
 			<span class="date">2020/04/01</span><br>
@@ -316,43 +318,49 @@ div.story01_p7, div.story02_p7, div.story03_p7, div.story04_p7, div.story05_p7, 
 	</tbody>
 </table>
 </div>
-		<spanh><font color="#006e9c">◆</font> 신규 추가되는 개념예장 목록 <font color="#006e9c">◆</font></spanh><br>
+<spanh><font color="#006e9c">◆</font> 신규 추가되는 개념예장 목록 <font color="#006e9c">◆</font></spanh><br>
 
-		<img src="img/20200401/info_image_07.png" style="max-width: 800px;"><br><br>
-		<div class="border" style="width: 1000px; margin: 10px 0px 10px 0px;">
-		<table id="rounded-corner">
-			<thead>
-				<tr>
-					<th style="width:  5%;">아이콘</th>
-					<th style="width:  7%;">레어도</th>
-					<th style="width:  8%;">No.<br>이름</th>
-					<th style="width:  30%;">스킬</th>
-					<th style="width:  5%;">아이콘</th>
-					<th style="width:  7%;">레어도</th>
-					<th style="width:  8%;">No.<br>이름</th>
-					<th style="width:  30%;">스킬</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr><td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_01.png'), url('icons/essence_sample/craft_essence_777.png');"/><td class="desc"><font class="star">★</font><td class="desc"><a target="_blank">No.777<br>투쟁</a><td class="desc">자신의 공격력 2% UP<br>[최대해방시] 5% UP<td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_02.png'), url('icons/essence_sample/craft_essence_782.png');"/><td class="desc"><font class="star">★★</font><td class="desc"><a target="_blank">No.782<br>자애</a><td class="desc">자신의 HP회복량 3% UP<br>[최대해방시] 5% UP</tr>
-				<tr><td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_01.png'), url('icons/essence_sample/craft_essence_778.png');"/><td class="desc"><font class="star">★</font><td class="desc"><a target="_blank">No.778<br>연쇄</a><td class="desc">자신에게 데미지 플러스 30상태 부여<br>[최대해방시] +50<td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_02.png'), url('icons/essence_sample/craft_essence_783.png');"/><td class="desc"><font class="star">★★</font><td class="desc"><a target="_blank">No.783<br>번영</a><td class="desc">자신에게 매 턴 HP 30회복 상태를 부여<br>[최대해방시] 50</tr>
-				<tr><td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_01.png'), url('icons/essence_sample/craft_essence_779.png');"/><td class="desc"><font class="star">★</font><td class="desc"><a target="_blank">No.779<br>단절</a><td class="desc">자신에게 데미지 컷 30상태 부여<br>[최대해방시] 50<td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_02.png'), url('icons/essence_sample/craft_essence_784.png');"/><td class="desc"><font class="star">★★</font><td class="desc"><a target="_blank">No.784<br>기만</a><td class="desc">자신의 약화 부여 성공률 3% UP<br>[최대해방시] 5%</tr>
-				<tr><td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_01.png'), url('icons/essence_sample/craft_essence_780.png');"/><td class="desc"><font class="star">★</font><td class="desc"><a target="_blank">No.780<br>각성</a><td class="desc">자신의 스타 집중도 50% UP<br>[최대해방시] 100% UP<td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_02.png'), url('icons/essence_sample/craft_essence_785.png');"/><td class="desc"><font class="star">★★</font><td class="desc"><a target="_blank">No.785<br>동조</a><td class="desc">자신의 강화 성공률 3% UP<br>[최대해방시] 5% UP</tr>
-				<tr><td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_01.png'), url('icons/essence_sample/craft_essence_781.png');"/><td class="desc"><font class="star">★</font><td class="desc"><a target="_blank">No.781<br>기아</a><td class="desc">자신의 피 데미지 NP 획득량 15% UP<br>[최대해방시] 20% UP<td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_02.png'), url('icons/essence_sample/craft_essence_786.png');"/><td class="desc"><font class="star">★★</font><td class="desc"><a target="_blank">No.786<br>암담</a><td class="desc">자신의 즉사내성 5% UP<br>[최대해방시] 10% UP</tr>
-			</tbody>
-		</table>
-		</div>
-	</div>
-</div>
+<img src="img/20200401/info_image_07.png" style="max-width: 800px;"><br><br>
+<div class="border" style="width: 1000px; margin: 10px 0px 10px 0px;">
+<table id="rounded-corner">
+	<thead>
+		<tr>
+			<th style="width:  5%;">아이콘</th>
+			<th style="width:  7%;">레어도</th>
+			<th style="width:  8%;">No.<br>이름</th>
+			<th style="width:  30%;">스킬</th>
+			<th style="width:  5%;">아이콘</th>
+			<th style="width:  7%;">레어도</th>
+			<th style="width:  8%;">No.<br>이름</th>
+			<th style="width:  30%;">스킬</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_01.png'), url('icons/essence_sample/craft_essence_777.png');"/><td class="desc"><font class="star">★</font><td class="desc"><a target="_blank">No.777<br>투쟁</a><td class="desc">자신의 공격력 2% UP<br>[최대해방시] 5% UP<td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_02.png'), url('icons/essence_sample/craft_essence_782.png');"/><td class="desc"><font class="star">★★</font><td class="desc"><a target="_blank">No.782<br>자애</a><td class="desc">자신의 HP회복량 3% UP<br>[최대해방시] 5% UP</tr>
+		<tr><td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_01.png'), url('icons/essence_sample/craft_essence_778.png');"/><td class="desc"><font class="star">★</font><td class="desc"><a target="_blank">No.778<br>연쇄</a><td class="desc">자신에게 데미지 플러스 30상태 부여<br>[최대해방시] +50<td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_02.png'), url('icons/essence_sample/craft_essence_783.png');"/><td class="desc"><font class="star">★★</font><td class="desc"><a target="_blank">No.783<br>번영</a><td class="desc">자신에게 매 턴 HP 30회복 상태를 부여<br>[최대해방시] 50</tr>
+		<tr><td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_01.png'), url('icons/essence_sample/craft_essence_779.png');"/><td class="desc"><font class="star">★</font><td class="desc"><a target="_blank">No.779<br>단절</a><td class="desc">자신에게 데미지 컷 30상태 부여<br>[최대해방시] 50<td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_02.png'), url('icons/essence_sample/craft_essence_784.png');"/><td class="desc"><font class="star">★★</font><td class="desc"><a target="_blank">No.784<br>기만</a><td class="desc">자신의 약화 부여 성공률 3% UP<br>[최대해방시] 5%</tr>
+		<tr><td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_01.png'), url('icons/essence_sample/craft_essence_780.png');"/><td class="desc"><font class="star">★</font><td class="desc"><a target="_blank">No.780<br>각성</a><td class="desc">자신의 스타 집중도 50% UP<br>[최대해방시] 100% UP<td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_02.png'), url('icons/essence_sample/craft_essence_785.png');"/><td class="desc"><font class="star">★★</font><td class="desc"><a target="_blank">No.785<br>동조</a><td class="desc">자신의 강화 성공률 3% UP<br>[최대해방시] 5% UP</tr>
+		<tr><td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_01.png'), url('icons/essence_sample/craft_essence_781.png');"/><td class="desc"><font class="star">★</font><td class="desc"><a target="_blank">No.781<br>기아</a><td class="desc">자신의 피 데미지 NP 획득량 15% UP<br>[최대해방시] 20% UP<td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_02.png'), url('icons/essence_sample/craft_essence_786.png');"/><td class="desc"><font class="star">★★</font><td class="desc"><a target="_blank">No.786<br>암담</a><td class="desc">자신의 즉사내성 5% UP<br>[최대해방시] 10% UP</tr>
+	</tbody>
+</table>
+</div></div></div></div>
 
 
 <!-- 메인 시나리오 -->
-<div id="mainscenario" style="display:'block';"><br>
+<div id="mainscenario"><br>
 <div id="map" class="section" style="width: 1110px;"><h2> 짐승 나라의 황녀 (A.D. 1570?)</h2></div>
+<div class="mapopen">
 	<nav id="mini2">
-		<li><a style="min-width: 10px; margin: 10px 2px 0px 2px;" onclick="toggle_visibility('mainmap');">지도</a></li>
+		<li><a style="min-width: 10px; margin: 10px 2px 0px 2px;" onclick="toggle2('mainmap');toggle1('mapclose');toggle2('mapopen');">지도 접기</a></li>
 	</nav>
-<div id="mainmap" style="display:none;">
+</div>
+<div class="mapclose">
+	<nav id="mini2">
+		<li><a style="min-width: 10px; margin: 10px 2px 0px 2px;" onclick="toggle1('mainmap');toggle2('mapclose');toggle1('mapopen');">지도 펼치기</a></li>
+	</nav>
+</div>
+<br>
+<div class="mainmap">
 <div class="border" style="width: 1100px;">
 	<div class="lostbelt" style="position: relative;">
 		<div class="coordinate">
@@ -453,7 +461,8 @@ div.story01_p7, div.story02_p7, div.story03_p7, div.story04_p7, div.story05_p7, 
 			</a>
 		</div>
 	</div>
-</div></div>
+</div>
+</div>
 <font class="notice">이 지도는 메인 시나리오용 지도입니다. 프리 퀘스트는 해당 페이지를 확인해주세요.</font><br>
 <div style="margin:auto;text-align:center;"><nav id="mini2" style="width: 1100px;">
 	<li><a style="min-width: 10px; margin: 10px 2px 0px 2px;" href="#000" onclick="toggle1('story00');toggle2('story01');toggle2('story02');toggle2('story03');toggle2('story04');toggle2('story05');toggle2('story06');toggle2('story07');toggle2('story08');toggle2('story09');toggle2('story10');toggle2('story11');toggle2('story12');toggle2('story13');toggle2('story14');toggle2('story15');toggle2('story16');toggle2('story17');toggle2('story18');toggle2('story19');toggle2('story20');toggle2('story21');toggle2('story22');toggle2('story16_selection');">프롤로그<br>outro / intro</a></li>
@@ -8753,10 +8762,10 @@ width: 40px; height: 44px;"></a></tr>
 </div></div>
 </div>
 </div>
-</div>
+
 <!-- 프리 퀘스트 -->
 
-<div id="freequest" style="display:'block';"><br>
+<div id="freequest"><br>
 <div id="map" class="section" style="width: 1110px;"><h2> 짐승 나라의 황녀 (A.D. 1570?)</h2></div>
 <div class="border" style="width: 1100px;">
 	<div class="lostbelt" style="position: relative;">
@@ -11388,13 +11397,13 @@ url('../scripts/img/grandorder/tooltip.png');">
 span.pu{color:#006e9c;}
 span.bolding{font-weight:700;}
 </style>
-<div id="gacha" style="display:'block';">
+<div id="gacha">
 <nav id="mini2" style="width: 800px;">
 	<li><a href="#anastasia_gacha">1차 픽업</a></li>
 	<li><a href="#anastasia2">2차 픽업</a></li>
 	(※현재 2차 픽업 정보는 공식적으로는 비공개입니다)
 </nav>
-<div id="anastasia_full" class="update">
+<div id="anastasia_gacha" class="update">
 	<a href="#anastasia_gacha"><h3>아나스타샤 픽업</h3></a>
 <div class="update-body" style="background: url('img/20200401/bg.png') top left repeat;">
 <!--
@@ -11516,6 +11525,7 @@ span.bolding{font-weight:700;}
 <img src="img/20200401/servant_details_l_02.png" style="max-width: 800px;"><br><br>
 	</div>
 </div>
+</div>
 <!-- / Lostbelt No.1 -->
 
 <!-- Lostbelt No.1 Part 2 -->
@@ -11592,10 +11602,12 @@ Please check the ｢Summon Info｣ on the bottom left corner of the Pickup Summo
 </div>
 </div>
 </div>
+</div>
 
 
 </div>
 
+</div>
 </div>
 </body>
 </html>
