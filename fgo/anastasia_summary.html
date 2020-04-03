@@ -1,0 +1,564 @@
+<html>
+<head>
+<title>Lostbelt No.1 - 영구동토제국 아나스타샤</title>
+<link rel="icon" type="image/png" href="https://fate-go.cirnopedia.org/scripts/img/grandorder/favicon.ico" />
+<script type="text/javascript">
+		function toggle1(thisname) {
+		   tr=document.getElementsByTagName('div')
+		   for (i=0;i<tr.length;i++){
+			  if (tr[i].className == thisname){
+					tr[i].style.display = 'inline';}}}
+		function toggle2(thisname) {
+			tr=document.getElementsByTagName('div')
+			for (i=0;i<tr.length;i++){
+				if (tr[i].className == thisname){
+					tr[i].style.display = 'none';}}}
+</script>
+<script type="text/javascript">
+ function toggle_visibility(id) 
+ {
+	 var e = document.getElementById(id);
+	 if(e.style.display == 'block')
+		 e.style.display = 'none';
+	 else
+		 e.style.display = 'block';
+ }
+</script>
+<script>
+	function select_all(el) {
+		if (typeof window.getSelection != "undefined" && typeof document.createRange != "undefined") {
+			var range = document.createRange();
+			range.selectNodeContents(el);
+			var sel = window.getSelection();
+			sel.removeAllRanges();
+			sel.addRange(range);
+		} else if (typeof document.selection != "undefined" && typeof document.body.createTextRange != "undefined") {
+			var textRange = document.body.createTextRange();
+			textRange.moveToElementText(el);
+			textRange.select();
+		}
+	}
+</script>
+
+<link rel="stylesheet" type="text/css" href="https://fate-go.cirnopedia.org/scripts/style_grandorder.css">
+</head>
+<body style="padding:20px 20px 20px 20px;width:1100px;">
+<style>
+#snowbox	{min-width: 1475px;}
+.footerwrap	{min-width: 1475px;}
+.bodywrap	{min-width: 1475px;}
+#rounded-corner.nohover tbody tr td.ascension {background-color: #eaffea; color: green;}
+#rounded-corner.nohover tbody:hover tr td.ascension {background-color: #eaffea;}
+#rounded-corner.nohover tbody tr td.exp {background-color: #ffe5f0; color: red;}
+#rounded-corner.nohover tbody:hover tr td.exp {background-color: #ffe5f0;}
+#rounded-corner.nohover tbody tr td.mcode {background-color: #e5f0ff; color: blue;}
+#rounded-corner.nohover tbody:hover tr td.mcode {background-color: #e5f0ff;}
+#rounded-corner.nohover tbody tr td.trial {background-color: #ffe0ff; color: blueviolet;}
+#rounded-corner.nohover tbody:hover tr td.trial {background-color: #ffe0ff;}
+</style>
+<style>
+.no			{width: 20px;}
+div.border div.lostbelt
+	{
+		background-image:
+			url('icons/map/map_lostbelt_0100.png'),
+			url('icons/map/map_lostbelt_0100.jpg');
+		background-repeat:
+			no-repeat,
+			no-repeat;
+		background-position: 
+			20% 20%, 
+			20% 20%;
+		background-size: 
+			110% 110%, 
+			110% 110%;
+		width: 100%;
+		height: 766px;
+		padding: 0px;
+		box-sizing: border-box;
+	}
+div.border div.coordinate a
+	{
+		display: block;
+		width: 130px;
+		height: 130px;
+		color: #ffffff;
+		font-size: 16px;
+		font-weight: 400;
+		text-align: center;
+		box-sizing: border-box;
+		position: absolute;
+		background-image: none;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+div.border div.coordinate a img.mapicon
+	{
+		max-width: 100px;
+		max-height: 100px;
+		margin: 10px 10px 7px 10px;
+	}
+div.border div.coordinate a img.mapicon2
+	{
+		max-width: 0px;
+		max-height: 0px;
+		margin: 0px;
+	}
+div.border div.coordinate a:hover img.mapicon
+	{
+		max-width: 110px;
+		max-height: 110px;
+		margin: 4px 0px 3px 0px;
+	}
+div.border div.coordinate a.gate:hover img.mapicon
+	{
+		max-width: 0px;
+		max-height: 0px;
+		margin: 0px;
+	}
+div.border div.coordinate a.gate:hover img.mapicon2
+	{
+		max-width: 110px;
+		max-height: 110px;
+		margin: 4px 0px 3px 0px;
+	}
+div.border div.coordinate a img.gate
+	{
+		max-width: 100px;
+		max-height: 100px;
+		margin: 10px 10px 7px 10px;
+	}
+div.border div.coordinate a img.gate:hover
+	{
+		max-width: 110px;
+		max-height: 110px;
+		margin: 4px 0px 3px 0px;
+	}
+div.border div.coordinate a div
+	{
+		font-size: 11px; white-space: nowrap;
+		padding: 5px 10px;
+		margin-top: -15px;
+		background-image: url('icons/map/coordinate.png');
+		background-position: center center; 
+		background-repeat: no-repeat;
+		background-size: 85% 100%;
+		font-family: 'robotoregular','メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
+	}
+#rounded-corner.nohover tbody tr td.main {background-color: #eaffff; color: blue;}
+#rounded-corner.nohover tbody:hover tr td.main {background-color: #eaffff;}
+#rounded-corner.nohover tbody tr td.free {background-color: #eaffea; color: green;}
+#rounded-corner.nohover tbody:hover tr td.free {background-color: #eaffea;}
+td.no {width: 4%;}
+
+.iconswap {background-image: url('icons/class/class_unknown05.png'), url('icons/class/class_1605.png'); background-repeat: no-repeat, no-repeat; background-size: 100% 100%, 0% 0%; background-position: center center, center center;}
+.iconswap:hover {background-image: url('icons/class/class_1605.png'), url('icons/class/class_unknown05.png');}
+
+font.width80 {display: inline-block; transform: scale(.80, 1); white-space:nowrap; }
+font.width90 {display: inline-block; transform: scale(.90, 1); white-space:nowrap; }
+
+div.selection {background-image: url('icons/frame/selection.png'); background-size: 100% 100%; width: 550px; height: 60px; margin: 10px 5px; padding: 10px 10px 10px 25px; box-sizing: border-box; color: #ffffff; font-family: 'Droid Serif', 'Franklin Gothic', 'Bell Gothic Std', 'Arial Narrow', sans-serif; font-weight: 700;}
+
+div.story01_p1, div.story02_p1, div.story03_p1, div.story04_p1, div.story05_p1, div.story06_p1, div.story07_p1, div.story08_p1, div.story09_p1, div.story10_p1, div.story11_p1, div.story12_p1, div.story13_p1, div.story14_p1, div.story15_p1, div.story16_p1, div.story17_p1, div.story18_p1, div.story19_p1, div.story20_p1, div.story21_p1, div.story22_p1 {display: relative;}
+div.story01_p2, div.story02_p2, div.story03_p2, div.story04_p2, div.story05_p2, div.story06_p2, div.story07_p2, div.story08_p2, div.story09_p2, div.story10_p2, div.story11_p2, div.story12_p2, div.story13_p2, div.story14_p2, div.story15_p2, div.story16_p2, div.story17_p2, div.story18_p2, div.story19_p2, div.story20_p2, div.story21_p2, div.story22_p2 {display: none;}
+div.story01_p3, div.story02_p3, div.story03_p3, div.story04_p3, div.story05_p3, div.story06_p3, div.story07_p3, div.story08_p3, div.story09_p3, div.story10_p3, div.story11_p3, div.story12_p3, div.story13_p3, div.story14_p3, div.story15_p3, div.story16_p3, div.story17_p3, div.story18_p3, div.story19_p3, div.story20_p3, div.story21_p3, div.story22_p3 {display: none;}
+div.story01_p4, div.story02_p4, div.story03_p4, div.story04_p4, div.story05_p4, div.story06_p4, div.story07_p4, div.story08_p4, div.story09_p4, div.story10_p4, div.story11_p4, div.story12_p4, div.story13_p4, div.story14_p4, div.story15_p4, div.story16_p4, div.story17_p4, div.story18_p4, div.story19_p4, div.story20_p4, div.story21_p4, div.story22_p4 {display: none;}
+div.story01_p5, div.story02_p5, div.story03_p5, div.story04_p5, div.story05_p5, div.story06_p5, div.story07_p5, div.story08_p5, div.story09_p5, div.story10_p5, div.story11_p5, div.story12_p5, div.story13_p5, div.story14_p5, div.story15_p5, div.story16_p5, div.story17_p5, div.story18_p5, div.story19_p5, div.story20_p5, div.story21_p5, div.story22_p5 {display: none;}
+div.story01_p6, div.story02_p6, div.story03_p6, div.story04_p6, div.story05_p6, div.story06_p6, div.story07_p6, div.story08_p6, div.story09_p6, div.story10_p6, div.story11_p6, div.story12_p6, div.story13_p6, div.story14_p6, div.story15_p6, div.story16_p6, div.story17_p6, div.story18_p6, div.story19_p6, div.story20_p6, div.story21_p6, div.story22_p6 {display: none;}
+div.story01_p7, div.story02_p7, div.story03_p7, div.story04_p7, div.story05_p7, div.story06_p7, div.story07_p7, div.story08_p7, div.story09_p7, div.story10_p7, div.story11_p7, div.story12_p7, div.story13_p7, div.story14_p7, div.story15_p7, div.story16_p7, div.story17_p7, div.story18_p7, div.story19_p7, div.story20_p7, div.story21_p7, div.story22_p7 {display: none;}
+</style>
+<h1>Lostbelt No.1: 영구동토제국 아나스타샤</h1>
+
+<nav id="top" style="width: 1100px;">
+</nav>
+<nav id="mini2" style="width: 800px;">
+	<li><a href="#summary">상세정보</a></li>
+	<li><a href="anastasia_quest.html#mainscenario">메인 시나리오</a></li>
+	<li><a href="anastasia_quest.html#freequest">프리퀘스트</a></li>
+	<li><a href="#gacha">픽업 정보</a></li>
+</nav>
+<!-- Lostbelt No.1 -->
+<div class="summary">
+<div id="anastasia_full" class="update">
+	<a href="#anastasia_full"><h3>2장 1부 ｢Lostbelt No.1: 영구동토제국 아나스타샤｣ 개막!</h3></a>
+	<div class="update-body" style="background: url('img/20200401/bg.png') top left repeat;">
+			<span class="date">2020/04/01</span><br>
+
+<img src="img/20200401/top_banner.png" style="max-width: 800px;"><br><br>
+<img src="img/20200401/prologue.png" style="max-width: 800px;"><br><br>
+
+<div style="background-image: url('img/20200401/midashi_a_01.png'); height: 80px; padding-top: 23px;" class="divider">
+<spanh><font style="font-size: 26px; margin-left: 30px; color: #191f67; text-shadow: 0px 0px 2px #b4f2ff, 0px 0px 2px #b4f2ff, 0px 0px 2px #b4f2ff;">
+공개 정보</font></spanh></div><br>
+
+<spanh><font color="#006e9c">◆</font> 공개 일시 <font color="#006e9c">◆</font></spanh><br>
+2020년 4월 1일(수) 점검 후~<br><br>
+
+<spanh><font color="#006e9c">◆</font> 2부 1장 〈Lostbelt No.1 영구동토제국 아나스타샤 짐승 나라의 황녀〉 개막 <font color="#006e9c">◆</font></spanh><br>
+무대는 인류사 멸망 후의 신세계.<br>영구동토라는 극한의 땅에서 새로운 이야기가 펼쳐집니다!<br><br>
+
+<spanh><font color="#006e9c">◆</font> 개방 조건 <font color="#006e9c">◆</font></spanh><br>
+2부 프롤로그 〈서/2019년 12월 31일〉을 클리어<br>
+<font class="notice">※ 아종특이점( I부터 IV까지)을 클리어할 필요는 없습니다.</font><br><br>
+
+<img src="img/20200401/info_ss_01.png" style="max-width: 800px;"><br><br>
+
+<div style="background-image: url('img/20200401/midashi_a_01.png'); height: 80px; padding-top: 23px;" class="divider">
+<spanh><font style="font-size: 26px; margin-left: 30px; color: #191f67; text-shadow: 0px 0px 2px #b4f2ff, 0px 0px 2px #b4f2ff, 0px 0px 2px #b4f2ff;">
+【페이트/그랜드 오더】 2부 1장 영상</font></spanh></div>
+
+<a class="youtube" rel="noreferrer nofollow" target="_blank" href="https://www.youtube.com/watch?v=fPItuwvasS8"><div style="background-image: url('../scripts/img/youtube_frame.png'), url('https://fate-go.cirnopedia.org/img/20180325/cm.jpg');">｢Fate/Grand Order -Cosmos in the Lostbelt-｣ 영구동토제국 아나스타샤</div></a>
+애니메이션 제작: A-1 Pictures<br><br>
+
+<div style="background-image: url('img/20200401/midashi_a_01.png'); height: 80px; padding-top: 23px;" class="divider">
+<spanh><font style="font-size: 26px; margin-left: 30px; color: #191f67; text-shadow: 0px 0px 2px #b4f2ff, 0px 0px 2px #b4f2ff, 0px 0px 2px #b4f2ff;">
+신규 마술예장 '극지용 칼데아 제복' 등장!</font></spanh></div>
+
+신규 마술예장 '극지용 칼데아 제복' 등장!<br>2부 1장 〈Lostbelt No.1 영구동토제국 아나스타샤 짐승 나라의 황녀〉의<br>메인 퀘스트를 진행하면<br>신규 마술예장 '극지용 칼데아 제복'을 획득할 수 있습니다.<br>
+
+<div style="background-image: url('img/20200401/info_image_03.png'); padding-top: 290px; padding-left: 0px; box-sizing: border-box; height: 600px; font-size: 24px;" class="divider">
+<spanh><font style="font-style:italic;color: #1d66a2; margin-left: 460px; text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.533333px 0.833333px 0px, rgb(0, 0, 0) -0.416667px 0.916667px 0px, rgb(0, 0, 0) -0.983333px 0.133333px 0px, rgb(0, 0, 0) -0.65px -0.75px 0px, rgb(0, 0, 0) 0.283333px -0.966667px 0px, rgb(0, 0, 0) 0.966667px -0.283333px 0px;">
+마술예장</font><br>
+
+<div style="background-image: url('img/20200401/gradient_01.png'); background-size: 50% 35%; background-position: bottom right; background-repeat: no-repeat; padding-top: 23px; text-align: right; max-height: 60px; max-width: 790px; margin: -20px 30px 0px 0px; " class="divider">
+<spanh><font style="font-style:italic;color: #eff2f4; font-size: 26px; margin-left: -20px; text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.533333px 0.833333px 0px, rgb(0, 0, 0) -0.416667px 0.916667px 0px, rgb(0, 0, 0) -0.983333px 0.133333px 0px, rgb(0, 0, 0) -0.65px -0.75px 0px, rgb(0, 0, 0) 0.283333px -0.966667px 0px, rgb(0, 0, 0) 0.966667px -0.283333px 0px, rgb(152, 218, 247) 3px 0px 3px, rgb(152, 218, 247) 2.83333px 0.983333px 3px, rgb(152, 218, 247) 2.35px 1.85px 3px, rgb(152, 218, 247) 1.61667px 2.51667px 3px, rgb(152, 218, 247) 0.7px 2.91667px 3px, rgb(152, 218, 247) -0.283333px 2.98333px 3px, rgb(152, 218, 247) -1.25px 2.73333px 3px, rgb(152, 218, 247) -2.06667px 2.16667px 3px, rgb(152, 218, 247) -2.66667px 1.36667px 3px, rgb(152, 218, 247) -2.96667px 0.416667px 3px, rgb(152, 218, 247) -2.95px -0.566667px 3px, rgb(152, 218, 247) -2.6px -1.5px 3px, rgb(152, 218, 247) -1.96667px -2.26667px 3px, rgb(152, 218, 247) -1.11667px -2.78333px 3px, rgb(152, 218, 247) -0.133333px -3px 3px, rgb(152, 218, 247) 0.85px -2.88333px 3px, rgb(152, 218, 247) 1.75px -2.43333px 3px, rgb(152, 218, 247) 2.45px -1.73333px 3px, rgb(152, 218, 247) 2.88333px -0.833333px 0px;;">
+극지용 칼데아 제복</font></spanh></div><br>
+
+<div style="white-space: nowrap; color: #010101; margin-left: 490px; text-align: left; text-shadow: 0px -1px 0 #ffffff, -1px 0px 0 #ffffff, 0px 1px 0 #ffffff, 1px 0px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px  1px 0 #ffffff, 1px 1px 0 #ffffff, 2px 2px 1px #ffffff, 0px 0px 2px #ffffff;">
+극한 환경에서의<br>활동을 상정한 마술예장<br></div>
+</spanh></div><br>
+
+<div style="background-image: url('img/20200401/midashi_a_01.png'); height: 80px; padding-top: 23px;" class="divider">
+<spanh><font style="font-size: 26px; margin-left: 30px; color: #191f67; text-shadow: 0px 0px 2px #b4f2ff, 0px 0px 2px #b4f2ff, 0px 0px 2px #b4f2ff;">
+스킬 강화&영기재림 재료 신규 아이템 추가!</font></spanh></div>
+
+2부 1장 〈Lostbelt No.1 영구동토제국 아나스타샤 짐승 나라의 황녀〉부터<br>신규 아이템 2종이 추가됩니다!<br>새롭게 등장하는 서번트의 스킬 강화 및 영기재림을 위해서는<br>신규 아이템이 필요합니다.<br>주로 2부 1장 〈Lostbelt No.1 영구동토제국 아나스타샤 짐승 나라의 황녀〉<br> 메인 퀘스트에서 출현하는 적을 처치하면 전리품으로 획득 가능합니다.<br><br>
+
+<!--
+永遠結氷
+常温でも溶けることのない氷。
+どことなく花のように見えなくもないが、
+美しさを理解できない者にとつてはただの氷でしかない。
+
+励振火薬
+魔力を込めることで発火する特殊な火薬。
+わずかな魔力で爆発的な火力を得られることから
+魔獣を狩る銃の弾薬などに用いられる。
+-->
+
+<div style="background-image: url('img/20200401/gradient_01.png'); background-size: 65% 35%; background-position: bottom right; background-repeat: no-repeat; padding-top: 23px; text-align: right; max-height: 60px; max-width: 755px;" class="divider">
+<spanh><font style="color: #eff2f4; font-size: 26px; margin-left: -20px; text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.533333px 0.833333px 0px, rgb(0, 0, 0) -0.416667px 0.916667px 0px, rgb(0, 0, 0) -0.983333px 0.133333px 0px, rgb(0, 0, 0) -0.65px -0.75px 0px, rgb(0, 0, 0) 0.283333px -0.966667px 0px, rgb(0, 0, 0) 0.966667px -0.283333px 0px, rgb(152, 218, 247) 3px 0px 3px, rgb(152, 218, 247) 2.83333px 0.983333px 3px, rgb(152, 218, 247) 2.35px 1.85px 3px, rgb(152, 218, 247) 1.61667px 2.51667px 3px, rgb(152, 218, 247) 0.7px 2.91667px 3px, rgb(152, 218, 247) -0.283333px 2.98333px 3px, rgb(152, 218, 247) -1.25px 2.73333px 3px, rgb(152, 218, 247) -2.06667px 2.16667px 3px, rgb(152, 218, 247) -2.66667px 1.36667px 3px, rgb(152, 218, 247) -2.96667px 0.416667px 3px, rgb(152, 218, 247) -2.95px -0.566667px 3px, rgb(152, 218, 247) -2.6px -1.5px 3px, rgb(152, 218, 247) -1.96667px -2.26667px 3px, rgb(152, 218, 247) -1.11667px -2.78333px 3px, rgb(152, 218, 247) -0.133333px -3px 3px, rgb(152, 218, 247) 0.85px -2.88333px 3px, rgb(152, 218, 247) 1.75px -2.43333px 3px, rgb(152, 218, 247) 2.45px -1.73333px 3px, rgb(152, 218, 247) 2.88333px -0.833333px 0px;">
+영원결빙 </font></spanh></div>
+
+<div style="box-sizing: border-box; font-size: 24px; text-align: right; width: 770px; padding-right: 20px;" class="divider">
+<spanh><font style="color: #010101; margin-top: 10px; text-align: left; text-shadow: 0px -1px 0 #ffffff, -1px 0px 0 #ffffff, 0px 1px 0 #ffffff, 1px 0px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px  1px 0 #ffffff, 1px 1px 0 #ffffff, 2px 2px 1px #ffffff, 0px 0px 2px #ffffff;">
+상온에서도 녹지 않는 얼음.<br>어쩐지 꽃처럼 보이지 않는 것도 아니지만,<br>아름다움을 이해하지 못하는 자에게는<br>단순한 얼음에 지나지 않는다.</font>
+</spanh></div><br>
+
+<img src="img/20200401/info_image_01.png" style="max-width: 800px; margin: -50px 0px -60px 0px;"><br><br>
+
+<div style="background-image: url('img/20200401/gradient_02.png'); background-size: 65% 35%; background-position: bottom left; background-repeat: no-repeat; padding-top: 23px; text-align: left; max-height: 60px; max-width: 755px; margin-left: 20px;" class="divider">
+<spanh><font style="color: #eff2f4; font-size: 26px; margin-left: -30px; text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.533333px 0.833333px 0px, rgb(0, 0, 0) -0.416667px 0.916667px 0px, rgb(0, 0, 0) -0.983333px 0.133333px 0px, rgb(0, 0, 0) -0.65px -0.75px 0px, rgb(0, 0, 0) 0.283333px -0.966667px 0px, rgb(0, 0, 0) 0.966667px -0.283333px 0px, rgb(152, 218, 247) 3px 0px 3px, rgb(152, 218, 247) 2.83333px 0.983333px 3px, rgb(152, 218, 247) 2.35px 1.85px 3px, rgb(152, 218, 247) 1.61667px 2.51667px 3px, rgb(152, 218, 247) 0.7px 2.91667px 3px, rgb(152, 218, 247) -0.283333px 2.98333px 3px, rgb(152, 218, 247) -1.25px 2.73333px 3px, rgb(152, 218, 247) -2.06667px 2.16667px 3px, rgb(152, 218, 247) -2.66667px 1.36667px 3px, rgb(152, 218, 247) -2.96667px 0.416667px 3px, rgb(152, 218, 247) -2.95px -0.566667px 3px, rgb(152, 218, 247) -2.6px -1.5px 3px, rgb(152, 218, 247) -1.96667px -2.26667px 3px, rgb(152, 218, 247) -1.11667px -2.78333px 3px, rgb(152, 218, 247) -0.133333px -3px 3px, rgb(152, 218, 247) 0.85px -2.88333px 3px, rgb(152, 218, 247) 1.75px -2.43333px 3px, rgb(152, 218, 247) 2.45px -1.73333px 3px, rgb(152, 218, 247) 2.88333px -0.833333px 0px;">
+여진화약</font></spanh></div>
+
+<div style="box-sizing: border-box; font-size: 24px; text-align: left; width: 770px; margin-left: -30px;" class="divider">
+<spanh><font style="color: #010101; margin-top: 10px; text-align: left; text-shadow: 0px -1px 0 #ffffff, -1px 0px 0 #ffffff, 0px 1px 0 #ffffff, 1px 0px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px  1px 0 #ffffff, 1px 1px 0 #ffffff, 2px 2px 1px #ffffff, 0px 0px 2px #ffffff;">
+마력을 집어넣으면 발화하는 특수한 화약.<br>적은 양의 마력으로 폭발적인 화력을 얻을 수 있어<br>마수를 사냥하는 총의 탄약 등에 사용된다.</font>
+</spanh></div><br><br>
+
+<div style="background-image: url('img/20200401/midashi_b_01.png'); height: 80px; padding-top: 23px;" class="divider">
+<spanh><font style="font-size: 26px; margin-left: 30px; color: #5f3388; text-shadow: 0px 0px 2px #d3cfd6, 0px 0px 2px #d3cfd6, 0px 0px 2px #d3cfd6;">
+마슈 키리에라이트 배틀 모션 및 보구 연출 리뉴얼!</font></spanh></div>
+
+마슈 키리에라이트의 배틀 모션 및 보구 연출을 리뉴얼합니다.<br>
+배틀 모션과 보구 연출뿐 아니라 마슈 키리에라이트의 배틀 그래픽도 변경되며 공격 시, 또는 보구 연출의 이펙트 효과 등도 변경됩니다.<br>
+<font class="notice">※ 게임 내의 일부 퀘스트에서는 변경 전 상태로 표시되는 부분이 있습니다.</font><br><br>
+
+<spanh><font color="#006e9c">◆</font> 리뉴얼 일시 <font color="#006e9c">◆</font></spanh><br>
+2020년 4월 1일(수) 점검 후~<br><br>
+
+<img src="img/20200401/info_ss_05.png" style="max-width: 800px;"><br>
+<a class="youtube" rel="noreferrer nofollow" target="_blank" href="https://www.youtube.com/watch?v=PabeITLB0NM"><div style="color:#fff;font-weight:900;background-image: url('../scripts/img/youtube_frame.png'), url('https://fate-go.cirnopedia.org/img/np/001b.jpg');">마슈 키리에라이트 - 가상보구 의사전개/인리의 초석 - 로드 칼데아스</div></a><br>
+
+
+<div style="background-image: url('img/20200401/midashi_b_01.png'); height: 80px; padding-top: 23px;" class="divider">
+<spanh><font style="font-size: 23px; margin-left: 30px; color: #5f3388; text-shadow: 0px 0px 2px #d3cfd6, 0px 0px 2px #d3cfd6, 0px 0px 2px #d3cfd6;">
+친구 포인트 소환으로 획득 가능한 ★1(C), ★2(UC) 개념예장 리뉴얼!</font></spanh></div>
+
+친구 포인트 소환으로 획득 가능한 ★1(C) 및 ★2(UC) 모든 개념예장을 리뉴얼 합니다. (일러스트나 ATK/HP 및 스킬 등도 모두 신규 업데이트)<br>
+업데이트 이후 리뉴얼 대상인 기존 개념예장은 새로 입수할 수 없습니다. 이점 주의하시기 바랍니다.<br>
+<font class="notice">※ 이미 소지하고 있는 리뉴얼 대상 개념예장은 일러스트나 ATK/HP 및 스킬 효과가 변경되지 않습니다.</font><br><br>
+
+<spanh><font color="#006e9c">◆</font> 더 이상 획득할 수 없는 개념예장 목록 <font color="#006e9c">◆</font></spanh><br>
+
+<img src="img/20200401/info_image_06.png" style="max-width: 800px;"><br><br>
+
+<div class="border" style="width: 1000px; margin: 10px 0px 10px 0px;">
+<table id="rounded-corner">
+	<thead>
+		<tr>
+			<th style="width:  5%;">아이콘</th>
+			<th style="width:  7%;">레어도</th>
+			<th style="width:  8%;">No.<br>이름</th>
+			<th style="width:  30%;">스킬</th>
+			<th style="width:  5%;">아이콘</th>
+			<th style="width:  7%;">레어도</th>
+			<th style="width:  8%;">No.<br>이름</th>
+			<th style="width:  30%;">스킬</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_01.png'), url('icons/essence_sample/craft_essence_001.png');"/><td class="desc"><font class="star">★</font><td class="desc"><a target="_blank">No.001<br>완강</a><td class="desc">자신의 방어력 3% UP<br>[최대해방시] 5% UP<td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_02.png'), url('icons/essence_sample/craft_essence_006.png');"/><td class="desc"><font class="star">★★</font><td class="desc"><a target="_blank">No.006<br>섬광</a><td class="desc">자신의 크리티컬 위력 5% UP<br>[최대해방시] 10% UP</tr>
+		<tr><td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_01.png'), url('icons/essence_sample/craft_essence_002.png');"/><td class="desc"><font class="star">★</font><td class="desc"><a target="_blank">No.002<br>명상</a><td class="desc">자신의 약화 내성 5% UP<br>[최대해방시] 10% UP<td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_02.png'), url('icons/essence_sample/craft_essence_007.png');"/><td class="desc"><font class="star">★★</font><td class="desc"><a target="_blank">No.007<br>호기</a><td class="desc">자신의 스타 발생률 5% UP<br>[최대해방시] 10% UP</tr>
+		<tr><td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_01.png'), url('icons/essence_sample/craft_essence_003.png');"/><td class="desc"><font class="star">★</font><td class="desc"><a target="_blank">No.003<br>기교</a><td class="desc">자신의 Arts 카드 성능 3% UP<br>[최대해방시] 5% UP<td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_02.png'), url('icons/essence_sample/craft_essence_008.png');"/><td class="desc"><font class="star">★★</font><td class="desc"><a target="_blank">No.008<br>풍양</a><td class="desc">자신의 NP를 10% 차지한 상태로 배틀을 개시<br>[최대해방시] 20%</tr>
+		<tr><td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_01.png'), url('icons/essence_sample/craft_essence_004.png');"/><td class="desc"><font class="star">★</font><td class="desc"><a target="_blank">No.004<br>선제</a><td class="desc">자신의 Quick 카드 성능 3% UP<br>[최대해방시] 5% UP<td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_02.png'), url('icons/essence_sample/craft_essence_009.png');"/><td class="desc"><font class="star">★★</font><td class="desc"><a target="_blank">No.009<br>집중</a><td class="desc">자신의 NP 획득량 5% UP<br>[최대해방시] 10% UP</tr>
+		<tr><td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_01.png'), url('icons/essence_sample/craft_essence_005.png');"/><td class="desc"><font class="star">★</font><td class="desc"><a target="_blank">No.005<br>파괴</a><td class="desc">자신의 Buster 카드 성능 3% UP<br>[최대해방시] 5% UP<td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_02.png'), url('icons/essence_sample/craft_essence_010.png');"/><td class="desc"><font class="star">★★</font><td class="desc"><a target="_blank">No.010<br>천계</a><td class="desc">자신의 보구 위력 5% UP<br>[최대해방시] 10% UP</tr>
+	</tbody>
+</table>
+</div>
+<spanh><font color="#006e9c">◆</font> 신규 추가되는 개념예장 목록 <font color="#006e9c">◆</font></spanh><br>
+
+<img src="img/20200401/info_image_07.png" style="max-width: 800px;"><br><br>
+<div class="border" style="width: 1000px; margin: 10px 0px 10px 0px;">
+<table id="rounded-corner">
+	<thead>
+		<tr>
+			<th style="width:  5%;">아이콘</th>
+			<th style="width:  7%;">레어도</th>
+			<th style="width:  8%;">No.<br>이름</th>
+			<th style="width:  30%;">스킬</th>
+			<th style="width:  5%;">아이콘</th>
+			<th style="width:  7%;">레어도</th>
+			<th style="width:  8%;">No.<br>이름</th>
+			<th style="width:  30%;">스킬</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_01.png'), url('icons/essence_sample/craft_essence_777.png');"/><td class="desc"><font class="star">★</font><td class="desc"><a target="_blank">No.777<br>투쟁</a><td class="desc">자신의 공격력 2% UP<br>[최대해방시] 5% UP<td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_02.png'), url('icons/essence_sample/craft_essence_782.png');"/><td class="desc"><font class="star">★★</font><td class="desc"><a target="_blank">No.782<br>자애</a><td class="desc">자신의 HP회복량 3% UP<br>[최대해방시] 5% UP</tr>
+		<tr><td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_01.png'), url('icons/essence_sample/craft_essence_778.png');"/><td class="desc"><font class="star">★</font><td class="desc"><a target="_blank">No.778<br>연쇄</a><td class="desc">자신에게 데미지 플러스 30상태 부여<br>[최대해방시] +50<td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_02.png'), url('icons/essence_sample/craft_essence_783.png');"/><td class="desc"><font class="star">★★</font><td class="desc"><a target="_blank">No.783<br>번영</a><td class="desc">자신에게 매 턴 HP 30회복 상태를 부여<br>[최대해방시] 50</tr>
+		<tr><td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_01.png'), url('icons/essence_sample/craft_essence_779.png');"/><td class="desc"><font class="star">★</font><td class="desc"><a target="_blank">No.779<br>단절</a><td class="desc">자신에게 데미지 컷 30상태 부여<br>[최대해방시] 50<td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_02.png'), url('icons/essence_sample/craft_essence_784.png');"/><td class="desc"><font class="star">★★</font><td class="desc"><a target="_blank">No.784<br>기만</a><td class="desc">자신의 약화 부여 성공률 3% UP<br>[최대해방시] 5%</tr>
+		<tr><td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_01.png'), url('icons/essence_sample/craft_essence_780.png');"/><td class="desc"><font class="star">★</font><td class="desc"><a target="_blank">No.780<br>각성</a><td class="desc">자신의 스타 집중도 50% UP<br>[최대해방시] 100% UP<td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_02.png'), url('icons/essence_sample/craft_essence_785.png');"/><td class="desc"><font class="star">★★</font><td class="desc"><a target="_blank">No.785<br>동조</a><td class="desc">자신의 강화 성공률 3% UP<br>[최대해방시] 5% UP</tr>
+		<tr><td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_01.png'), url('icons/essence_sample/craft_essence_781.png');"/><td class="desc"><font class="star">★</font><td class="desc"><a target="_blank">No.781<br>기아</a><td class="desc">자신의 피 데미지 NP 획득량 15% UP<br>[최대해방시] 20% UP<td class="desc"><img class="large" src="icons/item/item_000.png" style="background-image: url('icons/item/item_000.png'), url('icons/frame/essence_02.png'), url('icons/essence_sample/craft_essence_786.png');"/><td class="desc"><font class="star">★★</font><td class="desc"><a target="_blank">No.786<br>암담</a><td class="desc">자신의 즉사내성 5% UP<br>[최대해방시] 10% UP</tr>
+	</tbody>
+</table>
+</div></div></div></div>
+<style>
+span.pu{color:#006e9c;}
+span.bolding{font-weight:700;}
+</style>
+<div id="gacha">
+<nav id="mini2" style="width: 800px;">
+	<li><a href="#anastasia_gacha">1차 픽업</a></li>
+	<li><a href="#anastasia2">2차 픽업</a></li>
+	(※현재 2차 픽업 정보는 공식적으로는 비공개입니다)
+</nav>
+<div id="anastasia_gacha" class="update">
+	<a href="#anastasia_gacha"><h3>아나스타샤 픽업</h3></a>
+<div class="update-body" style="background: url('img/20200401/bg.png') top left repeat;">
+<!--
+-->
+<div id="anastasia_gacha" style="background-image: url('img/20200401/midashi_a_01.png'); height: 80px; padding-top: 23px;" class="divider">
+<spanh><font style="font-size: 26px; margin-left: 30px; color: #191f67; text-shadow: 0px 0px 2px #b4f2ff, 0px 0px 2px #b4f2ff, 0px 0px 2px #b4f2ff;">
+아나스타샤 픽업!</font></spanh></div>
+
+<img src="img/20200401/summon_banner.png" style="max-width: 800px;"><br><br>
+
+<spanh><font color="#006e9c">◆</font> '아나스타샤 픽업 소환' 기간 <font color="#006e9c">◆</font></spanh><br>
+<span class="pu">2020년 4월 1일(수) 점검 후 ~ 2020년 4월 15일(수) 23:59</span><br><br>
+
+2부 1장 〈Lostbelt No.1 영구동토제국 아나스타샤 짐승 나라의 황녀〉<br>
+개막을 기념하여 '아나스타샤 픽업 소환'을 개최!<br>
+<font class="notice"> ※ 2부 1장 〈Lostbelt No.1 영구동토제국 아나스타샤 짐승 나라의 황녀〉까지<br><font style="visibility: hidden;"> ※ </font>메인 시나리오를 진행하지 않은 상태여도 '아나스타샤 픽업 소환'에 참여할 수 있습니다.</font><br><br>
+
+2부 1장 〈Lostbelt No.1 영구동토제국 아나스타샤 짐승 나라의 황녀〉에서<br>활약하는 서번트 '<span class="pu bolding">★5(SSR) 아나스타샤</span>', '<span class="pu bolding">★4(SR) 아탈란테(얼터)</span>', '<span class="pu bolding">★3(R) 아비케브론</span>'이 신규 등장!<br>위의 서번트 3기를 픽업합니다<br>
+※ 신규 등장 서번트 및 개념예장은 픽업 기간 종료 후 별도 업데이트를 통해 스토리 소환에 추가됩니다.<br><br>
+
+상세 내용은 성정석 소환 화면 좌측 하단의 소환 확률을 확인해주세요.<br>
+픽업 기간 동안 신규 등장 서번트 출현 확률 UP!<br>
+<font class="notice">※신규 등장 개념예장은 출현 확률 UP 대상에 포함되지 않습니다.</font><br><br>
+
+<img src="img/20200401/info_image_11k.png" style="max-width: 800px;"><br><br>
+신규 개념예장 '<span class="pu bolding">★5(SSR) 햇볕 속에서</span>', '<span class="pu bolding">★4(SR) 최후의 화자</span>', '<span class="pu bolding">★3(R) 예지의 빛</span>'도 선행 신규 등장!<br>추가로, ★3(R) 개념예장 라인업을 일부 리뉴얼합니다!<br><br>
+
+<font class="notice">※ 신규 등장 서번트 및 개념예장은 픽업 기간 종료 후 별도 업데이트를 통해 스토리 소환에 추가됩니다.<br>
+※ 개념예장 리뉴얼은 픽업 기간 종료 후 별도 업데이트를 통해 진행될 예정이며,<br><font style="visibility: hidden;"> ※ </font>리뉴얼 후 '★3(R) 미라클 구도자'는 스토리 소환에서 획득할 수 없으며 친구 포인트 소환에 추가됩니다.</font><br><br>
+
+
+10회 소환에서는 ★4(SR) 이상 1장, ★3(R) 이상 서번트 1기 확정!<br>
+<font class="notice">※ ★4(SR) 이상 확정에는 서번트와 개념예장이 포함됩니다.<br>
+※ '픽업'이란 동일 레어리티의 다른 서번트 및 개념예장보다 소환될 확률이 상승된 것을 의미하며,<br><font style="visibility: hidden;">※ </font>'픽업' 대상 외 동일 레어리티의 모든 서번트 및 개념예장의 등장확률이 균등하게 조정됩니다.<br>
+※ 이벤트 진행 시에도 각 레어리티 별('픽업' 대상+대상 외) 등장확률은 변동되지 않습니다.<br>※ 이후 이벤트 재진행 시, 픽업 서번트 및 픽업 기간 특별 등장 개념예장을 다시 획득할 수 있습니다.</font>
+
+<div style="background-image: url('img/20200401/midashi_b_02.png'); height: 80px; padding-top: 23px;" class="divider">
+<spanh><font style="font-size: 26px; margin-left: 30px; color: #1d2b79; text-shadow: #00aeef 1px 0px 0px, #00aeef 0.533333px 0.833333px 0px, #00aeef -0.416667px 0.916667px 0px, #00aeef -0.983333px 0.133333px 0px, #00aeef -0.65px -0.75px 0px, #00aeef 0.283333px -0.966667px 0px, #00aeef 0.966667px -0.283333px 0px;">
+신규 등장 서번트</font></spanh></div>
+
+<div style="background-image: url('img/20200401/servant_title_ssr.png');" class="servant_title"><spanh style="font-size: 26px;">아나스타샤</spanh></div>
+<div class="servant_summary_v2" style="background-image: url('icons/class/class_0505.png'), url('icons/frame/servant_card_05.png'), url('icons/servant_card/2011.jpg'), url('icons/pattern/pattern_02.png'), url('icons/class/class_0506.png'), url('../scripts/img/grandorder/servant_details_v2.png');">
+	<font class="class">캐스터</font>
+	<font class="atk">10546</font>
+	<font class="hp">14259</font>
+	<div class="np_name"><font style="font-size: 16px;">비이·비이·비이</font><br>질주·정령안구</div>
+	<div class="np_desc">적 전체에게 강력한 공격[Lv.n] & 방어력 DOWN (3턴)<br>〈오버차지로 효과 UP〉&스킬 봉인 상태 부여 (1턴)</div>
+</div><br>
+
+<div style="background-image: url('img/20200401/servant_title_sr.png');" class="servant_title"><spanh style="font-size: 26px;">아탈란테 (얼터)</spanh></div>
+<div class="servant_summary_v2" style="background-image: url('icons/class/class_0704.png'), url('icons/frame/servant_card_04.png'), url('icons/servant_card/2021.jpg'), url('icons/pattern/pattern_01.png'), url('icons/class/class_0706.png'), url('../scripts/img/grandorder/servant_details_v2.png');">
+	<font class="class">버서커</font>
+	<font class="atk">9806</font>
+	<font class="hp">10634</font>
+	<div class="np_name"><font style="font-size: 16px;">타우로폴로스·스키아·세르모크라시아</font><br>암천식사</div>
+	<div class="np_desc">적 한 명에게 초강력 공격[Lv.n]<br>&보구 봉인 상태 부여(1턴)&저주 상태 부여(5턴)<br>〈오버차지로 효과 UP〉</div>
+</div><br>
+
+<div style="background-image: url('img/20200401/servant_title_r.png');" class="servant_title"><spanh style="font-size: 26px;">아비케브론</spanh></div>
+<div class="servant_summary_v2" style="background-image: url('icons/class/class_0503.png'), url('icons/frame/servant_card_03.png'), url('icons/servant_card/2031.jpg'), url('icons/pattern/pattern_03.png'), url('icons/class/class_0506.png'), url('../scripts/img/grandorder/servant_details_v2.png');">
+	<font class="class">캐스터</font>
+	<font class="atk">6376</font>
+	<font class="hp">9981</font>
+	<div class="np_name"><font style="font-size: 16px;">골렘·케테르 말쿠트</font><br>왕관: 예지의 빛</div>
+	<div class="np_desc">적 전체에게 강력한 공격[Lv.n]<br>+아군의 NP 획득량 UP(3턴)〈오버차지로 효과 UP〉</div>
+</div><br>
+
+<div style="background-image: url('img/20200401/midashi_b_02.png'); height: 80px; padding-top: 23px;" class="divider">
+<spanh><font style="font-size: 26px; margin-left: 30px; color: #1d2b79; text-shadow: #00aeef 1px 0px 0px, #00aeef 0.533333px 0.833333px 0px, #00aeef -0.416667px 0.916667px 0px, #00aeef -0.983333px 0.133333px 0px, #00aeef -0.65px -0.75px 0px, #00aeef 0.283333px -0.966667px 0px, #00aeef 0.966667px -0.283333px 0px;">
+신규 등장 개념예장</font></spanh></div><br>
+
+<table><tbody><tr>
+	<td style="width:30%; vertical-align:top;"><a class="fancybox" href="icons/essence/craft_essence_773.jpg" title="햇볕 속에서"><img src="https://fate-go.cirnopedia.org/img/20180403/gainenreisou_01.png" alt="햇볕 속에서" align="left" width="100%" style="vertical-align:bottom; margin: -15px -10px;"></a></td>
+	<td style="width:70%; vertical-align:top;">
+		<font color="#c0972d"><span class="strong">★★★★★ SSR</span></font><br>
+		<font color="#053976"><spanh>햇볕 속에서</spanh></font><br>
+		<font color="#ff000c"><spanh>ATK</spanh></font>　　250 (최대: 1,000)　　　　<font color="#0024ff"><spanh>HP</spanh></font>　　400 (최대: 1,600)<br>
+		<font color="#0072ff"><spanh>스킬</spanh></font><br>
+		<ul style="margin-left: 20px;">자신에게 회피 상태(3회) 부여<br>데미지 300 컷 상태 부여</ul>
+	</td>
+</tr></tbody></table><hr style="max-width: 800px; margin: 15px 0px;" align="left">
+
+<table><tbody><tr>
+	<td style="width:30%; vertical-align:top;"><a class="fancybox" href="icons/essence/craft_essence_774.jpg" title="최후의 화자"><img src="https://fate-go.cirnopedia.org/img/20180403/gainenreisou_02.png" alt="최후의 화자" align="left" width="100%" style="vertical-align:bottom; margin: -15px -10px;"></a></td>
+	<td style="width:70%; vertical-align:top;">
+		<font color="#c0972d"><span class="strong">★★★★ SR</span></font><br>
+		<font color="#053976"><spanh>최후의 화자</spanh></font><br>
+		<font color="#ff000c"><spanh>ATK</spanh></font>　　200 (최대: 750)　　　　<font color="#0024ff"><spanh>HP</spanh></font>　　320 (최대: 1,200)<br>
+		<font color="#0072ff"><spanh>스킬</spanh></font><br>
+		<ul style="margin-left: 20px;">자신에게 매 턴 NP 4% 획득 상태 부여 & 보구 위력 10% UP</ul>
+	</td>
+</tr></tbody></table><hr style="max-width: 800px; margin: 15px 0px;" align="left">
+
+<table><tbody><tr>
+	<td style="width:30%; vertical-align:top;"><a class="fancybox" href="icons/essence/craft_essence_775.jpg" title="예지의 빛"><img src="https://fate-go.cirnopedia.org/img/20180403/gainenreisou_03.png" alt="예지의 빛" align="left" width="100%" style="vertical-align:bottom; margin: -15px -10px;"></a></td>
+	<td style="width:70%; vertical-align:top;">
+		<font color="#c0972d"><span class="strong">★★★ R</span></font><br>
+		<font color="#053976"><spanh>예지의 빛</spanh></font><br>
+		<font color="#ff000c"><spanh>ATK</spanh></font>　　200 (최대: 1,000)　　　　<font color="#0024ff"><spanh>HP</spanh></font>　　0 (최대: 0)<br>
+		<font color="#0072ff"><spanh>스킬</spanh></font><br>
+		<ul style="margin-left: 20px;">자신의 Arts 카드 성능 5% UP & NP 획득량 3% UP</ul>
+	</td>
+</tr></tbody></table><br><br>
+<div style="background-image: url('img/20200401/midashi_b_02.png'); height: 80px; padding-top: 23px;" class="divider">
+<spanh><font style="font-size: 26px; margin-left: 30px; color: #1d2b79; text-shadow: #00aeef 1px 0px 0px, #00aeef 0.533333px 0.833333px 0px, #00aeef -0.416667px 0.916667px 0px, #00aeef -0.983333px 0.133333px 0px, #00aeef -0.65px -0.75px 0px, #00aeef 0.283333px -0.966667px 0px, #00aeef 0.966667px -0.283333px 0px;">
+아나스타샤의 보구 영상을 공개합니다</font></spanh></div>
+
+<a class="youtube" rel="noreferrer nofollow" target="_blank" href="https://www.youtube.com/watch?v=i_1jIm_o8hk"><div style="background-image: url('../scripts/img/youtube_frame.png'), url('img/20200401/anastasia_np.jpg');">아나스타샤 - 질주·정령안구</div></a><br>
+
+<div style="background-image: url('img/20200401/midashi_b_02.png'); height: 80px; padding-top: 23px;" class="divider">
+<spanh><font style="font-size: 26px; margin-left: 30px; color: #1d2b79; text-shadow: #00aeef 1px 0px 0px, #00aeef 0.533333px 0.833333px 0px, #00aeef -0.416667px 0.916667px 0px, #00aeef -0.983333px 0.133333px 0px, #00aeef -0.65px -0.75px 0px, #00aeef 0.283333px -0.966667px 0px, #00aeef 0.966667px -0.283333px 0px;">
+아나스타샤</font></spanh></div>
+
+<img src="img/20200401/servant_details_l_01.png" style="max-width: 800px;"><br><br>
+<div style="background-image: url('img/20200401/midashi_b_02.png'); height: 80px; padding-top: 23px;" class="divider">
+<spanh><font style="font-size: 26px; margin-left: 30px; color: #1d2b79; text-shadow: #00aeef 1px 0px 0px, #00aeef 0.533333px 0.833333px 0px, #00aeef -0.416667px 0.916667px 0px, #00aeef -0.983333px 0.133333px 0px, #00aeef -0.65px -0.75px 0px, #00aeef 0.283333px -0.966667px 0px, #00aeef 0.966667px -0.283333px 0px;">
+아탈란테 (얼터)</font></spanh></div>
+
+<img src="img/20200401/servant_details_l_02.png" style="max-width: 800px;"><br><br>
+	</div>
+</div>
+</div>
+<!-- / Lostbelt No.1 -->
+
+<!-- Lostbelt No.1 Part 2 -->
+<div id="anastasia2" class="update">
+	<a href="#anastasia2"><h3>아나스타샤 픽업 2</h3></a>
+	<div class="update-body" style="background: url('img/20200401/bg.png') top left repeat;">
+			<span class="date">2020/04/08</span><br>
+<img src="img/20200401/summon_banner2.png" style="max-width: 800px;"><br><br>
+<spanh><font color="#006e9c">◆</font> '아나스타샤 픽업 2 소환' 기간 <font color="#006e9c">◆</font></spanh><br>
+<span class="pu">2020년 4월 8일(수) 점검 후 ~ 2020년 4월 22일(수) 23:59</span><br><br>
+기간한정 '아나스타샤 픽업 2 소환'을 개최!<br>
+<font class="notice"> ※ 2부 1장 〈Lostbelt No.1 영구동토제국 아나스타샤 짐승 나라의 황녀〉까지<br><font style="visibility: hidden;"> ※ </font>메인 시나리오를 진행하지 않은 상태여도 '아나스타샤 픽업 소환'에 참여할 수 있습니다.</font><br><br>
+
+2부 1장 〈Lostbelt No.1 영구동토제국 아나스타샤 짐승 나라의 황녀〉에 등장하는 서번트 '<font class="notice">★5 (SSR) 이반 뇌제</font>'가 기간한정으로 등장!<br>
+또한, '<font class="notice">3★ (R) 안토니오 살리에리</font>'를 픽업!<br><br>
+
+※ 이반 뇌제는 픽업기간 종료 후, 스토리 소환에 추가되지 않습니다.<br>
+※ 안토니오 살리에리는 Lostbelt No.1 클리어 후에 스토리 소환에 추가되는 서번트입니다.<br>
+※ '아나스타샤 픽업 2 소환'에서, 안토니오 살리에리는 〈Lostbelt No.1 영구동토제국 아나스타샤 짐승 나라의 황녀〉를 클리어하기 전에도 입수할 수 있습니다.<br><br>
+
+상세 내용은 성정석 소환 화면 좌측 하단의 소환 확률을 확인해주세요.<br>
+픽업 기간 동안 신규 등장 서번트 출현 확률 UP!<br><br>
+
+10회 소환에서는 ★4(SR) 이상 1장, ★3(R) 이상 서번트 1기 확정!<br>
+<font class="notice">※ ★4(SR) 이상 확정에는 서번트와 개념예장이 포함됩니다.<br>
+※ '픽업'이란 동일 레어리티의 다른 서번트 및 개념예장보다 소환될 확률이 상승된 것을 의미하며,<br><font style="visibility: hidden;">※ </font>'픽업' 대상 외 동일 레어리티의 모든 서번트 및 개념예장의 등장확률이 균등하게 조정됩니다.<br>
+※ 이벤트 진행 시에도 각 레어리티 별('픽업' 대상+대상 외) 등장확률은 변동되지 않습니다.<br>※ 이후 이벤트 재진행 시, 픽업 서번트 및 픽업 기간 특별 등장 개념예장을 다시 획득할 수 있습니다.</font>
+
+
+<div style="background-image: url('img/20200401/midashi_b_02.png'); height: 80px; padding-top: 23px;" class="divider">
+<spanh><font style="font-size: 26px; margin-left: 30px; color: #1d2b79; text-shadow: #00aeef 1px 0px 0px, #00aeef 0.533333px 0.833333px 0px, #00aeef -0.416667px 0.916667px 0px, #00aeef -0.983333px 0.133333px 0px, #00aeef -0.65px -0.75px 0px, #00aeef 0.283333px -0.966667px 0px, #00aeef 0.966667px -0.283333px 0px;">
+특별 등장 서번트</font></spanh></div>
+
+<div style="background-image: url('img/20200401/servant_title_ssr.png');" class="servant_title"><spanh style="font-size: 26px;">이반 뇌제</spanh></div>
+<div class="servant_summary_v2" style="background-image: url('icons/class/class_0405.png'), url('icons/frame/servant_card_05.png'), url('icons/servant_card/2051.jpg'), url('icons/pattern/pattern_03.png'), url('icons/class/class_0406.png'), url('../scripts/img/grandorder/servant_details_v2.png');">
+	<font class="class">라이더</font>
+	<font class="atk">11619</font>
+	<font class="hp">13284</font>
+	<div class="np_name"><font style="font-size: 16px;">즈베리 크레스늬 홋</font><br>내 여행길을 따르라, 짐승</div>
+	<div class="np_desc">자신의 보구 위력을 상승 〈오버차지로 효과 상승〉& 적 전체에 강력한 공격 [Lv.n]<br>& 버스터 공격 내성을 20% 다운 (3턴)</div>
+</div><br>
+
+<div style="background-image: url('img/20200401/midashi_b_02.png'); height: 80px; padding-top: 23px;" class="divider">
+<spanh><font style="font-size: 26px; margin-left: 30px; color: #1d2b79; text-shadow: #00aeef 1px 0px 0px, #00aeef 0.533333px 0.833333px 0px, #00aeef -0.416667px 0.916667px 0px, #00aeef -0.983333px 0.133333px 0px, #00aeef -0.65px -0.75px 0px, #00aeef 0.283333px -0.966667px 0px, #00aeef 0.966667px -0.283333px 0px;">
+픽업 서번트</font></spanh></div>
+
+<div style="background-image: url('img/20200401/servant_title_r.png');" class="servant_title"><spanh style="font-size: 26px;">안토니오 살리에리</spanh></div>
+<div class="servant_summary_v2" style="background-image: url('icons/class/class_1003.png'), url('icons/frame/servant_card_03.png'), url('icons/servant_card/2041.jpg'), url('icons/pattern/pattern_02.png'), url('icons/class/class_1006.png'), url('../scripts/img/grandorder/servant_details_v2.png');">
+	<font class="class">어벤저</font>
+	<font class="atk">8125</font>
+	<font class="hp">7840</font>
+	<div class="np_name"><font style="font-size: 16px;">디오 산티시모 미제리코르디아 디 미</font><br><font style="font-size: 24px;">존귀하신 주여, 저를 긍휼히 여기소서</font></div>
+	<div class="np_desc">적 전체에게 강력한 공격 [Lv.n] & 아츠 공격 내성을 다운(3턴) <br><오버차지로 효과 상승><br>+<font class="notice">아군의 스타 발생률을 20% 다운(3턴) [디메리트]</font></div>
+</div><br>
+
+<div style="background-image: url('img/20200401/midashi_b_02.png'); height: 80px; padding-top: 23px;" class="divider">
+<spanh><font style="font-size: 26px; margin-left: 30px; color: #1d2b79; text-shadow: #00aeef 1px 0px 0px, #00aeef 0.533333px 0.833333px 0px, #00aeef -0.416667px 0.916667px 0px, #00aeef -0.983333px 0.133333px 0px, #00aeef -0.65px -0.75px 0px, #00aeef 0.283333px -0.966667px 0px, #00aeef 0.966667px -0.283333px 0px;">
+안토니오 살리에리의 보구 영상을 공개!</font></spanh></div>
+
+<a class="youtube" rel="noreferrer nofollow" target="_blank" href="https://www.youtube.com/watch?v=uxOuPygxgkI"><div style="background-image: url('../scripts/img/youtube_frame.png'), url('img/np/204.jpg');">안토니오 살리에리 - 존귀하신 주여, 저를 긍휼히 여기소서</div></a><br>
+
+<div style="background-image: url('img/20200401/midashi_b_02.png'); height: 80px; padding-top: 23px;" class="divider">
+<spanh><font style="font-size: 26px; margin-left: 30px; color: #1d2b79; text-shadow: #00aeef 1px 0px 0px, #00aeef 0.533333px 0.833333px 0px, #00aeef -0.416667px 0.916667px 0px, #00aeef -0.983333px 0.133333px 0px, #00aeef -0.65px -0.75px 0px, #00aeef 0.283333px -0.966667px 0px, #00aeef 0.966667px -0.283333px 0px;">
+이반 뇌제</font></spanh></div>
+
+<img src="https://fate-go.cirnopedia.org/img/20180411/servant_details_l_01.png" style="max-width: 800px;"><br><br>
+
+<div style="background-image: url('img/20200401/midashi_b_02.png'); height: 80px; padding-top: 23px;" class="divider">
+<spanh><font style="font-size: 26px; margin-left: 30px; color: #1d2b79; text-shadow: #00aeef 1px 0px 0px, #00aeef 0.533333px 0.833333px 0px, #00aeef -0.416667px 0.916667px 0px, #00aeef -0.983333px 0.133333px 0px, #00aeef -0.65px -0.75px 0px, #00aeef 0.283333px -0.966667px 0px, #00aeef 0.966667px -0.283333px 0px;">
+안토니오 살리에리</font></spanh></div>
+
+<img src="https://fate-go.cirnopedia.org/img/20180411/servant_details_l_02.png" style="max-width: 800px;"><br><br>
+
+	</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+
+</div>
+</div>
+</body>
+</html>
