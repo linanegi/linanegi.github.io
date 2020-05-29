@@ -1,6 +1,6 @@
 span.dot { 
-   text-emphasis-style: double-circle;
+   text-emphasis-style: circle;
    text-emphasis-position: over left;
-   -webkit-text-emphasis-style: double-circle;
+   -webkit-text-emphasis-style: circle;
    -webkit-text-emphasis-position: over;
 }
