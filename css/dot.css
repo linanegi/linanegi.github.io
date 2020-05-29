@@ -1,4 +1,6 @@
 span.dot { 
+   color:red;
+   font-weight:900;
    text-emphasis-style: circle;
    text-emphasis-position: over left;
    -webkit-text-emphasis-style: circle;
