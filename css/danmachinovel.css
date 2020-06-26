@@ -1,8 +1,8 @@
 .gradient {background: #397fb3;
-	background: -webkit-linear-gradient(left, #139dba , #397fb3);
-	background: -o-linear-gradient(right, #139dba, #397fb3);
-	background: -moz-linear-gradient(right, #139dba, #397fb3);
-	background: linear-gradient(to right, #139dba , #397fb3);
+	background: -webkit-linear-gradient(to down, #139dba , #397fb3);
+	background: -o-linear-gradient(to down, #139dba, #397fb3);
+	background: -moz-linear-gradient(to down, #139dba, #397fb3);
+	background: linear-gradient(to down, #139dba , #397fb3);
 	padding:5px;
 	border:1px solid #000;
 	color:#fff;
