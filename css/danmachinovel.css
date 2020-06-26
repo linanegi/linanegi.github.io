@@ -7,6 +7,9 @@
 	border:1px solid #000;
 	color:#fff;
 }
+span.shadow {
+	text-shadow: 1px 0px #fff, 0px 1px #fff, -1px 0px #fff, 0px -1px #fff, 1px 1px #fff, 1px -1px #fff, -1px -1px #fff, -1px 1px #fff, 2px 0px black, 2px 0px black, 0px 2px black, -2px 0px black, 0px -2px black, 2px 2px black, 2px -2px black, -2px -2px black, -2px 2px black;
+}
 div.titlename {text-align:center;
 	line-height:32px;
 }
