@@ -1,0 +1,44 @@
+div.joukai{
+	text-align: center;
+	font-family:'Times New Roman';
+	font-style: italic;
+	font-weight: 900;
+	font-size: xx-large
+}
+span.gpower{
+	text-shadow: rgb(68, 255, 68) 0px 0px 18px;
+	color: #44ff44
+}
+span.jpower{
+	text-shadow: rgb(255, 68, 68) 0px 0px 18px;
+	color: #ff4444
+}
+
+span.chapternumber{
+	display: inline-block;
+	width: 90%;
+	margin:auto;
+	text-align: center;
+	font-family: 'Times New Roman', '궁서';
+	font-size: 1.8em;
+	font-weight: 900;
+}
+
+span.titlenumber{
+	display: inline-block;
+	width: 90%;
+	margin:auto;
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Times New Roman', '궁서';
+	font-weight: 900;
+}
+
+span.upperdot { 
+   color:red;
+   font-weight:900;
+   text-emphasis-style: circle;
+   text-emphasis-position: over left;
+   -webkit-text-emphasis-style: circle;
+   -webkit-text-emphasis-position: over;
+}
