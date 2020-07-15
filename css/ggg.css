@@ -46,11 +46,14 @@ span.upperdot {
 }
 
 span.goldion{
+	display: inline-block;
+	width: 90%;
+	margin:auto;
 	text-align: center;
 	font-family:'Times New Roman';
 	font-style: italic;
 	font-weight: 900;
 	font-size: x-large;
 	color:gold;
-	text-shadow: rgb(8, 156, 0) 0px 0px 12px;
+	text-shadow: rgb(8, 156, 0) 0px 0px 18px;
 }
