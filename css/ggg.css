@@ -7,11 +7,13 @@ div.joukai{
 }
 span.gpower{
 	text-shadow: rgb(68, 255, 68) 0px 0px 18px;
-	color: #44ff44
+	color: #44ff44;
+	margin-left:50px;
 }
 span.jpower{
 	text-shadow: rgb(255, 68, 68) 0px 0px 18px;
-	color: #ff4444
+	color: #ff4444;
+	margin-right:50px;
 }
 
 span.chapternumber{
