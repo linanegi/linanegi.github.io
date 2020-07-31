@@ -60,3 +60,16 @@ span.goldion{
 	color:gold;
 	text-shadow: rgb(8, 156, 0) 0px 0px 18px;
 }
+
+.ggg{
+	text-shadow: rgb(24, 181, 24) 0px 0px 18px;
+	color: #44ff44;
+}
+
+.broken{
+	text-shadow: rgb(255, 110, 110) 0px 0px 18px;
+}
+
+.protect{
+	text-shadow: rgb(161, 255, 191) 0px 0px 18px;
+}
