@@ -73,3 +73,16 @@ span.goldion{
 .protect{
 	text-shadow: rgb(161, 255, 191) 0px 0px 18px;
 }
+
+div.technique{
+	text-align:center;
+	font-size:1.3em;
+	font-family: 'Times New Roman', '맑은 고딕';
+	font-weight:900;
+	font-style:italic;
+	text-transform:capitalize;
+}
+
+.ruin{
+	text-shadow: rgb(138, 11, 11) 0px 0px 5px;
+}
