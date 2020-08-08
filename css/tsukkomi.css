@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: '메플볼드';
+    font-family: 'maplebold';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -105,6 +105,6 @@
     font-style: italic;
 }
 .미르땅 {
-    font-family: '메플볼드';
+    font-family: 'maplebold';
     font-style: italic;
 }
