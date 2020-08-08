@@ -6,6 +6,12 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: '메플볼드';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'taroko';
@@ -96,5 +102,9 @@
 }
 .태클흘림 {
     font-family: 'Times New Roman', 'Iropke Batang', 'k-font', 'brushtappitsuB', 'shokaki utage';
+    font-style: italic;
+}
+.미르땅 {
+    font-family: '메플볼드';
     font-style: italic;
 }
