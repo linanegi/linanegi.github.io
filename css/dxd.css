@@ -1,0 +1,615 @@
+@font-face {
+	font-family: '산돌떡볶이lt';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/SDKukdetopokki-aLt00.woff') format('woff');
+	font-weight: normal;
+	unicode-range: U+AC00-U+D7A3
+	font-style: normal;
+}
+@font-face {
+	font-family: '닉스곤';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONM-Vb.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: '닉스곤';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONL-Vb.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: '국립박물관문화재단클래식B';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식B.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: '한자주문';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumMyungjo.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	unicode-range:
+}
+
+@font-face {
+	font-family: '호국체';
+	font-weight:700;
+	src:local('호국체 Bold'),
+	url('../fonts/HogukcheBold_TTF.woff') format('woff');
+}
+@font-face {
+	font-family: '호국체';
+	font-weight:400;
+	src:local('호국체 Std'),
+	url('../fonts/HogukcheStd_TTF.woff') format('woff');
+}
+
+@font-face {
+	font-family:'neo둥근모';
+	src:url('../fonts/NeoDunggeunmo.woff')format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 700;
+    src: local('Spoqa Han Sans Bold'),
+    url('../fonts/SpoqaHanSans_subset/Spoqa Han Sans Bold.woff2') format('woff2'),
+    url('../fonts/SpoqaHanSans_subset/Spoqa Han Sans Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 400;
+    src: local('Spoqa Han Sans Regular'),
+    url('../fonts/SpoqaHanSans_subset/Spoqa Han Sans Regular.woff2') format('woff2'),
+    url('../fonts/SpoqaHanSans_subset/Spoqa Han Sans Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 300;
+    src: local('Spoqa Han Sans Light'),
+    url('../fonts/SpoqaHanSans_subset/Spoqa Han Sans Light.woff2') format('woff2'),
+    url('../fonts/SpoqaHanSans_subset/Spoqa Han Sans Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 100;
+    src: local('Spoqa Han Sans Thin'),
+    url('../fonts/SpoqaHanSans_subset/Spoqa Han Sans Thin.woff2') format('woff2'),
+    url('../fonts/SpoqaHanSans_subset/Spoqa Han Sans Thin.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans JP';
+    font-weight: 700;
+
+    src: local('Spoqa Han Sans JP Bold'),
+    url('../fonts/SpoqaHanSans_jp_subset/Spoqa Han Sans JP Bold.woff2') format('woff2'),
+    url('../fonts/SpoqaHanSans_jp_subset/Spoqa Han Sans JP Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans JP';
+    font-weight: 400;
+    src: local('Spoqa Han Sans JP Regular'),
+    url('../fonts/SpoqaHanSans_jp_subset/Spoqa Han Sans JP Regular.woff2') format('woff2'),
+    url('../fonts/SpoqaHanSans_jp_subset/Spoqa Han Sans JP Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans JP';
+    font-weight: 300;
+    src: local('Spoqa Han Sans JP Light'),
+    url('../fonts/SpoqaHanSans_jp_subset/Spoqa Han Sans JP Light.woff2') format('woff2'),
+    url('../fonts/SpoqaHanSans_jp_subset/Spoqa Han Sans JP Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans JP';
+    font-weight: 100;
+    src: local('Spoqa Han Sans JP Thin'),
+    url('../fonts/SpoqaHanSans_jp_subset/Spoqa Han Sans JP Thin.woff2') format('woff2'),
+    url('../fonts/SpoqaHanSans_jp_subset/Spoqa Han Sans JP Thin.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BadaB';
+    src: url('../fonts/BADABOOMBB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: '연성';
+    src: url('../fonts/BMYEONSUNG_ttf.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Zzanggu';
+    src: url('../fonts/UhBee Rami.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '우야깨붕';
+    src: url('../fonts/UhBee Wooyakeboong.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'WLoZ';
+    src: url('../fonts/WLoZ.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'k-font';
+    src: url('../fonts/keifont.woff') format('woff'),
+         url('../fonts/keifont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'maplebold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'taroko';
+    src: url('../fonts/taroko.woff') format('woff'),
+         url('../fonts/taroko.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'brushtappitsu';
+    src: url('../fonts/g_brushtappitsu_freeR.woff') format('woff'),
+         url('../fonts/g_brushtappitsu_freeR.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'brushtappitsuH';
+    src: url('../fonts/g_brushtappitsu_freeH.woff') format('woff'),
+         url('../fonts/g_brushtappitsu_freeH.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'brushtappitsuB';
+    src: url('../fonts/g_brushtappitsu_freeB.woff') format('woff'),
+         url('../fonts/g_brushtappitsu_freeB.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'shokaki utage';
+    src: url('../fonts/shokaki utage.woff') format('woff'),
+         url('../fonts/shokaki utage.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Zzanggu';
+    src: url('../fonts/UhBee Rami.woff') format('woff'),
+         url('../fonts/UhBee Rami.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Zzanggub';
+    src: url('../fonts/UhBee Rami BOLD.woff') format('woff'),
+         url('../fonts/UhBee Rami BOLD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Iropke Batang';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/IropkeBatangM.eot');
+  src: url('../fonts/IropkeBatangM.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/IropkeBatangM.woff') format('woff'),
+       url('../fonts/IropkeBatangM.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Serif Regular'), local('DroidSerif-Regular'), url(../fonts/Droid Serif Regular.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Droid Serif Italic'), local('DroidSerif-Italic'), url(../fonts/Droid Serif Italic.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+div.explain {
+	width:400px;
+	background-color:#ffd65c;
+	color:#000;
+	margin:auto;
+	border: 1px solid #f00;
+	white-space:pre-wrap;
+}
+
+div.mmain {
+	font-family: 'Comic Sans MS', '맑은 고딕';
+	font-variant: small-caps;
+	font-size:1em;
+	width:inherit;
+	padding:5px 5px;
+	white-space:pre-wrap;
+}
+.mmain div.Title {
+	font-size: 2em;
+	font-weight:900;
+	text-align:center;
+	line-weight:2.3em !important;
+}
+.mmain div.Chapter {
+	font-size: 2.3em;
+	font-weight:900;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.mmain div.Chapter::before {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #bcbcbc;
+  margin:20px 0px;
+}
+
+.mmain div.narration {
+	font-size:2.5em;
+	line-height:2.5em;
+	font-style:italic;
+	font-weight:900;
+	text-align:center;
+}
+
+.mmain div.narration::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #bcbcbc;
+  margin:20px 0px;
+}
+
+div.Title::before {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #bcbcbc;
+  margin:20px 0px;
+}
+
+.first{
+	font-size:12px !important;
+}
+.first::first-letter{
+	color:#ff0000;
+	font-weight:900;
+}
+div.mmain span.heroname {
+	font-family:'gugi', 'Spoqa Han Sans JP';
+	font-weight:900;
+	font-size:1.3em;
+}
+
+div.mmain span.villainname {
+	font-family:'neo둥근모', '돋움';
+	font-weight:900;
+	font-size:1.3em;
+}
+
+span.effect {
+	font-family:'호국체';
+	font-weight:700;
+	font-size:2em;
+}
+div span.magicspell {
+	line-height:2.3em;
+}
+div span.magicspell ruby > span.normal{
+	font-family:'산돌떡볶이lt';
+	font-size:1.8em;
+	font-weight:700;
+}
+div span.magicspell ruby > span.normal span.hanja{
+	font-family:'한자주문';
+	font-size:0.9em !important;
+	font-weight:700;
+}
+div span.magicspell ruby > rt{
+	font-family:'닉스곤';
+	font-size:1.1em;
+	font-weight:400;
+}
+div.mmain span.magicname ruby > span.normal{
+	font-family:'국립박물관문화재단클래식B';
+	font-size:2.3em;
+	font-weight:700;
+}
+div.mmain span.magicname ruby > span.normal span.hanja{
+	font-size:1.2em !important;
+	font-family:'한자주문';
+	font-weight:700;
+}
+div.mmain span.magicname ruby > rt{
+	font-family:'닉스곤';
+	font-size:1.4em;
+	font-weight:700;
+}
+
+div span.quirkname {
+	line-height:2.3em;
+	font-family:'산돌떡볶이lt';
+	font-size:1.8em;
+	font-weight:700;
+}
+
+a.tooltip
+	{
+		outline:none;
+	}
+	
+a.tooltip:hover 
+	{
+		text-decoration:none;
+	} 
+	
+a.tooltip span 
+	{
+		z-index: 10;
+		display: none;
+		line-height: 12px;
+		font-size: 12px;
+		box-sizing: border-box;
+		text-shadow: 2px 2px 2px black; 
+		font-family: '맑은 고딕';
+	} 
+	
+a.tooltip:hover span ch1
+	{ 
+		font-weight: 700;
+		color: #c9a100;
+		padding: 0px;
+		margin: 0px;
+		font-size: 13px;
+		font-family: 'Georgia', '맑은 고딕';
+	}
+
+a.tooltip:hover span.magic ch1::before
+	{ 
+		content:"주문 원문(발음):";
+		color:#00e0e0;
+		font-weight:900;
+	}
+
+a.tooltip:hover span ch2
+	{ 
+		font-weight: 400;
+		color: #c9a100;
+		margin: 10px 0px;
+		font-size: 10px;
+	}
+
+a.tooltip:hover span.magic ch2::before
+	{ 
+		content:"주문(의미):";
+		color:#00e0e0;
+		font-weight:900;
+	}
+
+a.tooltip:hover span ch3
+	{ 
+		font-size: 10px;
+		color: #db8cff;
+	}
+
+a.tooltip:hover span ch3
+	{ 
+		font-size: 10px;
+		color: #db8cff;
+	}
+	
+a.tooltip:hover span ch4
+	{ 
+		font-size: 9px;
+	}
+
+a.tooltip:hover span ch1 ruby
+	{ 
+		font-size: 1.3em;
+	}
+a.tooltip:hover span ch1 ruby rt
+	{ 
+		font-size: 1em;
+	}
+
+a.tooltip:hover span.magic
+	{ 
+		padding: 10px 10px 15px 10px;
+		margin-top: -120px;
+		margin-left: -20px;
+		display: inline;
+		position: absolute;
+		color: #cbc4a8;
+		background-color: rgba(30,30,30,1);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 600px 350px; 
+		width: 500px;
+		min-height: 300px;
+		text-align: left;
+	}
+
+a.tooltip:hover span.artifact
+	{ 
+		padding: 10px 10px 15px 10px;
+		margin-top: -120px;
+		margin-left: -20px;
+		display: inline;
+		position: absolute;
+		color: #cbc4a8;
+		background-color: rgba(30,30,30,1);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 600px 350px; 
+		width: 500px;
+		min-height: 300px;
+		text-align: left;
+	}
+
+a.tooltip:hover span.quirk
+	{ 
+		padding: 10px 10px 15px 10px;
+		margin-top: -120px;
+		margin-left: -20px;
+		display: inline;
+		position: absolute;
+		color: #cbc4a8;
+		background-color: rgba(30,30,30,1);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 600px 350px; 
+		width: 500px;
+		min-height: 300px;
+		text-align: left;
+	}
+
+div.joukai{
+	text-align: center;
+	font-family:'Times New Roman';
+	font-style: italic;
+	font-weight: 900;
+	font-size: xx-large;
+	line-height:2em;
+	margin-top:0.2em;
+	margin-bottom:0.2em;
+}
+
+span.gpower{
+	text-shadow: rgb(68, 255, 68) 0px 0px 18px;
+	color: #44ff44;
+	margin-left:50px;
+}
+span.jpower{
+	text-shadow: rgb(255, 68, 68) 0px 0px 18px;
+	color: #ff4444;
+	margin-right:50px;
+}
+
+span.chapternumber{
+	display: inline-block;
+	width: 90%;
+	margin:auto;
+	text-align: center;
+	font-family: 'Times New Roman', '궁서';
+	font-size: 1.8em;
+	font-weight: 900;
+}
+
+span.titlenumber{
+	display: inline-block;
+	width: 90%;
+	margin:auto;
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Times New Roman', '궁서';
+	font-weight: 900;
+}
+
+span.upperdot { 
+   color:red;
+   font-weight:900;
+   text-emphasis-style: circle;
+   text-emphasis-position: over left;
+   -webkit-text-emphasis-style: circle;
+   -webkit-text-emphasis-position: over;
+}
+
+span.goldion{
+	display: inline-block;
+	width: 90%;
+	margin:auto;
+	text-align: center;
+	font-family:'Times New Roman';
+	font-style: italic;
+	font-weight: 900;
+	font-size: x-large;
+	color:gold;
+	text-shadow: rgb(8, 156, 0) 0px 0px 18px;
+}
+
+.ggg{
+	text-shadow: rgb(24, 181, 24) 0px 0px 18px;
+	color: #44ff44;
+}
+
+.broken{
+	text-shadow: rgb(255, 110, 110) 0px 0px 18px;
+}
+
+.protect{
+	text-shadow: rgb(161, 255, 191) 0px 0px 18px;
+}
+
+div.technique{
+	text-align:center;
+	font-size:1.3em;
+	font-family: 'Times New Roman', '맑은 고딕';
+	font-weight:900;
+	font-style:italic;
+	text-transform:capitalize;
+}
+
+.ruin{
+	text-shadow: rgb(138, 11, 11) 0px 0px 5px;
+}
+
+.demise{
+	text-shadow: rgb(121, 232, 228) 0px 0px 12px;
+}
+
+.태클 {
+    font-family: 'Zzanggu', 'k-font', 'taroko', 'shokaki utage';
+}
+.태클흘림 {
+    font-family: 'Times New Roman', 'Iropke Batang', 'k-font', 'brushtappitsuB', 'shokaki utage';
+    font-style: italic;
+}
+.미르땅 {
+    font-family: 'Times New Roman', 'maplebold';
+    font-style: italic;
+}
