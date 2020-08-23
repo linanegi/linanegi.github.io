@@ -203,3 +203,62 @@ ptype.드래곤{color: #7038f8;}
 ptype.악{color: #705848;}
 ptype.강철{color: #b8d8d0;}
 ptype.페어리{color: #ee99ac;}
+
+a.tooltip
+	{
+		outline:none;
+	}
+	
+a.tooltip:hover 
+	{
+		text-decoration:none;
+	} 
+	
+a.tooltip span 
+	{
+		z-index: 10;
+		display: none;
+		line-height: 12px;
+		font-size: 12px;
+		box-sizing: border-box;
+		text-shadow: 2px 2px 2px black; 
+	} 
+	
+a.tooltip:hover span chname
+	{ 
+		font-weight: 700;
+		color: #cbc4a8;
+		padding: 0px;
+		margin: 0px;
+		font-size: 13px;
+	}
+	
+a.tooltip:hover span chrdt
+	{ 
+		font-weight: 400;
+		color: #cbc4a8;
+		margin: 10px 0px;
+		font-size: 10px;
+	}	
+	
+a.tooltip:hover span ch3
+	{ 
+		font-size: 10px;
+		color: #9898ca;
+	}
+
+a.tooltip:hover span.item
+	{
+		margin-top: -120px;
+		margin-left: -20px;
+		display: inline;
+		position: absolute;
+		color: #cbc4a8;
+		background-color: rgba(30,30,30,1);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 400px 267px; 
+		width: 325px;
+		min-height: 110px;
+		text-align: left;
+	}
