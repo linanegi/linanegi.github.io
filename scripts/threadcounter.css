@@ -258,7 +258,7 @@ a.tooltip:hover span.item
 		background-color: rgba(30,30,30,1);
 		background-repeat: no-repeat;
 		background-position: center center;
-		background-size: 81px 81px, 400px 267px; 
+		background-size: 81px 81px, 81px 81px, 400px 267px; 
 		width: 325px;
 		min-height: 30px;
 		text-align: left;
