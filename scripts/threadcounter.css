@@ -260,6 +260,6 @@ a.tooltip:hover span.item
 		background-position: center center;
 		background-size: 400px 267px; 
 		width: 325px;
-		min-height: 110px;
+		min-height: 30px;
 		text-align: left;
 	}
