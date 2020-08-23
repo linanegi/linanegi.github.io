@@ -249,6 +249,7 @@ a.tooltip:hover span ch3
 
 a.tooltip:hover span.item
 	{
+		padding: 10px 10px 15px 103px;
 		margin-top: -120px;
 		margin-left: -20px;
 		display: inline;
