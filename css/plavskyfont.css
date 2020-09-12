@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Plavsky';
+    src: url('../font/Plavsky-Bold.woff2') format('woff2'),
+        url('../font/Plavsky-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plavsky';
+    src: url('../font/Plavsky.woff2') format('woff2'),
+        url('../font/Plavsky.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plavsky';
+    src: url('../font/Plavsky-Italic.woff2') format('woff2'),
+        url('../font/Plavsky-Italic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plavsky';
+    src: url('../font/Plavsky-Italic.woff2') format('woff2'),
+        url('../font/Plavsky-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PlavskyC';
+    src: url('../font/PlavskyCondensed-Bold.woff2') format('woff2'),
+        url('../font/PlavskyCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PlavskyC';
+    src: url('../font/PlavskyCondensed.woff2') format('woff2'),
+        url('../font/PlavskyCondensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PlavskyC';
+    src: url('../font/PlavskyCondensed-BoldItalic.woff2') format('woff2'),
+        url('../font/PlavskyCondensed-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PlavskyC';
+    src: url('../font/PlavskyCondensed-Italic.woff2') format('woff2'),
+        url('../font/PlavskyCondensed-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
