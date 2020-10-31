@@ -40,6 +40,22 @@ span.titlenumber{
 	font-weight: 900;
 }
 
+div.chapternumber{
+	margin:auto;
+	text-align: center;
+	font-family: 'Times New Roman', '궁서';
+	font-size: 1.8em;
+	font-weight: 900;
+}
+
+div.titlenumber{
+	margin:auto;
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Times New Roman', '궁서';
+	font-weight: 900;
+}
+
 span.upperdot { 
    color:red;
    font-weight:900;
