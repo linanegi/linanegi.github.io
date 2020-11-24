@@ -1,0 +1,115 @@
+/*
+ * Shiekah Font (Korean)
+ */
+@font-face {
+  font-family: 'Shiekah';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Shiekah Font.ttf') format('truetype');
+}
+
+.upperdot { 
+   color:red;
+   font-weight:900;
+   text-emphasis-style: circle;
+   text-emphasis-position: over left;
+   -webkit-text-emphasis-style: circle;
+   -webkit-text-emphasis-position: over;
+}
+
+div.title{
+	text-align: center;
+	font-family:'Times New Roman';
+	font-style: italic;
+	font-weight: 900;
+	font-size: xx-large;
+	line-height:2em;
+	margin-top:0.2em;
+	margin-bottom:0.2em;
+}
+
+/* Tool Tip */
+
+a.tooltip
+	{
+		outline:none;
+	}
+	
+a.tooltip:hover 
+	{
+		text-decoration:none;
+	} 
+	
+a.tooltip span 
+	{
+		z-index: 10;
+		display: none;
+		line-height: 12px;
+		font-size: 12px;
+		box-sizing: border-box;
+		text-shadow: 2px 2px 2px black; 
+	} 
+	
+a.tooltip:hover span ch1
+	{ 
+		font-weight: 700;
+		color: #cbc4a8;
+		padding: 0px;
+		margin: 0px;
+		font-size: 13px;
+		font-family: '맑은 고딕', 'Shiekah', sans-serif;
+	}
+	
+a.tooltip:hover span ch2
+	{ 
+		font-weight: 400;
+		color: #cbc4a8;
+		margin: 10px 0px;
+		font-size: 10px;
+		font-family: 'Shiekah', sans-serif;
+	}	
+	
+a.tooltip:hover span ch3
+	{ 
+		font-size: 10px;
+		color: #9898ca;
+	}
+	
+a.tooltip:hover span ch4
+	{ 
+		font-size: 9px;
+	}
+	
+a.tooltip:hover span.monster
+	{ 
+		padding: 10px 10px 15px 103px;
+		margin-top: -120px;
+		margin-left: -20px;
+		display: inline;
+		position: absolute;
+		color: #cbc4a8;
+		background-color: rgba(30,30,30,1);
+		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+		background-position: 10px 10px, 10px 10px, 10px 10px, 12px 12px, center center;
+		background-size: 25px 25px, 83px 90px, 83px 83px, 80px 85px, 400px 267px; 
+		width: 250px;
+		min-height: 110px;
+		text-align: left;
+	}
+	
+a.tooltip:hover span.item
+	{ 
+		padding: 10px 10px 15px 103px;
+		margin-top: -120px;
+		margin-left: -20px;
+		display: inline;
+		position: absolute;
+		color: #cbc4a8;
+		background-color: rgba(30,30,30,1);
+		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+		background-position: 10px 10px, 10px 10px, 12px 12px, 12px 12px, center center;
+		background-size: 25px 25px, 83px 90px, 81px 81px, 80px 85px, 400px 267px; 
+		width: 325px;
+		min-height: 110px;
+		text-align: left;
+	}
