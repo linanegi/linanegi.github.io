@@ -71,19 +71,19 @@ a.tooltip:hover span div.ch2
 		height:74px;
 	}	
 	
-a.tooltip:hover span ch3
+a.tooltip:hover span div.ch3
 	{ 
 		color: #9898ca;
 		font-size: 13px;
 		font-family: '맑은 고딕', 'Shiekah', sans-serif;
 	}
 	
-a.tooltip:hover span ch4
+a.tooltip:hover span div.ch4
 	{ 
 		font-size: 9px;
 	}
 
-a.tooltip:hover span.monster
+a.tooltip:hover span
 	{ 
 		padding: 26px 10px 10px 10px;
 		margin-top: -120px;
