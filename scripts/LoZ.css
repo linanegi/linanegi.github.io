@@ -60,6 +60,7 @@ a.tooltip:hover span div.ch1
 		padding-top: 52px;
 		font-size: 14px;
 		line-height:1.1;
+		z-index:1;
 	}
 	
 a.tooltip:hover span div.ch2
@@ -71,6 +72,7 @@ a.tooltip:hover span div.ch2
 		line-height:1.1;
 		width:280px;
 		height:74px;
+		z-index:2;
 	}	
 	
 a.tooltip:hover span div.ch3
@@ -100,5 +102,6 @@ a.tooltip:hover span
 		width: 300px;
 		min-height: 200px;
 		text-align: left;
+		z-index:0;
 	}
 
