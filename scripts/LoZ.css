@@ -71,8 +71,9 @@ a.tooltip:hover span ch2
 	
 a.tooltip:hover span ch3
 	{ 
-		font-size: 10px;
 		color: #9898ca;
+		font-size: 13px;
+		font-family: '맑은 고딕', 'Shiekah', sans-serif;
 	}
 	
 a.tooltip:hover span ch4
