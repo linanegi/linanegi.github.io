@@ -83,7 +83,7 @@ a.tooltip:hover span ch4
 		font-size: 9px;
 	}
 
-a.tooltips:hover span.monster
+a.tooltip:hover span.monster
 	{ 
 		padding: 26px 10px 10px 10px;
 		margin-top: -120px;
