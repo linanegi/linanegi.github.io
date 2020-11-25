@@ -56,9 +56,8 @@ a.tooltip:hover span div.ch1
 		height: 68px;
 		font-weight: 700;
 		color: #cbc4a8;
-		padding: 0px;
-		margin-left: 120px;
-		margin-top: 52px;
+		padding-left: 120px;
+		padding-top: 52px;
 		font-size: 14px;
 		line-height:1.1;
 	}
