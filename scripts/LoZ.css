@@ -16,7 +16,9 @@
    -webkit-text-emphasis-style: circle;
    -webkit-text-emphasis-position: over;
 }
-
+div.mmain{
+	margin:5px;
+}
 div.title{
 	text-align: center;
 	font-family:'Times New Roman';
@@ -30,17 +32,17 @@ div.title{
 
 /* Tool Tip */
 
-a.tooltip
+div.mmain a.tooltip
 	{
 		outline:none;
 	}
 	
-a.tooltip:hover 
+div.mmain a.tooltip:hover 
 	{
 		text-decoration:none;
 	} 
 	
-a.tooltip span 
+div.mmain a.tooltip span 
 	{
 		z-index: 10;
 		display: none;
@@ -50,7 +52,7 @@ a.tooltip span
 		text-shadow: 2px 2px 2px black; 
 	} 
 	
-a.tooltip:hover span div.ch1
+div.mmain a.tooltip:hover span div.ch1
 	{ 
 		width: 170px;
 		height: 68px;
@@ -63,7 +65,7 @@ a.tooltip:hover span div.ch1
 		z-index:1;
 	}
 	
-a.tooltip:hover span div.ch2
+div.mmain a.tooltip:hover span div.ch2
 	{ 
 		font-weight: 400;
 		color: #cbc4a8;
@@ -75,19 +77,19 @@ a.tooltip:hover span div.ch2
 		z-index:2;
 	}	
 	
-a.tooltip:hover span div.ch3
+div.mmain a.tooltip:hover span div.ch3
 	{ 
 		color: #9898ca;
 		font-size: 13px;
 		font-family: '맑은 고딕', 'Shiekah', sans-serif;
 	}
 	
-a.tooltip:hover span div.ch4
+div.mmain a.tooltip:hover span div.ch4
 	{ 
 		font-size: 9px;
 	}
 
-a.tooltip:hover span
+div.mmain a.tooltip:hover span
 	{ 
 		padding: 26px 10px 10px 10px;
 		margin-top: -120px;
