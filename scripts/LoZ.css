@@ -16,7 +16,7 @@
    -webkit-text-emphasis-style: circle;
    -webkit-text-emphasis-position: over;
 }
-div.mmain{
+div.mmain2{
 	margin:5px;
 }
 div.title{
@@ -32,17 +32,17 @@ div.title{
 
 /* Tool Tip */
 
-div.mmain a.tooltip
+div.mmain2 a.tooltip
 	{
 		outline:none;
 	}
 	
-div.mmain a.tooltip:hover 
+div.mmain2 a.tooltip:hover 
 	{
 		text-decoration:none;
 	} 
 	
-div.mmain a.tooltip span 
+div.mmain2 a.tooltip span 
 	{
 		z-index: 10;
 		display: none;
@@ -52,7 +52,7 @@ div.mmain a.tooltip span
 		text-shadow: 2px 2px 2px black; 
 	} 
 	
-div.mmain a.tooltip:hover span div.ch1
+div.mmain2 a.tooltip:hover span div.ch1
 	{ 
 		width: 170px;
 		height: 68px;
@@ -65,7 +65,7 @@ div.mmain a.tooltip:hover span div.ch1
 		z-index:1;
 	}
 	
-div.mmain a.tooltip:hover span div.ch2
+div.mmain2 a.tooltip:hover span div.ch2
 	{ 
 		font-weight: 400;
 		color: #cbc4a8;
@@ -77,19 +77,19 @@ div.mmain a.tooltip:hover span div.ch2
 		z-index:2;
 	}	
 	
-div.mmain a.tooltip:hover span div.ch3
+div.mmain2 a.tooltip:hover span div.ch3
 	{ 
 		color: #9898ca;
 		font-size: 13px;
 		font-family: '맑은 고딕', 'Shiekah', sans-serif;
 	}
 	
-div.mmain a.tooltip:hover span div.ch4
+div.mmain2 a.tooltip:hover span div.ch4
 	{ 
 		font-size: 9px;
 	}
 
-div.mmain a.tooltip:hover span
+div.mmain2 a.tooltip:hover span
 	{ 
 		padding: 26px 10px 10px 10px;
 		margin-top: -120px;
