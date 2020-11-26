@@ -32,6 +32,11 @@ div.title{
 
 /* Tool Tip */
 
+div.mmain2 a
+	{
+		text-decoration:none;
+	}
+
 div.mmain2 a.tooltiploz
 	{
 		outline:none;
