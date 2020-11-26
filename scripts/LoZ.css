@@ -71,7 +71,7 @@ a.tooltip:hover span div.ch2
 		font-size: 8px;
 		line-height:1.2;
 		width:280px;
-		height:74px;
+		height:224px;
 		z-index:2;
 	}	
 	
@@ -97,9 +97,9 @@ a.tooltip:hover span
 		color: #cbc4a8;
 		background-repeat: no-repeat, no-repeat, no-repeat;
 		background-position: 0px 0px, 15px 10px, 0px 0px;
-		background-size: 300px 200px, 100px 100px, 300px 200px; 
+		background-size: 300px 350px, 100px 100px, 300px 350px; 
 		width: 300px;
-		min-height: 200px;
+		min-height: 350px;
 		text-align: left;
 		z-index:0;
 	}
