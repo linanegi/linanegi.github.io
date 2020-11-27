@@ -59,22 +59,24 @@ div.mmain2 a.tooltiploz span
 	
 div.mmain2 a.tooltiploz:hover span div.img
 	{
+		z-index:9;
 		width:100px;
 		height:100px;
-		margin-left:15px;
-		margin-top:10px;
-		background-size:100px 100px, contain;
+		background-size:contain, 100px 100px;
+		background-repeat:no-repeat, no-repeat;
+		background-position: center center;
+		margin-top:-15px;
 		padding:auto;
 	}
 
-div.mmain2 a.tooltiploz:hover span div.ch1
+div.mmain2 a.tooltiploz:hover span div.img div.ch1
 	{ 
 		width: 170px;
 		height: 68px;
 		font-weight: 700;
 		color: #cbc4a8;
-		margin-left: 120px;
-		margin-top: 0px;
+		margin-left: 110px;
+		margin-top: 15px;
 		font-size: 14px;
 		line-height:1.2;
 		z-index:1;
@@ -84,7 +86,7 @@ div.mmain2 a.tooltiploz:hover span div.ch2
 	{ 
 		font-weight: 400;
 		color: #cbc4a8;
-		margin: 20px 0px 0px 0px;
+		margin: 10px 0px 0px 0px;
 		font-size: 12px;
 		line-height:1.2;
 		width:280px;
@@ -106,15 +108,15 @@ div.mmain2 a.tooltiploz:hover span div.ch4
 
 div.mmain2 a.tooltiploz:hover span
 	{ 
-		padding: 26px 10px 10px 10px;
+		padding: 10px 10px 10px 10px;
 		margin-top: -120px;
 		margin-left: -20px;
 		display: inline;
 		position: absolute;
 		color: #cbc4a8;
 		background-repeat: no-repeat, no-repeat;
-		background-position: 0px 0px, 0px 0px;
-		background-size: 300px 350px, 300px 350px; 
+		background-position: 0px 0px, 15px 10px, 0px 0px;
+		background-size: 300px 350px, 100px 100px, 300px 350px; 
 		width: 300px;
 		min-height: 350px;
 		text-align: left;
@@ -149,8 +151,8 @@ div.write_content div.mmain2 a.tooltiploz:hover span div.ch1
 		height: 68px;
 		font-weight: 700;
 		color: #cbc4a8;
-		margin-left: 120px;
-		margin-top: 0px;
+		margin-left: 110px;
+		margin-top: 15px;
 		font-size: 14px;
 		line-height:1.2;
 		z-index:1;
@@ -160,7 +162,7 @@ div.write_content div.mmain2 a.tooltiploz:hover span div.ch2
 	{ 
 		font-weight: 400;
 		color: #cbc4a8;
-		margin: 20px 0px 0px 0px;
+		margin: 10px 0px 0px 0px;
 		font-size: 12px;
 		line-height:1.2;
 		width:280px;
