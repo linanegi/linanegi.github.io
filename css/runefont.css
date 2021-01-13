@@ -1,0 +1,12 @@
+/*
+ * RUNE WEBFONT
+ */
+@font-face {
+  font-family: 'futhark';
+    src:url('../font/Rune.ttf.woff') format('woff'),
+        url('../font/Rune.ttf.svg#Rune') format('svg'),
+        url('../font/Rune.ttf.eot'),
+        url('../font/Rune.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
