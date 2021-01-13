@@ -1,0 +1,12 @@
+/*
+ * RUNE WEBFONT
+ */
+@font-face {
+  font-family: 'elderrune';
+    src:url('../font/Elder-Futhark.ttf.woff') format('woff'),
+        url('../font/Elder-Futhark.ttf.svg#Rune') format('svg'),
+        url('../font/Elder-Futhark.ttf.eot'),
+        url('../font/Elder-Futhark.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
