@@ -5,7 +5,7 @@
   font-family: 'Shiekah';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/Shiekah Font.ttf') format('truetype');
+  src: url('http://linanegi.github.io/fonts/Shiekah%20Font.ttf') format('truetype');
 }
 
 .upperdot { 
