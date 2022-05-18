@@ -11,6 +11,9 @@ a[class*=monster]:active{color:#000;}
 .effectmonster{text-shadow:0px 0px 2px #ff9100;}
 .effectmonster:hover::after{content:'(효과 몬스터)';font-size:0.8em;}
 .fusionmonster{text-shadow:0px 0px 2px #b5009a;}
+.fusionmonster:hover::after{content:'(융합 몬스터)';font-size:0.8em;}
+.ritualmonster{text-shadow:0px 0px 2px #0084ff;}
+.ritualmonster:hover::after{content:'(의식 몬스터)';font-size:0.8em;}
 .mtmagic{text-shadow: 0px 0px 2px #00a634;}
 .mttrap{text-shadow: 0px 0px 2px #d10049;}
 a[class*=mt]:link { color:#000; }
