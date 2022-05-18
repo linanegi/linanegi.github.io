@@ -7,9 +7,9 @@ a[class*=monster]:link{color:#000;}
 a[class*=monster]:visited{color:#000;}
 a[class*=monster]:hover{color:#000;}
 a[class*=monster]:active{color:#000;}
-.normalmonster::after{content:'(일반 몬스터)';font-size:0.8em;}
+.normalmonster:hover::after{content:'(일반 몬스터)';font-size:0.8em;}
 .effectmonster{text-shadow:0px 0px 2px #ff9100;}
-.effectmonster::after{content:'(효과 몬스터)';font-size:0.8em;}
+.effectmonster:hover::after{content:'(효과 몬스터)';font-size:0.8em;}
 .fusionmonster{text-shadow:0px 0px 2px #b5009a;}
 .mtmagic{text-shadow: 0px 0px 2px #00a634;}
 .mttrap{text-shadow: 0px 0px 2px #d10049;}
