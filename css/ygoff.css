@@ -33,3 +33,4 @@ a.xyz:active { color:#000; }
 .tooltip {display: inline-block; font-weight: bold;}
 .tooltip-text {display: none;position: absolute;width: calc(min(300px, 80vw));border: 1px dotted white;border-radius: 5px;padding: 5px;font-size: 0.8em;color: white; background: #000;}
 .tooltip:hover .tooltip-text {display: block;}
+.tooltip-text img {background-color:#fff;}
