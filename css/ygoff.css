@@ -34,3 +34,10 @@ a.xyz:active { color:#000; }
 .tooltip-text {display: none;position: absolute;width: calc(min(300px, 80vw));border: 1px dotted white;border-radius: 5px;padding: 5px;font-size: 0.8em;color: white; background: #000;}
 .tooltip:hover .tooltip-text {display: block;}
 .tooltip-text img {background-color:#fff;}
+.dot {
+   font-weight:900;
+   text-emphasis-style: circle;
+   text-emphasis-position: over left;
+   -webkit-text-emphasis-style: circle;
+   -webkit-text-emphasis-position: over;
+}
