@@ -21,7 +21,8 @@ a.synchro:link { color:#fff; }
 a.synchro:visited { color:#fff; }
 a.synchro:hover { color:#fff; }
 a.synchro:active { color:#fff; }
-.xyz{text-shadow: 1px -1px 0px #fff, 1px 0px 0px #fff, 1px 1px 0px #fff, 0px -1px 0px #fff, 0px 1px 0px #fff, -1px -1px 0px #fff, -1px 0px 0px #fff, -1px 1px 0px #fff; color:#000;}
+.xyz{color:#000;}
+a.xyz{text-shadow: 1px -1px 0px #fff, 1px 0px 0px #fff, 1px 1px 0px #fff, 0px -1px 0px #fff, 0px 1px 0px #fff, -1px -1px 0px #fff, -1px 0px 0px #fff, -1px 1px 0px #fff;}
 a.xyz:link { color:#000; }
 a.xyz:visited { color:#000; }
 a.xyz:hover { color:#000; }
