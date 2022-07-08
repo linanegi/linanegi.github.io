@@ -13,8 +13,9 @@
 	unicode-range: U+4E00-9FBF, U+3040-309F, U+30A0-30FF;
 }
 	
-.tcb{font-size:'1.8em';font-weight:'900';font-family:'TCB'}
-.right{display: inline-block;text-align:right;margin-right:20px;font-style:italic;}
+.tcb{font-family:'TCB'}
+.big{font-size:4em;}
+.right{text-align:right;margin-right:20px;font-style:italic;}
 .sun{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #eee; color:#f70a28;}
 .moon{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #eee; color:#6a5acd;}
 .water{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #eee; color:#89c6ff;}
