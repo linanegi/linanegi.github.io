@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'TCB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/MYArirang-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TCB';
+	src: url(https://linanegi.github.io/font/DelaGothicOne-Regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+	unicode-range: U+4E00-9FBF, U+3040-309F, U+30A0-30FF;
+}
+	
+.tcb{font-size:'1.8em';font-weight:'900';font-family:'TCB'}
+.sun{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #eee; color:#f70a28;}
+.moon{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #eee; color:#6a5acd;}
+.water{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #eee; color:#89c6ff;}
+.snake{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #eee; color:#800080;}
+.flower{text-shadow: 1px 0px #808080, 0px 1px #808080, -1px 0px #808080, 0px -1px #808080, 1px 1px #808080, 1px -1px #808080, -1px -1px #808080, -1px 1px #808080; color:#ffcdff;}
+.bug{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #eee; color:#8673A1;}
+.fire{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #eee; color:#FF4500}
+.love{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #eee; color:#eda3c1;}
+.rock{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #eee; color:#808080;}
+.wind{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #eee; color:#008000;}
+.mist{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #eee; color:#84C3BE;}
+.kemono{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #eee; color:#6699CC;}
+.thunder{text-shadow: 1px 0px #808080, 0px 1px #808080, -1px 0px #808080, 0px -1px #808080, 1px 1px #808080, 1px -1px #808080, -1px -1px #808080, -1px 1px #808080; color:#FFE100;}
+.sound{text-shadow: 1px 0px #808080, 0px 1px #808080, -1px 0px #808080, 0px -1px #808080, 1px 1px #808080, 1px -1px #808080, -1px -1px #808080, -1px 1px #808080; color:#FFAA00;}
