@@ -14,6 +14,7 @@
 }
 	
 .tcb{font-size:'1.8em';font-weight:'900';font-family:'TCB'}
+span.tcb{display: inline-block;text-align:right;margin-right:20px;font-style:italic;}
 .sun{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #eee; color:#f70a28;}
 .moon{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #eee; color:#6a5acd;}
 .water{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #eee; color:#89c6ff;}
