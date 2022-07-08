@@ -13,6 +13,16 @@
 	unicode-range: U+4E00-9FBF, U+3040-309F, U+30A0-30FF;
 }
 	
+
+hr{border:solid 1px #444;}
+div.title{text-align:center;font-weight:900;font-family:'맑은 고딕';font-size:2.3em;}
+rt{font-size:1em;}
+.smallsize{font-size:0.83em;}
+.xsmall{font-size:0.7em;}
+.xbig{font-size:1.5em;}
+div.slider::before{content:'\A◆◆◆◆';white-space:pre;}
+div.slider{text-align:center;clear:both;margin-bottom:3em;}
+
 .tcb{font-family:'TCB'}
 .big{font-size:4em;}
 .right{text-align:right;margin-right:20px;font-style:italic;}
