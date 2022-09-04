@@ -1,0 +1,593 @@
+<html>
+  <head>
+<script type="text/javascript">
+		function toggle1(thisname) {
+		   tr=document.getElementsByTagName('div')
+		   for (i=0;i<tr.length;i++){
+			  if (tr[i].className == thisname){
+					tr[i].style.display = 'inline';}}}
+		function toggle2(thisname) {
+			tr=document.getElementsByTagName('div')
+			for (i=0;i<tr.length;i++){
+				if (tr[i].className == thisname){
+					tr[i].style.display = 'none';}}}
+</script>
+<style>
+div.junior{display:none;}
+div.classic{display:none;}
+div.senior{display:none;}
+div.blank{display:block;height:1em;}
+#table {display: table; width: 100%;}
+#title{display: table-caption;}
+.big{background-color:#ddd;color:#000;font-size:2em;text-align:center;}
+.row {display: table-row;}
+.row:nth-child(6n-4) .cell:nth-child(odd) {background-color:#fee;color:#000;font-size:1.3em;text-align:center;}
+.row:nth-child(6n-4) .cell:nth-child(even) {background-color:#efe;color:#000;font-size:1.3em;text-align:center;}
+.row:nth-child(6n-2) .cell:nth-child(odd) {background-color:#efe;color:#000;font-size:1.3em;text-align:center;}
+.row:nth-child(6n-2) .cell:nth-child(even) {background-color:#eef;color:#000;font-size:1.3em;text-align:center;}
+.row:nth-child(6n) .cell:nth-child(odd) {background-color:#eef;color:#000;font-size:1.3em;text-align:center;}
+.row:nth-child(6n) .cell:nth-child(even) {background-color:#fee;color:#000;font-size:1.3em;text-align:center;}
+.cell {display: table-cell; padding: 3px; border-bottom: 1px solid #DDD;}
+label{text-indent:20px;padding-left:-20px;}
+.row:nth-child(even) .cell:nth-child(even) {background-color:#eee;}
+.col1 {width: 25%;}
+.col2 {width: 25%;}
+.col3 {width: 25%;}
+.col4 {width: 25%;}
+input[type="radio"]:checked + label {  background: #000;  border-color: green;  color: #fff;}
+input[type="radio"].Turf + label::before{content:'잔디';background-color:#00bd52;margin-right:5px;padding-left:5px;padding-right:5px;color:#fff;border-radius:5px;font-weight:bold;}
+input[type="radio"].Dirt + label::before{content:'더트';background-color:#b58502;margin-right:5px;padding-left:5px;padding-right:5px;color:#fff;border-radius:5px;font-weight:bold;}
+span[class*=OP]::before{content:attr(class);background-color:rgb(255,173,12);margin-left:20px;margin-right:5px;padding-left:5px;padding-right:5px;color:#fff;border-radius:5px;font-weight:bold;}
+span.GⅢ::before{content:attr(class);background-color:rgb(88,196,113);margin-left:20px;margin-right:5px;padding-left:5px;padding-right:5px;color:#fff;border-radius:5px;font-weight:bold;margin-top:10px;}
+span.GⅡ::before{content:attr(class);background-color:rgb(247,90,134);margin-left:20px;margin-right:5px;padding-left:5px;padding-right:5px;color:#fff;border-radius:5px;font-weight:bold;margin-top:10px;}
+span.GⅠ::before{content:attr(class);background-color:rgb(52,133,227);margin-left:20px;margin-right:5px;padding-left:5px;padding-right:5px;color:#fff;border-radius:5px;font-weight:bold;margin-top:10px;}
+a{padding:5px;margin:5px;border-radius:10px;font-weight:bold;color:#fff;box-shadow:1px 1px 1px #000;border:1px rgba(0,0,0,.3) solid;}
+a.junior{background-color:#88a2ff;}
+a.classic{background-color:#0ea800;}
+a.senior{background-color:#ffb888;}</style>
+    <title>우마무스메 로테이션 설정기(Ver.0.1)</title>
+  </head>
+  <body>
+<a onclick="toggle1('junior'); toggle2('classic'); toggle2('senior');" class="junior">주니어 시즌</a>
+<a onclick="toggle2('junior'); toggle1('classic'); toggle2('senior');" class="classic">클래식 시즌</a>
+<a onclick="toggle2('junior'); toggle2('classic'); toggle1('senior');" class="senior">시니어 시즌</a>
+<div class="blank"></div>
+<div class="junior">
+<div id="table">
+<div id="title" class="big">주니어급 로테이션</div>
+<div class="row">
+<span class="cell col1">7월 전반 <input type="radio" name="J7a"></span>
+<span class="cell col2">7월 후반 <input type="radio" name="J7b"></span>
+<span class="cell col3">8월 전반 <input type="radio" name="J8a"></span>
+<span class="cell col4">8월 후반 <input type="radio" name="J8b"></span>
+</div>
+<div class="row">
+<span class="cell col1">데뷔전(전 시나리오, 육성 우마무스메 공통)</span>
+<span class="cell col2"><input type="radio" name="J7b" class="Turf"><label>츄쿄JrS(中京JrS)<br><span class="OP">츄쿄 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="J7b" class="Turf"><label>하코다테JrS(函館JrS)<br><span class="GⅢ">하코다테 / 1200m(단거리) / 우</span></label></span>
+<span class="cell col3"><input type="radio" name="J8a" class="Turf"><label>코스모스상(コスモス賞)<br><span class="OP">삿포로 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="J8a" class="Turf"><label>피닉스상(フェニックス賞)<br><span class="OP">코쿠라 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="J8a" class="Turf"><label>달리아상(ダリア賞)<br><span class="OP">니이가타 / 1400m(단거리) / 좌, 내측</span></label></span>
+<span class="cell col4"><input type="radio" name="J8b" class="Turf"><label>클로버상(クローバー賞)<br><span class="OP">삿포로 / 1500m(마일) / 우</span></label><hr>
+<input type="radio" name="J8b" class="Turf"><label>니이가타JrS(新潟JrS)<br><span class="GⅢ">니이가타 / 1600m(마일) / 좌, 외측</span></label><hr>
+</span>
+</div>
+<div class="row">
+<span class="cell col1">9월 전반 <input type="radio" name="J9a"></span>
+<span class="cell col2">9월 후반 <input type="radio" name="J9b"></span>
+<span class="cell col3">10월 전반 <input type="radio" name="J10a"></span>
+<span class="cell col4">10월 후반 <input type="radio" name="J10b"></span>
+</div>
+<div class="row">
+<span class="cell col1"><input type="radio" name="J9a" class="Turf"><label>들국화S(野路菊S)<br><span class="OP">한신 / 1800m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="J9a" class="Turf"><label>삿포로JrS(札幌JrS)<br><span class="GⅢ">삿포로 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="J9a" class="Turf"><label>코쿠라JrS(小倉JrS)<br><span class="GⅢ">코쿠라 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="J9a" class="Turf"><label>은방울꽃상(すずらん賞)<br><span class="OP">삿포로 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="J9a" class="Turf"><label>우선국상(アスター賞)<br><span class="Pre-OP">나카야마 / 1600m(마일) / 우, 외측</span></label></span>
+<span class="cell col2"><input type="radio" name="J9b" class="Turf"><label>부용꽃S(芙蓉S)<br><span class="OP">나카야마 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="J9b" class="Turf"><label>도라지S(ききょうS)<br><span class="OP">한신 / 1400m(단거리) / 우, 내측</span></label><hr>
+<input type="radio" name="J9b" class="Turf"><label>홍초S(カンナS)<br><span class="OP">나카야마 / 1200m(단거리) / 우, 외측</span></label><hr>
+<input type="radio" name="J9b" class="Turf"><label>사프란상(サフラン賞)<br><span class="Pre-OP">나카야마 / 1600m(마일) / 우, 외측</span></label></span>
+<span class="cell col3"><input type="radio" name="J10a" class="Turf"><label>자국화상(紫菊賞)<br><span class="Pre-OP">교토 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="J10a" class="Turf"><label>사우디아라비아RC(サウジアラビア)<br><span class="GⅢ">도쿄 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="J10a" class="Turf"><label>단풍S(もみじS)<br><span class="OP">교토 / 1400m(단거리) / 우, 외측</span></label><hr>
+<input type="radio" name="J10a" class="Turf"><label>용담상(りんどう賞)<br><span class="Pre-OP">교토 / 1400m(단거리) / 우, 외측</span></label><hr>
+<input type="radio" name="J10a" class="Dirt"><label>플라타너스상(プラタナス賞)<br><span class="Pre-OP">도쿄 / 더트 / 1600m(마일) / 좌</span></label></span>
+<span class="cell col4"><input type="radio" name="J10b"><input type="radio" name="J10b" class="Turf"><label>사철쑥S(萩S)<br><span class="OP">교토 / 1800m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="J10b" class="Turf"><label>아르테미스S(アルテミスS)<br><span class="GⅢ">도쿄 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="J10b" class="Turf"><label>아이비S(アイビーS)<br><span class="OP">도쿄 / 1800m(마일) / 좌</span></label><hr>
+<input type="radio" name="J10b" class="Dirt"><label>패랭이꽃상(なでしこ賞)<br><span class="Pre-OP">교토 / 더트 / 1400m(단거리) / 우</span></label></span>
+</div>
+<div class="row">
+<span class="cell col1">11월 전반 <input type="radio" name="J11a"></span></span>
+<span class="cell col2">11월 후반 <input type="radio" name="J11b"></span></span>
+<span class="cell col3">12월 전반 <input type="radio" name="J12a"></span></span>
+<span class="cell col4">12월 후반 <input type="radio" name="J12b"></span></span>
+</div>
+<div class="row">
+<span class="cell col1"><input type="radio" name="J11a" class="Turf"><label>황국화상(黄菊賞)<br><span class="Pre-OP">교토 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="J11a" class="Turf"><label>케이오배JrS(京王杯JrS)<br><span class="GⅡ">도쿄 / 1400m(단거리) / 좌</span></label><hr>
+<input type="radio" name="J11a" class="Turf"><label>데일리배JrS(デイリー杯JrS)<br><span class="GⅡ">교토 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="J11a" class="Turf"><label>판타지S(ファンタジーS)<br><span class="GⅢ">교토 / 1400m(단거리) / 우, 외측</span></label><hr>
+<input type="radio" name="J11a" class="Turf"><label>후쿠시마JrS(福島JrS)<br><span class="OP">후쿠시마 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="J11a" class="Turf"><label>백일초 특별(百日草特別)<br><span class="Pre-OP">도쿄 / 2000m(중거리) / 좌</span></label><hr>
+<input type="radio" name="J11a" class="Turf"><label>금목서 특별(きんもくせい)<br><span class="Pre-OP">후쿠시마 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="J11a" class="Dirt"><label>사랑초상(オキザリス賞)<br><span class="Pre-OP">도쿄 / 더트 / 1400m(단거리) / 좌</span></label></span>
+<span class="cell col2"><input type="radio" name="J11b" class="Turf"><label>금송상(こうやまき賞)<br><span class="Pre-OP">츄쿄 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="J11b" class="Turf"><label>도쿄 스포츠배JrS(東京スポーツJr)<br><span class="GⅢ">도쿄 / 1800m(마일) / 좌</span></label><hr>
+<input type="radio" name="J11b" class="Turf"><label>교토JrS(京都JrS)<br><span class="GⅢ">교토 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="J11b" class="Dirt"><label>감탕나무상(もちの木賞)<br><span class="Pre-OP">교토 / 더트 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="J11b" class="Turf"><label>적송상(赤松賞)<br><span class="Pre-OP">도쿄 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="J11b" class="Turf"><label>추명국상(秋明菊賞)<br><span class="Pre-OP">교토 / 1400m(단거리) / 우, 외측</span></label><hr>
+<input type="radio" name="J11b" class="Dirt"><label>카틀레야상(カトレア賞)<br><span class="Pre-OP">도쿄 / 더트 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="J11b" class="Turf"><label>베고니아상(ベゴニア賞)<br><span class="Pre-OP">도쿄 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="J11b" class="Turf"><label>백국화상(白菊賞)<br><span class="Pre-OP">교토 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="J11b" class="Turf"><label>모란채상(葉牡丹賞)<br><span class="Pre-OP">나카야마 / 2000m(중거리) / 우, 내측</span></label></span>
+<span class="cell col3"><input type="radio" name="J12a" class="Turf"><label>호랑가시나무상(ひいらぎ賞)<br><span class="Pre-OP">나카야마 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="J12a" class="Turf"><label>백량금상(万両賞)<br><span class="Pre-OP">한신 / 1400m(단거리) / 우, 내측</span></label><hr>
+<input type="radio" name="J12a" class="Turf"><label>흑송상(黒松賞)<br><span class="Pre-OP">나카야마 / 1200m(단거리) / 우, 외측</span></label><hr>
+<input type="radio" name="J12a" class="Turf"><label>에리카상(エリカ賞)<br><span class="Pre-OP">한신 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="J12a" class="Turf"><label>털머위상(つわぶき賞)<br><span class="Pre-OP">츄쿄 / 1400m(단거리) / 좌</span></label><hr>
+<input type="radio" name="J12a" class="Turf"><label>산다화상(さざんか賞)<br><span class="Pre-OP">한신 / 1200m(단거리) / 우, 내측</span></label><hr>
+<input type="radio" name="J12a" class="Dirt"><label>겨울동백상(寒椿賞)<br><span class="Pre-OP">츄쿄 / 더트 / 1400m(단거리) / 좌</span></label><hr>
+<input type="radio" name="J12a" class="Turf"><label>한신JF(阪神JF)<br><span class="GⅠ">한신 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="J12a" class="Turf"><label>아사히배FS(朝日杯FS)<br><span class="GⅠ">한신 / 1600m(마일) / 우, 외측</span></label></span>
+<span class="cell col4"><input type="radio" name="J12b" class="Turf"><label>죽절초상(千両賞)<br><span class="Pre-OP">한신 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="J12b" class="Turf"><label>크리스마스 로즈S(クリスマスRS)<br><span class="OP">나카야마 / 1200m(단거리) / 우, 외측</span></label><hr>
+<input type="radio" name="J12b" class="Turf"><label>호프풀S(ホープフルS)<br><span class="GⅠ">나카야마 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="J12b" class="Dirt"><label>전일본Jr우준(全日本ジュニア優駿)<br><span class="GⅠ">카와사키 / 더트 / 1600m(마일) / 좌</span></label></span>
+</div>
+</div>
+</div>
+<div class="classic">
+<div id="table">
+<div id="title" class="big">클래식급 로테이션</div>
+<div class="row">
+<span class="cell col1">1월 전반 <input type="radio" name="C1a"></span></span>
+<span class="cell col2">1월 전반 <input type="radio" name="C1b"></span></span>
+<span class="cell col3">2월 전반 <input type="radio" name="C2a"></span></span>
+<span class="cell col4">2월 전반 <input type="radio" name="C2b"></span></span>
+</div>
+<div class="row">
+<span class="cell col1"><input type="radio" name="C1a" class="Turf"><label>페어리S(フェアリーS)<br><span class="GⅢ">나카야마 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="C1a" class="Turf"><label>주니어C(Jrカップ)<br><span class="OP">나카야마 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="C1a" class="Turf"><label>홍매화S(紅梅S)<br><span class="OP">교토 / 1400m(단거리) / 우, 외측</span></label><hr>
+<input type="radio" name="C1a" class="Turf"><label>신잔 기념(シンザン記念)<br><span class="GⅢ">교토 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="C1a" class="Turf"><label>케이세이배(京成杯)<br><span class="GⅢ">나카야마 / 2000m(중거리) / 우, 내측</span></label></span>
+<span class="cell col2"><input type="radio" name="C1b" class="Turf"><label>와카고마S(若駒S)<br><span class="OP">교토 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="C1b" class="Turf"><label>크로커스S(クロッカスS)<br><span class="OP">도쿄 / 1400m(단거리) / 좌</span></label></span>
+<span class="cell col3"><input type="radio" name="C2a" class="Turf"><label>퀸C(クイーンC)<br><span class="GⅢ">도쿄 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="C2a" class="Turf"><label>엘핀S(エルフィンS)<br><span class="OP">교토 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="C2a" class="Turf"><label>키사라기상(きさらぎ賞)<br><span class="GⅢ">교토 / 1800m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="C2a" class="Turf"><label>쿄도통신배(共同通信杯)<br><span class="GⅢ">도쿄 / 1800m(마일) / 좌</span></label></span>
+<span class="cell col4"><input type="radio" name="C2b" class="Dirt"><label>히아신스S(ヒヤシンスS)<br><span class="OP">도쿄 / 더트 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="C2b" class="Turf"><label>제비꽃S(すみれS)<br><span class="OP">한신 / 2200m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="C2b" class="Turf"><label>마가렛S(マーガレットS)<br><span class="OP">한신 / 1200m(단거리) / 우, 내측</span></label></span>
+</div>
+<div class="row">
+<span class="cell col1">3월 전반 <input type="radio" name="C3a"></span></span>
+<span class="cell col2">3월 전반 <input type="radio" name="C3b"></span></span>
+<span class="cell col3">4월 전반 <input type="radio" name="C4a"></span></span>
+<span class="cell col4">4월 전반 <input type="radio" name="C4b"></span></span>
+</div>
+<div class="row">
+<span class="cell col1"><input type="radio" name="C3a" class="Turf"><label>아네모네S(アネモネS)<br><span class="OP">나카야마 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="C3a" class="Dirt"><label>승룡S(昇竜S)<br><span class="OP">츄쿄 / 더트 / 1400m(단거리) / 좌</span></label><hr>
+<input type="radio" name="C3a" class="Turf"><label>야요이상(弥生賞)<br><span class="GⅡ">나카야마 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="C3a" class="Turf"><label>필리스R(フィリーズR)<br><span class="GⅡ">한신 / 1400m(단거리) / 우, 내측</span></label><hr>
+<input type="radio" name="C3a" class="Turf"><label>튤립상(チューリップ賞)<br><span class="GⅡ">한신 / 1600m(마일) / 우, 외측</span></label></span>
+<span class="cell col2"><input type="radio" name="C3b" class="Turf"><label>플라워C(フラワーC)<br><span class="GⅢ">나카야마 / 1800m(마일) / 우, 내측</span></label><hr>
+<input type="radio" name="C3b" class="Turf"><label>새잎S(若葉S)<br><span class="OP">한신 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="C3b" class="Turf"><label>스프링S(スプリングS)<br><span class="GⅡ">나카야마 / 1800m(마일) / 우, 내측</span></label><hr>
+<input type="radio" name="C3b" class="Turf"><label>팔콘S(ファルコンS)<br><span class="GⅢ">츄쿄 / 1400m(단거리) / 좌</span></label><hr>
+<input type="radio" name="C3b" class="Turf"><label>마이니치배(毎日杯)<br><span class="GⅢ">한신 / 1800m(마일) / 우, 외측</span></label></span>
+<span class="cell col3"><input type="radio" name="C4a" class="Dirt"><label>복룡S(伏竜S)<br><span class="OP">나카야마 / 더트 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="C4a" class="Turf"><label>물망초상(忘れな草賞)<br><span class="OP">한신 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="C4a" class="Turf"><label>벚꽃상(桜花賞)<br><span class="GⅠ">한신 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="C4a" class="Turf"><label>사츠키상(皐月賞)<br><span class="GⅠ">나카야마 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="C4a" class="Turf"><label>뉴질랜드T(ニュージーランド)<br><span class="GⅡ">나카야마 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="C4a" class="Turf"><label>알링턴C(アーリントンC)<br><span class="GⅢ">한신 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="C4a" class="Dirt"><label>마린C(マリーンC)<br><span class="GⅢ">후나바시 / 더트 / 1600m(마일) / 좌</span></label></span>
+<span class="cell col4"><input type="radio" name="C4b" class="Turf"><label>밀감S(橘S)<br><span class="OP">교토 / 1400m(단거리) / 우, 외측</span></label><hr>
+<input type="radio" name="C4b" class="Dirt"><label>단오S(端午S)<br><span class="OP">교토 / 더트 / 1400m(단거리) / 우</span></label><hr>
+<input type="radio" name="C4b" class="Turf"><label>스위트피S(スイートピーS)<br><span class="OP">도쿄 / 1800m(마일) / 좌</span></label><hr>
+<input type="radio" name="C4b" class="Turf"><label>플로라S(フローラS)<br><span class="GⅡ">도쿄 / 2000m(중거리) / 좌</span></label><hr>
+<input type="radio" name="C4b" class="Turf"><label>청엽상(青葉賞)<br><span class="GⅡ">도쿄 / 2400m(중거리) / 좌</span></label></span>
+</div>
+<div class="row">
+<span class="cell col1">5월 전반 <input type="radio" name="C5a"></span></span>
+<span class="cell col2">5월 전반 <input type="radio" name="C5b"></span></span>
+<span class="cell col3">6월 전반 <input type="radio" name="C6a"></span></span>
+<span class="cell col4">6월 전반 <input type="radio" name="C6b"></span></span>
+</div>
+<div class="row">
+<span class="cell col1"><input type="radio" name="C5a" class="Turf"><label>프린시펄S(プリンシパルS)<br><span class="OP">도쿄 / 2000m(중거리) / 좌</span></label><hr>
+<input type="radio" name="C5a" class="Dirt"><label>청룡S(青竜S)<br><span class="OP">도쿄 / 더트 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="C5a" class="Turf"><label>NHK마일C(NHKマイル)<br><span class="GⅠ">도쿄 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="C5a" class="Turf"><label>교토 신문배(京都新聞杯)<br><span class="GⅡ">교토 / 2200m(중거리) / 우, 외측</span></label></span>
+<span class="cell col2"><input type="radio" name="C5b" class="Dirt"><label>봉추S(鳳雛S)<br><span class="OP">교토 / 더트 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="C5b" class="Turf"><label>백백합S(白百合S)<br><span class="OP">교토 / 1800m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="C5b" class="Turf"><label>오크스(オークス)<br><span class="GⅠ">도쿄 / 2400m(중거리) / 좌</span></label><hr>
+<input type="radio" name="C5b" class="Turf"><label>일본 더비(日本ダービー)<br><span class="GⅠ">도쿄 / 2400m(중거리) / 좌</span></label><hr>
+<input type="radio" name="C5b" class="Turf"><label>접시꽃S(葵S)<br><span class="GⅢ">교토 / 1200m(단거리) / 우, 내측</span></label></span>
+<span class="cell col3"><input type="radio" name="C6a" class="Dirt"><label>텐포산S(天保山S)<br><span class="OP">한신 / 더트 / 1400m(단거리) / 우</span></label><hr>
+<input type="radio" name="C6a" class="Dirt"><label>슬레이프니르S(スレイプニルS)<br><span class="OP">도쿄 / 더트 / 2100m(중거리) / 좌</span></label><hr>
+<input type="radio" name="C6a" class="Turf"><label>야스다 기념(安田記念)<br><span class="GⅠ">도쿄 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="C6a" class="Turf"><label>나루오 기념(鳴尾記念)<br><span class="GⅢ">한신 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="C6a" class="Turf"><label>머메이드S(マーメイドS)<br><span class="GⅢ">한신 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="C6a" class="Turf"><label>엡섬C(エプソムC)<br><span class="GⅢ">도쿄 / 1800m(마일) / 좌</span></label><hr>
+<input type="radio" name="C6a" class="Dirt"><label>간토 오크스(関東オークス)<br><span class="GⅡ">카와사키 / 더트 / 2100m(중거리) / 좌</span></label></span>
+<span class="cell col4"><input type="radio" name="C6b" class="Dirt"><label>유니콘S(ユニコーンS)<br><span class="GⅢ">도쿄 / 더트 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="C6b" class="Dirt"><label>아할 테케S(アハルテケS)<br><span class="OP">도쿄 / 더트 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="C6b" class="Turf"><label>요나고S(米子S)<br><span class="OP">한신 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="C6b" class="Dirt"><label>오누마S(大沼S)<br><span class="OP">하코다테 / 더트 / 1700m(마일) / 우</span></label><hr>
+<input type="radio" name="C6b" class="Turf"><label>파라다이스S(パラダイスS)<br><span class="OP">도쿄 / 1400m(단거리) / 좌</span></label><hr>
+<input type="radio" name="C6b" class="Dirt"><label>산노미야S(三宮S)<br><span class="OP">한신 / 더트 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="C6b" class="Turf"><label>타카라즈카 기념(宝塚記念)<br><span class="GⅠ">한신 / 2200m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="C6b" class="Turf"><label>하코다테 스프린트S(函館スプリント)<br><span class="GⅢ">하코다테 / 1200m(단거리) / 우</span></label></span>
+</div>
+<div class="row">
+<span class="cell col1">7월 전반 <input type="radio" name="C7a"></span></span>
+<span class="cell col2">7월 전반 <input type="radio" name="C7b"></span></span>
+<span class="cell col3">8월 전반 <input type="radio" name="C8a"></span></span>
+<span class="cell col4">8월 전반 <input type="radio" name="C8b"></span></span>
+</div>
+<div class="row">
+<span class="cell col1"><input type="radio" name="C7a" class="Turf"><label>CBC상(CBC賞)<br><span class="GⅢ">츄쿄 / 1200m(단거리) / 좌</span></label><hr>
+<input type="radio" name="C7a" class="Dirt"><label>프로시온S(プロキオンS)<br><span class="GⅢ">츄쿄 / 더트 / 1400m(단거리) / 좌</span></label><hr>
+<input type="radio" name="C7a" class="Turf"><label>칠석상(七夕賞)<br><span class="GⅢ">후쿠시마 / 2000m(중거리) / 우</span></label><hr>
+<input type="radio" name="C7a" class="Turf"><label>하코다테 기념(函館記念)<br><span class="GⅢ">하코다테 / 2000m(중거리) / 우</span></label><hr>
+<input type="radio" name="C7a" class="Turf"><label>라디오 NIKKEI상(ラジオNIKKEI)<br><span class="GⅢ">후쿠시마 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="C7a" class="Turf"><label>토모에상(巴賞)<br><span class="OP">하코다테 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="C7a" class="Dirt"><label>마린S(マリーンS)<br><span class="OP">하코다테 / 더트 / 1700m(마일) / 우</span></label><hr>
+<input type="radio" name="C7a" class="Dirt"><label>나고야 철도배(名鉄杯)<br><span class="OP">츄쿄 / 더트 / 1800m(마일) / 좌</span></label><hr>
+<input type="radio" name="C7a" class="Dirt"><label>재팬DB(ジャパンダート)<br><span class="GⅠ">오이 / 더트 / 2000m(중거리) / 우</span></label><hr>
+<input type="radio" name="C7a" class="Dirt"><label>스파킹 레이디C(スパーキングレディーC)<br><span class="GⅢ">카와사키 / 더트 / 1600m(마일) / 좌</span></label></span>
+<span class="cell col2"><input type="radio" name="C7b" class="Turf"><label>츄쿄 기념(中京記念)<br><span class="GⅢ">츄쿄 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="C7b" class="Turf"><label>이비스 서머D(アイビスサマーD)<br><span class="GⅢ">니이가타 / 1000m(단거리) / 직선</span></label><hr>
+<input type="radio" name="C7b" class="Turf"><label>퀸S(クイーンS)<br><span class="GⅢ">삿포로 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="C7b" class="Turf"><label>후쿠시마TVOP(福島テレビOP)<br><span class="OP">후쿠시마 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="C7b" class="Dirt"><label>머큐리C(マーキュリーC)<br><span class="GⅢ">모리오카 / 더트 / 2000m(중거리) / 좌</span></label></span>
+<span class="cell col3"><input type="radio" name="C8a" class="Turf"><label>코쿠라 기념(小倉記念)<br><span class="GⅢ">코쿠라 / 2000m(중거리) / 우</span></label><hr>
+<input type="radio" name="C8a" class="Turf"><label>세키야 기념(関屋記念)<br><span class="GⅢ">니이가타 / 1600m(마일) / 좌, 외측</span></label><hr>
+<input type="radio" name="C8a" class="Dirt"><label>엘름S(エルムS)<br><span class="GⅢ">삿포로 / 더트 / 1700m(마일) / 우</span></label><hr>
+<input type="radio" name="C8a" class="Dirt"><label>레오파드S(レパードS)<br><span class="GⅢ">니이가타 / 더트 / 1800m(마일) / 좌</span></label><hr>
+<input type="radio" name="C8a" class="Turf"><label>삿포로 닛케이OP(札幌日経OP)<br><span class="OP">삿포로 / 2600m(장거리) / 우</span></label><hr>
+<input type="radio" name="C8a" class="Turf"><label>UHB상(UHB賞)<br><span class="OP">삿포로 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="C8a" class="Dirt"><label>아소S(阿蘇S)<br><span class="OP">코쿠라 / 더트 / 1700m(마일) / 우</span></label><hr>
+<input type="radio" name="C8a" class="Turf"><label>간에츠S(関越S)<br><span class="OP">니이가타 / 1800m(마일) / 좌, 외측</span></label></span>
+<span class="cell col4"><input type="radio" name="C8b" class="Dirt"><label>클러스터C(クラスターC)<br><span class="GⅢ">모리오카 / 더트 / 1200m(단거리) / 좌</span></label><hr>
+<input type="radio" name="C8b" class="Turf"><label>삿포로 기념(札幌記念)<br><span class="GⅡ">삿포로 / 2000m(중거리) / 우</span></label><hr>
+<input type="radio" name="C8b" class="Turf"><label>키타큐슈 기념(北九州記念)<br><span class="GⅢ">코쿠라 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="C8b" class="Turf"><label>킨랜드C(キーンランドC)<br><span class="GⅢ">삿포로 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="C8b" class="Dirt"><label>NST상(NST賞)<br><span class="OP">니이가타 / 더트 / 1200m(단거리) / 좌</span></label><hr>
+<input type="radio" name="C8b" class="Dirt"><label>BSN상(BSN賞)<br><span class="OP">니이가타 / 더트 / 1800m(마일) / 좌</span></label><hr>
+<input type="radio" name="C8b" class="Turf"><label>코쿠라 닛케이OP(小倉日経OP)<br><span class="OP">코쿠라 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="C8b" class="Turf"><label>따오기S(朱鷺S)<br><span class="OP">니이가타 / 1400m(단거리) / 좌, 내측</span></label></span>
+</div>
+<div class="row">
+<span class="cell col1">9월 전반 <input type="radio" name="C9a"></span></span>
+<span class="cell col2">9월 전반 <input type="radio" name="C9b"></span></span>
+<span class="cell col3">10월 전반 <input type="radio" name="C10a"></span></span>
+<span class="cell col4">10월 전반 <input type="radio" name="C10b"></span></span>
+</div>
+<div class="row">
+<span class="cell col1"><input type="radio" name="C9a" class="Turf"><label>센토S(セントウルS)<br><span class="GⅡ">한신 / 1200m(단거리) / 우, 내측</span></label><hr>
+<input type="radio" name="C9a" class="Turf"><label>로즈S(ローズS)<br><span class="GⅡ">한신 / 1800m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="C9a" class="Turf"><label>니이가타 기념(新潟記念)<br><span class="GⅢ">니이가타 / 2000m(중거리) / 좌, 외측</span></label><hr>
+<input type="radio" name="C9a" class="Turf"><label>케이세이배 오텀 핸디캡(京成杯オータム)<br><span class="GⅢ">나카야마 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="C9a" class="Turf"><label>개미취S(紫苑S)<br><span class="GⅢ">나카야마 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="C9a" class="Turf"><label>두루미S(丹頂S)<br><span class="OP">삿포로 / 2600m(장거리) / 우</span></label><hr>
+<input type="radio" name="C9a" class="Dirt"><label>에니프S(エニフS)<br><span class="OP">한신 / 더트 / 1400m(단거리) / 우</span></label><hr>
+<input type="radio" name="C9a" class="Dirt"><label>라디오 일본상(ラジオ日本賞)<br><span class="OP">나카야마 / 더트 / 1800m(마일) / 우</span></label></span>
+<span class="cell col2"><input type="radio" name="C9b" class="Turf"><label>고베 신문배(神戸新聞杯)<br><span class="GⅡ">한신 / 2400m(중거리) / 우, 외측</span></label><hr>
+<input type="radio" name="C9b" class="Turf"><label>올 커머스(オールカマー)<br><span class="GⅡ">나카야마 / 2200m(중거리) / 우, 외측</span></label><hr>
+<input type="radio" name="C9b" class="Turf"><label>센트라이트 기념(セントライト)<br><span class="GⅡ">나카야마 / 2200m(중거리) / 우, 외측</span></label><hr>
+<input type="radio" name="C9b" class="Dirt"><label>시리우스S(シリウスS)<br><span class="GⅢ">한신 / 더트 / 2000m(중거리) / 우</span></label><hr>
+<input type="radio" name="C9b" class="Turf"><label>포트아일랜드S(ポートアイランド)<br><span class="OP">한신 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="C9b" class="Dirt"><label>나가츠키S(ながつきS)<br><span class="OP">나카야마 / 더트 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="C9b" class="Turf"><label>스프린터스S(スプリンターズS)<br><span class="GⅠ">나카야마 / 1200m(단거리) / 우, 외측</span></label><hr>
+<input type="radio" name="C9b" class="Dirt"><label>사잔카TV배(さざんかテレビ杯)<br><span class="GⅡ">후나바시 / 더트 / 1800m(마일) / 좌</span></label></span>
+<span class="cell col3"><input type="radio" name="C10a" class="Turf"><label>마이니치 왕관(毎日王冠)<br><span class="GⅡ">도쿄 / 1800m(마일) / 좌</span></label><hr>
+<input type="radio" name="C10a" class="Turf"><label>교토 대상전(京都大賞典)<br><span class="GⅡ">교토 / 2400m(중거리) / 우, 외측</span></label><hr>
+<input type="radio" name="C10a" class="Turf"><label>후츄 우마무스메S(府中ウマ娘S)<br><span class="GⅡ">도쿄 / 1800m(마일) / 좌</span></label><hr>
+<input type="radio" name="C10a" class="Turf"><label>오팔S(オパールS)<br><span class="OP">교토 / 1200m(단거리) / 우, 내측</span></label><hr>
+<input type="radio" name="C10a" class="Dirt"><label>그린CC(グリーンCC)<br><span class="OP">도쿄 / 더트 / 1400m(단거리) / 좌</span></label><hr>
+<input type="radio" name="C10a" class="Turf"><label>옥토버S(オクトーバーS)<br><span class="OP">도쿄 / 2000m(중거리) / 좌</span></label><hr>
+<input type="radio" name="C10a" class="Turf"><label>신에츠S(信越S)<br><span class="OP">니이가타 / 1400m(단거리) / 좌, 내측</span></label><hr>
+<input type="radio" name="C10a" class="Dirt"><label>우즈마사S(太秦S)<br><span class="OP">교토 / 더트 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="C10a" class="Dirt"><label>마일CS남부배(マイルCS南部杯)<br><span class="GⅠ">모리오카 / 더트 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="C10a" class="Dirt"><label>레이디스 프렐류드(レディスプレリュード)<br><span class="GⅡ">오이 / 더트 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="C10a" class="Dirt"><label>도쿄배(東京盃)<br><span class="GⅡ">오이 / 더트 / 1200m(단거리) / 우</span></label></span>
+<span class="cell col4"><input type="radio" name="C10b" class="Turf"><label>스완S(スワンS)<br><span class="GⅡ">교토 / 1400m(단거리) / 우, 외측</span></label><hr>
+<input type="radio" name="C10b" class="Turf"><label>후지S(富士S)<br><span class="GⅡ">도쿄 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="C10b" class="Dirt"><label>무로마치S(室町S)<br><span class="OP">교토 / 더트 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="C10b" class="Dirt"><label>브라질C(ブラジルC)<br><span class="OP">도쿄 / 더트 / 2100m(중거리) / 좌</span></label><hr>
+<input type="radio" name="C10b" class="Turf"><label>카시오페이아S(カシオペアS)<br><span class="OP">교토 / 1800m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="C10b" class="Turf"><label>루미에르 오텀D(ルミエールAD)<br><span class="OP">니이가타 / 1000m(단거리) / 직선</span></label><hr>
+<input type="radio" name="C10b" class="Turf"><label>텐노상(가을)(天皇賞秋)<br><span class="GⅠ">도쿄 / 2000m(중거리) / 좌</span></label><hr>
+<input type="radio" name="C10b" class="Turf"><label>추화상(秋華賞)<br><span class="GⅠ">교토 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="C10b" class="Turf"><label>국화상(菊花賞)<br><span class="GⅠ">교토 / 3000m(장거리) / 우, 외측</span></label></span>
+</div>
+<div class="row">
+<span class="cell col1">11월 전반 <input type="radio" name="C11a"></span></span>
+<span class="cell col2">11월 전반 <input type="radio" name="C11b"></span></span>
+<span class="cell col3">12월 전반 <input type="radio" name="C12a"></span></span>
+<span class="cell col4">12월 전반 <input type="radio" name="C12b"></span></span>
+</div>
+<div class="row">
+<span class="cell col1"><input type="radio" name="C11a" class="Turf"><label>아르헨티나 공화국배(アルゼンチン)<br><span class="GⅡ">도쿄 / 2500m(장거리) / 좌</span></label><hr>
+<input type="radio" name="C11a" class="Dirt"><label>미야코S(みやこS)<br><span class="GⅢ">교토 / 더트 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="C11a" class="Dirt"><label>무사시노S(武蔵野S)<br><span class="GⅢ">도쿄 / 더트 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="C11a" class="Turf"><label>후쿠시마 기념(福島記念)<br><span class="GⅢ">후쿠시마 / 2000m(중거리) / 우</span></label><hr>
+<input type="radio" name="C11a" class="Turf"><label>OROC(オーロC)<br><span class="OP">도쿄 / 1400m(단거리) / 좌</span></label><hr>
+<input type="radio" name="C11a" class="Turf"><label>엘리자베스 여왕배(エリザベス女王)<br><span class="GⅠ">교토 / 2200m(중거리) / 우, 외측</span></label><hr>
+<input type="radio" name="C11a" class="Dirt"><label>JBC레이디스(JBCレディス)<br><span class="GⅠ">더트 / 마일 / 한국 오이 고정</span></label><hr>
+<input type="radio" name="C11a" class="Dirt"><label>JBC스프린트(JBCスプリント)<br><span class="GⅠ">더트 / 단거리 / 한국 오이 고정</span></label><hr>
+<input type="radio" name="C11a" class="Dirt"><label>JBC클래식(JBCクラシック)<br><span class="GⅠ">더트 / 마일・중거리 / 한국 오이/중거리 고정</span></label></span>
+<span class="cell col2"><input type="radio" name="C11b" class="Turf"><label>케이한배(京阪杯)<br><span class="GⅢ">교토 / 1200m(단거리) / 우, 내측</span></label><hr>
+<input type="radio" name="C11b" class="Turf"><label>안드로메다S(アンドロメダS)<br><span class="OP">교토 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="C11b" class="Dirt"><label>동짓달S(霜月S)<br><span class="OP">도쿄 / 더트 / 1400m(단거리) / 좌</span></label><hr>
+<input type="radio" name="C11b" class="Dirt"><label>후쿠시마 민우C(福島民友C)<br><span class="OP">후쿠시마 / 더트 / 1700m(마일) / 우</span></label><hr>
+<input type="radio" name="C11b" class="Turf"><label>캐피탈S(キャピタルS)<br><span class="OP">도쿄 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="C11b" class="Dirt"><label>오텀 리프S(オータムリーフ)<br><span class="OP">교토 / 더트 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="C11b" class="Turf"><label>마일CS(マイルCS)<br><span class="GⅠ">교토 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="C11b" class="Turf"><label>재팬C(ジャパンカップ)<br><span class="GⅠ">도쿄 / 2400m(중거리) / 좌</span></label></span>
+<span class="cell col3"><input type="radio" name="C12a" class="Turf"><label>스테이어스S(ステイヤーズS)<br><span class="GⅡ">나카야마 / 3600m(장거리) / 우, 내측</span></label><hr>
+<input type="radio" name="C12a" class="Turf"><label>챌린지C(チャレンジC)<br><span class="GⅢ">한신 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="C12a" class="Turf"><label>츄니치 신문배(中日新聞杯)<br><span class="GⅢ">츄쿄 / 2000m(중거리) / 좌</span></label><hr>
+<input type="radio" name="C12a" class="Dirt"><label>카펠라S(カペラS)<br><span class="GⅢ">나카야마 / 더트 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="C12a" class="Turf"><label>터키석S(ターコイズS)<br><span class="GⅢ">나카야마 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="C12a" class="Turf"><label>라피스 라줄리S(ラピスラズリS)<br><span class="OP">나카야마 / 1200m(단거리) / 우, 외측</span></label><hr>
+<input type="radio" name="C12a" class="Dirt"><label>섣달S(師走S)<br><span class="OP">나카야마 / 더트 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="C12a" class="Turf"><label>리겔S(リゲルS)<br><span class="OP">한신 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="C12a" class="Turf"><label>탄자나이트S(タンザナイトS)<br><span class="OP">한신 / 1200m(단거리) / 우, 내측</span></label><hr>
+<input type="radio" name="C12a" class="Turf"><label>디셈버S(ディセンバーS)<br><span class="OP">나카야마 / 1800m(마일) / 우, 내측</span></label><hr>
+<input type="radio" name="C12a" class="Dirt"><label>챔피언스C(チャンピオンズC)<br><span class="GⅠ">츄쿄 / 더트 / 1800m(마일) / 좌</span></label><hr>
+<input type="radio" name="C12a" class="Dirt"><label>퀸상(クイーン賞)<br><span class="GⅢ">후나바시 / 더트 / 1800m(마일) / 좌</span></label></span>
+<span class="cell col4"><input type="radio" name="C12b" class="Turf"><label>한신C(阪神カップ)<br><span class="GⅡ">한신 / 1400m(단거리) / 우, 내측</span></label><hr>
+<input type="radio" name="C12b" class="Dirt"><label>갤럭시S(ギャラクシーS)<br><span class="OP">한신 / 더트 / 1400m(단거리) / 우</span></label><hr>
+<input type="radio" name="C12b" class="Dirt"><label>베텔게우스S(ベテルギウスS)<br><span class="OP">한신 / 더트 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="C12b" class="Turf"><label>아리마 기념(有馬記念)<br><span class="GⅠ">나카야마 / 2500m(장거리) / 우, 내측</span></label><hr>
+<input type="radio" name="C12b" class="Dirt"><label>도쿄 대상전(東京大賞典)<br><span class="GⅠ">오이 / 더트 / 2000m(중거리) / 우</span></label></span>
+</div>
+</div>
+</div>
+<div class="senior">
+<div id="table">
+<div id="title" class="big">시니어급 로테이션</div>
+<div class="row">
+<span class="cell col1">1월 전반 <input type="radio" name="S1a"></span></span>
+<span class="cell col2">1월 전반 <input type="radio" name="S1b"></span></span>
+<span class="cell col3">2월 전반 <input type="radio" name="S2a"></span></span>
+<span class="cell col4">2월 전반 <input type="radio" name="S2b"></span></span>
+</div>
+<div class="row">
+<span class="cell col1"><input type="radio" name="S1a" class="Turf"><label>닛케이 신춘배(日経新春杯)<br><span class="GⅡ">교토 / 2400m(중거리) / 우, 외측</span></label><hr>
+<input type="radio" name="S1a" class="Turf"><label>교토 금배(京都金杯)<br><span class="GⅢ">교토 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="S1a" class="Turf"><label>나카야마 금배(中山金杯)<br><span class="GⅢ">나카야마 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="S1a" class="Turf"><label>아이치배(愛知杯)<br><span class="GⅢ">츄쿄 / 2000m(중거리) / 좌</span></label><hr>
+<input type="radio" name="S1a" class="Turf"><label>만엽S(万葉S)<br><span class="OP">교토 / 3000m(장거리) / 우, 외측</span></label><hr>
+<input type="radio" name="S1a" class="Turf"><label>요도 단거리S(淀短距離S)<br><span class="OP">교토 / 1200m(단거리) / 우, 내측</span></label><hr>
+<input type="radio" name="S1a" class="Dirt"><label>폴룩스S(ポルックスS)<br><span class="OP">나카야마 / 더트 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="S1a" class="Dirt"><label>재뉴어리S(ジャニュアリーS)<br><span class="OP">나카야마 / 더트 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="S1a" class="Turf"><label>뉴 이어S(ニューイヤーS)<br><span class="OP">나카야마 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="S1a" class="Turf"><label>카벙클S(カーバンクルS)<br><span class="OP">나카야마 / 1200m(단거리) / 우, 외측</span></label></span>
+<span class="cell col2"><input type="radio" name="S1b" class="Dirt"><label>토카이S(東海S)<br><span class="GⅡ">츄쿄 / 더트 / 1800m(마일) / 좌</span></label><hr>
+<input type="radio" name="S1b" class="Turf"><label>아메리카JCC(アメリカJCC)<br><span class="GⅡ">나카야마 / 2200m(중거리) / 우, 외측</span></label><hr>
+<input type="radio" name="S1b" class="Turf"><label>실크로드S(シルクロードS)<br><span class="GⅢ">교토 / 1200m(단거리) / 우, 내측</span></label><hr>
+<input type="radio" name="S1b" class="Dirt"><label>네기시S(根岸S)<br><span class="GⅢ">도쿄 / 더트 / 1400m(단거리) / 좌 ​|</span></label><hr>
+<input type="radio" name="S1b" class="Dirt"><label>플레이아데스S(すばるS)<br><span class="OP">교토 / 더트 / 1400m(단거리) / 우</span></label><hr>
+<input type="radio" name="S1b" class="Turf"><label>시라후지S(白富士S)<br><span class="OP">도쿄 / 2000m(중거리) / 좌</span></label><hr>
+<input type="radio" name="S1b" class="Dirt"><label>TCK여왕배(TCK女王盃)<br><span class="GⅢ">오이 / 더트 / 1800m(마일) / 우 ​|</span></label></span>
+<span class="cell col3"><input type="radio" name="S2a" class="Turf"><label>교토 기념(京都記念)<br><span class="GⅡ">교토 / 2200m(중거리) / 우, 외측</span></label><hr>
+<input type="radio" name="S2a" class="Turf"><label>도쿄 신문배(東京新聞杯)<br><span class="GⅢ">도쿄 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="S2a" class="Dirt"><label>야마토S(大和S)<br><span class="OP">교토 / 더트 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="S2a" class="Turf"><label>라쿠요S(洛陽S)<br><span class="OP">교토 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="S2a" class="Dirt"><label>알데바란S(アルデバランS)<br><span class="OP">교토 / 더트 / 1900m(중거리) / 우</span></label><hr>
+<input type="radio" name="S2a" class="Dirt"><label>밸런타인S(バレンタインS)<br><span class="OP">도쿄 / 더트 / 1400m(단거리) / 좌</span></label></span>
+<span class="cell col4"><input type="radio" name="S2b" class="Dirt"><label>카와사키 기념(川崎記念)<br><span class="GⅠ">카와사키 / 더트 / 2100m(중거리) / 좌</span></label><hr>
+<input type="radio" name="S2b" class="Turf"><label>나카야마 기념(中山記念)<br><span class="GⅡ">나카야마 / 1800m(마일) / 우, 내측</span></label><hr>
+<input type="radio" name="S2b" class="Turf"><label>교토 우마무스메S(京都ウマ娘S)<br><span class="GⅢ">교토 / 1400m(단거리) / 우, 외측</span></label><hr>
+<input type="radio" name="S2b" class="Turf"><label>다이아몬드S(ダイヤモンドS)<br><span class="GⅢ">도쿄 / 3400m(장거리) / 좌</span></label><hr>
+<input type="radio" name="S2b" class="Turf"><label>코쿠라 대상전(小倉大賞典)<br><span class="GⅢ">코쿠라 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="S2b" class="Turf"><label>한큐배(阪急杯)<br><span class="GⅢ">한신 / 1400m(단거리) / 우, 내측</span></label><hr>
+<input type="radio" name="S2b" class="Dirt"><label>소부S(総武S)<br><span class="OP">나카야마 / 더트 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="S2b" class="Turf"><label>키타큐슈 단거리S(北九州短距離S)<br><span class="OP">코쿠라 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="S2b" class="Dirt"><label>페브러리S(フェブラリーS)<br><span class="GⅠ">도쿄 / 더트 / 1600m(마일) / 좌</span></label></span>
+</div>
+<div class="row">
+<span class="cell col1">3월 전반 <input type="radio" name="S3a"></span></span>
+<span class="cell col2">3월 전반 <input type="radio" name="S3b"></span></span>
+<span class="cell col3">4월 전반 <input type="radio" name="S4a"></span></span>
+<span class="cell col4">4월 전반 <input type="radio" name="S4b"></span></span>
+</div>
+<div class="row">
+<span class="cell col1"><input type="radio" name="S3a" class="Turf"><label>킨코상(金鯱賞)<br><span class="GⅡ">츄쿄 / 2000m(중거리) / 좌</span></label><hr>
+<input type="radio" name="S3a" class="Turf"><label>오션S(オーシャンS)<br><span class="GⅢ">나카야마 / 1200m(단거리) / 우, 외측</span></label><hr>
+<input type="radio" name="S3a" class="Turf"><label>나카야마 우마무스메S(中山ウマ娘S)<br><span class="GⅢ">나카야마 / 1800m(마일) / 우, 내측</span></label><hr>
+<input type="radio" name="S3a" class="Turf"><label>오사카성S(大阪城S)<br><span class="OP">한신 / 1800m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="S3a" class="Dirt"><label>폴라리스S(ポラリスS)<br><span class="OP">한신 / 더트 / 1400m(단거리) / 우</span></label><hr>
+<input type="radio" name="S3a" class="Dirt"><label>니가와S(仁川S)<br><span class="OP">한신 / 더트 / 2000m(중거리) / 우</span></label><hr>
+<input type="radio" name="S3a" class="Turf"><label>동풍S(東風S)<br><span class="OP">나카야마 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="S3a" class="Dirt"><label>엠프리스배(エンプレス杯)<br><span class="GⅡ">카와사키 / 더트 / 2100m(중거리) / 좌</span></label></span>
+<span class="cell col2"><input type="radio" name="S3b" class="Turf"><label>한신 대상전(阪神大賞典)<br><span class="GⅡ">한신 / 3000m(장거리) / 우, 내측</span></label><hr>
+<input type="radio" name="S3b" class="Turf"><label>닛케이상(日経賞)<br><span class="GⅡ">나카야마 / 2500m(장거리) / 우, 내측</span></label><hr>
+<input type="radio" name="S3b" class="Dirt"><label>마치S(マーチS)<br><span class="GⅢ">나카야마 / 더트 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="S3b" class="Dirt"><label>치바S(千葉S)<br><span class="OP">나카야마 / 더트 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="S3b" class="Turf"><label>롯코S(六甲S)<br><span class="OP">한신 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="S3b" class="Turf"><label>타카마츠노미야 기념(高松宮記念)<br><span class="GⅠ">츄쿄 / 1200m(단거리) / 좌</span></label><hr>
+<input type="radio" name="S3b" class="Turf"><label>오사카배(大阪杯)<br><span class="GⅠ">한신 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="S3b" class="Dirt"><label>다이올라이트 기념(ダイオライト記念)<br><span class="GⅡ">후나바시 / 더트 / 2400m(중거리) / 좌</span></label></span>
+<span class="cell col3"><input type="radio" name="S4a" class="Turf"><label>한신 우마무스메S(阪神ウマ娘S)<br><span class="GⅡ">한신 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="S4a" class="Turf"><label>더비 경 챌린지T(ダービー卿CT)<br><span class="GⅢ">나카야마 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="S4a" class="Dirt"><label>안타레스S(アンタレスS)<br><span class="GⅢ">한신 / 더트 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="S4a" class="Dirt"><label>코랄S(コーラルS)<br><span class="OP">한신 / 더트 / 1400m(단거리) / 우</span></label><hr>
+<input type="radio" name="S4a" class="Dirt"><label>케이요S(京葉S)<br><span class="OP">나카야마 / 더트 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="S4a" class="Turf"><label>춘뢰S(春雷S)<br><span class="OP">나카야마 / 1200m(단거리) / 우, 외측</span></label><hr>
+<input type="radio" name="S4a" class="Turf"><label>후쿠시마 민보배(福島民報杯)<br><span class="OP">후쿠시마 / 2000m(중거리)) / 우</span></label><hr>
+<input type="radio" name="S4a" class="Dirt"><label>아즈마코후지S(吾妻小富士S)<br><span class="OP">후쿠시마 / 더트 / 1700m(마일) / 우</span></label><hr>
+<input type="radio" name="S4a" class="Dirt"><label>마린C(マリーンC)<br><span class="GⅢ">후나바시 / 더트 / 1600m(마일) / 좌</span></label></span>
+<span class="cell col4"><input type="radio" name="S4b" class="Turf"><label>마일러스C(マイラーズC)<br><span class="GⅡ">교토 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="S4b" class="Turf"><label>후쿠시마 우마무스메S(福島ウマ娘S)<br><span class="GⅢ">후쿠시마 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="S4b" class="Dirt"><label>오아시스S(オアシスS)<br><span class="OP">도쿄 / 더트 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="S4b" class="Dirt"><label>텐노산S(天王山S)<br><span class="OP">교토 / 더트 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="S4b" class="Turf"><label>텐노상(봄)(天皇賞春)<br><span class="GⅠ">교토 / 3200m(장거리) / 우, 외측</span></label><hr>
+<input type="radio" name="S4b" class="Dirt"><label>도쿄 스프린트(東京スプリント)<br><span class="GⅢ">오이 / 더트 / 1200m(단거리) / 우</span></label></span>
+</div>
+<div class="row">
+<span class="cell col1">5월 전반 <input type="radio" name="S5a"></span></span>
+<span class="cell col2">5월 전반 <input type="radio" name="S5b"></span></span>
+<span class="cell col3">6월 전반 <input type="radio" name="S6a"></span></span>
+<span class="cell col4">6월 전반 <input type="radio" name="S6b"></span></span>
+</div>
+<div class="row">
+<span class="cell col1"><input type="radio" name="S5a" class="Turf"><label>케이오배 스프링C(京王杯スプリング)<br><span class="GⅡ">도쿄 / 1400m(단거리) / 좌</span></label><hr>
+<input type="radio" name="S5a" class="Turf"><label>니이가타 대상전(新潟大賞典)<br><span class="GⅢ">니이가타 / 2000m(중거리) / 좌, 외측</span></label><hr>
+<input type="radio" name="S5a" class="Turf"><label>타니가와다케S(谷川岳S)<br><span class="OP">니이가타 / 1600m(마일) / 좌, 외측</span></label><hr>
+<input type="radio" name="S5a" class="Turf"><label>메트로폴리탄S(メトロポリタン)<br><span class="OP">도쿄 / 2400m(중거리) / 좌</span></label><hr>
+<input type="radio" name="S5a" class="Turf"><label>쿠라마S(鞍馬S)<br><span class="OP">교토 / 1200m(단거리) 우, 내측</span></label><hr>
+<input type="radio" name="S5a" class="Dirt"><label>브릴리언트S(ブリリアントS)<br><span class="OP">도쿄 / 더트 / 2100m(중거리) / 좌</span></label><hr>
+<input type="radio" name="S5a" class="Turf"><label>미야코 오지S(都大路S)<br><span class="OP">교토 / 1800m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="S5a" class="Dirt"><label>릿토S(栗東S)<br><span class="OP">교토 / 더트 / 1400m(단거리) / 우</span></label><hr>
+<input type="radio" name="S5a" class="Turf"><label>빅토리아M(ヴィクトリアM)<br><span class="GⅠ">도쿄 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="S5a" class="Dirt"><label>카시와 기념(かしわ記念)<br><span class="GⅠ">후나바시 / 더트 / 1600m(마일) / 좌</span></label></span>
+<span class="cell col2"><input type="radio" name="S5b" class="Turf"><label>메구로 기념(目黒記念)<br><span class="GⅡ">도쿄 / 2500m(장거리) / 좌</span></label><hr>
+<input type="radio" name="S5b" class="Dirt"><label>헤이안S(平安S)<br><span class="GⅢ">교토 / 더트 / 1900m(중거리) / 우</span></label><hr>
+<input type="radio" name="S5b" class="Turf"><label>메이S(メイS)<br><span class="OP">도쿄 / 1800m(마일) / 좌</span></label><hr>
+<input type="radio" name="S5b" class="Turf"><label>위타천S(韋駄天S)<br><span class="OP">니이가타 / 1000m(단거리) / 직선</span></label><hr>
+<input type="radio" name="S5b" class="Dirt"><label>느티나무S(欅S)<br><span class="OP">도쿄 / 더트 / 1400m(단거리) / 좌</span></label><hr>
+<input type="radio" name="S5b" class="Turf"><label>아즈치성S(安土城S)<br><span class="OP">교토 / 1400m(단거리) / 우, 외측</span></label></span>
+<span class="cell col3"><input type="radio" name="S6a" class="Dirt"><label>텐포산S(天保山S)<br><span class="OP">한신 / 더트 / 1400m(단거리) / 우</span></label><hr>
+<input type="radio" name="S6a" class="Dirt"><label>슬레이프니르S(スレイプニルS)<br><span class="OP">도쿄 / 더트 / 2100m(중거리) / 좌</span></label><hr>
+<input type="radio" name="S6a" class="Turf"><label>야스다 기념(安田記念)<br><span class="GⅠ">도쿄 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="S6a" class="Turf"><label>나루오 기념(鳴尾記念)<br><span class="GⅢ">한신 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="S6a" class="Turf"><label>머메이드S(マーメイドS)<br><span class="GⅢ">한신 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="S6a" class="Turf"><label>엡섬C(エプソムC)<br><span class="GⅢ">도쿄 / 1800m(마일) / 좌</span></label></span>
+<span class="cell col4"><input type="radio" name="S6b" class="Dirt"><label>제왕상(帝王賞)<br><span class="GⅠ">오이 / 더트 / 2000m(중거리) / 우</span></label><hr>
+<input type="radio" name="S6b" class="Dirt"><label>아할 테케S(アハルテケS)<br><span class="OP">도쿄 / 더트 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="S6b" class="Turf"><label>요나고S(米子S)<br><span class="OP">한신 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="S6b" class="Dirt"><label>오누마S(大沼S)<br><span class="OP">하코다테 / 더트 / 1700m(마일) / 우</span></label><hr>
+<input type="radio" name="S6b" class="Turf"><label>파라다이스S(パラダイスS)<br><span class="OP">도쿄 / 1400m(단거리) / 좌</span></label><hr>
+<input type="radio" name="S6b" class="Dirt"><label>산노미야S(三宮S)<br><span class="OP">한신 / 더트 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="S6b" class="Turf"><label>타카라즈카 기념(宝塚記念)<br><span class="GⅠ">한신 / 2200m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="S6b" class="Turf"><label>하코다테 스프린트S(函館スプリントS)<br><span class="GⅢ">하코다테 / 1200m(단거리) / 우</span></label></span>
+</div>
+<div class="row">
+<span class="cell col1">7월 전반 <input type="radio" name="S7a"></span></span>
+<span class="cell col2">7월 전반 <input type="radio" name="S7b"></span></span>
+<span class="cell col3">8월 전반 <input type="radio" name="S8a"></span></span>
+<span class="cell col4">8월 전반 <input type="radio" name="S8b"></span></span>
+</div>
+<div class="row">
+<span class="cell col1"><input type="radio" name="S7a" class="Turf"><label>CBC상(CBC賞)<br><span class="GⅢ">츄쿄 / 1200m(단거리) / 좌</span></label><hr>
+<input type="radio" name="S7a" class="Dirt"><label>프로시온S(プロキオンS)<br><span class="GⅢ">츄쿄 / 더트 / 1400m(단거리) / 좌</span></label><hr>
+<input type="radio" name="S7a" class="Turf"><label>칠석상(七夕賞)<br><span class="GⅢ">후쿠시마 / 2000m(중거리) / 우</span></label><hr>
+<input type="radio" name="S7a" class="Turf"><label>하코다테 기념(函館記念)<br><span class="GⅢ">하코다테 / 2000m(중거리) / 우</span></label><hr>
+<input type="radio" name="S7a" class="Turf"><label>토모에상(巴賞)<br><span class="OP">하코다테 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="S7a" class="Dirt"><label>마린S(マリーンS)<br><span class="OP">하코다테 / 더트 / 1700m(마일) / 우</span></label><hr>
+<input type="radio" name="S7a" class="Dirt"><label>나고야 철도배(名鉄杯)<br><span class="OP">츄쿄 / 더트 / 1800m(마일) / 좌</span></label><hr>
+<input type="radio" name="S7a" class="Dirt"><label>스파킹 레이디C(スパーキングレディーC)<br><span class="GⅢ">카와사키 / 더트 / 1600m(마일) / 좌</span></label></span>
+<span class="cell col2"><input type="radio" name="S7b" class="Turf"><label>츄쿄 기념(中京記念)<br><span class="GⅢ">츄쿄 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="S7b" class="Turf"><label>이비스 서머D(アイビスサマーD)<br><span class="GⅢ">니이가타 / 1000m(단거리) / 직선</span></label><hr>
+<input type="radio" name="S7b" class="Turf"><label>퀸S(クイーンS)<br><span class="GⅢ">삿포로 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="S7b" class="Turf"><label>후쿠시마TVOP(福島テレビOP)<br><span class="OP">후쿠시마 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="S7b" class="Dirt"><label>머큐리C(マーキュリーC)<br><span class="GⅢ">모리오카 / 더트 / 2000m(중거리) / 좌</span></label></span>
+<span class="cell col3"><input type="radio" name="S8a" class="Turf"><label>코쿠라 기념(小倉記念)<br><span class="GⅢ">코쿠라 / 2000m(중거리) / 우</span></label><hr>
+<input type="radio" name="S8a" class="Turf"><label>세키야 기념(関屋記念)<br><span class="GⅢ">니이가타 / 1600m(마일) / 좌, 외측</span></label><hr>
+<input type="radio" name="S8a" class="Dirt"><label>엘름S(エルムS)<br><span class="GⅢ">삿포로 / 더트 / 1700m(마일) / 우</span></label><hr>
+<input type="radio" name="S8a" class="Turf"><label>삿포로 닛케이OP(札幌日経OP)<br><span class="OP">삿포로 / 2600m(장거리) / 우</span></label><hr>
+<input type="radio" name="S8a" class="Turf"><label>UHB상(UHB賞)<br><span class="OP">삿포로 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="S8a" class="Dirt"><label>아소S(阿蘇S)<br><span class="OP">코쿠라 / 더트 / 1700m(마일) / 우</span></label><hr>
+<input type="radio" name="S8a" class="Turf"><label>간에츠S(関越S)<br><span class="OP">니이가타 / 1800m(마일) / 좌, 외측</span></label></span>
+<span class="cell col4"><input type="radio" name="S8b" class="Turf"><label>삿포로 기념(札幌記念)<br><span class="GⅡ">삿포로 / 2000m(중거리) / 우</span></label><hr>
+<input type="radio" name="S8b" class="Turf"><label>키타큐슈 기념(北九州記念)<br><span class="GⅢ">코쿠라 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="S8b" class="Turf"><label>킨랜드C(キーンランドC)<br><span class="GⅢ">삿포로 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="S8b" class="Dirt"><label>NST상(NST賞)<br><span class="OP">니이가타 / 더트 / 1200m(단거리) / 좌</span></label><hr>
+<input type="radio" name="S8b" class="Dirt"><label>BSN상(BSN賞)<br><span class="OP">니이가타 / 더트 / 1800m(마일) / 좌</span></label><hr>
+<input type="radio" name="S8b" class="Turf"><label>코쿠라 닛케이OP(小倉日経OP)<br><span class="OP">코쿠라 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="S8b" class="Turf"><label>따오기S(朱鷺S)<br><span class="OP">니이가타 / 1400m(단거리) / 좌, 내측</span></label><hr>
+<input type="radio" name="S8b" class="Dirt"><label>클러스터C(クラスターC)<br><span class="GⅢ">모리오카 / 더트 / 1200m(단거리) / 좌</span></label></span>
+</div>
+<div class="row">
+<span class="cell col1">9월 전반 <input type="radio" name="S9a"></span></span>
+<span class="cell col2">9월 전반 <input type="radio" name="S9b"></span></span>
+<span class="cell col3">10월 전반 <input type="radio" name="S10a"></span></span>
+<span class="cell col4">10월 전반 <input type="radio" name="S10b"></span></span>
+</div>
+<div class="row">
+<span class="cell col1"><input type="radio" name="S9a" class="Turf"><label>센토S(セントウルS)<br><span class="GⅡ">한신 / 1200m(단거리) / 우, 내측</span></label><hr>
+<input type="radio" name="S9a" class="Turf"><label>니이가타 기념(新潟記念)<br><span class="GⅢ">니이가타 / 2000m(중거리) / 좌, 외측</span></label><hr>
+<input type="radio" name="S9a" class="Turf"><label>케이세이배 오텀 핸디캡(京成杯オータム)<br><span class="GⅢ">나카야마 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="S9a" class="Turf"><label>두루미S(丹頂S)<br><span class="OP">삿포로 / 2600m(장거리) / 우</span></label><hr>
+<input type="radio" name="S9a" class="Dirt"><label>에니프S(エニフS)<br><span class="OP">한신 / 더트 / 1400m(단거리) / 우</span></label><hr>
+<input type="radio" name="S9a" class="Dirt"><label>라디오 일본상(ラジオ日本賞)<br><span class="OP">나카야마 / 더트 / 1800m(마일) / 우</span></label></span>
+<span class="cell col2"><input type="radio" name="S9b" class="Turf"><label>올 커머스(オールカマー)<br><span class="GⅡ">나카야마 / 2200m(중거리) / 우, 외측</span></label><hr>
+<input type="radio" name="S9b" class="Dirt"><label>시리우스S(シリウスS)<br><span class="GⅢ">한신 / 더트 / 2000m(중거리) / 우</span></label><hr>
+<input type="radio" name="S9b" class="Turf"><label>포트아일랜드S(ポートアイランド)<br><span class="OP">한신 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="S9b" class="Dirt"><label>나가츠키S(ながつきS)<br><span class="OP">나카야마 / 더트 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="S9b" class="Turf"><label>스프린터스S(スプリンターズS)<br><span class="GⅠ">나카야마 / 1200m(단거리) / 우, 외측</span></label><hr>
+<input type="radio" name="S9b" class="Dirt"><label>사잔카TV배(さざんかテレビ杯)<br><span class="GⅡ">후나바시 / 더트 / 1800m(마일) / 좌</span></label></span>
+<span class="cell col3"><input type="radio" name="S10a" class="Turf"><label>마이니치 왕관(毎日王冠)<br><span class="GⅡ">도쿄 / 1800m(마일) / 좌</span></label><hr>
+<input type="radio" name="S10a" class="Turf"><label>교토 대상전(京都大賞典)<br><span class="GⅡ">교토 / 2400m(중거리) / 우, 외측</span></label><hr>
+<input type="radio" name="S10a" class="Turf"><label>후츄 우마무스메S(府中ウマ娘S)<br><span class="GⅡ">도쿄 / 1800m(마일) / 좌</span></label><hr>
+<input type="radio" name="S10a" class="Turf"><label>오팔S(オパールS)<br><span class="OP">교토 / 1200m(단거리) / 우, 내측</span></label><hr>
+<input type="radio" name="S10a" class="Dirt"><label>그린CC(グリーンCC)<br><span class="OP">도쿄 / 더트 / 1400m(단거리) / 좌</span></label><hr>
+<input type="radio" name="S10a" class="Turf"><label>옥토버S(オクトーバーS)<br><span class="OP">도쿄 / 2000m(중거리) / 좌</span></label><hr>
+<input type="radio" name="S10a" class="Turf"><label>신에츠S(信越S)<br><span class="OP">니이가타 / 1400m(단거리) / 좌, 내측</span></label><hr>
+<input type="radio" name="S10a" class="Dirt"><label>우즈마사S(太秦S)<br><span class="OP">교토 / 더트 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="S10a" class="Dirt"><label>마일CS남부배(マイルCS南部杯)<br><span class="GⅠ">모리오카 / 더트 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="S10a" class="Dirt"><label>레이디스 프렐류드(レディスプレリュード)<br><span class="GⅡ">오이 / 더트 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="S10a" class="Dirt"><label>도쿄배(東京盃)<br><span class="GⅡ">오이 / 더트 / 1200m(단거리) / 우</span></label></span>
+<span class="cell col4"><input type="radio" name="S10b" class="Turf"><label>스완S(スワンS)<br><span class="GⅡ">교토 / 1400m(단거리) / 우, 외측</span></label><hr>
+<input type="radio" name="S10b" class="Turf"><label>후지S(富士S)<br><span class="GⅡ">도쿄 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="S10b" class="Dirt"><label>무로마치S(室町S)<br><span class="OP">교토 / 더트 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="S10b" class="Dirt"><label>브라질C(ブラジルC)<br><span class="OP">도쿄 / 더트 / 2100m(중거리) / 좌</span></label><hr>
+<input type="radio" name="S10b" class="Turf"><label>카시오페이아S(カシオペアS)<br><span class="OP">교토 / 1800m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="S10b" class="Turf"><label>루미에르 오텀D(ルミエールAD)<br><span class="OP">니이가타 / 1000m(단거리) / 직선</span></label><hr>
+<input type="radio" name="S10b" class="Turf"><label>텐노상(가을)(天皇賞秋)<br><span class="GⅠ">도쿄 / 2000m(중거리) / 좌</span></label></span>
+</div>
+<div class="row">
+<span class="cell col1">11월 전반 <input type="radio" name="S11a"></span></span>
+<span class="cell col2">11월 전반 <input type="radio" name="S11b"></span></span>
+<span class="cell col3">12월 전반 <input type="radio" name="S12a"></span></span>
+<span class="cell col4">12월 전반 <input type="radio" name="S12b"></span></span>
+</div>
+<div class="row">
+<span class="cell col1"><input type="radio" name="S11a" class="Turf"><label>아르헨티나 공화국배(アルゼンチン)<br><span class="GⅡ">도쿄 / 2500m(장거리) / 좌</span></label><hr>
+<input type="radio" name="S11a" class="Dirt"><label>미야코S(みやこS)<br><span class="GⅢ">교토 / 더트 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="S11a" class="Dirt"><label>무사시노S(武蔵野S)<br><span class="GⅢ">도쿄 / 더트 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="S11a" class="Turf"><label>후쿠시마 기념(福島記念)<br><span class="GⅢ">후쿠시마 / 2000m(중거리) / 우</span></label><hr>
+<input type="radio" name="S11a" class="Turf"><label>ORO컵(オーロC)<br><span class="OP">도쿄 / 1400m(단거리) / 좌</span></label><hr>
+<input type="radio" name="S11a" class="Turf"><label>엘리자베스 여왕배(エリザベス女王)<br><span class="GⅠ">교토 / 2200m(중거리) / 우, 외측</span></label><hr>
+<input type="radio" name="S11a" class="Dirt"><label>JBC레이디스(JBCレディス)<br><span class="GⅠ">더트 / 마일 / 한국 오이 고정</span></label><hr>
+<input type="radio" name="S11a" class="Dirt"><label>JBC스프린트(JBCスプリント)<br><span class="GⅠ">더트 / 단거리 / 한국 오이 고정</span></label><hr>
+<input type="radio" name="S11a" class="Dirt"><label>JBC클래식(JBCクラシック)<br><span class="GⅠ">더트 / 마일・중거리 / 한국 오이/중거리 고정</span></label></span>
+<span class="cell col2"><input type="radio" name="S11b" class="Turf"><label>케이한배(京阪杯)<br><span class="GⅢ">교토 / 1200m(단거리) / 우, 내측</span></label><hr>
+<input type="radio" name="S11b" class="Turf"><label>안드로메다S(アンドロメダS)<br><span class="OP">교토 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="S11b" class="Dirt"><label>동짓달S(霜月S)<br><span class="OP">도쿄 / 더트 / 1400m(단거리) / 좌</span></label><hr>
+<input type="radio" name="S11b" class="Dirt"><label>후쿠시마 민우C(福島民友C)<br><span class="OP">후쿠시마 / 더트 / 1700m(마일) / 우</span></label><hr>
+<input type="radio" name="S11b" class="Turf"><label>캐피탈S(キャピタルS)<br><span class="OP">도쿄 / 1600m(마일) / 좌</span></label><hr>
+<input type="radio" name="S11b" class="Dirt"><label>오텀 리프S(オータムリーフS)<br><span class="OP">교토 / 더트 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="S11b" class="Turf"><label>마일CS(マイルCS)<br><span class="GⅠ">교토 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="S11b" class="Turf"><label>재팬C(ジャパンカップ)<br><span class="GⅠ">도쿄 / 2400m(중거리) / 좌</span></label></span>
+<span class="cell col3"><input type="radio" name="S12a" class="Turf"><label>스테이어스S(ステイヤーズS)<br><span class="GⅡ">나카야마 / 3600m(장거리) / 우, 내측</span></label><hr>
+<input type="radio" name="S12a" class="Turf"><label>챌린지C(チャレンジC)<br><span class="GⅢ">한신 / 2000m(중거리) / 우, 내측</span></label><hr>
+<input type="radio" name="S12a" class="Turf"><label>츄니치 신문배(中日新聞杯)<br><span class="GⅢ">츄쿄 / 2000m(중거리) / 좌</span></label><hr>
+<input type="radio" name="S12a" class="Dirt"><label>카펠라S(カペラS)<br><span class="GⅢ">나카야마 / 더트 / 1200m(단거리) / 우</span></label><hr>
+<input type="radio" name="S12a" class="Turf"><label>터키석S(ターコイズS)<br><span class="GⅢ">나카야마 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="S12a" class="Turf"><label>라피스 라줄리S(ラピスラズリS)<br><span class="OP">나카야마 / 1200m(단거리) / 우, 외측</span></label><hr>
+<input type="radio" name="S12a" class="Dirt"><label>섣달S(師走S)<br><span class="OP">나카야마 / 더트 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="S12a" class="Turf"><label>리겔S(リゲルS)<br><span class="OP">한신 / 1600m(마일) / 우, 외측</span></label><hr>
+<input type="radio" name="S12a" class="Turf"><label>탄자나이트S(タンザナイトS)<br><span class="OP">한신 / 1200m(단거리) / 우, 내측</span></label><hr>
+<input type="radio" name="S12a" class="Turf"><label>디셈버S(ディセンバーS)<br><span class="OP">나카야마 / 1800m(마일) / 우, 내측</span></label><hr>
+<input type="radio" name="S12a" class="Dirt"><label>챔피언스C(チャンピオンズC)<br><span class="GⅠ">츄쿄 / 더트 / 1800m(마일) / 좌</span></label><hr>
+<input type="radio" name="S12a" class="Dirt"><label>퀸상(クイーン賞)<br><span class="GⅢ">후나바시 / 더트 / 1800m(마일) / 좌</span></label></span>
+<span class="cell col4"><input type="radio" name="S12b" class="Turf"><label>한신C(阪神C)<br><span class="GⅡ">한신 / 1400m(단거리) / 우, 내측</span></label><hr>
+<input type="radio" name="S12b" class="Dirt"><label>갤럭시S(ギャラクシーS)<br><span class="OP">한신 / 더트 / 1400m(단거리) / 우</span></label><hr>
+<input type="radio" name="S12b" class="Dirt"><label>베텔게우스S(ベテルギウスS)<br><span class="OP">한신 / 더트 / 1800m(마일) / 우</span></label><hr>
+<input type="radio" name="S12b" class="Turf"><label>아리마 기념(有馬記念)<br><span class="GⅠ">나카야마 / 2500m(장거리) / 우, 내측</span></label><hr>
+<input type="radio" name="S12b" class="Dirt"><label>도쿄 대상전(東京大賞典)<br><span class="GⅠ">오이 / 더트 / 2000m(중거리) / 우</span></label><hr></span></div>
+</div></div>
+</body>
+</html>
