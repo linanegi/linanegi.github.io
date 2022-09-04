@@ -13,6 +13,7 @@
 					tr[i].style.display = 'none';}}}
 </script>
 <style>
+body{margin-top:15px;padding-top:15px;}
 div.junior{display:none;}
 div.classic{display:none;}
 div.senior{display:none;}
@@ -44,13 +45,16 @@ span.GⅠ::before{content:attr(class);background-color:rgb(52,133,227);margin-le
 a{padding:5px;margin:5px;border-radius:10px;font-weight:bold;color:#fff;box-shadow:1px 1px 1px #000;border:1px rgba(0,0,0,.3) solid;}
 a.junior{background-color:#88a2ff;}
 a.classic{background-color:#0ea800;}
-a.senior{background-color:#ffb888;}</style>
-    <title>우마무스메 로테이션 설정기(Ver.0.1)</title>
+a.senior{background-color:#ffb888;}
+div.title{font-size:3em;font-weight:bold;text-align:center;}</style>
+    <title>우마무스메 로테이션 설정기(Ver.0.0.1)</title>
   </head>
   <body>
+  <div class="title">우마무스메 로테이션 설정기(Ver.0.0.1)</div><hr>
 <a onclick="toggle1('junior'); toggle2('classic'); toggle2('senior');" class="junior">주니어 시즌</a>
 <a onclick="toggle2('junior'); toggle1('classic'); toggle2('senior');" class="classic">클래식 시즌</a>
 <a onclick="toggle2('junior'); toggle2('classic'); toggle1('senior');" class="senior">시니어 시즌</a>
+<hr>
 <div class="blank"></div>
 <div class="junior">
 <div id="table">
