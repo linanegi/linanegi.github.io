@@ -1,0 +1,19 @@
+@font-face {font-family: 'GyeonggiTitleM';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff') format('woff');font-weight: normal;font-style: normal;}
+[class$=sinfo]{width:350px;min-height:45px;line-height:8px;border:#ff0 solid 2px;border-radius:0.5em;box-shadow:1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000, -1px -1px 1px #000;margin-bottom:10px;}
+[class$=sinfo] div{word-break:keep-all;color:#71431f;text-shadow:2px 2px 0px #fff,2px 0px 0px #fff,2px -2px 0px #fff,0px 2px 0px #fff,0px -2px 0px #fff,-2px 2px 0px #fff,-2px 0px 0px #fff,-2px -2px 0px #fff;font-family: 'GyeonggiTitleM'}
+[class$=sinfo] div.skillname{color:#71431f;text-shadow:1px 1px 0px #fff,1px 0px 0px #fff,1px -1px 0px #fff,0px 1px 0px #fff,0px -1px 0px #fff,-1px 1px 0px #fff,-1px 0px 0px #fff,-1px -1px 0px #fff;position:relative;left:55px;top:-22px}
+.unique-sinfo{background: rgb(221,255,204);background: linear-gradient(77deg, rgba(221,255,204,1) 0%, rgba(190,251,242,1) 25%, rgba(181,213,255,1) 50%, rgba(224,185,255,1) 75%, rgba(195,34,135,1) 100%);}
+.rare-sinfo{background: rgb(251,252,244);background: linear-gradient(103deg, rgba(251,252,244,1) 0%, rgba(248,191,76,1) 100%);}
+.normal-sinfo{background: rgb(228,228,228);background: linear-gradient(103deg, rgba(228,228,228,1) 0%, rgba(193,193,205,1) 100%);}
+[class$=sinfo] .icon{display:block;width:40px;height:40px;margin-left:5px;margin-top:2px;margin-bottom:2px;background-color:#000;position: relative;z-index:1;top:4px}
+[class$=skill]{width:575px;min-height:112px;line-height:8px;border:#ff0 solid 2px;border-radius:0.5em;box-shadow:1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000, -1px -1px 1px #000;margin-bottom:10px;}
+.unique-skill{background: rgb(221,255,204);background: linear-gradient(77deg, rgba(221,255,204,1) 0%, rgba(190,251,242,1) 25%, rgba(181,213,255,1) 50%, rgba(224,185,255,1) 75%, rgba(195,34,135,1) 100%);}
+.rare-skill{background: rgb(251,252,244);background: linear-gradient(103deg, rgba(251,252,244,1) 0%, rgba(248,191,76,1) 100%);}
+.normal-skill{background: rgb(228,228,228);background: linear-gradient(103deg, rgba(228,228,228,1) 0%, rgba(193,193,205,1) 100%);}
+[class$=skill] div{word-break:keep-all;font-family: 'GyeonggiTitleM'}
+[class$=skill] div.skillname{color:#71431f;text-shadow:2px 2px 0px #fff,2px 0px 0px #fff,2px -2px 0px #fff,0px 2px 0px #fff,0px -2px 0px #fff,-2px 2px 0px #fff,-2px 0px 0px #fff,-2px -2px 0px #fff;}
+[class$=skill] div.skilltext{color:#71431f;text-shadow:1px 1px 0px #fff,1px 0px 0px #fff,1px -1px 0px #fff,0px 1px 0px #fff,0px -1px 0px #fff,-1px 1px 0px #fff,-1px 0px 0px #fff,-1px -1px 0px #fff;}
+[class$=skill] .icon{display:block;width:75px;height:75px;margin-left:15px;margin-top:19px;margin-bottom:18px;background-color:#000;position: relative;z-index:1}
+[class$=skill] .skillname{display:block;top:14px;font-size:19px;left:112px;position: relative;z-index:1;margin-top:-110px;font-weight:900;}
+[class$=skill] #bar{margin-left:110px;margin-right:12px;margin-top:1.8em;height:2px;}
+[class$=skill] .skilltext{display:block;top:14px;font-size:17px;left:112px;position: relative;z-index:1;margin-top:-15px;font-weight:900;line-height:18px;max-width:450px}
