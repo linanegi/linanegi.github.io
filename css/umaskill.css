@@ -13,7 +13,11 @@
 [class$=skill] div{word-break:keep-all;font-family: 'GyeonggiTitleM'}
 [class$=skill] div.skillname{color:#71431f;text-shadow:2px 2px 0px #fff,2px 0px 0px #fff,2px -2px 0px #fff,0px 2px 0px #fff,0px -2px 0px #fff,-2px 2px 0px #fff,-2px 0px 0px #fff,-2px -2px 0px #fff;}
 [class$=skill] div.skilltext{color:#71431f;text-shadow:1px 1px 0px #fff,1px 0px 0px #fff,1px -1px 0px #fff,0px 1px 0px #fff,0px -1px 0px #fff,-1px 1px 0px #fff,-1px 0px 0px #fff,-1px -1px 0px #fff;}
-[class$=skill] .icon{display:block;width:75px;height:75px;margin-left:15px;margin-top:19px;margin-bottom:18px;background-color:#000;position: relative;z-index:1}
+[class$=skill] .icon{display:block;width:75px;height:75px;margin-left:15px;margin-top:19px;margin-bottom:18px;background-color:rgba(0,0,0,0);position: relative;z-index:1}
 [class$=skill] .skillname{display:block;top:14px;font-size:19px;left:112px;position: relative;z-index:1;margin-top:-110px;font-weight:900;}
 [class$=skill] #bar{margin-left:110px;margin-right:12px;margin-top:1.8em;height:2px;}
 [class$=skill] .skilltext{display:block;top:14px;font-size:17px;left:112px;position: relative;z-index:1;margin-top:-15px;font-weight:900;line-height:18px;max-width:450px}
+.icon-spup{background-image:url('../umamusume/image/utx_ico_skill_20013.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+.icon-stup{background-image:url('../umamusume/image/utx_ico_skill_20013.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+.icon-acup{background-image:url('../umamusume/image/utx_ico_skill_20013.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+.icon-stdp{background-image:url('../umamusume/image/utx_ico_skill_20013.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
