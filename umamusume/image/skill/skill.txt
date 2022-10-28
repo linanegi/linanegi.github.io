@@ -1,0 +1,124 @@
+utx_ico_skill_00000.png //빈 스킬
+
+// 패시브 //
+
+utx_ico_skill_10011.png //패시브 스피드 업
+utx_ico_skill_10012.png //패시브 스피드 레어업
+utx_ico_skill_10013.png //패시브 스피드 레어업2
+utx_ico_skill_10014.png //패시브 스피드 디메리트
+utx_ico_skill_10021.png //패시브 스태미나 업
+utx_ico_skill_10022.png //패시브 스태미나 레어업
+utx_ico_skill_10023.png //패시브 스태미나 레어업2
+utx_ico_skill_10024.png //패시브 스태미나 디메리트
+utx_ico_skill_10031.png //패시브 파워 업
+utx_ico_skill_10032.png //패시브 파워 레어업
+utx_ico_skill_10033.png //패시브 파워 레어업2
+utx_ico_skill_10034.png //패시브 파워 디메리트
+utx_ico_skill_10041.png //패시브 근성 업
+utx_ico_skill_10042.png //패시브 근성 레어업
+utx_ico_skill_10043.png //패시브 근성 레어업2
+utx_ico_skill_10044.png //패시브 근성 디메리트
+utx_ico_skill_10051.png //패시브 지능 업
+utx_ico_skill_10052.png //패시브 지능 레어업
+utx_ico_skill_10053.png //패시브 지능 레어업2
+utx_ico_skill_10054.png //패시브 지능 디메리트
+utx_ico_skill_10061.png //패시브 지능 업
+utx_ico_skill_10062.png //패시브 복합
+utx_ico_skill_10063.png //패시브 복합 레어
+
+// 액티브 //
+/// 속도 ///
+utx_ico_skill_20011.png //액티브 속도 업
+utx_ico_skill_20012.png //액티브 속도 레어업
+utx_ico_skill_20013.png //액티브 속도 업 고유
+utx_ico_skill_20014.png //액티브 속도 디메리트
+utx_ico_skill_20015.png //액티브 속도 레어 디메리트
+
+/// 지구력 ///
+utx_ico_skill_20021.png //액티브 지구력 회복
+utx_ico_skill_20022.png //액티브 지구력 레어회복
+utx_ico_skill_20023.png //액티브 지구력 회복 고유
+utx_ico_skill_20024.png //액티브 지구력 디메리트
+
+/// 지구력 +???(불명) ///
+utx_ico_skill_20031.png //액티브 불명(※미실장)
+utx_ico_skill_20032.png //액티브 불명 레어(※미실장)
+utx_ico_skill_20033.png //액티브 불명 고유(※미실장)
+utx_ico_skill_20034.png //액티브 불명 디메리트(※미실장)
+
+/// 가속력 ///
+utx_ico_skill_20041.png //액티브 가속력 업
+utx_ico_skill_20042.png //액티브 가속력 레어업
+utx_ico_skill_20043.png //액티브 가속력 업 고유
+utx_ico_skill_20044.png //액티브 가속력 디메리트
+
+/// 포지셔닝 ///
+utx_ico_skill_20051.png //액티브 포지셔닝 업
+utx_ico_skill_20052.png //액티브 포지셔닝 레어업
+utx_ico_skill_20053.png //액티브 포지셔닝 디메리트
+
+/// 스타트 ///
+utx_ico_skill_20061.png //액티브 스타트 업
+utx_ico_skill_20062.png //액티브 스타트 레어업
+utx_ico_skill_20063.png //액티브 스타트 레어업2
+utx_ico_skill_20064.png //액티브 스타트 디메리트
+
+/// 불명 ///
+utx_ico_skill_20071.png //액티브 불명(※미실장)
+utx_ico_skill_20072.png //액티브 불명 레어(※미실장)
+utx_ico_skill_20073.png //액티브 불명 레어2(※미실장)
+
+/// 불명 ///
+utx_ico_skill_20081.png //액티브 불명(※미실장)
+utx_ico_skill_20082.png //액티브 불명 레어(※미실장)
+utx_ico_skill_20083.png //액티브 불명 레어2(※미실장)
+
+/// 시야 ///
+utx_ico_skill_20091.png //액티브 시야 업
+utx_ico_skill_20092.png //액티브 시야 레어업
+utx_ico_skill_20094.png //액티브 시야 디메리트
+
+/// 아오하루 ///
+utx_ico_skill_20101.png //아오하루 점화・속도/근성
+utx_ico_skill_20102.png //아오하루 연소・속도/근성
+utx_ico_skill_20111.png //아오하루 점화・체력
+utx_ico_skill_20112.png //아오하루 연소・체력
+utx_ico_skill_20121.png //아오하루 점화・힘
+utx_ico_skill_20122.png //아오하루 연소・힘
+utx_ico_skill_20131.png //아오하루 점화・지능
+utx_ico_skill_20132.png //아오하루 연소・지능
+
+/// 클라이맥스 ///
+utx_ico_skill_20141.png //기라성
+utx_ico_skill_20142.png //첫 별
+
+/// 그랜드 라이브 ///
+utx_ico_skill_20151.png //꿈꾸는 도중
+utx_ico_skill_20152.png //너와 함께 이기고 싶어
+
+/// 디버프 ///
+utx_ico_skill_30011.png //역병 속도 감소
+utx_ico_skill_30012.png //역병 속도 레어감소
+utx_ico_skill_30013.png //역병 속도 감소(임시)(※미실장)
+utx_ico_skill_30021.png //역병 가속력 감소
+utx_ico_skill_30022.png //역병 가속력 레어 감소
+utx_ico_skill_30023.png //역병 가속력 감소(임시)(※미실장)
+utx_ico_skill_30031.png //역병 포지셔닝 감소(※미실장)
+utx_ico_skill_30032.png //역병 포지셔닝 레어 감소(※미실장)
+utx_ico_skill_30033.png //역병 포지셔닝 감소(임시)(※미실장)
+utx_ico_skill_30041.png //역병 흥분
+utx_ico_skill_30042.png //역병 레어 흥분
+utx_ico_skill_30043.png //역병 흥분(임시)(※미실장)
+utx_ico_skill_30051.png //역병 지구력 감소
+utx_ico_skill_30052.png //역병 지구력 레어 감소
+utx_ico_skill_30053.png //역병 지구력 감소 고유
+utx_ico_skill_30061.png //역병 지구력 감소 + 불명(※미실장)
+utx_ico_skill_30062.png //역병 지구력 감소 + 불명 레어(※미실장)
+utx_ico_skill_30071.png //역병 시야 감소
+utx_ico_skill_30072.png //역병 시야 레어 감소
+
+/// 스킬 힌트 미발생 ///
+utx_ico_skill_40012.png //대도주
+utx_ico_skill_2010010.png //일본 최고의 우마무스메
+
+utx_ico_skill_1010011.png //카니발 보너스
