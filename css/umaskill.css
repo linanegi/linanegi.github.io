@@ -5,7 +5,7 @@
 .unique-sinfo{background: rgb(221,255,204);background: linear-gradient(77deg, rgba(221,255,204,1) 0%, rgba(190,251,242,1) 25%, rgba(181,213,255,1) 50%, rgba(224,185,255,1) 75%, rgba(195,34,135,1) 100%);}
 .rare-sinfo{background: rgb(251,252,244);background: linear-gradient(103deg, rgba(251,252,244,1) 0%, rgba(248,191,76,1) 100%);}
 .normal-sinfo{background: rgb(228,228,228);background: linear-gradient(103deg, rgba(228,228,228,1) 0%, rgba(193,193,205,1) 100%);}
-[class$=sinfo] .icon{display:block;width:40px;height:40px;margin-left:5px;margin-top:2px;margin-bottom:2px;background-color:#000;position: relative;z-index:1;top:4px}
+[class$=sinfo] .icon{display:block;width:40px;height:40px;margin-left:5px;margin-top:2px;margin-bottom:2px;background-color:rgba(0,0,0,0);position: relative;z-index:1;top:4px}
 [class$=skill]{width:575px;min-height:112px;line-height:8px;border:#ff0 solid 2px;border-radius:0.5em;box-shadow:1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000, -1px -1px 1px #000;margin-bottom:10px;}
 .unique-skill{background: rgb(221,255,204);background: linear-gradient(77deg, rgba(221,255,204,1) 0%, rgba(190,251,242,1) 25%, rgba(181,213,255,1) 50%, rgba(224,185,255,1) 75%, rgba(195,34,135,1) 100%);}
 .rare-skill{background: rgb(251,252,244);background: linear-gradient(103deg, rgba(251,252,244,1) 0%, rgba(248,191,76,1) 100%);}
