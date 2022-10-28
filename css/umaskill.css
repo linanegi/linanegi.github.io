@@ -17,28 +17,28 @@
 [class$=skill] .skillname{display:block;top:14px;font-size:19px;left:112px;position: relative;z-index:1;margin-top:-110px;font-weight:900;}
 [class$=skill] #bar{margin-left:110px;margin-right:12px;margin-top:1.8em;height:2px;}
 [class$=skill] .skilltext{display:block;top:14px;font-size:17px;left:112px;position: relative;z-index:1;margin-top:-15px;font-weight:900;line-height:18px;max-width:450px}
-.icon-spup{background-image:url('../umamusume/image/utx_ico_skill_20013.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
-.icon-stup{background-image:url('../umamusume/image/utx_ico_skill_20013.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
-.icon-acup{background-image:url('../umamusume/image/utx_ico_skill_20013.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
-.icon-stdp{background-image:url('../umamusume/image/utx_ico_skill_20013.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+.icon-spup{background-image:url('../umamusume/image/skill/utx_ico_skill_20013.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+.icon-stup{background-image:url('../umamusume/image/skill/utx_ico_skill_20013.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+.icon-acup{background-image:url('../umamusume/image/skill/utx_ico_skill_20013.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+.icon-stdp{background-image:url('../umamusume/image/skill/utx_ico_skill_20013.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
 
 .uma_sk{margin-top:5px;margin-bottom:5px;filter: drop-shadow(0px 1px 1px #000);}
-.uma_factor_n{width:320px;height:40px;display:block;background-image:url('utx_frm_factor_list_01_sl_long.png');background-repeat:no-repeat;color:#71431f;background-size:100% 100%;}
-.uma_factor_s{width:320px;height:40px;display:block;background-image:url('utx_frm_factor_list_02_sl_long.png');background-repeat:no-repeat;color:#fff;background-size:100% 100%;}
-.uma_factor_a{width:320px;height:40px;display:block;background-image:url('utx_frm_factor_list_03_sl_long.png');background-repeat:no-repeat;color:#fff;background-size:100% 100%;}
-.uma_factor_u{width:320px;height:40px;display:block;background-image:url('utx_frm_factor_list_04_sl_long.png');background-repeat:no-repeat;color:#fff;background-size:100% 100%;}
+.uma_factor_n{width:320px;height:40px;display:block;background-image:url('../umamusume/image/utx/utx_frm_factor_list_01_sl_long.png');background-repeat:no-repeat;color:#71431f;background-size:100% 100%;}
+.uma_factor_s{width:320px;height:40px;display:block;background-image:url('../umamusume/image/utx/utx_frm_factor_list_02_sl_long.png');background-repeat:no-repeat;color:#fff;background-size:100% 100%;}
+.uma_factor_a{width:320px;height:40px;display:block;background-image:url('../umamusume/image/utx/utx_frm_factor_list_03_sl_long.png');background-repeat:no-repeat;color:#fff;background-size:100% 100%;}
+.uma_factor_u{width:320px;height:40px;display:block;background-image:url('../umamusume/image/utx/utx_frm_factor_list_04_sl_long.png');background-repeat:no-repeat;color:#fff;background-size:100% 100%;}
 span.fn{padding-left:10px;padding-top:2px;font-weight:900;font-family:'GyeonggiTitleM';top:8px;position:relative;display:inline-block;}
 .uma_sk #txtshort{padding-left:10px;font-weight:900;font-family:'GyeonggiTitleM';top:8px;position:relative;font-size:1em;top:9px;letter-spacing:-0.05em;}
-#nsk{width:20px;height:20px;background-image:url(utx_ico_factor_01.png);background-repeat:no-repeat;background-size:100% 100%;margin-top:-6px;display:inline-block;position:relative;top:16px;left:6px}
-#usk{width:20px;height:20px;background-image:url(utx_ico_factor_02.png);background-repeat:no-repeat;background-size:100% 100%;margin-top:-6px;display:inline-block;position:relative;top:16px;left:6px}
+#nsk{width:20px;height:20px;background-image:url(../umamusume/image/utx/utx_ico_factor_01.png);background-repeat:no-repeat;background-size:100% 100%;margin-top:-6px;display:inline-block;position:relative;top:16px;left:6px}
+#usk{width:20px;height:20px;background-image:url(../umamusume/image/utx/utx_ico_factor_02.png);background-repeat:no-repeat;background-size:100% 100%;margin-top:-6px;display:inline-block;position:relative;top:16px;left:6px}
 .fcstar{position:relative;top:-5px;text-align:right;display:inline-block;width:calc(100% - 25px);color:#e3e5e0 !important;text-shadow:0px 0px 1px #000, 0px 0px 2px #000, 0px 1px 3px #000;}
-.fcstar > #star1::before{content:"";background-image:url(utx_ico_strong_star_00.png);background-size:15px 15px;width:15px;height:15px;display:inline-block;}
-.fcstar > #star1::after{content:"";background-image:url(utx_ico_strong_star_01.png);background-size:15px 15px;width:30px;height:15px;display:inline-block;}
-.fcstar > #star2::before{content:"";background-image:url(utx_ico_strong_star_00.png);background-size:15px 15px;width:30px;height:15px;display:inline-block;}
-.fcstar > #star2::after{content:"";background-image:url(utx_ico_strong_star_01.png);background-size:15px 15px;width:15px;height:15px;display:inline-block;}
-.fcstar > #star3::before{content:"";background-image:url(utx_ico_strong_star_00.png);background-size:15px 15px;width:45px;height:15px;display:inline-block;}
+.fcstar > #star1::before{content:"";background-image:url(../umamusume/image/utx/utx_ico_strong_star_00.png);background-size:15px 15px;width:15px;height:15px;display:inline-block;}
+.fcstar > #star1::after{content:"";background-image:url(../umamusume/image/utx/utx_ico_strong_star_01.png);background-size:15px 15px;width:30px;height:15px;display:inline-block;}
+.fcstar > #star2::before{content:"";background-image:url(../umamusume/image/utx/utx_ico_strong_star_00.png);background-size:15px 15px;width:30px;height:15px;display:inline-block;}
+.fcstar > #star2::after{content:"";background-image:url(../umamusume/image/utx/utx_ico_strong_star_01.png);background-size:15px 15px;width:15px;height:15px;display:inline-block;}
+.fcstar > #star3::before{content:"";background-image:url(../umamusume/image/utx/utx_ico_strong_star_00.png);background-size:15px 15px;width:45px;height:15px;display:inline-block;}
 .fcstar > #star3{width:0px;}
-.fcinfo{margin-left:5px;background-image:url(utx_btn_info_00.png);background-size:15px 15px;background-repeat:no-repeat no-repeat;background-position:1px 1px;width: 17px;height:22px;display:inline-block;margin-top:-8px}
+.fcinfo{margin-left:5px;background-image:url(../umamusume/image/utx/utx_btn_info_00.png);background-size:15px 15px;background-repeat:no-repeat no-repeat;background-position:1px 1px;width: 17px;height:22px;display:inline-block;margin-top:-8px}
 .fcinfo{display: inline-block; font-weight: bold;}
 .tooltip-text {display: none;position: absolute;border: 1px dotted white;border-radius: 5px;padding: 5px;font-size: 0.8em;color: #71431f; background: #fff;left:330px;top:0px;font-family:'GyeonggiTitleM';}
 .fcinfo:hover .tooltip-text {display: inline-block;width: 450px;}
