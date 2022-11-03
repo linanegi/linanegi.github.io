@@ -17,10 +17,30 @@
 [class$=skill] .skillname{display:block;top:14px;font-size:19px;left:112px;position: relative;z-index:1;margin-top:-110px;font-weight:900;}
 [class$=skill] #bar{margin-left:110px;margin-right:12px;margin-top:1.8em;height:2px;}
 [class$=skill] .skilltext{display:block;top:14px;font-size:17px;left:112px;position: relative;z-index:1;margin-top:-15px;font-weight:900;line-height:18px;max-width:450px}
-.icon-spup{background-image:url('../umamusume/image/skill/utx_ico_skill_20013.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
-.icon-stup{background-image:url('../umamusume/image/skill/utx_ico_skill_20013.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
-.icon-acup{background-image:url('../umamusume/image/skill/utx_ico_skill_20013.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
-.icon-stdp{background-image:url('../umamusume/image/skill/utx_ico_skill_20013.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+/* 스피드계(순서대로 스피드업, 레어 스피드업, 고유 스피드업, 스피드 디메리트, 레어 스피드 디메리트 순) */
+.icon-spup{background-image:url('../umamusume/image/skill/utx_ico_skill_20011.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+.icon-spup-rare{background-image:url('../umamusume/image/skill/utx_ico_skill_20012.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+.icon-spup-unique{background-image:url('../umamusume/image/skill/utx_ico_skill_20013.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+.icon-spdm{background-image:url('../umamusume/image/skill/utx_ico_skill_20014.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+.icon-spdm-rare{background-image:url('../umamusume/image/skill/utx_ico_skill_20015.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+/* 지구력 회복계(순서대로 회복, 레어 회복, 고유 회복, 지구력 디메리트 순) */
+.icon-stup{background-image:url('../umamusume/image/skill/utx_ico_skill_20021.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+.icon-stup-rare{background-image:url('../umamusume/image/skill/utx_ico_skill_20022.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+.icon-stup-unique{background-image:url('../umamusume/image/skill/utx_ico_skill_20023.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+.icon-stdm{background-image:url('../umamusume/image/skill/utx_ico_skill_20024.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+/* 가속력계(순서대로 가속력, 레어 가속력, 고유 가속력, 가속력 디메리트 순) */
+.icon-acup{background-image:url('../umamusume/image/skill/utx_ico_skill_20041.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+.icon-acup-rare{background-image:url('../umamusume/image/skill/utx_ico_skill_20042.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+.icon-acup-unique{background-image:url('../umamusume/image/skill/utx_ico_skill_20043.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+.icon-acdm{background-image:url('../umamusume/image/skill/utx_ico_skill_20044.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+/* 포지셔닝계(순서대로 시야업, 레어 시야업, 시야 디메리트, 포지셔닝업, 레어 포지셔닝 업 순) */
+.icon-sgup{background-image:url('../umamusume/image/skill/utx_ico_skill_20091.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+.icon-sgup-rare{background-image:url('../umamusume/image/skill/utx_ico_skill_20092.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+.icon-sgdm{background-image:url('../umamusume/image/skill/utx_ico_skill_20094.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+.icon-psup{background-image:url('../umamusume/image/skill/utx_ico_skill_20051.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+.icon-psup-rare{background-image:url('../umamusume/image/skill/utx_ico_skill_20052.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
+/* 디버프계(현재는 지구력만) */
+.icon-stdp{background-image:url('../umamusume/image/skill/utx_ico_skill_20052.png');background-size: 100% 100%; background-repeat:no-repeat no-repeat;}
 
 .uma_sk{margin-top:5px;margin-bottom:5px;filter: drop-shadow(0px 1px 1px #000);}
 .uma_factor_n{width:320px;height:40px;display:block;background-image:url('../umamusume/image/utx/utx_frm_factor_list_01_sl_long.png');background-repeat:no-repeat;color:#71431f;background-size:100% 100%;}
