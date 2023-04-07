@@ -83,3 +83,10 @@ span[class^="waku"]::after{content:'번';}
 .lyric{font-size:0.5em;}
 p.items::before{content:'・'}
 p.items{margin-left:1em;text-indent:-1em;}
+
+.footnote_tip {color:#000; font-weight:400; border: 1px solid #1d1d1d; background: #fff; padding: 5px; position: absolute; z-index: 1000; max-width: 600px; box-sizing: border-box; font-size: smaller; display: none;}
+div.footnote_tip .number{color:#1b8700;font-weight:900;}
+span:hover div.footnote_tip{display:block;}
+span.threadid::before{content:'　　ID: ';font-size:0.8em;color:#1b8700;font-weight:900;}
+span.threadid{font-size:0.8em;color:#1b8700;font-weight:900;}
+span.threadlink{cursor:pointer; font-weight:900; color:#0000EE}
