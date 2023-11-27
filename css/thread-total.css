@@ -2,3 +2,5 @@
 @import url("ygoff2.css");
 /* 스레계 css */
 @import url("umathread.css");
+/* 말딸, 블루아카 웹폰트 */
+@font-face {font-family: 'GM';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff') format('woff');font-weight: normal;font-style: normal;}
