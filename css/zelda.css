@@ -1,0 +1,19 @@
+@font-face { font-family: 'Dokrip'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Dokrip.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'GEPEBA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff'); font-weight: normal; font-style: normal; }
+div.mmain2{margin:5px;}
+div.title{ text-align: center;
+          font-style: italic;
+          font-weight: 900;
+          font-size: xx-large;
+          line-height:2em;
+          margin-top:0.2em;
+          margin-bottom:0.2em; }
+.fgo{font-weight:900;font-family:'맑은 고딕';}
+.NP{font-size:2em;}
+.arts{color:#08f;}
+.buster{color:#e22;}
+.quick{color:#0d4;}
+rt.go{font-size:1em;}
+.chaldea{text-align:right;font-style:italic;color:#888;}
+.remembrance{text-align:right;font-style:italic;color:#54688a}
+.telepath{text-align:right;font-style:italic;color:#0054c9;}
