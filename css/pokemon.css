@@ -32,3 +32,4 @@ span[class^=type]{font-weight:900;font-family:'맑은 고딕';}
    -webkit-text-emphasis-style: circle;
    -webkit-text-emphasis-position: over;
 }
+rt{font-size:0.8em;}
