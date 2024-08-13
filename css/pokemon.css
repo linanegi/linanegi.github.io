@@ -25,3 +25,10 @@ hr{border:solid 1px #444;}
 .typesteel{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #ddd; color:#69a9c7;}
 .typefairy{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #ddd; color:#dab4d4;}
 span[class^=type]{font-weight:900;font-family:'맑은 고딕';}
+.dot {
+   font-weight:900;
+   text-emphasis-style: circle;
+   text-emphasis-position: over left;
+   -webkit-text-emphasis-style: circle;
+   -webkit-text-emphasis-position: over;
+}
