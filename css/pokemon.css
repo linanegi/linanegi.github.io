@@ -33,3 +33,4 @@ span[class^=type]{font-weight:900;font-family:'맑은 고딕';}
    -webkit-text-emphasis-position: over;
 }
 rt{font-size:0.8em;}
+.hrgradient {margin-bottom:30px; border:0px; height:1px; background: linear-gradient(to right, transparent, red, green, blue, transparent);}
