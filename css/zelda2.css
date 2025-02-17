@@ -1,6 +1,6 @@
 @font-face { font-family: 'Dokrip'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Dokrip.woff') format('woff'); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'GEPEBA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff'); font-weight: normal; font-style: normal; }
-@font-face {font-family: 'Shiekah';font-style: normal;font-weight: 400;src: url('http://linanegi.github.io/fonts/Shiekah%20Font.ttf') format('truetype');}
+@font-face {font-family: 'Shiekah';font-style: normal;font-weight: 400;src: url('http://linanegi.github.io/fonts/Shiekah Font.ttf') format('truetype');}
 div.mmain2{margin:5px;}
 div.mmain2 a{text-decoration:none;}
 div.mmain2 a.tooltiploz{outline:none;}
