@@ -1,0 +1,32 @@
+@font-face { font-family: 'Dokrip'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Dokrip.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'GEPEBA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face {font-family: 'Shiekah';font-style: normal;font-weight: 400;src: url('http://linanegi.github.io/fonts/Shiekah%20Font.ttf') format('truetype');}
+div.mmain2{margin:5px;}
+div.mmain2 a{text-decoration:none;}
+div.mmain2 a.tooltiploz{outline:none;}
+div.mmain2 a.tooltiploz:hover {text-decoration:none;}
+div.mmain2 a.tooltiploz span {z-index: 10;display: none;line-height: 12px;font-size: 12px;box-sizing: border-box;text-shadow: 2px 2px 2px black; }
+div.mmain2 a.tooltiploz:hover span div.img{z-index:9;width:100px;height:100px;background-size:contain;background-repeat:no-repeat;background-position: center;margin-top:-15px;padding:auto;margin-left:5px;}
+div.mmain2 a.tooltiploz:hover span div.img div.ch1{ width: 170px;height: 68px;font-weight: 700;color: #cbc4a8;margin-left: 110px;margin-top: 15px;font-size: 14px;line-height:1.2;z-index:1;}
+div.mmain2 a.tooltiploz:hover span div.ch2{ font-weight: 400;color: #cbc4a8;margin: 10px 0px 0px 0px;font-size: 12px;line-height:1.2;width:280px;height:224px;z-index:2;}
+div.mmain2 a.tooltiploz:hover span div.ch3{ color: #9898ca;font-size: 13px;font-family: '맑은 고딕', 'Shiekah', sans-serif;}
+div.mmain2 a.tooltiploz:hover span div.ch4{ font-size: 9px;}
+div.mmain2 a.tooltiploz:hover span{ padding: 10px 10px 10px 10px;margin-top: -120px;margin-left: -20px;display: inline;position: absolute;color: #cbc4a8;background-repeat: no-repeat, no-repeat;background-position: 0px 0px, 15px 10px, 0px 0px;background-size: 300px 350px, 100px 100px, 300px 350px; width: 300px;min-height: 350px;text-align: left;z-index:0;}
+span.monster{background-image:url(https://linanegi.github.io/zelda/bg3.png);}
+div.title{ text-align: center;
+          font-style: italic;
+          font-weight: 900;
+          font-size: xx-large;
+          line-height:2em;
+          margin-top:0.2em;
+          margin-bottom:0.2em; }
+.fgo{font-weight:900;font-family:'맑은 고딕';}
+.NP{font-size:2em;}
+.arts{color:#08f;}
+.buster{color:#e22;}
+.quick{color:#0d4;}
+rt.go{font-size:1em;}
+.chaldea{text-align:right;font-style:italic;color:#888;}
+.remembrance{text-align:right;font-style:italic;color:#54688a}
+.telepath{text-align:right;font-style:italic;color:#0054c9;}
+.upperdot {color:red; font-weight:900; text-emphasis-style: circle; text-emphasis-position: over left; -webkit-text-emphasis-style: circle; -webkit-text-emphasis-position: over;}
