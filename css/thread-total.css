@@ -4,3 +4,22 @@
 @import url("umathread.css");
 /* 말딸, 블루아카 웹폰트 */
 @font-face {font-family: 'GM';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff') format('woff');font-weight: normal;font-style: normal;}
+
+.typenormal{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #ddd; color:#949495;}
+.typefire{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #ddd; color:#e56c3e;}
+.typewater{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #ddd; color:#5185c5;}
+.typegrass{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #ddd; color:#66a945;}
+.typeelectric{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #ddd; color:#fbb917;}
+.typeice{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #ddd; color:#6dc8eb;}
+.typefighting{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #ddd; color:#e09c40;}
+.typepoison{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #ddd; color:#735198;}
+.typeground{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #ddd; color:#9c7743;}
+.typeflying{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #ddd; color:#a2c3e7;}
+.typepsychic{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #ddd; color:#dd6b7b;}
+.typebug{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #ddd; color:#9fa244;}
+.typerock{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #ddd; color:#bfb889;}
+.typeghost{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #ddd; color:#684870;}
+.typedragon{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #ddd; color:#535ca8;}
+.typedark{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #ddd; color:#4c4948;}
+.typesteel{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #ddd; color:#69a9c7;}
+.typefairy{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #ddd; color:#dab4d4;}
