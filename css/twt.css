@@ -14,6 +14,10 @@
   border: 1px solid #000;
 }
 
+.boximage{
+  border: 1px solid red;
+  background-color:#f5d682;
+}
 
 .twt-wrap {
   max-width:490px;
