@@ -4,7 +4,7 @@
   font-family: 'Roboto', sans-serif;
 
 }
-img.twt {
+.twt-header > img {
   max-width:100%;
 }
 .avator {
@@ -86,7 +86,7 @@ img.twt {
   .twt-header {
     flex-direction:column;
   }
-  .twt-header img.twt {
+  .twt-header img {
     margin-bottom: 20px;
   }
   .twt-header-info p {
