@@ -1,10 +1,10 @@
-twt-body {
+.twt-body {
   background: #c6cad0;
   font-family: 'Asap', sans-serif;
   font-family: 'Roboto', sans-serif;
 
 }
-twt-img {
+img.twt {
   max-width:100%;
 }
 .avator {
@@ -79,14 +79,14 @@ twt-img {
   margin-right: 10px;
 }
 @media screen and (max-width:430px){
-  twt-body {
+  .twt-body {
     padding-left: 20px;
     padding-right: 20px;
   }
   .twt-header {
     flex-direction:column;
   }
-  .twt-header img {
+  .twt-header img.twt {
     margin-bottom: 20px;
   }
   .twt-header-info p {
