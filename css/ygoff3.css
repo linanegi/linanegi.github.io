@@ -34,8 +34,8 @@ a.xyz:visited { color:#000; }
 a.xyz:hover { color:#000; }
 a.xyz:active { color:#000; }
 .tooltip_up {display: inline-block; font-weight: bold;}
-.tooltip-text_short {display: none;position: fixed; bottom: 50%; right: 50%; border: 1px dotted white;border-radius: 5px;padding: 5px;margin:-20px 0px;font-size: 0.8em;color: white; background: #000;}
-.tooltip-text {display: none;position: fixed; bottom: 50%; right: 50%;width: calc(min(300px, 80vw));border: 1px dotted white;border-radius: 5px;padding: 5px;font-size: 0.8em;color: white; background: #000;}
+.tooltip-text_short {display: none;position: fixed; bottom: calc(50% - min(300px, 20vh)); right: calc(50% - min(300px, 20vw)); border: 1px dotted white;border-radius: 5px;padding: 5px;margin:-20px 0px;font-size: 0.8em;color: white; background: #000;}
+.tooltip-text {display: none;position: fixed; bottom: calc(50% - min(300px, 20vh)); right: calc(50% - min(300px, 20vw));width: calc(min(300px, 80vw));border: 1px dotted white;border-radius: 5px;padding: 5px;font-size: 0.8em;color: white; background: #000;}
 .tooltip_up:hover .tooltip-text {display: block;}
 .tooltip_up:hover .tooltip-text_short {display: block;}
 .tooltip-text img {background-color:#fff;max-width:calc(min(240px, 64vx));margin:0 auto;display:block;}
