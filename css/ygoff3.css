@@ -72,5 +72,5 @@ a.xyz:active { color:#000; }
    color:#000;
    font-weight:900;
    font-family:'GM';
-   font-size:calc(12px + (18 - 8) * (100vw - 700px) / (1600 - 300))};
+   font-size:calc(12px + (18 - 8) * (100vw - 700px) / (1600 - 300));
 }
