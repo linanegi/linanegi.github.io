@@ -44,3 +44,28 @@ a.xyz:active { color:#000; }
    -webkit-text-emphasis-style: circle;
    -webkit-text-emphasis-position: over;
 }
+.textbox{cursor:pointer;
+         width:min(700px, 90vw);
+         height:30px;
+         text-align:center;
+         display:block;
+         background: linear-gradient(120deg, rgba(201,223,234,.6) 0%, rgba(204,225,236,.6) 8%, rgba(217,236,243,.6) 8%, rgba(218,231,237,.6) 16%, rgba(224,237,243,.6) 16%, rgba(255,255,255,.6) 50%, rgba(224,237,243,.6) 84%, rgba(218,231,237,.6) 84%, rgba(217,236,243,.6) 92%, rgba(204,225,236,.6) 93%, rgba(201,223,234,.6) 100%), linear-gradient(60deg, rgba(204,225,236,1) 0%, rgba(217,236,243,1) 0%, rgba(218,231,237,1) 8%, rgba(224,237,243,1) 8%, rgba(255,255,255,1) 50%, rgba(224,237,243,1) 76%, rgba(218,231,237,1) 76%, rgba(217,236,243,1) 84%, rgba(204,225,236,1) 84%, rgba(201,223,234,1) 100%);
+         margin:auto;
+          -webkit-transform: skew(-10deg);
+          -moz-transform: skew(-10deg);
+          -o-transform: skew(-10deg);
+         border-radius:5px;
+         border:solid #fff 2px;
+         box-shadow:1px 1px 1px 1px rgba(0,0,0,.5);
+         font-family:'GM';
+         font-size:18px;
+}
+.textbox .text{-webkit-transform: skew(10deg);
+                -moz-transform: skew(10deg);
+                -o-transform: skew(10deg);
+               display:block;
+               margin-top:-20px;
+               color:#000;
+               font-weight:900;
+               top:-10px;
+}
