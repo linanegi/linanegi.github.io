@@ -52,7 +52,7 @@ a.xyz:active { color:#000; }
    height:auto;
    min-height: 30px;
    text-align:center;
-   display:block;
+   display:inline-block;
    word-break: break-all;
    background: linear-gradient(120deg, rgba(201,223,234,.6) 0%, rgba(204,225,236,.6) 8%, rgba(217,236,243,.6) 8%, rgba(218,231,237,.6) 16%, rgba(224,237,243,.6) 16%, rgba(255,255,255,.6) 50%, rgba(224,237,243,.6) 84%, rgba(218,231,237,.6) 84%, rgba(217,236,243,.6) 92%, rgba(204,225,236,.6) 93%, rgba(201,223,234,.6) 100%), linear-gradient(60deg, rgba(204,225,236,1) 0%, rgba(217,236,243,1) 0%, rgba(218,231,237,1) 8%, rgba(224,237,243,1) 8%, rgba(255,255,255,1) 50%, rgba(224,237,243,1) 76%, rgba(218,231,237,1) 76%, rgba(217,236,243,1) 84%, rgba(204,225,236,1) 84%, rgba(201,223,234,1) 100%);
    margin:auto;
@@ -64,7 +64,7 @@ a.xyz:active { color:#000; }
    box-shadow:1px 1px 1px 1px rgba(0,0,0,.5);
    font-family:'GM';
 }
-.textbox .text {
+.textbox span.text {
    -webkit-transform: skew(10deg);
    -moz-transform: skew(10deg);
    -o-transform: skew(10deg);
@@ -76,7 +76,7 @@ a.xyz:active { color:#000; }
    font-family:'GM';
    font-size:calc(12px + (18 - 8) * (100vw - 700px) / (1600 - 300));
 }
-.textbox .text1line {
+.textbox span.text1line {
    -webkit-transform: skew(10deg);
    -moz-transform: skew(10deg);
    -o-transform: skew(10deg);
@@ -91,7 +91,7 @@ a.xyz:active { color:#000; }
    font-family:'GM';
    font-size:calc(12px + (18 - 8) * (100vw - 700px) / (1600 - 300));
 }
-.textbox .text2line {
+.textbox span.text2line {
    -webkit-transform: skew(10deg);
    -moz-transform: skew(10deg);
    -o-transform: skew(10deg);
@@ -107,7 +107,7 @@ a.xyz:active { color:#000; }
    font-size:calc(12px + (18 - 8) * (100vw - 700px) / (1600 - 300));
 }
 
-.textbox .text3line {
+.textbox span.text3line {
    -webkit-transform: skew(10deg);
    -moz-transform: skew(10deg);
    -o-transform: skew(10deg);
