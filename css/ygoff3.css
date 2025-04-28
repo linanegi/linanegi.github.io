@@ -49,9 +49,11 @@ a.xyz:active { color:#000; }
 .textbox {
    cursor:pointer;
    width:min(700px, 90vw);
-   height:30px;
+   height:auto;
+   min-height: 30px;
    text-align:center;
    display:block;
+   word-break: break-all;
    background: linear-gradient(120deg, rgba(201,223,234,.6) 0%, rgba(204,225,236,.6) 8%, rgba(217,236,243,.6) 8%, rgba(218,231,237,.6) 16%, rgba(224,237,243,.6) 16%, rgba(255,255,255,.6) 50%, rgba(224,237,243,.6) 84%, rgba(218,231,237,.6) 84%, rgba(217,236,243,.6) 92%, rgba(204,225,236,.6) 93%, rgba(201,223,234,.6) 100%), linear-gradient(60deg, rgba(204,225,236,1) 0%, rgba(217,236,243,1) 0%, rgba(218,231,237,1) 8%, rgba(224,237,243,1) 8%, rgba(255,255,255,1) 50%, rgba(224,237,243,1) 76%, rgba(218,231,237,1) 76%, rgba(217,236,243,1) 84%, rgba(204,225,236,1) 84%, rgba(201,223,234,1) 100%);
    margin:auto;
    -webkit-transform: skew(-10deg);
@@ -71,6 +73,52 @@ a.xyz:active { color:#000; }
    margin-top: calc(-15px - 5 * (100vw - 700px)/1300);
    color:#000;
    font-weight:900;
+   font-family:'GM';
+   font-size:calc(12px + (18 - 8) * (100vw - 700px) / (1600 - 300));
+}
+.textbox .text-1 {
+   -webkit-transform: skew(10deg);
+   -moz-transform: skew(10deg);
+   -o-transform: skew(10deg);
+   display:block;
+   word-break: break-all;
+   vertical-align: middle;
+   margin-top: calc(-15px - 5 * (100vw - 700px)/1300);
+   padding-top: calc(25px - (100vw - 700px)/1300);
+   color:#000;
+   font-weight:900;
+   line-height:1.1;
+   font-family:'GM';
+   font-size:calc(12px + (18 - 8) * (100vw - 700px) / (1600 - 300));
+}
+.textbox .text-2 {
+   -webkit-transform: skew(10deg);
+   -moz-transform: skew(10deg);
+   -o-transform: skew(10deg);
+   display:block;
+   word-break: break-all;
+   vertical-align: middle;
+   margin-top: calc(-15px - 5 * (100vw - 700px)/1300);
+   padding-top: calc(20px - (100vw - 700px)/1300);
+   color:#000;
+   font-weight:900;
+   line-height:1.1;
+   font-family:'GM';
+   font-size:calc(12px + (18 - 8) * (100vw - 700px) / (1600 - 300));
+}
+
+.textbox .text-3 {
+   -webkit-transform: skew(10deg);
+   -moz-transform: skew(10deg);
+   -o-transform: skew(10deg);
+   display:block;
+   word-break: break-all;
+   vertical-align: middle;
+   margin-top: calc(-15px - 5 * (100vw - 700px)/1300);
+   padding-top: calc(15px - (100vw - 700px)/1300);
+   color:#000;
+   font-weight:900;
+   line-height:1.1;
    font-family:'GM';
    font-size:calc(12px + (18 - 8) * (100vw - 700px) / (1600 - 300));
 }
