@@ -53,6 +53,7 @@ a.xyz:active { color:#000; }
    min-height: 30px;
    text-align:center;
    display:inline-block;
+   margin:auto;
    word-break: break-all;
    background: linear-gradient(120deg, rgba(201,223,234,.6) 0%, rgba(204,225,236,.6) 8%, rgba(217,236,243,.6) 8%, rgba(218,231,237,.6) 16%, rgba(224,237,243,.6) 16%, rgba(255,255,255,.6) 50%, rgba(224,237,243,.6) 84%, rgba(218,231,237,.6) 84%, rgba(217,236,243,.6) 92%, rgba(204,225,236,.6) 93%, rgba(201,223,234,.6) 100%), linear-gradient(60deg, rgba(204,225,236,1) 0%, rgba(217,236,243,1) 0%, rgba(218,231,237,1) 8%, rgba(224,237,243,1) 8%, rgba(255,255,255,1) 50%, rgba(224,237,243,1) 76%, rgba(218,231,237,1) 76%, rgba(217,236,243,1) 84%, rgba(204,225,236,1) 84%, rgba(201,223,234,1) 100%);
    margin:auto;
