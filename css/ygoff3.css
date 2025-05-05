@@ -124,3 +124,17 @@ a.xyz:active { color:#000; }
    font-family:'GM';
    font-size:calc(12px + (18 - 8) * (100vw - 700px) / (1600 - 300));
 }
+
+/* 싱크로 레벨 합계 표현 태그 */
+div.levelcount{font-size:30px;font-family:'RiaSans-ExtraBold';text-align:center;margin-top:1em;margin-bottom:1em;}
+.Level span::before{
+   content: url( "../ygo/img/level/icon_level.png" );
+   width:0.8em;
+   height:0.8em;
+   vertical-align:middle;
+   margin-right:0.3em;
+}
+.Level span{
+   text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+}
+/* 4+1=5의 경우 <div class="levelcount"><span class="Level">4+</span><span class="Level">1=</span><span class="Level">5</span></div>의 형태로 사용 */
