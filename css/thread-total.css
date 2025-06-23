@@ -25,7 +25,7 @@
 .typefairy{text-shadow: 1px 0px #eee, 0px 1px #eee, -1px 0px #eee, 0px -1px #eee, 1px 1px #eee, 1px -1px #eee, -1px -1px #eee, -1px 1px #ddd; color:#dab4d4;}
 
 @font-face {font-family: 'Minguk-Regular';src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Minguk-Regular.woff') format('woff');font-weight: normal;font-style: normal;}
-div.ytbchat{min-width: min(300px, 30vw);background-color: #c4c4c4;border: 2px solid red;margin-left: min(calc(80vw - 300px), 50vw);}
+div.ytbchat{min-width: clamp(300px, 30vw, 500px);background-color: #c4c4c4;border: 2px solid red;margin-left: clamp(calc(90vw - 300px), 60vw, calc(90vw - 500px));}
 div.ytbchat span{display:inline-block;max-weight:400;font-face:Minguk-Regular;font-weight:700;text-shadow: -1px 0px #000, -1px -1px #000, -1px 1px #000, 0px 1px #000, 0px -1px #000, 1px 0px #000, 1px 1px #000, 1px -1px #000;color:#fff;}
 div.ytbchat span::before{content:" ・ ";}
 div.dex{background-color: #c4c4c4;border: 2px solid red;width:500px;}
