@@ -28,6 +28,6 @@
 div.ytbchat{min-width: clamp(350px, 30vw, calc(10vw + 550px));background-color: #c4c4c4;border: 2px solid red;margin-left: 30vw;padding:10px 10px 10px 10px;}
 div.ytbchat span{display:inline-block;max-weight:400;font-face:Minguk-Regular;font-weight:700;text-shadow: -1px 0px #000, -1px -1px #000, -1px 1px #000, 0px 1px #000, 0px -1px #000, 1px 0px #000, 1px 1px #000, 1px -1px #000;color:#fff;}
 div.ytbchat span::before{content:" ・ ";}
-div.dex{background-color: #c4c4c4;border: 2px solid red;width:500px;}
-div.dex img.main{max-width:300px;}
+div.dex{background-color: #c4c4c4;border: 2px solid red;width:clamp(400px, 50vw, 500px);}
+div.dex img.main{width:clamp(280px, 35vw, 300px);}
 div.dex img.type{height:2em;}
