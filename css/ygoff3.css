@@ -162,3 +162,51 @@ span.firetext{
    -webkit-text-fill-color: transparent;
    color: transparent;
 }
+
+.pdcd {
+  position: relative;
+  z-index: 1;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.pdcd::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(to bottom, var(--highlight-top) 0%, var(--highlight-top) 50%, var(--highlight-bottom) 50%, var(--highlight-bottom) 100%);
+  box-shadow: 0 0 0 0.2em white; /* Optional: slight glow outline */
+  border-radius: 0.1em;
+}
+
+.pendulum-effect {
+  --highlight-top: #ffa200;
+  --highlight-bottom: #00a634;
+}
+
+.pendulum-normal {
+  --highlight-top: #e8d100;
+  --highlight-bottom: #00a634;
+}
+
+.pendulum-fusion {
+  --highlight-top: #b5009a;
+  --highlight-bottom: #00a634;
+}
+
+.pendulum-ritual {
+  --highlight-top: #0084ff;
+  --highlight-bottom: #00a634;
+}
+
+.pendulum-synchro {
+  --highlight-top: #abfffe;
+  --highlight-bottom: #00a634;
+}
+
+.pendulum-xyz {
+  --highlight-top: #a8a8a8;
+  --highlight-bottom: #00a634;
+}
