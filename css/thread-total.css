@@ -40,7 +40,7 @@ div.dex{
 div.dex img.main{display: block;width:70%;height:auto;margin:0 auto;}
 div.dex img.type{height:2em;}
 
-div.ytbchat span.iconmoyamo::before {
+div.ytbchat span.icon_moyamo::before {
   content: "";
   display: inline-block;
   width: 50px;
@@ -60,7 +60,7 @@ div.ytbchat span[class^="icon_"] {
   background-color: #fff;
   color: #000;
 }
-div.ytbchat span.iconash::before {
+div.ytbchat span.icon_ash::before {
   content: "";
   display: inline-block;
   width: 50px;
@@ -73,7 +73,7 @@ div.ytbchat span.iconash::before {
   background-position: center;
 }
 
-div.ytbchat span.iconcarne::before {
+div.ytbchat span.icon_carne::before {
   content: "";
   display: inline-block;
   width: 50px;
@@ -86,7 +86,7 @@ div.ytbchat span.iconcarne::before {
   background-position: center;
 }
 
-div.ytbchat span.icondaigo::before {
+div.ytbchat span.icon_daigo::before {
   content: "";
   display: inline-block;
   width: 50px;
@@ -99,7 +99,7 @@ div.ytbchat span.icondaigo::before {
   background-position: center;
 }
 
-div.ytbchat span.iconiris::before {
+div.ytbchat span.icon_iris::before {
   content: "";
   display: inline-block;
   width: 50px;
@@ -112,7 +112,7 @@ div.ytbchat span.iconiris::before {
   background-position: center;
 }
 
-div.ytbchat span.iconkibana::before {
+div.ytbchat span.icon_kibana::before {
   content: "";
   display: inline-block;
   width: 50px;
@@ -125,7 +125,7 @@ div.ytbchat span.iconkibana::before {
   background-position: center;
 }
 
-div.ytbchat span.iconshirona::before {
+div.ytbchat span.icon_shirona::before {
   content: "";
   display: inline-block;
   width: 50px;
