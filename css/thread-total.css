@@ -40,7 +40,7 @@ div.dex{
 div.dex img.main{display: block;width:70%;height:auto;margin:0 auto;}
 div.dex img.type{height:2em;}
 
-div.ytbchat span.moyamo::before {
+div.ytbchat span.iconmoyamo::before {
   content: "";
   display: inline-block;
   width: 50px;
@@ -52,8 +52,15 @@ div.ytbchat span.moyamo::before {
   background-size: cover;
   background-position: center;
 }
-
-div.ytbchat span.ash::before {
+div.ytbchat span[class^="icon_"] {
+  display: inline-block;
+  border: 2px solid #ffcc00;
+  border-radius: 6px;
+  padding: 2px 6px;
+  background-color: #fff;
+  color: #000;
+}
+div.ytbchat span.iconash::before {
   content: "";
   display: inline-block;
   width: 50px;
@@ -66,7 +73,7 @@ div.ytbchat span.ash::before {
   background-position: center;
 }
 
-div.ytbchat span.carne::before {
+div.ytbchat span.iconcarne::before {
   content: "";
   display: inline-block;
   width: 50px;
@@ -79,7 +86,7 @@ div.ytbchat span.carne::before {
   background-position: center;
 }
 
-div.ytbchat span.daigo::before {
+div.ytbchat span.icondaigo::before {
   content: "";
   display: inline-block;
   width: 50px;
@@ -92,7 +99,7 @@ div.ytbchat span.daigo::before {
   background-position: center;
 }
 
-div.ytbchat span.iris::before {
+div.ytbchat span.iconiris::before {
   content: "";
   display: inline-block;
   width: 50px;
@@ -105,7 +112,7 @@ div.ytbchat span.iris::before {
   background-position: center;
 }
 
-div.ytbchat span.kibana::before {
+div.ytbchat span.iconkibana::before {
   content: "";
   display: inline-block;
   width: 50px;
@@ -118,7 +125,7 @@ div.ytbchat span.kibana::before {
   background-position: center;
 }
 
-div.ytbchat span.shirona::before {
+div.ytbchat span.iconshirona::before {
   content: "";
   display: inline-block;
   width: 50px;
