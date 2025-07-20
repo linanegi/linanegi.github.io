@@ -28,11 +28,8 @@ a.xyz:link { color:#000; }
 a.xyz:visited { color:#000; }
 a.xyz:hover { color:#000; }
 a.xyz:active { color:#000; }
-.tooltip_up {display: inline-block; font-weight: bold;}
 .tooltip-text {display: none;position: absolute;width: calc(min(300px, 80vw));border: 1px dotted white;border-radius: 5px;padding: 5px;font-size: 0.8em;color: white; background: #000;}
-.tooltip-text_short {display: none;position: absolute; border: 1px dotted white;border-radius: 5px;padding: 5px;margin:-20px 0px;font-size: 0.8em;color: white; background: #000;}
 .tooltip_up:hover .tooltip-text {display: block;}
-.tooltip_up:hover .tooltip-text_short {display: block;}
 .tooltip-text img {background-color:#fff;max-width:calc(min(240px, 64vx));margin:0 auto;display:block;}
 .dot {
    font-weight:900;
@@ -41,13 +38,13 @@ a.xyz:active { color:#000; }
    -webkit-text-emphasis-style: circle;
    -webkit-text-emphasis-position: over;
 }
-.tooltip_up_fixed {
+.tooltip_up {
   display: inline-block;
   font-weight: bold;
   cursor: pointer;
 }
 
-.tooltip-text_short_fixed {
+.tooltip-text_short {
   display: none;
   position: fixed; /* 화면 기준으로 고정 */
   top: 50%;
@@ -61,9 +58,8 @@ a.xyz:active { color:#000; }
   background: #000;
   z-index: 9999; /* 다른 요소 위에 표시 */
   max-width: 80%; /* 너무 커지지 않게 제한 */
-  text-align: center;
 }
 
-.tooltip_up_fixed:hover .tooltip-text_short_fixed {
+.tooltip_up:hover .tooltip-text_short {
   display: block;
 }
