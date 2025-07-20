@@ -41,3 +41,29 @@ a.xyz:active { color:#000; }
    -webkit-text-emphasis-style: circle;
    -webkit-text-emphasis-position: over;
 }
+.tooltip_up_fixed {
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tooltip-text_short_fixed {
+  display: none;
+  position: fixed; /* 화면 기준으로 고정 */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* 정확히 중앙 정렬 */
+  border: 1px dotted white;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 0.8em;
+  color: white;
+  background: #000;
+  z-index: 9999; /* 다른 요소 위에 표시 */
+  max-width: 80%; /* 너무 커지지 않게 제한 */
+  text-align: center;
+}
+
+.tooltip_up_fixed:hover .tooltip-text_short_fixed {
+  display: block;
+}
