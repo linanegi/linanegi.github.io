@@ -52,6 +52,13 @@ div.ytbchat span.icon_moyamo::before {
   background-size: cover;
   background-position: center;
 }
+div.ytbchat span.icon_moyamo:hover::before{
+	content: "모야모";
+	text-align:center;
+	padding-top:15px;
+	text-shadow:1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff, 1px 0px #fff, -1px 0px #fff, 0px 1px #fff, 0px -1px #fff;
+	display:inline-block;
+}
 div.ytbchat span[class^="icon_"] {
   display: inline-block;
   border: 2px solid #ffcc00;
@@ -73,7 +80,13 @@ div.ytbchat span.icon_ash::before {
   background-size: cover;
   background-position: center;
 }
-
+div.ytbchat span.icon_ash:hover::before{
+	content: "사토시";
+	text-align:center;
+	padding-top:15px;
+	text-shadow:1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff, 1px 0px #fff, -1px 0px #fff, 0px 1px #fff, 0px -1px #fff;
+	display:inline-block;
+}
 div.ytbchat span.icon_carne::before {
   content: "";
   display: inline-block;
@@ -86,7 +99,13 @@ div.ytbchat span.icon_carne::before {
   background-size: cover;
   background-position: center;
 }
-
+div.ytbchat span.icon_carne:hover::before{
+	content: "카르네";
+	text-align:center;
+	padding-top:15px;
+	text-shadow:1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff, 1px 0px #fff, -1px 0px #fff, 0px 1px #fff, 0px -1px #fff;
+	display:inline-block;
+}
 div.ytbchat span.icon_daigo::before {
   content: "";
   display: inline-block;
@@ -99,7 +118,13 @@ div.ytbchat span.icon_daigo::before {
   background-size: cover;
   background-position: center;
 }
-
+div.ytbchat span.icon_daigo:hover::before{
+	content: "나성호";
+	text-align:center;
+	padding-top:15px;
+	text-shadow:1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff, 1px 0px #fff, -1px 0px #fff, 0px 1px #fff, 0px -1px #fff;
+	display:inline-block;
+}
 div.ytbchat span.icon_iris::before {
   content: "";
   display: inline-block;
@@ -112,7 +137,13 @@ div.ytbchat span.icon_iris::before {
   background-size: cover;
   background-position: center;
 }
-
+div.ytbchat span.icon_iris:hover::before{
+	content: "아이리스";
+	text-align:center;
+	padding-top:15px;
+	text-shadow:1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff, 1px 0px #fff, -1px 0px #fff, 0px 1px #fff, 0px -1px #fff;
+	display:inline-block;
+}
 div.ytbchat span.icon_kibana::before {
   content: "";
   display: inline-block;
@@ -125,7 +156,13 @@ div.ytbchat span.icon_kibana::before {
   background-size: cover;
   background-position: center;
 }
-
+div.ytbchat span.icon_kibana:hover::before{
+	content: "금랑";
+	text-align:center;
+	padding-top:15px;
+	text-shadow:1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff, 1px 0px #fff, -1px 0px #fff, 0px 1px #fff, 0px -1px #fff;
+	display:inline-block;
+}
 div.ytbchat span.icon_shirona::before {
   content: "";
   display: inline-block;
@@ -137,4 +174,11 @@ div.ytbchat span.icon_shirona::before {
   background-image: url('../pokemon/SNS_ICON/Shirona_SNS.png');
   background-size: cover;
   background-position: center;
+}
+div.ytbchat span.icon_shirona:hover::before{
+	content: "난천";
+	text-align:center;
+	padding-top:15px;
+	text-shadow:1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff, 1px 0px #fff, -1px 0px #fff, 0px 1px #fff, 0px -1px #fff;
+	display:inline-block;
 }
